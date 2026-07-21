@@ -1,0 +1,312 @@
+{
+ "updated": "Jul 21, 2026 09:08 AM ET",
+ "criteria": "close < lower BB(20,2), market cap > $20B",
+ "universe_size": 503,
+ "results": [
+  {
+   "symbol": "SNPS",
+   "name": "Synopsys, Inc.",
+   "close": 378.4599914550781,
+   "lower_band": 392.35501384477686,
+   "pct_below_band": 3.5414412711432495,
+   "market_cap": 72467267584.0,
+   "chg_1d": -1.5145225727871803,
+   "chg_5d": -12.761056413833604,
+   "chg_1mo": -18.036124342841674,
+   "off_52w_high": -41.355852518401335,
+   "rsi": 22.70687592192624,
+   "reasons": [
+    "Sharp one-day drop of -7.9% on Jul 17 \u2014 points to a specific catalyst (news, guidance, downgrade) rather than gradual selling.",
+    "Down -18.0% over the past month \u2014 an extended downtrend; the band break continues an existing move rather than starting one.",
+    "Trading 41% below its 52-week high \u2014 deep drawdown territory, often reflecting a broken growth story or re-rating."
+   ],
+   "news": [
+    {
+     "title": "Does This Dip In Cadence Design Systems Stock Signal An Opening?",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/does-dip-cadence-design-systems-201856242.html",
+     "publisher": "Trefis"
+    },
+    {
+     "title": "Buy the dip in EDA stocks as Kimi K3 boosts agentic AI thesis: Mizuho",
+     "link": "https://finance.yahoo.com/technology/ai/articles/buy-dip-eda-stocks-kimi-152138200.html",
+     "publisher": "Investing.com"
+    },
+    {
+     "title": "Synopsys Should Benefit No Matter Who Wins The AI Race. Here\u2019s What Explains Its Poor Stock Performance.",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/synopsys-benefit-no-matter-wins-150002706.html",
+     "publisher": "Barchart"
+    }
+   ]
+  },
+  {
+   "symbol": "CDNS",
+   "name": "Cadence Design Systems, Inc.",
+   "close": 329.92999267578125,
+   "lower_band": 341.61467090392324,
+   "pct_below_band": 3.420426352657502,
+   "market_cap": 90999971840.0,
+   "chg_1d": -0.054525062484722664,
+   "chg_5d": -12.698459739319878,
+   "chg_1mo": -15.315711625497308,
+   "off_52w_high": -20.764191966912403,
+   "rsi": 28.569622357757282,
+   "reasons": [
+    "CDNS reports earnings on Jul 27 \u2014 earnings reactions are the most common cause of a sharp break below the band.",
+    "Sharp one-day drop of -9.5% on Jul 17 \u2014 points to a specific catalyst (news, guidance, downgrade) rather than gradual selling.",
+    "Down -15.3% over the past month \u2014 an extended downtrend; the band break continues an existing move rather than starting one."
+   ],
+   "news": [
+    {
+     "title": "Does This Dip In Cadence Design Systems Stock Signal An Opening?",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/does-dip-cadence-design-systems-201856242.html",
+     "publisher": "Trefis"
+    },
+    {
+     "title": "PRGS or CDNS: Which Is the Better Value Stock Right Now?",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/prgs-cdns-better-value-stock-154004466.html",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Buy the dip in EDA stocks as Kimi K3 boosts agentic AI thesis: Mizuho",
+     "link": "https://finance.yahoo.com/technology/ai/articles/buy-dip-eda-stocks-kimi-152138200.html",
+     "publisher": "Investing.com"
+    }
+   ]
+  },
+  {
+   "symbol": "ISRG",
+   "name": "Intuitive Surgical, Inc.",
+   "close": 353.1700134277344,
+   "lower_band": 358.8717425859737,
+   "pct_below_band": 1.5887930092109162,
+   "market_cap": 125079699456.0,
+   "chg_1d": 2.2436453299546244,
+   "chg_5d": -13.251616804997235,
+   "chg_1mo": -12.186080894271745,
+   "off_52w_high": -40.42843417870057,
+   "rsi": 33.55392197462409,
+   "reasons": [
+    "ISRG reported earnings on Jul 16 \u2014 earnings reactions are the most common cause of a sharp break below the band.",
+    "Sharp one-day drop of -14.1% on Jul 17 \u2014 points to a specific catalyst (news, guidance, downgrade) rather than gradual selling.",
+    "Trading 40% below its 52-week high \u2014 deep drawdown territory, often reflecting a broken growth story or re-rating."
+   ],
+   "news": [
+    {
+     "title": "Intuitive Surgical Stock Is Trading at Multi-Year Lows: Is It a Bargain Buy?",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/intuitive-surgical-stock-trading-multi-124950117.html",
+     "publisher": "Motley Fool"
+    },
+    {
+     "title": "Nvidia Returns to NZS Growth Fund",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/nvidia-returns-nzs-growth-fund-122207528.html",
+     "publisher": "GuruFocus.com"
+    },
+    {
+     "title": "The Robot Maker's Paradox",
+     "link": "https://finance.yahoo.com/healthcare/articles/robot-makers-paradox-191505084.html",
+     "publisher": "Trefis"
+    }
+   ]
+  },
+  {
+   "symbol": "NFLX",
+   "name": "Netflix, Inc.",
+   "close": 67.5999984741211,
+   "lower_band": 68.68906097174421,
+   "pct_below_band": 1.585496267114661,
+   "market_cap": 281482297344.0,
+   "chg_1d": -1.9579384102576203,
+   "chg_5d": -8.438308549943851,
+   "chg_1mo": -12.162163099921376,
+   "off_52w_high": -46.487235220897624,
+   "rsi": 28.650459695606784,
+   "reasons": [
+    "NFLX reported earnings on Jul 16 \u2014 earnings reactions are the most common cause of a sharp break below the band.",
+    "Sharp one-day drop of -7.3% on Jul 17 \u2014 points to a specific catalyst (news, guidance, downgrade) rather than gradual selling.",
+    "Trading 46% below its 52-week high \u2014 deep drawdown territory, often reflecting a broken growth story or re-rating."
+   ],
+   "news": [
+    {
+     "title": "5 Words From Netflix's Co-CEO Ted Sarandos That Suggest an Acquisition May Not Necessarily Be on the Horizon for the Streaming Giant",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/5-words-netflixs-co-ceo-125000285.html",
+     "publisher": "Motley Fool"
+    },
+    {
+     "title": "\u201cOracle\u2019s Crash Has Cost Larry Ellison $213 Billion. Now It Could End His Son\u2019s $110 Billion Media Empire Dream\u201d",
+     "link": "https://finance.yahoo.com/media-advertising/articles/oracle-crash-cost-larry-ellison-111434202.html",
+     "publisher": "24/7 Wall St."
+    },
+    {
+     "title": "Netflix Stock Is Down 26% in 2026. Is This the Ultimate Buying Opportunity, or Is More Downside Ahead?",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/netflix-stock-down-26-2026-093500376.html",
+     "publisher": "Motley Fool"
+    }
+   ]
+  },
+  {
+   "symbol": "URI",
+   "name": "United Rentals, Inc.",
+   "close": 1012.7100219726562,
+   "lower_band": 1022.6995756945944,
+   "pct_below_band": 0.9767828167087542,
+   "market_cap": 63442796544.0,
+   "chg_1d": -3.109417263464742,
+   "chg_5d": -6.691907248874019,
+   "chg_1mo": -3.456719424118848,
+   "off_52w_high": -11.12758876238823,
+   "rsi": 40.24796625350509,
+   "reasons": [
+    "URI reports earnings on Jul 22 \u2014 earnings reactions are the most common cause of a sharp break below the band."
+   ],
+   "news": [
+    {
+     "title": "United Rentals (URI) To Report Earnings Tomorrow: Here Is What To Expect",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/united-rentals-uri-report-earnings-083826072.html",
+     "publisher": "StockStory"
+    },
+    {
+     "title": "NVR Is Set to Report Q2 Earnings: What's in Store for the Stock?",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/nvr-set-report-q2-earnings-135200750.html",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "United Rentals is Set to Report Q2 Earnings: Here's What to Expect",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/united-rentals-set-report-q2-132300138.html",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  {
+   "symbol": "PEG",
+   "name": "Public Service Enterprise Group",
+   "close": 77.83000183105469,
+   "lower_band": 78.26157115627302,
+   "pct_below_band": 0.5514447497566517,
+   "market_cap": 38784356352.0,
+   "chg_1d": -1.0300070763993086,
+   "chg_5d": -3.782912080211165,
+   "chg_1mo": -1.9773295524591505,
+   "off_52w_high": -13.656531664018868,
+   "rsi": 38.247270319773435,
+   "reasons": [
+    "PEG reports earnings on Aug 04 \u2014 earnings reactions are the most common cause of a sharp break below the band."
+   ],
+   "news": [
+    {
+     "title": "Public Service Enterprise Group (PEG) Stock May Be Fairly Valued Despite Storm Recovery Work",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/public-enterprise-group-peg-stock-201035741.html",
+     "publisher": "Simply Wall St."
+    },
+    {
+     "title": "What to Expect From Public Service Enterprise\u2019s Next Quarterly Earnings Report",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/expect-public-enterprise-next-quarterly-092837063.html",
+     "publisher": "Barchart"
+    },
+    {
+     "title": "Chief Investment Strategist: \u201cWe Are Spending Almost 3% of GDP on AI\u201d as Stocks Tune Out Global Conflict on \u201cAstronomical Investment\u201d",
+     "link": "https://finance.yahoo.com/technology/ai/articles/chief-investment-strategist-spending-almost-142733903.html",
+     "publisher": "24/7 Wall St."
+    }
+   ]
+  },
+  {
+   "symbol": "WAT",
+   "name": "Waters Corporation",
+   "close": 357.5400085449219,
+   "lower_band": 358.25764831159927,
+   "pct_below_band": 0.20031387189066155,
+   "market_cap": 35105370112.0,
+   "chg_1d": -3.100439617535311,
+   "chg_5d": -4.201273410989814,
+   "chg_1mo": 0.15126289773721435,
+   "off_52w_high": -13.332040253257283,
+   "rsi": 42.02453474294236,
+   "reasons": [
+    "WAT reports earnings on Aug 04 \u2014 earnings reactions are the most common cause of a sharp break below the band."
+   ],
+   "news": [
+    {
+     "title": "Q1 Research Tools & Consumables Earnings Review: First Prize Goes to Waters Corporation (NYSE:WAT)",
+     "link": "https://finance.yahoo.com/healthcare/articles/q1-research-tools-consumables-earnings-195346881.html",
+     "publisher": "StockStory"
+    },
+    {
+     "title": "Waters Corporation's Quarterly Earnings Preview: What You Need to Know",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/waters-corporations-quarterly-earnings-preview-140816449.html",
+     "publisher": "Barchart"
+    },
+    {
+     "title": "2 Large-Cap Stocks to Keep an Eye On and 1 We Ignore",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/2-large-cap-stocks-keep-112206185.html",
+     "publisher": "StockStory"
+    }
+   ]
+  },
+  {
+   "symbol": "ETR",
+   "name": "Entergy Corporation",
+   "close": 111.91000366210938,
+   "lower_band": 112.12286050583285,
+   "pct_below_band": 0.1898425020225012,
+   "market_cap": 52216659968.0,
+   "chg_1d": -1.1744915460526362,
+   "chg_5d": -2.5513695308387208,
+   "chg_1mo": 0.9471432852037776,
+   "off_52w_high": -5.088626760791215,
+   "rsi": 44.45991876478979,
+   "reasons": [
+    "ETR reports earnings on Jul 29 \u2014 earnings reactions are the most common cause of a sharp break below the band."
+   ],
+   "news": [
+    {
+     "title": "3 Utility Stocks Built for the Coming AI Power Crunch",
+     "link": "https://finance.yahoo.com/energy/articles/3-utility-stocks-built-coming-142700360.html",
+     "publisher": "Motley Fool"
+    },
+    {
+     "title": "Can FirstEnergy's Grid Investments Drive Long-Term Earnings Growth?",
+     "link": "https://finance.yahoo.com/energy/articles/firstenergys-grid-investments-drive-long-174700212.html",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Entergy partners with MHI Group on road map to cut costs by 50%",
+     "link": "https://finance.yahoo.com/energy/articles/entergy-partners-mhi-group-road-080619396.html",
+     "publisher": "Power Technology"
+    }
+   ]
+  },
+  {
+   "symbol": "WBD",
+   "name": "Warner Bros. Discovery, Inc. - ",
+   "close": 25.860000610351562,
+   "lower_band": 25.899240435062044,
+   "pct_below_band": 0.15150955800757437,
+   "market_cap": 64834560000.0,
+   "chg_1d": -3.758839588151841,
+   "chg_5d": -4.540419104127713,
+   "chg_1mo": -1.4481675460411347,
+   "off_52w_high": -13.74249164373883,
+   "rsi": 38.683625254474116,
+   "reasons": [
+    "No single obvious catalyst in the price action \u2014 likely broad market or sector weakness. Check the headlines below."
+   ],
+   "news": [
+    {
+     "title": "\u201cOracle\u2019s Crash Has Cost Larry Ellison $213 Billion. Now It Could End His Son\u2019s $110 Billion Media Empire Dream\u201d",
+     "link": "https://finance.yahoo.com/media-advertising/articles/oracle-crash-cost-larry-ellison-111434202.html",
+     "publisher": "24/7 Wall St."
+    },
+    {
+     "title": "Paramount-Warner merger faces legal setback as antitrust challenge threatens $100 billion deal (PSKY) (WBD)",
+     "link": "https://finance.yahoo.com/media-advertising/articles/paramount-warner-merger-faces-legal-104653364.html",
+     "publisher": "InvestorsHub"
+    },
+    {
+     "title": "Stock Market Today, July 20: Warner Bros. Discovery Falls 4% as Judge Pauses $110 Billion Paramount Skydance Deal",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-july-20-211218747.html",
+     "publisher": "Motley Fool"
+    }
+   ]
+  }
+ ]
+}
