@@ -14,6 +14,7 @@ recent news headlines.
 import datetime as dt
 import json
 import sys
+import urllib.request
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
@@ -28,20 +29,29 @@ ET = ZoneInfo("America/New_York")
 
 WIKI_SP500 = "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
 WIKI_NDX = "https://en.wikipedia.org/wiki/Nasdaq-100"
+# Wikipedia 403s requests without a browser-like User-Agent.
+HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; personal-assistant-screener/1.0)"}
+
+
+def fetch_tables(url):
+    req = urllib.request.Request(url, headers=HEADERS)
+    with urllib.request.urlopen(req, timeout=30) as r:
+        html = r.read()
+    return pd.read_html(html)
 
 
 def get_universe():
     """S&P 500 + Nasdaq-100 tickers from Wikipedia (yfinance format: . -> -)."""
     symbols = set()
     try:
-        for tbl in pd.read_html(WIKI_SP500):
+        for tbl in fetch_tables(WIKI_SP500):
             if "Symbol" in tbl.columns:
                 symbols.update(tbl["Symbol"].astype(str))
                 break
     except Exception as e:
         print(f"WARN: S&P 500 fetch failed: {e}", file=sys.stderr)
     try:
-        for tbl in pd.read_html(WIKI_NDX):
+        for tbl in fetch_tables(WIKI_NDX):
             for col in ("Ticker", "Symbol"):
                 if col in tbl.columns:
                     symbols.update(tbl[col].astype(str))
