@@ -12,6 +12,7 @@ recent news headlines.
 """
 
 import datetime as dt
+import io
 import json
 import sys
 import urllib.request
@@ -36,8 +37,8 @@ HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; personal-assistant-screener/1
 def fetch_tables(url):
     req = urllib.request.Request(url, headers=HEADERS)
     with urllib.request.urlopen(req, timeout=30) as r:
-        html = r.read()
-    return pd.read_html(html)
+        html = r.read().decode("utf-8", errors="replace")
+    return pd.read_html(io.StringIO(html))
 
 
 def get_universe():
