@@ -1,0 +1,48 @@
+name: Screener Email Digest
+
+on:
+  schedule:
+    # Window around 8:30am ET, every 5 min, covering both EDT (12:30 UTC)
+    # and EST (13:30 UTC) so the shift twice a year doesn't need updating.
+    # The script itself checks Eastern Time and only sends once it's within
+    # a few minutes of 8:30am, then dedupes so only one email goes out.
+    - cron: "20,25,30,35,40 12,13 * * 1-5"
+  workflow_dispatch: {}  # manual test runs from the Actions tab
+
+permissions:
+  contents: read
+
+concurrency:
+  group: screener-email
+  cancel-in-progress: false
+
+jobs:
+  email:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Restore send state (dedupe)
+        uses: actions/cache/restore@v4
+        with:
+          path: .email_state.json
+          key: screener-email-state-${{ github.run_id }}
+          restore-keys: screener-email-state-
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Send digest email
+        env:
+          GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
+          GMAIL_APP_PASS: ${{ secrets.GMAIL_APP_PASS }}
+          PAGES_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/
+        run: python scripts/send_screener_email.py
+
+      - name: Save send state
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: .email_state.json
+          key: screener-email-state-${{ github.run_id }}

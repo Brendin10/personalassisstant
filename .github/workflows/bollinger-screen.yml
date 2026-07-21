@@ -1,0 +1,39 @@
+name: Bollinger Band Screener
+
+on:
+  schedule:
+    # 21:45 UTC weekdays = 5:45 pm EDT / 4:45 pm EST — after market close
+    # year-round. Script data is end-of-day, so one run per day is enough.
+    - cron: "45 21 * * 1-5"
+  workflow_dispatch: {}  # manual runs from the Actions tab
+
+permissions:
+  contents: write  # commits data/screener.json back to the repo
+
+concurrency:
+  group: bollinger-screen
+  cancel-in-progress: false
+
+jobs:
+  screen:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install yfinance pandas lxml
+
+      - name: Run screener
+        run: python scripts/screen_bollinger.py
+
+      - name: Commit results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/screener.json
+          git diff --cached --quiet || git commit -m "Update Bollinger screener data"
+          git push

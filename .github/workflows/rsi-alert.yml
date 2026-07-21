@@ -1,0 +1,46 @@
+name: S&P 500 RSI Alert
+
+on:
+  schedule:
+    # Every 5 min across 13:00-21:00 UTC Mon-Fri, which covers NYSE hours in
+    # both EDT (13:30-20:00 UTC) and EST (14:30-21:00 UTC).
+    # The script itself checks Eastern Time (incl. holidays/early closes) and
+    # exits BEFORE calling the API when the market is closed, so off-hour runs
+    # cost zero API credits. GitHub cron is best-effort and may lag a few min.
+    - cron: "*/5 13-20 * * 1-5"
+    - cron: "0 21 * * 1-5"
+  workflow_dispatch: {}  # allows manual test runs from the Actions tab
+
+permissions:
+  contents: read
+
+concurrency:
+  group: rsi-alert
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Restore alert state (dedupe)
+        uses: actions/cache/restore@v4
+        with:
+          path: .alert_state.json
+          key: alert-state-${{ github.run_id }}
+          restore-keys: alert-state-
+
+      - name: Check RSI and send alert
+        env:
+          TWELVEDATA_KEY: ${{ secrets.TWELVEDATA_KEY }}
+          GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
+          GMAIL_APP_PASS: ${{ secrets.GMAIL_APP_PASS }}
+        run: python scripts/check_rsi.py
+
+      - name: Save alert state
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: .alert_state.json
+          key: alert-state-${{ github.run_id }}
