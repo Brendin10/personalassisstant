@@ -293,6 +293,17 @@
     transition: width .35s ease;
   }
   .qp-bar-pct { font-size: 12px; color: var(--text-dim); text-align: right; font-variant-numeric: tabular-nums; }
+
+  /* resumes */
+  .resume-list { display: flex; flex-direction: column; gap: 10px; }
+  .resume-link {
+    display: flex; flex-direction: column; gap: 2px;
+    background: var(--bg); border: 1px solid var(--border); border-radius: 10px;
+    padding: 12px 16px; text-decoration: none; transition: border-color .15s, background .15s;
+  }
+  .resume-link:hover { border-color: var(--green); background: rgba(61,255,160,0.05); }
+  .resume-name { color: var(--text); font-weight: 600; font-size: 14px; }
+  .resume-desc { color: var(--text-dim); font-size: 12.5px; }
 </style>
 </head>
 <body>
@@ -335,6 +346,20 @@
     <button class="back" data-view="home">← Home</button>
     <h2>Personal</h2>
     <p class="sub">Life management hub</p>
+    <div class="panel">
+      <h3>Resumes</h3>
+      <p style="margin-bottom:14px">Two versions, tailored for different opportunities. Right-click → "Save link as" or just click to download.</p>
+      <div class="resume-list">
+        <a class="resume-link" href="resumes/Brendin_Van_Niekerk_Resume_Technical.docx" download>
+          <span class="resume-name">Technical Resume</span>
+          <span class="resume-desc">Data analytics, cybersecurity &amp; quantum computing</span>
+        </a>
+        <a class="resume-link" href="resumes/Brendin_Van_Niekerk_Resume_Editor.docx" download>
+          <span class="resume-name">Editor Resume</span>
+          <span class="resume-desc">Video editing &amp; YouTube content production</span>
+        </a>
+      </div>
+    </div>
     <div class="panel">
       <span class="badge">Coming soon</span>
       <h3>Tasks &amp; Reminders</h3>
