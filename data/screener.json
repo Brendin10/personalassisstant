@@ -1,45 +1,142 @@
 {
- "updated": "Jul 22, 2026 09:17 AM ET",
+ "updated": "Jul 22, 2026 01:10 PM ET",
  "criteria": "close < lower BB(20,2), market cap > $20B",
  "universe_size": 503,
  "results": [
   {
+   "symbol": "TEL",
+   "name": "TE Connectivity plc",
+   "close": 191.3280029296875,
+   "lower_band": 193.12497588958357,
+   "pct_below_band": 0.9304715517082889,
+   "market_cap": 55820693504.0,
+   "chg_1d": -8.459878494743522,
+   "chg_5d": -4.972679840224547,
+   "chg_1mo": -10.04372526517966,
+   "off_52w_high": -23.161444606551207,
+   "rsi": 38.505282849877474,
+   "rsi_divergence": false,
+   "macd_histogram": 0.28938632036991274,
+   "macd_turning_up": false,
+   "volume_ratio": 1.9967204568713373,
+   "valuation": {
+    "forward_pe": 15.148887,
+    "trailing_pe": 19.553682,
+    "peg_ratio": 0.96,
+    "analyst_target": 257.4,
+    "analyst_upside_pct": 34.53336472371675
+   },
+   "short_interest": {
+    "pct_of_float": 3.53,
+    "days_to_cover": 3.47
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 54.9,
+    "valuation": 21.1,
+    "technical": 4.2,
+    "catalyst": 11.0,
+    "sentiment": 18.6
+   },
+   "reasons": [
+    "TEL reported earnings on Jul 22 \u2014 earnings reactions are the most common cause of a sharp break below the band.",
+    "Sharp one-day drop of -8.5% on Jul 22 \u2014 points to a specific catalyst (news, guidance, downgrade) rather than gradual selling."
+   ],
+   "news": [
+    {
+     "title": "Is TE Connectivity (TEL) A Bargain As Earnings, Guidance And Astrodyne TDI Lift Confidence?",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/te-connectivity-tel-bargain-earnings-161240794.html",
+     "publisher": "Simply Wall St."
+    },
+    {
+     "title": "Compared to Estimates, TE Connectivity (TEL) Q3 Earnings: A Look at Key Metrics",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/compared-estimates-te-connectivity-tel-133004701.html",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Is TEL\u2019s Ongoing Earnings Outperformance Reframing the Investment Case for TE Connectivity (TEL)?",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/tel-ongoing-earnings-outperformance-reframing-131229464.html",
+     "publisher": "Simply Wall St."
+    }
+   ],
+   "sentiment": {
+    "label": "Bullish",
+    "bullish_pct": 80.0,
+    "sample_size": 5
+   },
+   "earnings_surprise": {
+    "date": "2026-07-22",
+    "actual_eps": 2.94,
+    "estimate_eps": 2.84,
+    "surprise_pct": 3.521126760563384
+   }
+  },
+  {
    "symbol": "DHR",
    "name": "Danaher Corporation",
-   "close": 179.00999450683594,
-   "lower_band": 181.17948091711472,
-   "pct_below_band": 1.1974239021422448,
-   "market_cap": 125841530880.0,
-   "chg_1d": -10.989013990574314,
-   "chg_5d": -10.06782629373333,
-   "chg_1mo": 1.0385484884049223,
-   "off_52w_high": -26.04420894448076,
-   "rsi": 37.90594047913477,
+   "close": 176.55999755859375,
+   "lower_band": 180.47049369933316,
+   "pct_below_band": 2.1668340683183165,
+   "market_cap": 124105154560.0,
+   "chg_1d": -1.3686369607416649,
+   "chg_5d": -12.067332306252165,
+   "chg_1mo": -0.9147566420559916,
+   "off_52w_high": -27.056395235475485,
+   "rsi": 36.250827971004675,
+   "rsi_divergence": false,
+   "macd_histogram": -2.345113280352605,
+   "macd_turning_up": false,
+   "volume_ratio": 1.0373937506334558,
+   "valuation": {
+    "forward_pe": 19.042934,
+    "trailing_pe": 34.213177,
+    "peg_ratio": 1.15,
+    "analyst_target": 228.6087,
+    "analyst_upside_pct": 29.479328931307446
+   },
+   "short_interest": {
+    "pct_of_float": 1.72,
+    "days_to_cover": 2.57
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 47.1,
+    "valuation": 20.4,
+    "technical": 4.9,
+    "catalyst": 2.8,
+    "sentiment": 19.0
+   },
    "reasons": [
     "DHR reported earnings on Jul 21 \u2014 earnings reactions are the most common cause of a sharp break below the band.",
     "Sharp one-day drop of -11.0% on Jul 21 \u2014 points to a specific catalyst (news, guidance, downgrade) rather than gradual selling."
    ],
    "news": [
     {
+     "title": "Danaher Posts Mixed Q2 Results, Outlook for 2027 and Beyond Strengthened, RBC Says",
+     "link": "https://finance.yahoo.com/healthcare/articles/danaher-posts-mixed-q2-results-154005464.html",
+     "publisher": "MT Newswires"
+    },
+    {
+     "title": "Can Danaher (DHR) Climb 32.39% to Reach the Level Wall Street Analysts Expect?",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/danaher-dhr-climb-32-39-135504246.html",
+     "publisher": "Zacks"
+    },
+    {
      "title": "Apple Stumbles in Court as $634 Million Apple Watch Judgment Survives",
      "link": "https://finance.yahoo.com/markets/stocks/articles/apple-stumbles-court-634-million-131151982.html",
      "publisher": "GuruFocus.com"
-    },
-    {
-     "title": "Don\u2019t Quit on Danaher Stock After Horrific Earnings Reaction",
-     "link": "https://www.barrons.com/articles/danaher-stock-stay-invested-after-horrific-earnings-reaction-88718388?siteid=yhoof2&yptr=yahoo",
-     "publisher": "Barrons.com"
-    },
-    {
-     "title": "US Stock Market Today S&P 500 Futures Rise On Earnings And Inflation Crosscurrents",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/us-stock-market-today-p-081013375.html",
-     "publisher": "Simply Wall St."
     }
    ],
    "sentiment": {
     "label": "Bullish",
-    "bullish_pct": 71.4,
-    "sample_size": 14
+    "bullish_pct": 88.9,
+    "sample_size": 9
    },
    "earnings_surprise": {
     "date": "2026-07-21",
@@ -49,21 +146,263 @@
    }
   },
   {
+   "symbol": "OTIS",
+   "name": "Otis Worldwide Corporation",
+   "close": 70.37999725341797,
+   "lower_band": 70.60676322338631,
+   "pct_below_band": 0.32116749106724585,
+   "market_cap": 26996344832.0,
+   "chg_1d": -2.1820705509600136,
+   "chg_5d": -2.5207753071359806,
+   "chg_1mo": -2.8973592801506576,
+   "off_52w_high": -30.30993292191463,
+   "rsi": 41.45678071992551,
+   "rsi_divergence": false,
+   "macd_histogram": -0.15033032081266207,
+   "macd_turning_up": false,
+   "volume_ratio": 1.180266162534672,
+   "valuation": {
+    "forward_pe": 14.905152,
+    "trailing_pe": 18.711437,
+    "peg_ratio": 1.37,
+    "analyst_target": 96.0,
+    "analyst_upside_pct": 36.4023923648815
+   },
+   "short_interest": {
+    "pct_of_float": 4.56,
+    "days_to_cover": 3.97
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 46.8,
+    "valuation": 19.8,
+    "technical": 3.7,
+    "catalyst": 5.6,
+    "sentiment": 17.8
+   },
+   "reasons": [
+    "OTIS reported earnings on Jul 22 \u2014 earnings reactions are the most common cause of a sharp break below the band."
+   ],
+   "news": [
+    {
+     "title": "Otis Worldwide Q2 Earnings Call Highlights",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/otis-worldwide-q2-earnings-call-160630340.html",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "OTIS Q2 Earnings Beat Estimates, Revenues Up on Strong Service Growth",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/otis-q2-earnings-beat-estimates-142400618.html",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Otis Worldwide (OTIS) Q2 Earnings: How Key Metrics Compare to Wall Street Estimates",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/otis-worldwide-otis-q2-earnings-133005868.html",
+     "publisher": "Zacks"
+    }
+   ],
+   "sentiment": {
+    "label": "Bullish",
+    "bullish_pct": 100.0,
+    "sample_size": 16
+   },
+   "earnings_surprise": {
+    "date": "2026-07-22",
+    "actual_eps": 1.01,
+    "estimate_eps": 1.01,
+    "surprise_pct": 0.0
+   }
+  },
+  {
+   "symbol": "ABNB",
+   "name": "Airbnb, Inc.",
+   "close": 140.89999389648438,
+   "lower_band": 141.28069790219524,
+   "pct_below_band": 0.2694663965876066,
+   "market_cap": 83624837120.0,
+   "chg_1d": -2.220688460438014,
+   "chg_5d": -5.041117900107695,
+   "chg_1mo": 1.2285303722140206,
+   "off_52w_high": -5.3917942484413395,
+   "rsi": 45.138791820855744,
+   "rsi_divergence": false,
+   "macd_histogram": -0.9107808598937268,
+   "macd_turning_up": false,
+   "volume_ratio": 0.28319931763556205,
+   "valuation": {
+    "forward_pe": 23.340952,
+    "trailing_pe": 34.79012,
+    "peg_ratio": 1.33,
+    "analyst_target": 156.96053,
+    "analyst_upside_pct": 11.398535698528779
+   },
+   "short_interest": {
+    "pct_of_float": 3.61,
+    "days_to_cover": 3.69
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 35.1,
+    "valuation": 14.7,
+    "technical": 3.7,
+    "catalyst": 2.3,
+    "sentiment": 14.4
+   },
+   "reasons": [
+    "No single obvious catalyst in the price action \u2014 likely broad market or sector weakness. Check the headlines below."
+   ],
+   "news": [
+    {
+     "title": "China\u2019s \u2018AI for All\u2019 Push Defies US Containment Playbook",
+     "link": "https://finance.yahoo.com/technology/ai/articles/china-ai-push-defies-us-082044730.html",
+     "publisher": "Bloomberg"
+    },
+    {
+     "title": "Royal Caribbean (RCL) Appoints Former Airbnb Executive Tara Bunch To Its Board",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/royal-caribbean-rcl-appoints-former-131121318.html",
+     "publisher": "Simply Wall St."
+    },
+    {
+     "title": "Oppenheimer Names Nvidia Among Its 'Best of the Best' Momentum Stocks",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/oppenheimer-names-nvidia-among-best-131112008.html",
+     "publisher": "GuruFocus.com"
+    }
+   ],
+   "sentiment": {
+    "label": "Bullish",
+    "bullish_pct": 77.8,
+    "sample_size": 9
+   },
+   "earnings_surprise": {
+    "date": "2026-05-07",
+    "actual_eps": 0.26,
+    "estimate_eps": 0.3,
+    "surprise_pct": -13.333333333333327
+   }
+  },
+  {
+   "symbol": "GEV",
+   "name": "GE Vernova Inc.",
+   "close": 998.0900268554688,
+   "lower_band": 999.6338028852067,
+   "pct_below_band": 0.1544341563162641,
+   "market_cap": 268314230784.0,
+   "chg_1d": -7.482321016129701,
+   "chg_5d": -5.419414833379488,
+   "chg_1mo": -11.484665781912451,
+   "off_52w_high": -15.046044694695892,
+   "rsi": 42.91776124720681,
+   "rsi_divergence": false,
+   "macd_histogram": -9.20472641056897,
+   "macd_turning_up": false,
+   "volume_ratio": 1.0902913063108783,
+   "valuation": {
+    "forward_pe": 40.57563,
+    "trailing_pe": 29.195614,
+    "peg_ratio": 1.86,
+    "analyst_target": 1221.4803,
+    "analyst_upside_pct": 22.38177590535928
+   },
+   "short_interest": {
+    "pct_of_float": 4.35,
+    "days_to_cover": 3.59
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 33.4,
+    "valuation": 12.7,
+    "technical": 3.7,
+    "catalyst": 4.9,
+    "sentiment": 12.2
+   },
+   "reasons": [
+    "GEV reported earnings on Jul 22 \u2014 earnings reactions are the most common cause of a sharp break below the band.",
+    "Sharp one-day drop of -7.5% on Jul 22 \u2014 points to a specific catalyst (news, guidance, downgrade) rather than gradual selling."
+   ],
+   "news": [
+    {
+     "title": "GE Vernova stock drops despite surging AI-driven orders as wind segment drags",
+     "link": "https://finance.yahoo.com/markets/stocks/article/ge-vernova-stock-drops-despite-surging-ai-driven-orders-as-wind-segment-drags-131509298.html",
+     "publisher": "Yahoo Finance"
+    },
+    {
+     "title": "Earnings live: GE Vernova stock falls despite surge in orders, AT&T stock pops",
+     "link": "https://finance.yahoo.com/markets/live/earnings-live-second-quarter-results-tesla-google-july-115324842.html",
+     "publisher": "Yahoo Finance"
+    },
+    {
+     "title": "Energy & Utilities Roundup: Market Talk",
+     "link": "https://www.wsj.com/business/energy-utilities-roundup-market-talk-ff60eb2f?siteid=yhoof2&yptr=yahoo",
+     "publisher": "The Wall Street Journal"
+    }
+   ],
+   "sentiment": {
+    "label": "Bullish",
+    "bullish_pct": 83.3,
+    "sample_size": 12
+   },
+   "earnings_surprise": {
+    "date": "2026-07-22",
+    "actual_eps": 2.47,
+    "estimate_eps": 3.18,
+    "surprise_pct": -22.32704402515723
+   }
+  },
+  {
    "symbol": "PSA",
    "name": "Public Storage",
-   "close": 309.75,
-   "lower_band": 311.7444047324093,
-   "pct_below_band": 0.6397563844397535,
-   "market_cap": 54385795072.0,
-   "chg_1d": -1.8318381141755657,
-   "chg_5d": -2.878372334556023,
-   "chg_1mo": -2.6310811158236747,
-   "off_52w_high": -6.03385929030803,
-   "rsi": 42.58382059861745,
+   "close": 309.57000732421875,
+   "lower_band": 309.92548023074505,
+   "pct_below_band": 0.11469625093801449,
+   "market_cap": 54359461888.0,
+   "chg_1d": -0.058109015587171076,
+   "chg_5d": -1.6238672526052156,
+   "chg_1mo": -3.3258365673242696,
+   "off_52w_high": -6.088462089659686,
+   "rsi": 42.44542877815567,
+   "rsi_divergence": false,
+   "macd_histogram": -1.955814434088531,
+   "macd_turning_up": false,
+   "volume_ratio": 0.25086821842640944,
+   "valuation": {
+    "forward_pe": 29.482767,
+    "trailing_pe": 31.917526,
+    "peg_ratio": 4.51,
+    "analyst_target": 332.875,
+    "analyst_upside_pct": 7.528181711535598
+   },
+   "short_interest": {
+    "pct_of_float": 5.08,
+    "days_to_cover": 6.64
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 33.2,
+    "valuation": 8.1,
+    "technical": 3.7,
+    "catalyst": 3.2,
+    "sentiment": 18.3
+   },
    "reasons": [
     "PSA reports earnings on Jul 29 \u2014 earnings reactions are the most common cause of a sharp break below the band."
    ],
    "news": [
+    {
+     "title": "Public Storage Completes Acquisition of National Storage Affiliates Trust",
+     "link": "https://finance.yahoo.com/real-estate/articles/public-storage-completes-acquisition-national-160618216.html",
+     "publisher": "MT Newswires"
+    },
     {
      "title": "Barclays upgrades CubeSmart, cuts Public Storage on relative valuation",
      "link": "https://finance.yahoo.com/real-estate/articles/barclays-upgrades-cubesmart-cuts-public-134755509.html",
@@ -73,11 +412,6 @@
      "title": "Shopify upgraded, PepsiCo downgrade: Wall Street's top analyst calls",
      "link": "https://finance.yahoo.com/markets/stocks/articles/shopify-upgraded-pepsico-downgrade-wall-133847787.html",
      "publisher": "The Fly"
-    },
-    {
-     "title": "Here Are Friday\u2019s Best Wall Street Analyst Research Calls: CubeSmart, Digital Realty Trust, Honeywell Aerospace, IBM,  PepsiCo, Seagate, Shopify, Toll Brothers, Twilio, and More",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/friday-best-wall-street-analyst-120503412.html",
-     "publisher": "24/7 Wall St."
     }
    ],
    "sentiment": {
@@ -90,360 +424,6 @@
     "actual_eps": 2.47,
     "estimate_eps": 2.42,
     "surprise_pct": 2.06611570247935
-   }
-  },
-  {
-   "symbol": "PEG",
-   "name": "Public Service Enterprise Group",
-   "close": 77.43000030517578,
-   "lower_band": 77.70141187817467,
-   "pct_below_band": 0.3493006966519771,
-   "market_cap": 38585028608.0,
-   "chg_1d": -0.5139425882928594,
-   "chg_5d": -3.8136642171729407,
-   "chg_1mo": -3.0792328242168043,
-   "off_52w_high": -14.100287520006638,
-   "rsi": 36.74880158506802,
-   "reasons": [
-    "PEG reports earnings on Aug 04 \u2014 earnings reactions are the most common cause of a sharp break below the band."
-   ],
-   "news": [
-    {
-     "title": "Public Service Enterprise Group (PEG) Stock May Be Fairly Valued Despite Storm Recovery Work",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/public-enterprise-group-peg-stock-201035741.html",
-     "publisher": "Simply Wall St."
-    },
-    {
-     "title": "What to Expect From Public Service Enterprise\u2019s Next Quarterly Earnings Report",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/expect-public-enterprise-next-quarterly-092837063.html",
-     "publisher": "Barchart"
-    },
-    {
-     "title": "Chief Investment Strategist: \u201cWe Are Spending Almost 3% of GDP on AI\u201d as Stocks Tune Out Global Conflict on \u201cAstronomical Investment\u201d",
-     "link": "https://finance.yahoo.com/technology/ai/articles/chief-investment-strategist-spending-almost-142733903.html",
-     "publisher": "24/7 Wall St."
-    }
-   ],
-   "sentiment": {
-    "label": "Bullish",
-    "bullish_pct": 100.0,
-    "sample_size": 9
-   },
-   "earnings_surprise": {
-    "date": "2026-05-05",
-    "actual_eps": 1.55,
-    "estimate_eps": 1.43,
-    "surprise_pct": 8.391608391608399
-   }
-  },
-  {
-   "symbol": "BA",
-   "name": "Boeing Company (The)",
-   "close": 204.8000030517578,
-   "lower_band": 205.41752964695144,
-   "pct_below_band": 0.3006202032781522,
-   "market_cap": 161444315136.0,
-   "chg_1d": -2.234100043551801,
-   "chg_5d": -5.669935757904843,
-   "chg_1mo": -8.045976145262134,
-   "off_52w_high": -18.778501681885917,
-   "rsi": 35.17390037814347,
-   "reasons": [
-    "BA reports earnings on Jul 28 \u2014 earnings reactions are the most common cause of a sharp break below the band."
-   ],
-   "news": [
-    {
-     "title": "UK's BAE enters uncrewed fighter competition with 'Brontanax'",
-     "link": "https://finance.yahoo.com/news/uks-bae-enters-uncrewed-fighter-090751229.html",
-     "publisher": "Reuters"
-    },
-    {
-     "title": "Adam Smith\u2019s \u2018Wealth of Nations\u2019 Helped Create the World\u2019s Wealthiest Nation",
-     "link": "https://www.barrons.com/articles/adam-smith-wealth-of-nations-36cabcc0?siteid=yhoof2&yptr=yahoo",
-     "publisher": "Barrons.com"
-    },
-    {
-     "title": "BA Stock Gains Overnight: Boeing Reportedly Challenges Airbus Loan Deal As Aircraft Rivalry Rekindles",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/ba-stock-gains-overnight-boeing-044114841.html",
-     "publisher": "Stocktwits"
-    }
-   ],
-   "sentiment": {
-    "label": "Bullish",
-    "bullish_pct": 93.8,
-    "sample_size": 16
-   },
-   "earnings_surprise": {
-    "date": "2026-04-22",
-    "actual_eps": -0.2,
-    "estimate_eps": -0.67,
-    "surprise_pct": 70.1492537313433
-   }
-  },
-  {
-   "symbol": "ISRG",
-   "name": "Intuitive Surgical, Inc.",
-   "close": 350.05999755859375,
-   "lower_band": 350.793086581993,
-   "pct_below_band": 0.20898046496361317,
-   "market_cap": 123978244096.0,
-   "chg_1d": -0.8806002069530194,
-   "chg_5d": -7.757576400897559,
-   "chg_1mo": -13.94365538888681,
-   "off_52w_high": -40.95302151060808,
-   "rsi": 32.86368137612999,
-   "reasons": [
-    "ISRG reported earnings on Jul 16 \u2014 earnings reactions are the most common cause of a sharp break below the band.",
-    "Sharp one-day drop of -14.1% on Jul 17 \u2014 points to a specific catalyst (news, guidance, downgrade) rather than gradual selling.",
-    "Trading 41% below its 52-week high \u2014 deep drawdown territory, often reflecting a broken growth story or re-rating."
-   ],
-   "news": [
-    {
-     "title": "Is Intuitive Surgical a Buy After Its Latest Earnings Report?",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/intuitive-surgical-buy-latest-earnings-201100529.html",
-     "publisher": "Motley Fool"
-    },
-    {
-     "title": "ISRG Stock: The Math Hidden In Its Price",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/isrg-stock-math-hidden-price-184303102.html",
-     "publisher": "Trefis"
-    },
-    {
-     "title": "Intuitive Surgical (ISRG) Slid Despite Strong Fundamentals",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/intuitive-surgical-isrg-slid-despite-142345149.html",
-     "publisher": "Insider Monkey"
-    }
-   ],
-   "sentiment": {
-    "label": "Bullish",
-    "bullish_pct": 100.0,
-    "sample_size": 7
-   },
-   "earnings_surprise": {
-    "date": "2026-07-16",
-    "actual_eps": 2.8,
-    "estimate_eps": 2.5,
-    "surprise_pct": 11.999999999999993
-   }
-  },
-  {
-   "symbol": "LHX",
-   "name": "L3Harris Technologies, Inc.",
-   "close": 277.7099914550781,
-   "lower_band": 278.0408178449809,
-   "pct_below_band": 0.11898482836689725,
-   "market_cap": 51735965696.0,
-   "chg_1d": -1.0122960119272606,
-   "chg_5d": -4.241239231875915,
-   "chg_1mo": -5.803546382225155,
-   "off_52w_high": -26.62492512316328,
-   "rsi": 33.23387651879959,
-   "reasons": [
-    "LHX reports earnings on Jul 29 \u2014 earnings reactions are the most common cause of a sharp break below the band."
-   ],
-   "news": [
-    {
-     "title": "Will L3Harris (LHX) Beat Estimates Again in Its Next Earnings Report?",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/l3harris-lhx-beat-estimates-again-161004534.html",
-     "publisher": "Zacks"
-    },
-    {
-     "title": "Should You Buy, Hold or Sell RTX Stock Ahead of Q2 Earnings?",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/buy-hold-sell-rtx-stock-141600845.html",
-     "publisher": "Zacks"
-    },
-    {
-     "title": "Defense Tech May Be in a Bubble as Legacy Defense Stocks Offer Value",
-     "link": "https://www.barrons.com/articles/defense-tech-bubble-defense-stocks-value-91cf3da6?siteid=yhoof2&yptr=yahoo",
-     "publisher": "Barrons.com"
-    }
-   ],
-   "sentiment": {
-    "label": "Bullish",
-    "bullish_pct": 100.0,
-    "sample_size": 14
-   },
-   "earnings_surprise": {
-    "date": "2026-04-30",
-    "actual_eps": 2.91,
-    "estimate_eps": 2.57,
-    "surprise_pct": 13.22957198443581
-   }
-  },
-  {
-   "symbol": "DTE",
-   "name": "DTE Energy Company",
-   "close": 145.02999877929688,
-   "lower_band": 145.20196489445246,
-   "pct_below_band": 0.11843236093987189,
-   "market_cap": 30170347520.0,
-   "chg_1d": -0.6303516191723979,
-   "chg_5d": -2.7101417766318914,
-   "chg_1mo": -1.714555991566924,
-   "off_52w_high": -6.086896550088705,
-   "rsi": 41.42132560450199,
-   "reasons": [
-    "DTE reports earnings on Jul 28 \u2014 earnings reactions are the most common cause of a sharp break below the band."
-   ],
-   "news": [
-    {
-     "title": "DTE Energy (DTE) Earnings Expected to Grow: What to Know Ahead of Next Week's Release",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/dte-energy-dte-earnings-expected-140009395.html",
-     "publisher": "Zacks"
-    },
-    {
-     "title": "Here's What to Expect From DTE Energy's Next Earnings Report",
-     "link": "https://finance.yahoo.com/energy/articles/heres-expect-dte-energys-next-134953077.html",
-     "publisher": "Barchart"
-    },
-    {
-     "title": "Here Are Wednesday\u2019s Best Wall Street Analyst Research Calls: Alcoa, Commercial Metals, DTE Energy, Dollar Tree, Occidental Petroleum, PayPal, Pinterest, Snap, Travelers, and More",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/wednesday-best-wall-street-analyst-120207329.html",
-     "publisher": "24/7 Wall St."
-    }
-   ],
-   "sentiment": {
-    "label": "Bullish",
-    "bullish_pct": 100.0,
-    "sample_size": 4
-   },
-   "earnings_surprise": {
-    "date": "2026-04-30",
-    "actual_eps": 1.95,
-    "estimate_eps": 2.03,
-    "surprise_pct": -3.940886699507382
-   }
-  },
-  {
-   "symbol": "VMC",
-   "name": "Vulcan Materials Company (Holdi",
-   "close": 276.75,
-   "lower_band": 277.0549502598041,
-   "pct_below_band": 0.11006851150580536,
-   "market_cap": 35909664768.0,
-   "chg_1d": -1.3790874437052736,
-   "chg_5d": -5.186890228729702,
-   "chg_1mo": -8.615109184184833,
-   "off_52w_high": -16.23028601558312,
-   "rsi": 38.986376038381145,
-   "reasons": [
-    "VMC reports earnings on Jul 29 \u2014 earnings reactions are the most common cause of a sharp break below the band."
-   ],
-   "news": [
-    {
-     "title": "Index Removal And Rising Costs Could Be A Game Changer For Vulcan Materials (VMC)",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/index-removal-rising-costs-could-221546888.html",
-     "publisher": "Simply Wall St."
-    },
-    {
-     "title": "3 Concrete & Aggregates Stocks Set to Gain From Infrastructure Boom",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/3-concrete-aggregates-stocks-set-164600890.html",
-     "publisher": "Zacks"
-    },
-    {
-     "title": "Vulcan Materials (VMC) Stock Loses Russell 1000 Index Spot",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/vulcan-materials-vmc-stock-loses-091259299.html",
-     "publisher": "Simply Wall St."
-    }
-   ],
-   "sentiment": {
-    "label": "Bullish",
-    "bullish_pct": 100.0,
-    "sample_size": 5
-   },
-   "earnings_surprise": {
-    "date": "2026-04-29",
-    "actual_eps": 1.35,
-    "estimate_eps": 1.1,
-    "surprise_pct": 22.727272727272727
-   }
-  },
-  {
-   "symbol": "ECL",
-   "name": "Ecolab Inc.",
-   "close": 264.20001220703125,
-   "lower_band": 264.3245363828467,
-   "pct_below_band": 0.04711033546847565,
-   "market_cap": 74355793920.0,
-   "chg_1d": -1.6564235215161704,
-   "chg_5d": -2.057456086364684,
-   "chg_1mo": -1.828174420118378,
-   "off_52w_high": -14.318142702310455,
-   "rsi": 41.31514401920331,
-   "reasons": [
-    "ECL reports earnings on Jul 28 \u2014 earnings reactions are the most common cause of a sharp break below the band."
-   ],
-   "news": [
-    {
-     "title": "Ecolab (ECL) Earnings Expected to Grow: Should You Buy?",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/ecolab-ecl-earnings-expected-grow-140009066.html",
-     "publisher": "Zacks"
-    },
-    {
-     "title": "CLX Paid Holders $3.8 billion While The Stock Went Nowhere",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/clx-paid-holders-3-8-224117698.html",
-     "publisher": "Trefis"
-    },
-    {
-     "title": "Oppenheimer upgrades Ecolab to Outperform, sees AI growth driving upside",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/oppenheimer-upgrades-ecolab-outperform-sees-165719115.html",
-     "publisher": "Investing.com"
-    }
-   ],
-   "sentiment": {
-    "label": "Bullish",
-    "bullish_pct": 100.0,
-    "sample_size": 15
-   },
-   "earnings_surprise": {
-    "date": "2026-04-28",
-    "actual_eps": 1.7,
-    "estimate_eps": 1.7,
-    "surprise_pct": 0.0
-   }
-  },
-  {
-   "symbol": "SRE",
-   "name": "DBA Sempra",
-   "close": 90.58999633789062,
-   "lower_band": 90.6243249163809,
-   "pct_below_band": 0.03788009292422283,
-   "market_cap": 59219349504.0,
-   "chg_1d": -0.11027246755257458,
-   "chg_5d": -2.9670139828103292,
-   "chg_1mo": -0.11027246755257458,
-   "off_52w_high": -9.1829610647713,
-   "rsi": 40.47150650437313,
-   "reasons": [
-    "No single obvious catalyst in the price action \u2014 likely broad market or sector weakness. Check the headlines below."
-   ],
-   "news": [
-    {
-     "title": "Sempra's Quarterly Earnings Preview: What You Need to Know",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/sempras-quarterly-earnings-preview-know-155742073.html",
-     "publisher": "Barchart"
-    },
-    {
-     "title": "The Peer-Group Mispricing Sitting On VG Stock",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/peer-group-mispricing-sitting-vg-000727139.html",
-     "publisher": "Trefis"
-    },
-    {
-     "title": "Sector Update: Energy Stocks Advance Late Afternoon",
-     "link": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-advance-afternoon-195551027.html",
-     "publisher": "MT Newswires"
-    }
-   ],
-   "sentiment": {
-    "label": "Bullish",
-    "bullish_pct": 87.5,
-    "sample_size": 8
-   },
-   "earnings_surprise": {
-    "date": "2026-05-07",
-    "actual_eps": 1.51,
-    "estimate_eps": 1.51,
-    "surprise_pct": 0.0
    }
   }
  ]
