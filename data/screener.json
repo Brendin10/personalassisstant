@@ -1,5 +1,5 @@
 {
- "updated": "Jul 21, 2026 06:39 PM ET",
+ "updated": "Jul 22, 2026 08:58 AM ET",
  "criteria": "close < lower BB(20,2), market cap > $20B",
  "universe_size": 503,
  "results": [
@@ -9,7 +9,7 @@
    "close": 179.00999450683594,
    "lower_band": 181.17948091711472,
    "pct_below_band": 1.1974239021422448,
-   "market_cap": 126698012672.0,
+   "market_cap": 125841530880.0,
    "chg_1d": -10.989013990574314,
    "chg_5d": -10.06782629373333,
    "chg_1mo": 1.0385484884049223,
@@ -21,19 +21,19 @@
    ],
    "news": [
     {
-     "title": "Earnings live: Danaher stock plunges on trimmed forecast, 3M stock surges",
-     "link": "https://finance.yahoo.com/markets/live/earnings-live-second-quarter-results-tesla-google-july-115324842.html",
-     "publisher": "Yahoo Finance"
+     "title": "Don\u2019t Quit on Danaher Stock After Horrific Earnings Reaction",
+     "link": "https://www.barrons.com/articles/danaher-stock-stay-invested-after-horrific-earnings-reaction-88718388?siteid=yhoof2&yptr=yahoo",
+     "publisher": "Barrons.com"
     },
     {
-     "title": "Danaher Plummets After One Segment Comes In 'Surprisingly Soft'",
-     "link": "https://www.investors.com/news/technology/danaher-stock-danaher-earnings-q2-2026/?src=A00220&yptr=yahoo",
-     "publisher": "Investor's Business Daily"
+     "title": "US Stock Market Today S&P 500 Futures Rise On Earnings And Inflation Crosscurrents",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/us-stock-market-today-p-081013375.html",
+     "publisher": "Simply Wall St."
     },
     {
-     "title": "Health Care Roundup: Market Talk",
-     "link": "https://www.wsj.com/business/health-care-roundup-market-talk-8b85039c?siteid=yhoof2&yptr=yahoo",
-     "publisher": "The Wall Street Journal"
+     "title": "Danaher (DHR) Q2 2026 Earnings Call Transcript",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/danaher-dhr-q2-2026-earnings-003012570.html",
+     "publisher": "Motley Fool"
     }
    ]
   },
@@ -120,19 +120,19 @@
    ],
    "news": [
     {
-     "title": "Exclusive-Boeing asks US to intervene over record EU loan to Airbus",
-     "link": "https://finance.yahoo.com/economy/policy/articles/exclusive-boeing-asks-us-intervene-093610195.html",
+     "title": "UK's BAE enters uncrewed fighter competition with 'Brontanax'",
+     "link": "https://finance.yahoo.com/news/uks-bae-enters-uncrewed-fighter-090751229.html",
      "publisher": "Reuters"
     },
     {
-     "title": "Farnborough Airshow Dealmaking Continues. Smaller Innovators Shine.",
-     "link": "https://www.investors.com/news/farnborough-airshow-boeing-airbus-deals-orders-embraer-beta-archer-anduril/?src=A00220&yptr=yahoo",
-     "publisher": "Investor's Business Daily"
+     "title": "Adam Smith\u2019s \u2018Wealth of Nations\u2019 Helped Create the World\u2019s Wealthiest Nation",
+     "link": "https://www.barrons.com/articles/adam-smith-wealth-of-nations-36cabcc0?siteid=yhoof2&yptr=yahoo",
+     "publisher": "Barrons.com"
     },
     {
-     "title": "Boeing (BA) Could Be 22% Undervalued After Its $500b Backlog Narrative",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/boeing-ba-could-22-undervalued-211428957.html",
-     "publisher": "Simply Wall St."
+     "title": "BA Stock Gains Overnight: Boeing Reportedly Challenges Airbus Loan Deal As Aircraft Rivalry Rekindles",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/ba-stock-gains-overnight-boeing-044114841.html",
+     "publisher": "Stocktwits"
     }
    ]
   },
