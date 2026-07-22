@@ -339,7 +339,7 @@
       <p style="margin-bottom:4px">Stocks that closed <strong>below their lower Bollinger Band (20, 2σ)</strong> with a market cap over <strong>$20B</strong>. Click a row for insights on why it's down.</p>
       <p class="wl-status" id="sc-updated" style="margin-top:0;margin-bottom:12px"></p>
       <table class="wl-table">
-        <thead><tr><th>Symbol</th><th>Close</th><th>vs band</th><th>1d</th><th>Cap</th><th>Sentiment</th><th>Last qtr EPS</th></tr></thead>
+        <thead><tr><th>Symbol</th><th>Close</th><th>vs band</th><th>1d</th><th>Cap</th><th>RSI(14)</th><th>Sentiment</th><th>Last qtr EPS</th></tr></thead>
         <tbody id="sc-body"></tbody>
       </table>
       <p class="wl-status" id="sc-status">Loading…</p>
@@ -682,6 +682,12 @@
     return '<span class="' + cls + '">' + word + " " + Math.abs(e.surprise_pct).toFixed(1) + "%</span>";
   }
 
+  function fmtRsi(v) {
+    if (v == null || isNaN(v)) return '<span class="dim">–</span>';
+    const cls = v <= 30 ? " down" : v >= 70 ? " up" : "";
+    return '<span class="' + cls + '">' + v.toFixed(1) + "</span>";
+  }
+
   function openModal(item) {
     const reasons = (item.reasons || []).map(r => "<li>" + esc(r) + "</li>").join("");
     const news = (item.news || []).map(n =>
@@ -741,6 +747,7 @@
           '<td class="down">' + fmtPct(-item.pct_below_band) + "</td>" +
           '<td class="' + (item.chg_1d >= 0 ? "up" : "down") + '">' + fmtPct(item.chg_1d) + "</td>" +
           "<td>$" + (item.market_cap / 1e9).toFixed(0) + "B</td>" +
+          "<td>" + fmtRsi(item.rsi) + "</td>" +
           "<td>" + fmtSentiment(item.sentiment) + "</td>" +
           "<td>" + fmtEarningsSurprise(item.earnings_surprise) + "</td>";
         tr.addEventListener("click", () => openModal(item));
