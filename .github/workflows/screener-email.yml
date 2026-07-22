@@ -2,11 +2,12 @@ name: Screener Email Digest
 
 on:
   schedule:
-    # Window around 8:30am ET, every 5 min, covering both EDT (12:30 UTC)
-    # and EST (13:30 UTC) so the shift twice a year doesn't need updating.
-    # The script itself checks Eastern Time and only sends once it's within
-    # a few minutes of 8:30am, then dedupes so only one email goes out.
-    - cron: "20,25,30,35,40 12,13 * * 1-5"
+    # Every 15 min from 12:00-14:59 UTC = 8:00-10:59am EDT / 7:00-9:59am EST,
+    # covering both the DST shift and GitHub's own scheduling lag (observed
+    # 45-90+ min delays on this account). The script only actually sends
+    # within its own 8:00-11:00am ET window, deduped so only the first
+    # matching run per day emails.
+    - cron: "*/15 12,13,14 * * 1-5"
   workflow_dispatch: {}  # manual test runs from the Actions tab
 
 permissions:

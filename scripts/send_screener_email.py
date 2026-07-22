@@ -27,10 +27,14 @@ DATA_FILE = Path("data/screener.json")
 STATE_FILE = Path(".email_state.json")  # dedupe: only one send per calendar day
 ET = ZoneInfo("America/New_York")
 
-# Cron fires several times inside a window around 8:30am ET (to survive the
-# EDT/EST shift); only actually send within a few minutes of 8:30.
-TARGET_MINUTES = 8 * 60 + 30
-WINDOW_MINUTES = 6
+# GitHub's cron scheduler is best-effort and can lag well past the requested
+# time (observed 45-90+ min delays in practice, worse right after a schedule
+# is first created). A tight window around 8:30 caused the email to get
+# silently skipped on runs that arrived late. Use a broad morning window
+# instead - anywhere from 8:00 to 11:00am ET - and rely on the per-day dedupe
+# (mark_sent/already_sent_today) so only the first run in that window sends.
+EARLIEST_MINUTES = 8 * 60
+LATEST_MINUTES = 11 * 60
 
 
 def in_send_window(now=None):
@@ -38,7 +42,7 @@ def in_send_window(now=None):
     if now.weekday() >= 5:
         return False
     minutes = now.hour * 60 + now.minute
-    return abs(minutes - TARGET_MINUTES) <= WINDOW_MINUTES
+    return EARLIEST_MINUTES <= minutes <= LATEST_MINUTES
 
 
 def already_sent_today(today_str):
