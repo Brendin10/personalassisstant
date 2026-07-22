@@ -1,172 +1,30 @@
 {
- "updated": "Jul 22, 2026 01:10 PM ET",
+ "updated": "Jul 22, 2026 06:44 PM ET",
  "criteria": "close < lower BB(20,2), market cap > $20B",
  "universe_size": 503,
  "results": [
   {
-   "symbol": "TEL",
-   "name": "TE Connectivity plc",
-   "close": 191.3280029296875,
-   "lower_band": 193.12497588958357,
-   "pct_below_band": 0.9304715517082889,
-   "market_cap": 55820693504.0,
-   "chg_1d": -8.459878494743522,
-   "chg_5d": -4.972679840224547,
-   "chg_1mo": -10.04372526517966,
-   "off_52w_high": -23.161444606551207,
-   "rsi": 38.505282849877474,
-   "rsi_divergence": false,
-   "macd_histogram": 0.28938632036991274,
-   "macd_turning_up": false,
-   "volume_ratio": 1.9967204568713373,
-   "valuation": {
-    "forward_pe": 15.148887,
-    "trailing_pe": 19.553682,
-    "peg_ratio": 0.96,
-    "analyst_target": 257.4,
-    "analyst_upside_pct": 34.53336472371675
-   },
-   "short_interest": {
-    "pct_of_float": 3.53,
-    "days_to_cover": 3.47
-   },
-   "insider": {
-    "recent_buys": 0,
-    "shares": null
-   },
-   "hot_score": {
-    "total": 54.9,
-    "valuation": 21.1,
-    "technical": 4.2,
-    "catalyst": 11.0,
-    "sentiment": 18.6
-   },
-   "reasons": [
-    "TEL reported earnings on Jul 22 \u2014 earnings reactions are the most common cause of a sharp break below the band.",
-    "Sharp one-day drop of -8.5% on Jul 22 \u2014 points to a specific catalyst (news, guidance, downgrade) rather than gradual selling."
-   ],
-   "news": [
-    {
-     "title": "Is TE Connectivity (TEL) A Bargain As Earnings, Guidance And Astrodyne TDI Lift Confidence?",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/te-connectivity-tel-bargain-earnings-161240794.html",
-     "publisher": "Simply Wall St."
-    },
-    {
-     "title": "Compared to Estimates, TE Connectivity (TEL) Q3 Earnings: A Look at Key Metrics",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/compared-estimates-te-connectivity-tel-133004701.html",
-     "publisher": "Zacks"
-    },
-    {
-     "title": "Is TEL\u2019s Ongoing Earnings Outperformance Reframing the Investment Case for TE Connectivity (TEL)?",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/tel-ongoing-earnings-outperformance-reframing-131229464.html",
-     "publisher": "Simply Wall St."
-    }
-   ],
-   "sentiment": {
-    "label": "Bullish",
-    "bullish_pct": 80.0,
-    "sample_size": 5
-   },
-   "earnings_surprise": {
-    "date": "2026-07-22",
-    "actual_eps": 2.94,
-    "estimate_eps": 2.84,
-    "surprise_pct": 3.521126760563384
-   }
-  },
-  {
-   "symbol": "DHR",
-   "name": "Danaher Corporation",
-   "close": 176.55999755859375,
-   "lower_band": 180.47049369933316,
-   "pct_below_band": 2.1668340683183165,
-   "market_cap": 124105154560.0,
-   "chg_1d": -1.3686369607416649,
-   "chg_5d": -12.067332306252165,
-   "chg_1mo": -0.9147566420559916,
-   "off_52w_high": -27.056395235475485,
-   "rsi": 36.250827971004675,
-   "rsi_divergence": false,
-   "macd_histogram": -2.345113280352605,
-   "macd_turning_up": false,
-   "volume_ratio": 1.0373937506334558,
-   "valuation": {
-    "forward_pe": 19.042934,
-    "trailing_pe": 34.213177,
-    "peg_ratio": 1.15,
-    "analyst_target": 228.6087,
-    "analyst_upside_pct": 29.479328931307446
-   },
-   "short_interest": {
-    "pct_of_float": 1.72,
-    "days_to_cover": 2.57
-   },
-   "insider": {
-    "recent_buys": 0,
-    "shares": null
-   },
-   "hot_score": {
-    "total": 47.1,
-    "valuation": 20.4,
-    "technical": 4.9,
-    "catalyst": 2.8,
-    "sentiment": 19.0
-   },
-   "reasons": [
-    "DHR reported earnings on Jul 21 \u2014 earnings reactions are the most common cause of a sharp break below the band.",
-    "Sharp one-day drop of -11.0% on Jul 21 \u2014 points to a specific catalyst (news, guidance, downgrade) rather than gradual selling."
-   ],
-   "news": [
-    {
-     "title": "Danaher Posts Mixed Q2 Results, Outlook for 2027 and Beyond Strengthened, RBC Says",
-     "link": "https://finance.yahoo.com/healthcare/articles/danaher-posts-mixed-q2-results-154005464.html",
-     "publisher": "MT Newswires"
-    },
-    {
-     "title": "Can Danaher (DHR) Climb 32.39% to Reach the Level Wall Street Analysts Expect?",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/danaher-dhr-climb-32-39-135504246.html",
-     "publisher": "Zacks"
-    },
-    {
-     "title": "Apple Stumbles in Court as $634 Million Apple Watch Judgment Survives",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/apple-stumbles-court-634-million-131151982.html",
-     "publisher": "GuruFocus.com"
-    }
-   ],
-   "sentiment": {
-    "label": "Bullish",
-    "bullish_pct": 88.9,
-    "sample_size": 9
-   },
-   "earnings_surprise": {
-    "date": "2026-07-21",
-    "actual_eps": 1.94,
-    "estimate_eps": 1.85,
-    "surprise_pct": 4.864864864864857
-   }
-  },
-  {
    "symbol": "OTIS",
    "name": "Otis Worldwide Corporation",
-   "close": 70.37999725341797,
-   "lower_band": 70.60676322338631,
-   "pct_below_band": 0.32116749106724585,
-   "market_cap": 26996344832.0,
-   "chg_1d": -2.1820705509600136,
-   "chg_5d": -2.5207753071359806,
-   "chg_1mo": -2.8973592801506576,
-   "off_52w_high": -30.30993292191463,
-   "rsi": 41.45678071992551,
+   "close": 70.41000366210938,
+   "lower_band": 70.61488058514588,
+   "pct_below_band": 0.29013278977293183,
+   "market_cap": 27017449472.0,
+   "chg_1d": -2.1403660200856156,
+   "chg_5d": -2.4792151825380304,
+   "chg_1mo": -2.855959711577738,
+   "off_52w_high": -24.791709467579594,
+   "rsi": 41.54665503172212,
    "rsi_divergence": false,
-   "macd_histogram": -0.15033032081266207,
+   "macd_histogram": -0.14841540590914992,
    "macd_turning_up": false,
-   "volume_ratio": 1.180266162534672,
+   "volume_ratio": 2.4014115320193783,
    "valuation": {
-    "forward_pe": 14.905152,
-    "trailing_pe": 18.711437,
+    "forward_pe": 14.964263,
+    "trailing_pe": 18.726065,
     "peg_ratio": 1.37,
     "analyst_target": 96.0,
-    "analyst_upside_pct": 36.4023923648815
+    "analyst_upside_pct": 36.34426218850162
    },
    "short_interest": {
     "pct_of_float": 4.56,
@@ -177,16 +35,21 @@
     "shares": null
    },
    "hot_score": {
-    "total": 46.8,
+    "total": 55.8,
     "valuation": 19.8,
     "technical": 3.7,
-    "catalyst": 5.6,
+    "catalyst": 14.6,
     "sentiment": 17.8
    },
    "reasons": [
     "OTIS reported earnings on Jul 22 \u2014 earnings reactions are the most common cause of a sharp break below the band."
    ],
    "news": [
+    {
+     "title": "Otis Worldwide Corp (OTIS) Q2 2026 Earnings Call Highlights: Strong Service Growth Amidst ...",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/otis-worldwide-corp-otis-q2-210112347.html",
+     "publisher": "GuruFocus.com"
+    },
     {
      "title": "Otis Worldwide Q2 Earnings Call Highlights",
      "link": "https://finance.yahoo.com/markets/stocks/articles/otis-worldwide-q2-earnings-call-160630340.html",
@@ -196,17 +59,12 @@
      "title": "OTIS Q2 Earnings Beat Estimates, Revenues Up on Strong Service Growth",
      "link": "https://finance.yahoo.com/markets/stocks/articles/otis-q2-earnings-beat-estimates-142400618.html",
      "publisher": "Zacks"
-    },
-    {
-     "title": "Otis Worldwide (OTIS) Q2 Earnings: How Key Metrics Compare to Wall Street Estimates",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/otis-worldwide-otis-q2-earnings-133005868.html",
-     "publisher": "Zacks"
     }
    ],
    "sentiment": {
     "label": "Bullish",
     "bullish_pct": 100.0,
-    "sample_size": 16
+    "sample_size": 15
    },
    "earnings_surprise": {
     "date": "2026-07-22",
@@ -216,27 +74,382 @@
    }
   },
   {
+   "symbol": "DHR",
+   "name": "Danaher Corporation",
+   "close": 179.13999938964844,
+   "lower_band": 181.2273765403211,
+   "pct_below_band": 1.1518001256329211,
+   "market_cap": 125932920832.0,
+   "chg_1d": 0.07262437115349574,
+   "chg_5d": -10.782406803327282,
+   "chg_1mo": 0.5331370644964029,
+   "off_52w_high": -25.9904990162951,
+   "rsi": 38.05601349945596,
+   "rsi_divergence": false,
+   "macd_histogram": -2.1804635755285915,
+   "macd_turning_up": false,
+   "volume_ratio": 1.9865389127955655,
+   "valuation": {
+    "forward_pe": 19.323391,
+    "trailing_pe": 34.717056,
+    "peg_ratio": 1.15,
+    "analyst_target": 228.6087,
+    "analyst_upside_pct": 27.61454771625398
+   },
+   "short_interest": {
+    "pct_of_float": 1.72,
+    "days_to_cover": 2.57
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 52.9,
+    "valuation": 19.8,
+    "technical": 4.3,
+    "catalyst": 9.8,
+    "sentiment": 19.0
+   },
+   "reasons": [
+    "DHR reported earnings on Jul 21 \u2014 earnings reactions are the most common cause of a sharp break below the band.",
+    "Sharp one-day drop of -11.0% on Jul 21 \u2014 points to a specific catalyst (news, guidance, downgrade) rather than gradual selling."
+   ],
+   "news": [
+    {
+     "title": "Earnings live: Google stock drops on capex concerns, ServiceNow pops",
+     "link": "https://finance.yahoo.com/markets/live/earnings-live-second-quarter-results-tesla-google-july-115324842.html",
+     "publisher": "Yahoo Finance"
+    },
+    {
+     "title": "Apple Fails to Overturn $634 Million Masimo Verdict",
+     "link": "https://finance.yahoo.com/technology/articles/apple-fails-overturn-634-million-181205790.html",
+     "publisher": "GuruFocus.com"
+    },
+    {
+     "title": "Danaher Posts Mixed Q2 Results, Outlook for 2027 and Beyond Strengthened, RBC Says",
+     "link": "https://finance.yahoo.com/healthcare/articles/danaher-posts-mixed-q2-results-154005464.html",
+     "publisher": "MT Newswires"
+    }
+   ],
+   "sentiment": {
+    "label": "Bullish",
+    "bullish_pct": 100.0,
+    "sample_size": 9
+   },
+   "earnings_surprise": {
+    "date": "2026-07-21",
+    "actual_eps": 1.94,
+    "estimate_eps": 1.85,
+    "surprise_pct": 4.864864864864857
+   }
+  },
+  {
+   "symbol": "ISRG",
+   "name": "Intuitive Surgical, Inc.",
+   "close": 340.69000244140625,
+   "lower_band": 341.5653949306575,
+   "pct_below_band": 0.2562884010626846,
+   "market_cap": 120659738624.0,
+   "chg_1d": -2.676682620846771,
+   "chg_5d": -12.412267945543343,
+   "chg_1mo": -15.451050472641882,
+   "off_52w_high": -42.53352172196877,
+   "rsi": 30.807439233508234,
+   "rsi_divergence": false,
+   "macd_histogram": -6.672016097150667,
+   "macd_turning_up": false,
+   "volume_ratio": 1.24919531478447,
+   "valuation": {
+    "forward_pe": 28.366486,
+    "trailing_pe": 39.069954,
+    "peg_ratio": 1.78,
+    "analyst_target": 490.4743,
+    "analyst_upside_pct": 43.96498179730253
+   },
+   "short_interest": {
+    "pct_of_float": 2.08,
+    "days_to_cover": 2.79
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 50.5,
+    "valuation": 18.4,
+    "technical": 6.7,
+    "catalyst": 4.6,
+    "sentiment": 20.8
+   },
+   "reasons": [
+    "ISRG reported earnings on Jul 16 \u2014 earnings reactions are the most common cause of a sharp break below the band.",
+    "Sharp one-day drop of -14.1% on Jul 17 \u2014 points to a specific catalyst (news, guidance, downgrade) rather than gradual selling.",
+    "Down -15.5% over the past month \u2014 an extended downtrend; the band break continues an existing move rather than starting one.",
+    "Trading 43% below its 52-week high \u2014 deep drawdown territory, often reflecting a broken growth story or re-rating."
+   ],
+   "news": [
+    {
+     "title": "Top Stock Reports for Qualcomm, Intuitive Surgical & Stryker",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/top-stock-reports-qualcomm-intuitive-205400285.html",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Intuitive Surgical (ISRG) Stock Sees Fair Value Cut As Analysts Trim Growth Views",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/intuitive-surgical-isrg-stock-sees-181219605.html",
+     "publisher": "Simply Wall St."
+    },
+    {
+     "title": "ISRG Growth Story Hinges on Da Vinci 5, Ion and Recurring Revenue",
+     "link": "https://finance.yahoo.com/healthcare/articles/isrg-growth-story-hinges-da-160500480.html",
+     "publisher": "Zacks"
+    }
+   ],
+   "sentiment": {
+    "label": "Bullish",
+    "bullish_pct": 100.0,
+    "sample_size": 9
+   },
+   "earnings_surprise": {
+    "date": "2026-07-16",
+    "actual_eps": 2.8,
+    "estimate_eps": 2.5,
+    "surprise_pct": 11.999999999999993
+   }
+  },
+  {
+   "symbol": "CAH",
+   "name": "Cardinal Health, Inc.",
+   "close": 220.5399932861328,
+   "lower_band": 222.36842100850473,
+   "pct_below_band": 0.8222515202830815,
+   "market_cap": 51651756032.0,
+   "chg_1d": -2.8843203828371022,
+   "chg_5d": -1.9560812250011383,
+   "chg_1mo": -0.9877041181534763,
+   "off_52w_high": -7.99716861658466,
+   "rsi": 41.471569770960976,
+   "rsi_divergence": false,
+   "macd_histogram": -2.5570645452276217,
+   "macd_turning_up": false,
+   "volume_ratio": 0.7020650237655025,
+   "valuation": {
+    "forward_pe": 18.311996,
+    "trailing_pe": 33.72171,
+    "peg_ratio": 1.41,
+    "analyst_target": 250.73334,
+    "analyst_upside_pct": 13.69064461460001
+   },
+   "short_interest": {
+    "pct_of_float": 3.49,
+    "days_to_cover": 2.91
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 42.1,
+    "valuation": 15.1,
+    "technical": 3.7,
+    "catalyst": 2.2,
+    "sentiment": 21.2
+   },
+   "reasons": [
+    "No single obvious catalyst in the price action \u2014 likely broad market or sector weakness. Check the headlines below."
+   ],
+   "news": [
+    {
+     "title": "Cardinal Health Expands Home Care Business With Two Acquisitions",
+     "link": "https://finance.yahoo.com/healthcare/articles/cardinal-health-expands-home-care-161900533.html",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Revvity to Launch Signals for Startups for Emerging Biotech Companies",
+     "link": "https://finance.yahoo.com/healthcare/articles/revvity-launch-signals-startups-emerging-150400937.html",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Should Value Investors Buy Cardinal Health (CAH) Stock?",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/value-investors-buy-cardinal-health-134004674.html",
+     "publisher": "Zacks"
+    }
+   ],
+   "sentiment": {
+    "label": "Bullish",
+    "bullish_pct": 80.0,
+    "sample_size": 10
+   },
+   "earnings_surprise": {
+    "date": "2026-04-30",
+    "actual_eps": 3.17,
+    "estimate_eps": 2.79,
+    "surprise_pct": 13.62007168458781
+   }
+  },
+  {
+   "symbol": "GEHC",
+   "name": "GE HealthCare Technologies Inc.",
+   "close": 61.40999984741211,
+   "lower_band": 61.57211400230574,
+   "pct_below_band": 0.2632915200663056,
+   "market_cap": 27934904320.0,
+   "chg_1d": -1.0154755944846494,
+   "chg_5d": -2.832279895441081,
+   "chg_1mo": 1.2697896858737678,
+   "off_52w_high": -30.342562050271617,
+   "rsi": 41.54481182639353,
+   "rsi_divergence": false,
+   "macd_histogram": -0.3212224940006022,
+   "macd_turning_up": false,
+   "volume_ratio": 0.5793086550673648,
+   "valuation": {
+    "forward_pe": 11.452688,
+    "trailing_pe": 14.726619,
+    "peg_ratio": 1.75,
+    "analyst_target": 79.33333,
+    "analyst_upside_pct": 29.186338051005876
+   },
+   "short_interest": {
+    "pct_of_float": 3.58,
+    "days_to_cover": 2.85
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 40.5,
+    "valuation": 18.3,
+    "technical": 3.7,
+    "catalyst": 2.2,
+    "sentiment": 16.3
+   },
+   "reasons": [
+    "GEHC reports earnings on Jul 29 \u2014 earnings reactions are the most common cause of a sharp break below the band."
+   ],
+   "news": [
+    {
+     "title": "GEHC Launches MIM Anyware for Secure Remote Imaging Collaboration",
+     "link": "https://finance.yahoo.com/healthcare/articles/gehc-launches-mim-anyware-secure-144800227.html",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "GE Aerospace Faces a Prove-It Moment in Q2 Earnings",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/ge-aerospace-faces-prove-moment-145500340.html",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "GEHC Stock Up on $500M Strategic Care Alliance With Catholic Health",
+     "link": "https://finance.yahoo.com/healthcare/articles/gehc-stock-500m-strategic-care-142600628.html",
+     "publisher": "Zacks"
+    }
+   ],
+   "sentiment": {
+    "label": "Bullish",
+    "bullish_pct": 100.0,
+    "sample_size": 6
+   },
+   "earnings_surprise": {
+    "date": "2026-04-29",
+    "actual_eps": 0.99,
+    "estimate_eps": 1.05,
+    "surprise_pct": -5.714285714285719
+   }
+  },
+  {
+   "symbol": "GEV",
+   "name": "GE Vernova Inc.",
+   "close": 985.030029296875,
+   "lower_band": 996.1655692544475,
+   "pct_below_band": 1.1178402768835511,
+   "market_cap": 264697266176.0,
+   "chg_1d": -8.692913877640251,
+   "chg_5d": -6.657000800707569,
+   "chg_1mo": -12.642888004038443,
+   "off_52w_high": -16.15766631101009,
+   "rsi": 41.6767577563835,
+   "rsi_divergence": false,
+   "macd_histogram": -10.038184790553936,
+   "macd_turning_up": false,
+   "volume_ratio": 1.5802840653640735,
+   "valuation": {
+    "forward_pe": 39.96592,
+    "trailing_pe": 28.802048,
+    "peg_ratio": 1.86,
+    "analyst_target": 1223.5979,
+    "analyst_upside_pct": 24.21935003072113
+   },
+   "short_interest": {
+    "pct_of_float": 4.35,
+    "days_to_cover": 3.59
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 37.5,
+    "valuation": 13.2,
+    "technical": 3.7,
+    "catalyst": 8.5,
+    "sentiment": 12.2
+   },
+   "reasons": [
+    "GEV reported earnings on Jul 22 \u2014 earnings reactions are the most common cause of a sharp break below the band.",
+    "Sharp one-day drop of -8.7% on Jul 22 \u2014 points to a specific catalyst (news, guidance, downgrade) rather than gradual selling."
+   ],
+   "news": [
+    {
+     "title": "Earnings live: Google stock drops on capex concerns, ServiceNow pops",
+     "link": "https://finance.yahoo.com/markets/live/earnings-live-second-quarter-results-tesla-google-july-115324842.html",
+     "publisher": "Yahoo Finance"
+    },
+    {
+     "title": "GE Vernova stock drops despite surging AI-driven orders as wind segment drags",
+     "link": "https://finance.yahoo.com/markets/stocks/article/ge-vernova-stock-drops-despite-surging-ai-driven-orders-as-wind-segment-drags-131509298.html",
+     "publisher": "Yahoo Finance"
+    },
+    {
+     "title": "Energy & Utilities Roundup: Market Talk",
+     "link": "https://www.wsj.com/business/energy-utilities-roundup-market-talk-ff60eb2f?siteid=yhoof2&yptr=yahoo",
+     "publisher": "The Wall Street Journal"
+    }
+   ],
+   "sentiment": {
+    "label": "Bullish",
+    "bullish_pct": 71.4,
+    "sample_size": 7
+   },
+   "earnings_surprise": {
+    "date": "2026-07-22",
+    "actual_eps": 2.47,
+    "estimate_eps": 3.18,
+    "surprise_pct": -22.32704402515723
+   }
+  },
+  {
    "symbol": "ABNB",
    "name": "Airbnb, Inc.",
-   "close": 140.89999389648438,
-   "lower_band": 141.28069790219524,
-   "pct_below_band": 0.2694663965876066,
-   "market_cap": 83624837120.0,
-   "chg_1d": -2.220688460438014,
-   "chg_5d": -5.041117900107695,
-   "chg_1mo": 1.2285303722140206,
-   "off_52w_high": -5.3917942484413395,
-   "rsi": 45.138791820855744,
+   "close": 140.0500030517578,
+   "lower_band": 141.0434959367151,
+   "pct_below_band": 0.7043875921815268,
+   "market_cap": 83120365568.0,
+   "chg_1d": -2.8105502291571383,
+   "chg_5d": -5.6139651954005165,
+   "chg_1mo": 0.6178609061477713,
+   "off_52w_high": -5.96252605971388,
+   "rsi": 43.878078839666074,
    "rsi_divergence": false,
-   "macd_histogram": -0.9107808598937268,
+   "macd_histogram": -0.9650252891026021,
    "macd_turning_up": false,
-   "volume_ratio": 0.28319931763556205,
+   "volume_ratio": 0.7441439380459741,
    "valuation": {
-    "forward_pe": 23.340952,
-    "trailing_pe": 34.79012,
+    "forward_pe": 23.200146,
+    "trailing_pe": 34.580246,
     "peg_ratio": 1.33,
     "analyst_target": 156.96053,
-    "analyst_upside_pct": 11.398535698528779
+    "analyst_upside_pct": 12.07463518725711
    },
    "short_interest": {
     "pct_of_float": 3.61,
@@ -247,8 +460,8 @@
     "shares": null
    },
    "hot_score": {
-    "total": 35.1,
-    "valuation": 14.7,
+    "total": 35.3,
+    "valuation": 14.9,
     "technical": 3.7,
     "catalyst": 2.3,
     "sentiment": 14.4
@@ -275,8 +488,8 @@
    ],
    "sentiment": {
     "label": "Bullish",
-    "bullish_pct": 77.8,
-    "sample_size": 9
+    "bullish_pct": 70.0,
+    "sample_size": 10
    },
    "earnings_surprise": {
     "date": "2026-05-07",
@@ -286,144 +499,73 @@
    }
   },
   {
-   "symbol": "GEV",
-   "name": "GE Vernova Inc.",
-   "close": 998.0900268554688,
-   "lower_band": 999.6338028852067,
-   "pct_below_band": 0.1544341563162641,
-   "market_cap": 268314230784.0,
-   "chg_1d": -7.482321016129701,
-   "chg_5d": -5.419414833379488,
-   "chg_1mo": -11.484665781912451,
-   "off_52w_high": -15.046044694695892,
-   "rsi": 42.91776124720681,
+   "symbol": "UBER",
+   "name": "Uber Technologies, Inc.",
+   "close": 70.33000183105469,
+   "lower_band": 70.48444988093713,
+   "pct_below_band": 0.219123579943295,
+   "market_cap": 143163686912.0,
+   "chg_1d": -1.7051029611006463,
+   "chg_5d": -3.2200308199410332,
+   "chg_1mo": -1.5399670578489233,
+   "off_52w_high": -29.740256840026692,
+   "rsi": 42.695203849731634,
    "rsi_divergence": false,
-   "macd_histogram": -9.20472641056897,
+   "macd_histogram": -0.33988178511796263,
    "macd_turning_up": false,
-   "volume_ratio": 1.0902913063108783,
+   "volume_ratio": 0.6237085711718309,
    "valuation": {
-    "forward_pe": 40.57563,
-    "trailing_pe": 29.195614,
-    "peg_ratio": 1.86,
-    "analyst_target": 1221.4803,
-    "analyst_upside_pct": 22.38177590535928
+    "forward_pe": 15.80304,
+    "trailing_pe": 17.451612,
+    "peg_ratio": 5.8,
+    "analyst_target": 104.01167,
+    "analyst_upside_pct": 47.89089619228895
    },
    "short_interest": {
-    "pct_of_float": 4.35,
-    "days_to_cover": 3.59
+    "pct_of_float": 2.86,
+    "days_to_cover": 2.38
    },
    "insider": {
     "recent_buys": 0,
     "shares": null
    },
    "hot_score": {
-    "total": 33.4,
-    "valuation": 12.7,
+    "total": 31.3,
+    "valuation": 14.3,
     "technical": 3.7,
-    "catalyst": 4.9,
-    "sentiment": 12.2
+    "catalyst": 1.8,
+    "sentiment": 11.5
    },
    "reasons": [
-    "GEV reported earnings on Jul 22 \u2014 earnings reactions are the most common cause of a sharp break below the band.",
-    "Sharp one-day drop of -7.5% on Jul 22 \u2014 points to a specific catalyst (news, guidance, downgrade) rather than gradual selling."
+    "UBER reports earnings on Aug 05 \u2014 earnings reactions are the most common cause of a sharp break below the band."
    ],
    "news": [
     {
-     "title": "GE Vernova stock drops despite surging AI-driven orders as wind segment drags",
-     "link": "https://finance.yahoo.com/markets/stocks/article/ge-vernova-stock-drops-despite-surging-ai-driven-orders-as-wind-segment-drags-131509298.html",
-     "publisher": "Yahoo Finance"
-    },
-    {
-     "title": "Earnings live: GE Vernova stock falls despite surge in orders, AT&T stock pops",
-     "link": "https://finance.yahoo.com/markets/live/earnings-live-second-quarter-results-tesla-google-july-115324842.html",
-     "publisher": "Yahoo Finance"
-    },
-    {
-     "title": "Energy & Utilities Roundup: Market Talk",
-     "link": "https://www.wsj.com/business/energy-utilities-roundup-market-talk-ff60eb2f?siteid=yhoof2&yptr=yahoo",
-     "publisher": "The Wall Street Journal"
-    }
-   ],
-   "sentiment": {
-    "label": "Bullish",
-    "bullish_pct": 83.3,
-    "sample_size": 12
-   },
-   "earnings_surprise": {
-    "date": "2026-07-22",
-    "actual_eps": 2.47,
-    "estimate_eps": 3.18,
-    "surprise_pct": -22.32704402515723
-   }
-  },
-  {
-   "symbol": "PSA",
-   "name": "Public Storage",
-   "close": 309.57000732421875,
-   "lower_band": 309.92548023074505,
-   "pct_below_band": 0.11469625093801449,
-   "market_cap": 54359461888.0,
-   "chg_1d": -0.058109015587171076,
-   "chg_5d": -1.6238672526052156,
-   "chg_1mo": -3.3258365673242696,
-   "off_52w_high": -6.088462089659686,
-   "rsi": 42.44542877815567,
-   "rsi_divergence": false,
-   "macd_histogram": -1.955814434088531,
-   "macd_turning_up": false,
-   "volume_ratio": 0.25086821842640944,
-   "valuation": {
-    "forward_pe": 29.482767,
-    "trailing_pe": 31.917526,
-    "peg_ratio": 4.51,
-    "analyst_target": 332.875,
-    "analyst_upside_pct": 7.528181711535598
-   },
-   "short_interest": {
-    "pct_of_float": 5.08,
-    "days_to_cover": 6.64
-   },
-   "insider": {
-    "recent_buys": 0,
-    "shares": null
-   },
-   "hot_score": {
-    "total": 33.2,
-    "valuation": 8.1,
-    "technical": 3.7,
-    "catalyst": 3.2,
-    "sentiment": 18.3
-   },
-   "reasons": [
-    "PSA reports earnings on Jul 29 \u2014 earnings reactions are the most common cause of a sharp break below the band."
-   ],
-   "news": [
-    {
-     "title": "Public Storage Completes Acquisition of National Storage Affiliates Trust",
-     "link": "https://finance.yahoo.com/real-estate/articles/public-storage-completes-acquisition-national-160618216.html",
-     "publisher": "MT Newswires"
-    },
-    {
-     "title": "Barclays upgrades CubeSmart, cuts Public Storage on relative valuation",
-     "link": "https://finance.yahoo.com/real-estate/articles/barclays-upgrades-cubesmart-cuts-public-134755509.html",
+     "title": "Kalanick\u2019s Atoms raises $1.7B in a16z-led round for industrial AI",
+     "link": "https://finance.yahoo.com/technology/ai/articles/kalanick-atoms-raises-1-7b-212701007.html",
      "publisher": "Investing.com"
     },
     {
-     "title": "Shopify upgraded, PepsiCo downgrade: Wall Street's top analyst calls",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/shopify-upgraded-pepsico-downgrade-wall-133847787.html",
-     "publisher": "The Fly"
+     "title": "Sunteck Realty Ltd (BOM:512179) Q1 2027 Earnings Call Highlights: Strong Growth in Pre-sales ...",
+     "link": "https://finance.yahoo.com/real-estate/articles/sunteck-realty-ltd-bom-512179-190039935.html",
+     "publisher": "GuruFocus.com"
+    },
+    {
+     "title": "Travis Kalanick\u2019s robotics company raises $1.7B, led by a16z",
+     "link": "https://finance.yahoo.com/technology/articles/travis-kalanick-robotics-company-raises-185044673.html",
+     "publisher": "TechCrunch"
     }
    ],
    "sentiment": {
     "label": "Bullish",
-    "bullish_pct": 87.5,
-    "sample_size": 8
+    "bullish_pct": 100.0,
+    "sample_size": 11
    },
    "earnings_surprise": {
-    "date": "2026-04-27",
-    "actual_eps": 2.47,
-    "estimate_eps": 2.42,
-    "surprise_pct": 2.06611570247935
+    "date": "2026-05-06",
+    "actual_eps": 0.13,
+    "estimate_eps": 0.71,
+    "surprise_pct": -81.69014084507043
    }
   }
  ]
