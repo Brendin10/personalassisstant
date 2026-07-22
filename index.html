@@ -242,6 +242,44 @@
   #view-stocks h2   { color: var(--amber); }
   #view-quantum h2  { color: var(--violet); }
   #view-creative h2 { color: var(--pink); }
+
+  /* quantum circuit playground */
+  .qp-toplist { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 20px; }
+  .qp-chip {
+    background: var(--bg); border: 1px solid var(--border); color: var(--text-dim);
+    border-radius: 20px; padding: 7px 14px; font-size: 12.5px; cursor: pointer;
+    transition: border-color .15s, color .15s;
+  }
+  .qp-chip:hover { color: var(--text); border-color: var(--violet); }
+  .qp-chip.active { color: #1a1030; background: var(--violet); border-color: var(--violet); font-weight: 600; }
+  .qp-cat { font-size: 10.5px; letter-spacing: 1.5px; text-transform: uppercase; color: var(--text-dim); width: 100%; margin: 10px 0 2px; }
+  .qp-cat:first-child { margin-top: 0; }
+  .qp-blurb { font-size: 13.5px; color: var(--text); line-height: 1.6; margin: 4px 0 10px; }
+  .qp-use { font-size: 13px; color: var(--text-dim); line-height: 1.6; margin-bottom: 18px; }
+  .qp-use strong { color: var(--cyan); font-weight: 600; }
+  .qp-params { display: flex; flex-wrap: wrap; gap: 16px; align-items: flex-end; margin-bottom: 18px; }
+  .qp-param { display: flex; flex-direction: column; gap: 6px; }
+  .qp-param label { font-size: 11px; letter-spacing: 1px; text-transform: uppercase; color: var(--text-dim); }
+  .qp-param select {
+    background: var(--bg); border: 1px solid var(--border); color: var(--text);
+    border-radius: 8px; padding: 8px 12px; font-size: 13px; min-width: 150px;
+  }
+  .qp-param input[type=range] { accent-color: var(--violet); width: 180px; }
+  .qp-param .qp-range-val { font-size: 12px; color: var(--text-dim); font-variant-numeric: tabular-nums; }
+  .qp-diagram-wrap {
+    background: var(--bg); border: 1px solid var(--border); border-radius: 12px;
+    padding: 10px 4px; margin-bottom: 20px; overflow-x: auto;
+  }
+  .qp-chart { display: flex; flex-direction: column; gap: 8px; }
+  .qp-bar-row { display: grid; grid-template-columns: 60px 1fr 52px; align-items: center; gap: 10px; }
+  .qp-bar-label { font-size: 12.5px; font-variant-numeric: tabular-nums; color: var(--text-dim); }
+  .qp-bar-track { background: rgba(154,107,255,0.08); border-radius: 6px; height: 18px; overflow: hidden; }
+  .qp-bar-fill {
+    height: 100%; border-radius: 6px;
+    background: linear-gradient(90deg, var(--violet), var(--cyan));
+    transition: width .35s ease;
+  }
+  .qp-bar-pct { font-size: 12px; color: var(--text-dim); text-align: right; font-variant-numeric: tabular-nums; }
 </style>
 </head>
 <body>
@@ -357,9 +395,15 @@
     <h2>Quantum</h2>
     <p class="sub">Computing &amp; experiments</p>
     <div class="panel">
-      <span class="badge">Coming soon</span>
       <h3>Circuit Playground</h3>
-      <p>Build and simulate simple quantum circuits in the browser.</p>
+      <p style="margin-bottom:16px">Pick a circuit below to see it simulated live — a real state-vector
+      simulation running in your browser, not a canned animation.</p>
+      <div class="qp-toplist" id="qp-toplist"></div>
+      <p class="qp-blurb" id="qp-blurb"></p>
+      <p class="qp-use" id="qp-use"></p>
+      <div class="qp-params" id="qp-params"></div>
+      <div class="qp-diagram-wrap" id="qp-diagram"></div>
+      <div class="qp-chart" id="qp-chart"></div>
     </div>
     <div class="panel">
       <h3>Learning Log</h3>
@@ -758,6 +802,315 @@
     }
   }
   loadScreener();
+
+  // ---------- QUANTUM CIRCUIT PLAYGROUND ----------
+  // Self-contained state-vector simulator (up to 3 qubits) + SVG circuit
+  // diagram renderer + probability bar chart. No external libs.
+  (function () {
+    const Cx = (re, im = 0) => ({ re, im });
+    const H_M = [[Cx(Math.SQRT1_2), Cx(Math.SQRT1_2)], [Cx(Math.SQRT1_2), Cx(-Math.SQRT1_2)]];
+    const X_M = [[Cx(0), Cx(1)], [Cx(1), Cx(0)]];
+    const Z_M = [[Cx(1), Cx(0)], [Cx(0), Cx(-1)]];
+    const RY_M = theta => { const c = Math.cos(theta / 2), s = Math.sin(theta / 2); return [[Cx(c), Cx(-s)], [Cx(s), Cx(c)]]; };
+    const PHASE_M = theta => [[Cx(1), Cx(0)], [Cx(0), Cx(Math.cos(theta), Math.sin(theta))]];
+
+    function applyGate1(re, im, n, q, m) {
+      const step = 1 << (n - 1 - q), size = 1 << n;
+      for (let base = 0; base < size; base++) {
+        if (base & step) continue;
+        const i0 = base, i1 = base | step;
+        const a0r = re[i0], a0i = im[i0], a1r = re[i1], a1i = im[i1];
+        re[i0] = m[0][0].re * a0r - m[0][0].im * a0i + m[0][1].re * a1r - m[0][1].im * a1i;
+        im[i0] = m[0][0].re * a0i + m[0][0].im * a0r + m[0][1].re * a1i + m[0][1].im * a1r;
+        re[i1] = m[1][0].re * a0r - m[1][0].im * a0i + m[1][1].re * a1r - m[1][1].im * a1i;
+        im[i1] = m[1][0].re * a0i + m[1][0].im * a0r + m[1][1].re * a1i + m[1][1].im * a1r;
+      }
+    }
+    function applyCtrl(re, im, n, c, t, m) {
+      const cMask = 1 << (n - 1 - c), tMask = 1 << (n - 1 - t), size = 1 << n;
+      for (let base = 0; base < size; base++) {
+        if (base & tMask) continue;
+        if (!(base & cMask)) continue;
+        const i0 = base, i1 = base | tMask;
+        const a0r = re[i0], a0i = im[i0], a1r = re[i1], a1i = im[i1];
+        re[i0] = m[0][0].re * a0r - m[0][0].im * a0i + m[0][1].re * a1r - m[0][1].im * a1i;
+        im[i0] = m[0][0].re * a0i + m[0][0].im * a0r + m[0][1].re * a1i + m[0][1].im * a1r;
+        re[i1] = m[1][0].re * a0r - m[1][0].im * a0i + m[1][1].re * a1r - m[1][1].im * a1i;
+        im[i1] = m[1][0].re * a0i + m[1][0].im * a0r + m[1][1].re * a1i + m[1][1].im * a1r;
+      }
+    }
+    function applySwap(re, im, n, a, b) {
+      const aMask = 1 << (n - 1 - a), bMask = 1 << (n - 1 - b), size = 1 << n;
+      for (let idx = 0; idx < size; idx++) {
+        const abit = idx & aMask ? 1 : 0, bbit = idx & bMask ? 1 : 0;
+        if (abit === 1 && bbit === 0) {
+          const j = idx ^ aMask ^ bMask;
+          const tr = re[idx], ti = im[idx];
+          re[idx] = re[j]; im[idx] = im[j]; re[j] = tr; im[j] = ti;
+        }
+      }
+    }
+    function simulate(n, ops) {
+      const size = 1 << n;
+      const re = new Float64Array(size), im = new Float64Array(size);
+      re[0] = 1;
+      for (const op of ops) {
+        if (op.kind === "g1") applyGate1(re, im, n, op.q, op.m);
+        else if (op.kind === "c") applyCtrl(re, im, n, op.c, op.t, op.m);
+        else if (op.kind === "swap") applySwap(re, im, n, op.a, op.b);
+      }
+      const probs = [];
+      for (let i = 0; i < size; i++) probs.push(re[i] * re[i] + im[i] * im[i]);
+      return probs;
+    }
+
+    const g1 = (q, label, m) => ({ kind: "g1", q, label, m });
+    const ctl = (c, t, label, m) => ({ kind: "c", c, t, label, m });
+    const swp = (a, b) => ({ kind: "swap", a, b, label: "SWAP" });
+
+    const PRESETS = [
+      {
+        id: "rng", cat: "Fundamentals", name: "Quantum RNG", qubits: 1,
+        blurb: "A single Hadamard gate puts the qubit into an equal superposition of 0 and 1. Measuring collapses it randomly — true physical randomness, not a pseudo-random algorithm.",
+        use: "Cryptographic key generation, Monte Carlo simulation seeding, and provably-fair gaming/lottery draws.",
+        params: [], buildOps: () => [g1(0, "H", H_M)],
+      },
+      {
+        id: "bell", cat: "Fundamentals", name: "Bell State", qubits: 2,
+        blurb: "Hadamard creates superposition on qubit 0, then CNOT entangles it with qubit 1. Measuring one qubit instantly determines the other, even though each qubit's own outcome is random.",
+        use: "The basic resource behind quantum teleportation, superdense coding, and quantum key distribution (E91 protocol).",
+        params: [], buildOps: () => [g1(0, "H", H_M), ctl(0, 1, "X", X_M)],
+      },
+      {
+        id: "ghz", cat: "Fundamentals", name: "GHZ State", qubits: 3,
+        blurb: "Extends entanglement across three qubits — they collapse to all-0s or all-1s together, 50/50, with nothing in between.",
+        use: "Multi-party quantum protocols, quantum sensing networks, and as a standard test case for detecting decoherence.",
+        params: [], buildOps: () => [g1(0, "H", H_M), ctl(0, 1, "X", X_M), ctl(1, 2, "X", X_M)],
+      },
+      {
+        id: "superdense", cat: "Communication", name: "Superdense Coding", qubits: 2,
+        blurb: "Two entangled qubits let you send 2 classical bits by physically transmitting only 1 qubit — the receiver already holds the other half of the entangled pair. Try any message below: the final measurement always recovers it with 100% probability.",
+        use: "Demonstrates entanglement as a communication resource; conceptual basis for high-capacity quantum links.",
+        params: [{ type: "select", id: "msg", label: "Message", def: "00", options: ["00", "01", "10", "11"] }],
+        buildOps: p => {
+          const enc = { "00": [], "01": [g1(0, "X", X_M)], "10": [g1(0, "Z", Z_M)], "11": [g1(0, "X", X_M), g1(0, "Z", Z_M)] }[p.msg];
+          return [g1(0, "H", H_M), ctl(0, 1, "X", X_M), ...enc, ctl(0, 1, "X", X_M), g1(0, "H", H_M)];
+        },
+      },
+      {
+        id: "dj", cat: "Algorithms", name: "Deutsch–Jozsa", qubits: 2,
+        blurb: "One query determines whether a hidden function is constant or balanced. Watch qubit 0 (top wire) after the run: 100% |0⟩ means constant, 100% |1⟩ means balanced.",
+        use: "The cleanest textbook demo of quantum query-complexity advantage — conceptual ancestor of Simon's algorithm and Shor's algorithm.",
+        params: [{ type: "select", id: "oracle", label: "Oracle", def: "bal_id", options: [
+          { v: "const0", l: "Constant (f=0)" }, { v: "const1", l: "Constant (f=1)" },
+          { v: "bal_id", l: "Balanced (f=x)" }, { v: "bal_not", l: "Balanced (f=¬x)" },
+        ] }],
+        buildOps: p => {
+          const base = [g1(1, "X", X_M), g1(0, "H", H_M), g1(1, "H", H_M)];
+          const oracle = { const0: [], const1: [g1(1, "X", X_M)], bal_id: [ctl(0, 1, "X", X_M)], bal_not: [ctl(0, 1, "X", X_M), g1(1, "X", X_M)] }[p.oracle];
+          return [...base, ...oracle, g1(0, "H", H_M)];
+        },
+      },
+      {
+        id: "grover", cat: "Algorithms", name: "Grover's Search", qubits: 2,
+        blurb: "The oracle flips the sign of the target item's amplitude; the diffuser then reflects every amplitude about their average, boosting the target. For 4 items with 1 marked item, a single iteration finds it with 100% probability — classically you'd need up to 3 guesses.",
+        use: "Unstructured search, SAT/constraint solvers, and a subroutine for accelerating brute-force search inside larger algorithms.",
+        params: [{ type: "select", id: "target", label: "Marked item", def: "11", options: ["00", "01", "10", "11"] }],
+        buildOps: p => {
+          const flips = [];
+          if (p.target[0] === "0") flips.push(g1(0, "X", X_M));
+          if (p.target[1] === "0") flips.push(g1(1, "X", X_M));
+          const oracle = [...flips, ctl(0, 1, "Z", Z_M), ...flips];
+          const diff = [g1(0, "H", H_M), g1(1, "H", H_M), g1(0, "X", X_M), g1(1, "X", X_M), ctl(0, 1, "Z", Z_M), g1(0, "X", X_M), g1(1, "X", X_M), g1(0, "H", H_M), g1(1, "H", H_M)];
+          return [g1(0, "H", H_M), g1(1, "H", H_M), ...oracle, ...diff];
+        },
+      },
+      {
+        id: "qft", cat: "Algorithms", name: "Quantum Fourier Transform", qubits: 3,
+        blurb: "Notice every outcome ends up equally probable no matter the input — QFT doesn't change probabilities of a basis state, only the phase relationships between outcomes. That hidden phase is exactly what algorithms like Shor's read out via interference in later steps.",
+        use: "Core subroutine of Shor's factoring algorithm and quantum phase estimation — finding periodicity in modular exponentiation.",
+        params: [{ type: "select", id: "input", label: "Input state", def: "1", options: [
+          { v: "0", l: "|000⟩" }, { v: "1", l: "|001⟩" }, { v: "2", l: "|010⟩" }, { v: "3", l: "|011⟩" },
+          { v: "4", l: "|100⟩" }, { v: "5", l: "|101⟩" }, { v: "6", l: "|110⟩" }, { v: "7", l: "|111⟩" },
+        ] }],
+        buildOps: p => {
+          const val = parseInt(p.input, 10);
+          const prep = [];
+          for (let i = 0; i < 3; i++) if ((val >> (2 - i)) & 1) prep.push(g1(i, "X", X_M));
+          const qft = [
+            g1(0, "H", H_M), ctl(1, 0, "P(π/2)", PHASE_M(Math.PI / 2)), ctl(2, 0, "P(π/4)", PHASE_M(Math.PI / 4)),
+            g1(1, "H", H_M), ctl(2, 1, "P(π/2)", PHASE_M(Math.PI / 2)),
+            g1(2, "H", H_M), swp(0, 2),
+          ];
+          return [...prep, ...qft];
+        },
+      },
+      {
+        id: "vqe", cat: "NISQ / practical", name: "Variational Ansatz", qubits: 2,
+        blurb: "Parameterized rotation gates plus an entangler form a tunable 'ansatz.' In practice, a classical optimizer nudges the angles to minimize a cost function (like a molecule's ground-state energy) — drag the sliders to see how the output distribution shifts.",
+        use: "Quantum chemistry (molecular ground states), combinatorial optimization, and quantum ML kernels — the leading near-term applications on today's noisy hardware.",
+        params: [
+          { type: "range", id: "theta0", label: "θ₀ (qubit 0)", def: (Math.PI / 2).toFixed(2), min: 0, max: (2 * Math.PI).toFixed(2), step: 0.01 },
+          { type: "range", id: "theta1", label: "θ₁ (qubit 1)", def: (Math.PI / 3).toFixed(2), min: 0, max: (2 * Math.PI).toFixed(2), step: 0.01 },
+        ],
+        buildOps: p => [g1(0, "RY(θ₀)", RY_M(parseFloat(p.theta0))), g1(1, "RY(θ₁)", RY_M(parseFloat(p.theta1))), ctl(0, 1, "X", X_M)],
+      },
+    ];
+
+    const qpToplist = document.getElementById("qp-toplist");
+    const qpBlurb = document.getElementById("qp-blurb");
+    const qpUse = document.getElementById("qp-use");
+    const qpParams = document.getElementById("qp-params");
+    const qpDiagram = document.getElementById("qp-diagram");
+    const qpChart = document.getElementById("qp-chart");
+    let currentPreset = PRESETS[1]; // Bell state by default
+    let currentParams = {};
+
+    function initParams(preset) {
+      currentParams = {};
+      for (const p of preset.params) currentParams[p.id] = p.def;
+    }
+
+    function renderToplist() {
+      qpToplist.innerHTML = "";
+      let lastCat = null;
+      for (const preset of PRESETS) {
+        if (preset.cat !== lastCat) {
+          const catEl = document.createElement("span");
+          catEl.className = "qp-cat";
+          catEl.textContent = preset.cat;
+          qpToplist.appendChild(catEl);
+          lastCat = preset.cat;
+        }
+        const chip = document.createElement("button");
+        chip.className = "qp-chip" + (preset.id === currentPreset.id ? " active" : "");
+        chip.textContent = preset.name;
+        chip.addEventListener("click", () => {
+          currentPreset = preset;
+          initParams(preset);
+          renderAll();
+        });
+        qpToplist.appendChild(chip);
+      }
+    }
+
+    function renderParams() {
+      qpParams.innerHTML = "";
+      for (const p of currentPreset.params) {
+        const wrap = document.createElement("div");
+        wrap.className = "qp-param";
+        const label = document.createElement("label");
+        label.textContent = p.label;
+        wrap.appendChild(label);
+        if (p.type === "select") {
+          const sel = document.createElement("select");
+          for (const opt of p.options) {
+            const o = document.createElement("option");
+            if (typeof opt === "string") { o.value = opt; o.textContent = opt; }
+            else { o.value = opt.v; o.textContent = opt.l; }
+            if (o.value === currentParams[p.id]) o.selected = true;
+            sel.appendChild(o);
+          }
+          sel.addEventListener("change", () => { currentParams[p.id] = sel.value; renderDiagramAndChart(); });
+          wrap.appendChild(sel);
+        } else if (p.type === "range") {
+          const row = document.createElement("div");
+          row.style.display = "flex"; row.style.alignItems = "center"; row.style.gap = "8px";
+          const input = document.createElement("input");
+          input.type = "range"; input.min = p.min; input.max = p.max; input.step = p.step;
+          input.value = currentParams[p.id];
+          const val = document.createElement("span");
+          val.className = "qp-range-val";
+          val.textContent = parseFloat(currentParams[p.id]).toFixed(2);
+          input.addEventListener("input", () => {
+            currentParams[p.id] = input.value;
+            val.textContent = parseFloat(input.value).toFixed(2);
+            renderDiagramAndChart();
+          });
+          row.appendChild(input); row.appendChild(val);
+          wrap.appendChild(row);
+        }
+        qpParams.appendChild(wrap);
+      }
+    }
+
+    function renderDiagram(qubits, ops) {
+      const rowH = 46, colW = 56, leftPad = 46, topPad = 24;
+      const width = leftPad + ops.length * colW + 30;
+      const height = topPad * 2 + (qubits - 1) * rowH;
+      let svg = `<svg viewBox="0 0 ${width} ${Math.max(height, topPad * 2)}" width="${width}" height="${Math.max(height, topPad * 2)}" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, sans-serif">`;
+      for (let q = 0; q < qubits; q++) {
+        const y = topPad + q * rowH;
+        svg += `<line x1="${leftPad}" y1="${y}" x2="${width - 14}" y2="${y}" stroke="#1c2740" stroke-width="2"/>`;
+        svg += `<text x="8" y="${y + 4}" fill="#7c8aa8" font-size="12">q${q}</text>`;
+      }
+      ops.forEach((op, j) => {
+        const x = leftPad + colW * (j + 0.5);
+        if (op.kind === "g1") {
+          const y = topPad + op.q * rowH;
+          const w = Math.max(34, op.label.length * 9 + 10);
+          svg += `<rect x="${x - w / 2}" y="${y - 16}" width="${w}" height="32" rx="8" fill="#0d1220" stroke="#9a6bff" stroke-width="1.5"/>`;
+          svg += `<text x="${x}" y="${y + 4}" fill="#d7e0f2" font-size="12" text-anchor="middle">${op.label}</text>`;
+        } else if (op.kind === "swap") {
+          const ya = topPad + op.a * rowH, yb = topPad + op.b * rowH;
+          svg += `<line x1="${x}" y1="${ya}" x2="${x}" y2="${yb}" stroke="#9a6bff" stroke-width="2"/>`;
+          [ya, yb].forEach(y => {
+            svg += `<line x1="${x - 7}" y1="${y - 7}" x2="${x + 7}" y2="${y + 7}" stroke="#9a6bff" stroke-width="2"/>`;
+            svg += `<line x1="${x - 7}" y1="${y + 7}" x2="${x + 7}" y2="${y - 7}" stroke="#9a6bff" stroke-width="2"/>`;
+          });
+        } else if (op.kind === "c") {
+          const yc = topPad + op.c * rowH, yt = topPad + op.t * rowH;
+          svg += `<line x1="${x}" y1="${yc}" x2="${x}" y2="${yt}" stroke="#9a6bff" stroke-width="2"/>`;
+          svg += `<circle cx="${x}" cy="${yc}" r="5" fill="#9a6bff"/>`;
+          if (op.label === "X") {
+            svg += `<circle cx="${x}" cy="${yt}" r="12" fill="none" stroke="#9a6bff" stroke-width="2"/>`;
+            svg += `<line x1="${x - 9}" y1="${yt}" x2="${x + 9}" y2="${yt}" stroke="#9a6bff" stroke-width="2"/>`;
+            svg += `<line x1="${x}" y1="${yt - 9}" x2="${x}" y2="${yt + 9}" stroke="#9a6bff" stroke-width="2"/>`;
+          } else if (op.label === "Z") {
+            svg += `<circle cx="${x}" cy="${yt}" r="5" fill="#9a6bff"/>`;
+          } else {
+            const w = Math.max(40, op.label.length * 8 + 10);
+            svg += `<rect x="${x - w / 2}" y="${yt - 16}" width="${w}" height="32" rx="8" fill="#0d1220" stroke="#9a6bff" stroke-width="1.5"/>`;
+            svg += `<text x="${x}" y="${yt + 4}" fill="#d7e0f2" font-size="11" text-anchor="middle">${op.label}</text>`;
+          }
+        }
+      });
+      svg += "</svg>";
+      return svg;
+    }
+
+    function renderChart(qubits, probs) {
+      qpChart.innerHTML = "";
+      probs.forEach((p, i) => {
+        const label = i.toString(2).padStart(qubits, "0");
+        const row = document.createElement("div");
+        row.className = "qp-bar-row";
+        row.innerHTML =
+          `<div class="qp-bar-label">|${label}⟩</div>` +
+          `<div class="qp-bar-track"><div class="qp-bar-fill" style="width:${(p * 100).toFixed(1)}%"></div></div>` +
+          `<div class="qp-bar-pct">${(p * 100).toFixed(1)}%</div>`;
+        qpChart.appendChild(row);
+      });
+    }
+
+    function renderDiagramAndChart() {
+      const ops = currentPreset.buildOps(currentParams);
+      qpDiagram.innerHTML = renderDiagram(currentPreset.qubits, ops);
+      const probs = simulate(currentPreset.qubits, ops);
+      renderChart(currentPreset.qubits, probs);
+    }
+
+    function renderAll() {
+      renderToplist();
+      qpBlurb.textContent = currentPreset.blurb;
+      qpUse.innerHTML = "<strong>Used for:</strong> " + esc(currentPreset.use);
+      renderParams();
+      renderDiagramAndChart();
+    }
+
+    initParams(currentPreset);
+    renderAll();
+  })();
 </script>
 </body>
 </html>
