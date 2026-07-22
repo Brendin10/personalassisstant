@@ -124,6 +124,66 @@ def get_earnings_date(tkr, today):
         return None
 
 
+def get_earnings_surprise(tkr, today):
+    """Most recently REPORTED quarter's actual EPS vs analyst estimate."""
+    try:
+        ed = tkr.get_earnings_dates(limit=8)
+        if ed is None or ed.empty:
+            return None
+        ed = ed.sort_index()
+        past = ed[ed.index.date <= today]
+        if past.empty:
+            return None
+        # walk backward to the most recent row that actually has a reported figure
+        for date_idx, row in past.iloc[::-1].iterrows():
+            actual = row.get("Reported EPS")
+            estimate = row.get("EPS Estimate")
+            if pd.notna(actual) and pd.notna(estimate):
+                # computed directly from actual/estimate rather than trusting
+                # yfinance's raw Surprise(%) column, which has an inconsistent
+                # fraction-vs-percent format across symbols.
+                surprise_pct = ((actual - estimate) / abs(estimate) * 100) if estimate else None
+                return {
+                    "date": date_idx.date().isoformat(),
+                    "actual_eps": float(actual),
+                    "estimate_eps": float(estimate),
+                    "surprise_pct": float(surprise_pct) if surprise_pct is not None else None,
+                }
+        return None
+    except Exception as e:
+        print(f"  earnings surprise failed: {e}", file=sys.stderr)
+        return None
+
+
+def get_social_sentiment(sym):
+    """% bullish vs bearish from recent StockTwits posts for this symbol.
+    Public, unauthenticated endpoint - no API key. Best-effort: StockTwits
+    is not a guaranteed-stable API, so failures just omit sentiment rather
+    than breaking the whole screener run."""
+    url = f"https://api.stocktwits.com/api/2/streams/symbol/{sym}.json"
+    req = urllib.request.Request(url, headers=HEADERS)
+    try:
+        with urllib.request.urlopen(req, timeout=15) as r:
+            data = json.load(r)
+        messages = data.get("messages", []) or []
+        bullish = bearish = 0
+        for m in messages:
+            label = ((m.get("entities") or {}).get("sentiment") or {}).get("basic")
+            if label == "Bullish":
+                bullish += 1
+            elif label == "Bearish":
+                bearish += 1
+        total = bullish + bearish
+        if total == 0:
+            return {"label": "No sentiment data", "bullish_pct": None, "sample_size": len(messages)}
+        bullish_pct = round(bullish / total * 100, 1)
+        label = "Bullish" if bullish_pct >= 60 else "Bearish" if bullish_pct <= 40 else "Mixed"
+        return {"label": label, "bullish_pct": bullish_pct, "sample_size": total}
+    except Exception as e:
+        print(f"  sentiment failed for {sym}: {e}", file=sys.stderr)
+        return None
+
+
 def build_reasons(sym, closes, chg_1d, chg_5d, chg_1mo, off_52w, earnings_date, today):
     reasons = []
     if earnings_date is not None:
@@ -226,6 +286,8 @@ def main():
             "reasons": build_reasons(sym, closes, chg_1d, chg_5d, chg_1mo, off_52w,
                                      earnings_date, today),
             "news": get_news(tkr),
+            "sentiment": get_social_sentiment(sym),
+            "earnings_surprise": get_earnings_surprise(tkr, today),
         })
         print(f"  {sym}: ${close:.2f}, {results[-1]['pct_below_band']:.1f}% below band, "
               f"cap ${mc/1e9:.0f}B")

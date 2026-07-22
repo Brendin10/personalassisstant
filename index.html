@@ -339,7 +339,7 @@
       <p style="margin-bottom:4px">Stocks that closed <strong>below their lower Bollinger Band (20, 2σ)</strong> with a market cap over <strong>$20B</strong>. Click a row for insights on why it's down.</p>
       <p class="wl-status" id="sc-updated" style="margin-top:0;margin-bottom:12px"></p>
       <table class="wl-table">
-        <thead><tr><th>Symbol</th><th>Close</th><th>vs band</th><th>1d</th><th>Cap</th></tr></thead>
+        <thead><tr><th>Symbol</th><th>Close</th><th>vs band</th><th>1d</th><th>Cap</th><th>Sentiment</th><th>Last qtr EPS</th></tr></thead>
         <tbody id="sc-body"></tbody>
       </table>
       <p class="wl-status" id="sc-status">Loading…</p>
@@ -669,6 +669,19 @@
     return (x >= 0 ? "+" : "") + x.toFixed(digits) + "%";
   }
 
+  function fmtSentiment(s) {
+    if (!s || s.bullish_pct == null) return '<span class="dim">' + (s ? esc(s.label) : "–") + "</span>";
+    const cls = s.label === "Bullish" ? " up" : s.label === "Bearish" ? " down" : "";
+    return '<span class="' + cls + '">' + esc(s.label) + " " + s.bullish_pct.toFixed(0) + "%</span>";
+  }
+
+  function fmtEarningsSurprise(e) {
+    if (!e || e.surprise_pct == null) return '<span class="dim">–</span>';
+    const cls = e.surprise_pct >= 0 ? " up" : " down";
+    const word = e.surprise_pct >= 0 ? "Beat" : "Miss";
+    return '<span class="' + cls + '">' + word + " " + Math.abs(e.surprise_pct).toFixed(1) + "%</span>";
+  }
+
   function openModal(item) {
     const reasons = (item.reasons || []).map(r => "<li>" + esc(r) + "</li>").join("");
     const news = (item.news || []).map(n =>
@@ -686,6 +699,10 @@
         stat("Off 52w high", fmtPct(item.off_52w_high)) +
         stat("RSI(14) daily", item.rsi == null ? "–" : item.rsi.toFixed(1)) +
         stat("Market cap", "$" + (item.market_cap / 1e9).toFixed(0) + "B") +
+        stat("Social sentiment", fmtSentiment(item.sentiment)) +
+        stat("Last qtr EPS", item.earnings_surprise == null ? "–" :
+          "$" + item.earnings_surprise.actual_eps.toFixed(2) + " vs $" +
+          item.earnings_surprise.estimate_eps.toFixed(2) + " est (" + fmtEarningsSurprise(item.earnings_surprise) + ")") +
       "</div>" +
       "<h4>Probable reasons for the drop</h4>" +
       (reasons ? '<ul class="sc-reasons">' + reasons + "</ul>" : "<p class='dim'>No clear signal detected.</p>") +
@@ -723,7 +740,9 @@
           "<td>$" + item.close.toFixed(2) + "</td>" +
           '<td class="down">' + fmtPct(-item.pct_below_band) + "</td>" +
           '<td class="' + (item.chg_1d >= 0 ? "up" : "down") + '">' + fmtPct(item.chg_1d) + "</td>" +
-          "<td>$" + (item.market_cap / 1e9).toFixed(0) + "B</td>";
+          "<td>$" + (item.market_cap / 1e9).toFixed(0) + "B</td>" +
+          "<td>" + fmtSentiment(item.sentiment) + "</td>" +
+          "<td>" + fmtEarningsSurprise(item.earnings_surprise) + "</td>";
         tr.addEventListener("click", () => openModal(item));
         scList.appendChild(tr);
       }
