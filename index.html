@@ -238,6 +238,19 @@
   .sc-news li a { color: var(--cyan); text-decoration: none; }
   .sc-news li a:hover { text-decoration: underline; }
 
+  /* hot score */
+  .hot-badge {
+    display: inline-block; padding: 3px 11px; border-radius: 12px;
+    font-weight: 700; font-size: 13px; font-variant-numeric: tabular-nums;
+  }
+  .hot-badge.hot-high { background: rgba(61,255,160,.15); color: var(--green); }
+  .hot-badge.hot-mid  { background: rgba(255,199,95,.15); color: var(--amber); }
+  .hot-badge.hot-low  { background: rgba(124,138,168,.12); color: var(--text-dim); }
+  .hot-breakdown { display: grid; grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); gap: 8px; margin: 10px 0 4px; }
+  .hot-bd-item { background: var(--bg); border: 1px solid var(--border); border-radius: 8px; padding: 8px 10px; }
+  .hot-bd-item span { display: block; font-size: 10px; letter-spacing: .5px; text-transform: uppercase; color: var(--text-dim); margin-bottom: 3px; }
+  .hot-bd-item strong { font-size: 14px; font-variant-numeric: tabular-nums; }
+
   #view-personal h2 { color: var(--green); }
   #view-stocks h2   { color: var(--amber); }
   #view-quantum h2  { color: var(--violet); }
@@ -374,10 +387,10 @@
     </div>
     <div class="panel">
       <h3>Oversold screener</h3>
-      <p style="margin-bottom:4px">Stocks that closed <strong>below their lower Bollinger Band (20, 2σ)</strong> with a market cap over <strong>$20B</strong>. Click a row for insights on why it's down.</p>
+      <p style="margin-bottom:4px">Stocks that closed <strong>below their lower Bollinger Band (20, 2σ)</strong> with a market cap over <strong>$20B</strong>, sorted by <strong>Hot Score</strong> — a 0-100 blend of valuation, reversal technicals, catalyst strength, and sentiment. Click a row for the full breakdown.</p>
       <p class="wl-status" id="sc-updated" style="margin-top:0;margin-bottom:12px"></p>
       <table class="wl-table">
-        <thead><tr><th>Symbol</th><th>Close</th><th>vs band</th><th>1d</th><th>Cap</th><th>RSI(14)</th><th>Sentiment</th><th>Last qtr EPS</th></tr></thead>
+        <thead><tr><th>Symbol</th><th>Hot</th><th>Close</th><th>vs band</th><th>1d</th><th>Cap</th><th>RSI(14)</th><th>Sentiment</th><th>Last qtr EPS</th></tr></thead>
         <tbody id="sc-body"></tbody>
       </table>
       <p class="wl-status" id="sc-status">Loading…</p>
@@ -732,14 +745,39 @@
     return '<span class="' + cls + '">' + v.toFixed(1) + "</span>";
   }
 
+  function fmtHotBadge(hot) {
+    if (!hot || hot.total == null) return '<span class="dim">–</span>';
+    const cls = hot.total >= 65 ? "hot-high" : hot.total >= 40 ? "hot-mid" : "hot-low";
+    return '<span class="hot-badge ' + cls + '">' + hot.total.toFixed(0) + "</span>";
+  }
+
+  function fmtValNum(v, digits = 2) { return v == null ? "–" : v.toFixed(digits); }
+  function fmtBool(b, yes = "Yes", no = "No") {
+    if (b == null) return '<span class="dim">–</span>';
+    return b ? '<span class="up">' + yes + "</span>" : '<span class="dim">' + no + "</span>";
+  }
+
   function openModal(item) {
     const reasons = (item.reasons || []).map(r => "<li>" + esc(r) + "</li>").join("");
     const news = (item.news || []).map(n =>
       '<li><a href="' + esc(n.link) + '" target="_blank" rel="noopener">' + esc(n.title) + "</a>" +
       (n.publisher ? ' <span class="dim">— ' + esc(n.publisher) + "</span>" : "") + "</li>").join("");
+    const hot = item.hot_score || {};
+    const val = item.valuation || {};
+    const short = item.short_interest || {};
+    const insider = item.insider;
+    const hotBreakdown = hot.total == null ? "" :
+      '<h4>Hot Score breakdown — ' + fmtHotBadge(hot) + '</h4>' +
+      '<div class="hot-breakdown">' +
+        hotBdItem("Valuation", hot.valuation) +
+        hotBdItem("Technical", hot.technical) +
+        hotBdItem("Catalyst", hot.catalyst) +
+        hotBdItem("Sentiment", hot.sentiment) +
+      "</div>";
     modalBox.innerHTML =
       '<button class="sc-close" id="sc-close">✕</button>' +
       "<h3>" + esc(item.symbol) + '<span class="dim"> · ' + esc(item.name || "") + "</span></h3>" +
+      hotBreakdown +
       '<div class="sc-stats">' +
         stat("Close", "$" + item.close.toFixed(2)) +
         stat("Below band", fmtPct(-item.pct_below_band)) +
@@ -748,7 +786,15 @@
         stat("1 month", fmtPct(item.chg_1mo), item.chg_1mo) +
         stat("Off 52w high", fmtPct(item.off_52w_high)) +
         stat("RSI(14) daily", item.rsi == null ? "–" : item.rsi.toFixed(1)) +
+        stat("RSI bullish divergence", fmtBool(item.rsi_divergence)) +
+        stat("MACD turning up", fmtBool(item.macd_turning_up)) +
+        stat("Volume vs 20d avg", item.volume_ratio == null ? "–" : (item.volume_ratio * 100).toFixed(0) + "%") +
         stat("Market cap", "$" + (item.market_cap / 1e9).toFixed(0) + "B") +
+        stat("Forward P/E", fmtValNum(val.forward_pe, 1)) +
+        stat("PEG ratio", fmtValNum(val.peg_ratio, 2)) +
+        stat("Analyst upside", val.analyst_upside_pct == null ? "–" : fmtPct(val.analyst_upside_pct), val.analyst_upside_pct) +
+        stat("Short % of float", short.pct_of_float == null ? "–" : short.pct_of_float.toFixed(1) + "%") +
+        stat("Insider buys (90d)", insider == null ? "–" : (insider.recent_buys || 0) + (insider.recent_buys ? " ✓" : "")) +
         stat("Social sentiment", fmtSentiment(item.sentiment)) +
         stat("Last qtr EPS", item.earnings_surprise == null ? "–" :
           "$" + item.earnings_surprise.actual_eps.toFixed(2) + " vs $" +
@@ -764,6 +810,9 @@
   function stat(label, val, signed) {
     const cls = signed == null ? "" : signed >= 0 ? " up" : " down";
     return '<div class="sc-stat"><span>' + label + '</span><strong class="' + cls + '">' + val + "</strong></div>";
+  }
+  function hotBdItem(label, val) {
+    return '<div class="hot-bd-item"><span>' + label + '</span><strong>' + (val == null ? "–" : val.toFixed(1)) + "</strong></div>";
   }
   function closeModal() { modal.classList.remove("open"); }
   modal.addEventListener("click", e => { if (e.target === modal) closeModal(); });
@@ -787,6 +836,7 @@
         tr.className = "sc-row";
         tr.innerHTML =
           '<td class="sym">' + esc(item.symbol) + '<span class="dim"> ' + esc(item.name || "") + "</span></td>" +
+          "<td>" + fmtHotBadge(item.hot_score) + "</td>" +
           "<td>$" + item.close.toFixed(2) + "</td>" +
           '<td class="down">' + fmtPct(-item.pct_below_band) + "</td>" +
           '<td class="' + (item.chg_1d >= 0 ? "up" : "down") + '">' + fmtPct(item.chg_1d) + "</td>" +
