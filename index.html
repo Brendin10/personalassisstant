@@ -296,14 +296,68 @@
 
   /* resumes */
   .resume-list { display: flex; flex-direction: column; gap: 10px; }
-  .resume-link {
-    display: flex; flex-direction: column; gap: 2px;
+  .resume-card {
     background: var(--bg); border: 1px solid var(--border); border-radius: 10px;
-    padding: 12px 16px; text-decoration: none; transition: border-color .15s, background .15s;
+    padding: 12px 16px; transition: border-color .15s;
   }
-  .resume-link:hover { border-color: var(--green); background: rgba(61,255,160,0.05); }
-  .resume-name { color: var(--text); font-weight: 600; font-size: 14px; }
-  .resume-desc { color: var(--text-dim); font-size: 12.5px; }
+  .resume-card:hover { border-color: var(--green); }
+  .resume-name { color: var(--text); font-weight: 600; font-size: 14px; display: block; }
+  .resume-desc { color: var(--text-dim); font-size: 12.5px; display: block; margin-bottom: 10px; }
+  .resume-actions { display: flex; gap: 8px; flex-wrap: wrap; }
+  .resume-btn {
+    background: none; border: 1px solid var(--border); color: var(--text-dim);
+    border-radius: 7px; padding: 6px 12px; font-size: 12px; cursor: pointer;
+    text-decoration: none; transition: border-color .15s, color .15s;
+  }
+  .resume-btn:hover { color: var(--green); border-color: var(--green); }
+  .resume-btn.primary { color: var(--green); border-color: var(--green); }
+  .resume-btn.hunt { color: var(--amber); border-color: var(--amber); }
+
+  .resume-modal-box { max-width: 720px; }
+  .re-field { margin-bottom: 14px; }
+  .re-field label {
+    display: block; font-size: 10.5px; letter-spacing: 1px; text-transform: uppercase;
+    color: var(--text-dim); margin-bottom: 5px;
+  }
+  .re-field input, .re-field textarea {
+    width: 100%; background: var(--bg); border: 1px solid var(--border); color: var(--text);
+    border-radius: 8px; padding: 9px 12px; font-size: 13px; font-family: inherit; resize: vertical;
+  }
+  .re-field textarea { min-height: 64px; line-height: 1.5; }
+  .re-hint { font-size: 11px; color: var(--text-dim); margin-top: 4px; }
+  .re-exp-block {
+    border: 1px solid var(--border); border-radius: 10px; padding: 12px; margin-bottom: 10px;
+    position: relative;
+  }
+  .re-exp-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 10px; }
+  .re-exp-remove {
+    position: absolute; top: 10px; right: 10px; background: none; border: none;
+    color: var(--text-dim); cursor: pointer; font-size: 14px;
+  }
+  .re-exp-remove:hover { color: var(--pink); }
+  .re-toolbar { display: flex; gap: 8px; flex-wrap: wrap; margin: 6px 0 20px; }
+  .re-toolbar button {
+    border-radius: 8px; padding: 8px 16px; font-size: 12.5px; font-weight: 600; cursor: pointer; border: 1px solid var(--border);
+  }
+  .re-save { background: var(--green); color: #06210f; border-color: var(--green) !important; }
+  .re-reset { background: none; color: var(--text-dim); }
+  .re-download { background: var(--cyan); color: #04222b; border-color: var(--cyan) !important; }
+  .re-add { background: none; color: var(--text-dim); font-size: 12px; padding: 6px 12px; border-radius: 7px; cursor: pointer; border: 1px dashed var(--border); width: 100%; }
+  .re-add:hover { color: var(--text); border-color: var(--text-dim); }
+  .re-saved-note { font-size: 11.5px; color: var(--green); margin-left: 4px; }
+
+  /* job hunt */
+  .job-card {
+    background: var(--bg); border: 1px solid var(--border); border-radius: 10px;
+    padding: 12px 16px; margin-bottom: 10px; display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap;
+  }
+  .job-main { flex: 1; min-width: 200px; }
+  .job-title { font-weight: 600; font-size: 14px; color: var(--text); }
+  .job-title a { color: inherit; text-decoration: none; }
+  .job-title a:hover { color: var(--cyan); }
+  .job-meta { font-size: 12px; color: var(--text-dim); margin-top: 2px; }
+  .job-salary { color: var(--green); }
+  .job-actions { display: flex; align-items: center; gap: 8px; }
 </style>
 </head>
 <body>
@@ -348,18 +402,25 @@
     <p class="sub">Life management hub</p>
     <div class="panel">
       <h3>Resumes</h3>
-      <p style="margin-bottom:14px">Two versions, tailored for different opportunities. Right-click → "Save link as" or just click to download.</p>
-      <div class="resume-list">
-        <a class="resume-link" href="resumes/Brendin_Van_Niekerk_Resume_Technical.docx" download>
-          <span class="resume-name">Technical Resume</span>
-          <span class="resume-desc">Data analytics, cybersecurity &amp; quantum computing</span>
-        </a>
-        <a class="resume-link" href="resumes/Brendin_Van_Niekerk_Resume_Editor.docx" download>
-          <span class="resume-name">Editor Resume</span>
-          <span class="resume-desc">Video editing &amp; YouTube content production</span>
-        </a>
-      </div>
+      <p style="margin-bottom:14px">Two versions, tailored for different opportunities. Click one to edit it right here in the browser, download the original, or search live openings that match it.</p>
+      <div class="resume-list" id="resume-list"></div>
     </div>
+
+    <div class="panel" id="jobhunt-panel" style="display:none">
+      <h3>Job Hunt — <span id="jobhunt-title"></span></h3>
+      <p class="wl-status" id="jobhunt-updated" style="margin-top:0;margin-bottom:12px"></p>
+      <div id="jobhunt-list"></div>
+    </div>
+
+    <div class="panel">
+      <h3>Shortlist</h3>
+      <p class="wl-status dim" id="shortlist-empty" style="margin-top:0">No jobs shortlisted yet — click "Save" on a listing in Job Hunt to add it here.</p>
+      <div id="shortlist-list"></div>
+    </div>
+
+    <!-- resume editor modal -->
+    <div id="resume-modal" class="sc-modal"><div id="resume-modal-box" class="sc-modal-box resume-modal-box"></div></div>
+
     <div class="panel">
       <span class="badge">Coming soon</span>
       <h3>Tasks &amp; Reminders</h3>
@@ -1185,6 +1246,455 @@
 
     initParams(currentPreset);
     renderAll();
+  })();
+
+  // ---------- RESUMES: in-page editor, Word export, Job Hunt, Shortlist ----------
+  (function () {
+    const RESUME_DEFAULTS = {
+      technical: {
+        name: "Brendin Van Niekerk",
+        title: "Data Analytics · Cybersecurity · Quantum Computing",
+        contactLine: "Indiana  |  (574) 780-9499  |  forecastplusllc@gmail.com",
+        linkedin: "https://www.linkedin.com/in/brendin-van-niekerk-048bb42a5",
+        summary: "Self-directed technical professional transitioning into data analytics, cybersecurity, and quantum computing, backed by IBM and Google professional certifications and a hands-on background built over 15+ years across skilled trades and operations. Proven ability to diagnose complex problems systematically, work independently under deadline pressure, and pick up new technical systems quickly — now applying that same discipline to data-driven and security-focused work.",
+        certifications: [
+          "IBM Data Analyst Professional Certificate — IBM / Coursera",
+          "Google Cybersecurity Professional Certificate — Google / Coursera",
+          "IBM Quantum Computing Certification (Beginner) — IBM / Coursera",
+        ],
+        skillsHeading: "Technical Skills",
+        skills: [
+          "Data Analytics: Excel, SQL, Python, Tableau, IBM Cognos Analytics, data cleaning, data visualization",
+          "Cybersecurity: Network security fundamentals, risk & vulnerability assessment, SIEM tools, Python scripting, Linux, NIST Cybersecurity Framework, incident detection & response",
+          "Quantum Computing: Qubits & superposition, quantum gates & circuits, Qiskit, foundational quantum algorithms",
+        ],
+        project: {
+          heading: "Featured Project",
+          title: "Personal Data & Quantum Computing Web Platform",
+          org: "Independent Project",
+          dates: "2026 – Present",
+          bullets: [
+            "Designed and built a full-stack web application automating daily stock analysis: pulls market data via Python, computes technical/valuation indicators, and produces a composite 0–100 scoring model to rank candidates.",
+            "Automated the entire data pipeline with scheduled GitHub Actions workflows (Python) — zero manual intervention from data pull through publishing.",
+            "Built a quantum computing simulator from scratch in JavaScript: a state-vector engine simulating real quantum circuits (superposition, entanglement, interference) with live circuit-diagram and probability visualizations.",
+          ],
+        },
+        experienceHeading: "Professional Experience",
+        experience: [
+          { title: "Assistant Editor", org: "Brewzle", dates: "2025 – Present", bullets: [
+            "Review and edit video content for compliance with YouTube's Community Guidelines and monetization policies before publishing.",
+            "Manage structured, deadline-driven production workflows across multiple video projects.",
+          ] },
+          { title: "Property Manager (Maintenance & Operations)", org: "Self-Employed", dates: "2018 – Present", bullets: [
+            "Independently manage maintenance, budgeting, and vendor coordination across a portfolio of rental properties.",
+            "Maintain organized operational records and troubleshoot issues without direct supervision.",
+          ] },
+          { title: "Roofing & Construction Technician", org: "SmartRoof", dates: "2018 – Present", bullets: [
+            "Execute construction and roofing projects in compliance with safety regulations and building codes.",
+            "Estimate materials and coordinate project timelines on residential job sites.",
+          ] },
+          { title: "Automotive Mechanic", org: "Preference Auto Body and Paint", dates: "2013 – 2022", bullets: [
+            "Diagnosed complex mechanical and electrical vehicle issues using systematic root-cause troubleshooting.",
+            "Interpreted technical diagnostic data to guide repairs and verified work against quality/safety standards.",
+          ] },
+        ],
+        additionalHeading: "Additional Experience",
+        additionalText: "Food Service Crew — North American Midway Entertainment (2010 – 2015): Delivered fast-paced customer service in a mobile food service environment.",
+        additionalExperience: [],
+        educationHeading: "Education & Additional Certifications",
+        education: [
+          "High School Diploma",
+          "ISSA Certified Personal Trainer, Nutritionist, Yoga Instructor, Exercise Therapist, and Nutrition Coach",
+        ],
+      },
+      editor: {
+        name: "Brendin Van Niekerk",
+        title: "Video Editor — Storytelling & Content Production",
+        contactLine: "Indiana  |  (574) 780-9499  |  forecastplusllc@gmail.com",
+        linkedin: "https://www.linkedin.com/in/brendin-van-niekerk-048bb42a5",
+        summary: "Video editor with hands-on experience shaping long-form YouTube content for an established channel — handling storytelling, story separation, pacing, and platform compliance from raw footage to publish-ready video. Brings a strong, reliable work ethic from 15+ years of independent, deadline-driven work, and is looking to grow into a full-time editor role, whether with a YouTube channel or any team that needs dependable, story-first video editing.",
+        certifications: [],
+        skillsHeading: "Core Skills",
+        skills: [
+          "Video editing & post-production for long-form YouTube content",
+          "Storytelling & narrative structuring — shaping raw footage into a coherent, engaging story",
+          "Story separation — breaking footage into distinct segments to strengthen pacing and retention",
+          "YouTube platform compliance — Community Guidelines, copyright, and monetization policy review",
+          "Footage organization and deadline-driven production workflow management",
+        ],
+        project: null,
+        experienceHeading: "Professional Experience",
+        experience: [
+          { title: "Assistant Editor", org: "Brewzle", dates: "2025 – Present", bullets: [
+            "Edit long-form YouTube video content for a bourbon/spirits-focused channel, shaping raw footage into structured, engaging narratives.",
+            "Perform story separation — breaking down raw footage into distinct segments to improve pacing and viewer retention.",
+            "Apply storytelling techniques throughout the edit to maximize clarity, engagement, and audience retention.",
+            "Review all content for compliance with YouTube's Community Guidelines and monetization/copyright policies prior to publishing.",
+          ] },
+        ],
+        additionalHeading: "Additional Experience",
+        additionalText: null,
+        additionalExperience: [
+          { title: "Property Manager (Maintenance & Operations)", org: "Self-Employed", dates: "2018 – Present", bullets: [
+            "Independently manage maintenance, scheduling, and vendor coordination across a portfolio of rental properties — reliable, self-directed work with no direct supervision.",
+          ] },
+          { title: "Roofing & Construction Technician", org: "SmartRoof", dates: "2018 – Present", bullets: [
+            "Skilled trade work requiring precision, safety compliance, and consistent reliability on tight timelines.",
+          ] },
+          { title: "Automotive Mechanic", org: "Preference Auto Body and Paint", dates: "2013 – 2022", bullets: [
+            "Diagnosed and repaired vehicle systems with strong attention to detail and systematic problem-solving.",
+          ] },
+          { title: "Food Service Crew", org: "North American Midway Entertainment", dates: "2010 – 2015", bullets: [
+            "Delivered fast-paced customer service in a mobile food service environment.",
+          ] },
+        ],
+        educationHeading: "Education & Certifications",
+        education: [
+          "High School Diploma",
+          "IBM Data Analyst, Google Cybersecurity, and IBM Quantum Computing Professional Certificates (Coursera)",
+          "ISSA Certified Personal Trainer, Nutritionist, Yoga Instructor, Exercise Therapist, and Nutrition Coach",
+        ],
+      },
+    };
+
+    const RESUME_META = [
+      { id: "technical", name: "Technical Resume", desc: "Data analytics, cybersecurity & quantum computing", file: "resumes/Brendin_Van_Niekerk_Resume_Technical.docx" },
+      { id: "editor", name: "Editor Resume", desc: "Video editing & YouTube content production", file: "resumes/Brendin_Van_Niekerk_Resume_Editor.docx" },
+    ];
+
+    function deepClone(o) { return JSON.parse(JSON.stringify(o)); }
+    function storageKey(id) { return "resume_data_" + id; }
+
+    function getResumeData(id) {
+      try {
+        const saved = localStorage.getItem(storageKey(id));
+        if (saved) return JSON.parse(saved);
+      } catch (e) {}
+      return deepClone(RESUME_DEFAULTS[id]);
+    }
+    function saveResumeData(id, data) { localStorage.setItem(storageKey(id), JSON.stringify(data)); }
+    function resetResumeData(id) { localStorage.removeItem(storageKey(id)); }
+    function hasEdits(id) { return !!localStorage.getItem(storageKey(id)); }
+
+    const resumeList = document.getElementById("resume-list");
+    const resumeModal = document.getElementById("resume-modal");
+    const resumeModalBox = document.getElementById("resume-modal-box");
+
+    function renderResumeList() {
+      resumeList.innerHTML = "";
+      for (const meta of RESUME_META) {
+        const card = document.createElement("div");
+        card.className = "resume-card";
+        card.innerHTML =
+          '<span class="resume-name">' + esc(meta.name) + (hasEdits(meta.id) ? ' <span class="re-saved-note">● edited</span>' : "") + "</span>" +
+          '<span class="resume-desc">' + esc(meta.desc) + "</span>" +
+          '<div class="resume-actions">' +
+            '<button class="resume-btn primary" data-act="edit">Edit</button>' +
+            '<a class="resume-btn" href="' + esc(meta.file) + '" download>Download original</a>' +
+            '<button class="resume-btn hunt" data-act="hunt">Job Hunt</button>' +
+          "</div>";
+        card.querySelector('[data-act="edit"]').addEventListener("click", () => openResumeEditor(meta.id));
+        card.querySelector('[data-act="hunt"]').addEventListener("click", () => showJobHunt(meta.id));
+        resumeList.appendChild(card);
+      }
+    }
+
+    // ---- editor ----
+    function openResumeEditor(id) {
+      const data = getResumeData(id);
+      renderEditorForm(id, data);
+      resumeModal.classList.add("open");
+    }
+    function closeResumeModal() { resumeModal.classList.remove("open"); }
+    resumeModal.addEventListener("click", e => { if (e.target === resumeModal) closeResumeModal(); });
+
+    function linesToArr(text) { return text.split("\n").map(s => s.trim()).filter(Boolean); }
+
+    function renderEditorForm(id, data) {
+      let html = '<button class="sc-close" id="re-close">✕</button>';
+      html += "<h3>Edit Resume <span class='dim'>· " + (id === "technical" ? "Technical" : "Editor") + "</span></h3>";
+      html += '<div class="re-toolbar">' +
+        '<button class="re-save" id="re-save">Save changes</button>' +
+        '<button class="re-reset" id="re-reset">Reset to original</button>' +
+        '<button class="re-download" id="re-download">Download as Word</button>' +
+        "</div>";
+
+      html += field("name", "Name", data.name);
+      html += field("title", "Title / Subtitle", data.title);
+      html += field("contactLine", "Contact line", data.contactLine);
+      html += field("linkedin", "LinkedIn URL", data.linkedin);
+      html += textarea("summary", "Professional Summary", data.summary);
+      if (data.certifications.length) html += textarea("certifications", "Certifications (one per line)", data.certifications.join("\n"));
+      html += textarea("skills", data.skillsHeading + " (one per line)", data.skills.join("\n"));
+
+      if (data.project) {
+        html += '<div class="re-field"><label>Featured Project</label></div>';
+        html += '<div class="re-exp-grid">' + inline("proj-title", data.project.title, "Project title") + inline("proj-org", data.project.org, "Org") + inline("proj-dates", data.project.dates, "Dates") + "</div>";
+        html += textarea("proj-bullets", "Project bullets (one per line)", data.project.bullets.join("\n"));
+      }
+
+      html += '<div class="re-field"><label>' + esc(data.experienceHeading) + '</label></div>';
+      html += '<div id="re-exp-list"></div>';
+      html += '<button class="re-add" id="re-exp-add" type="button">+ Add role</button>';
+
+      if (data.additionalExperience && data.additionalExperience.length) {
+        html += '<div class="re-field" style="margin-top:18px"><label>' + esc(data.additionalHeading) + '</label></div>';
+        html += '<div id="re-addexp-list"></div>';
+        html += '<button class="re-add" id="re-addexp-add" type="button">+ Add role</button>';
+      } else if (data.additionalText != null) {
+        html += textarea("additionalText", data.additionalHeading, data.additionalText);
+      }
+
+      html += textarea("education", data.educationHeading + " (one per line)", data.education.join("\n"));
+
+      resumeModalBox.innerHTML = html;
+      renderExpBlocks("re-exp-list", data.experience);
+      if (data.additionalExperience && data.additionalExperience.length) renderExpBlocks("re-addexp-list", data.additionalExperience);
+
+      document.getElementById("re-close").addEventListener("click", closeResumeModal);
+      document.getElementById("re-exp-add").addEventListener("click", () => {
+        syncFormToData(id, data);
+        data.experience.push({ title: "", org: "", dates: "", bullets: [] });
+        renderEditorForm(id, data);
+      });
+      const addExpAddBtn = document.getElementById("re-addexp-add");
+      if (addExpAddBtn) addExpAddBtn.addEventListener("click", () => {
+        syncFormToData(id, data);
+        data.additionalExperience.push({ title: "", org: "", dates: "", bullets: [] });
+        renderEditorForm(id, data);
+      });
+      resumeModalBox.querySelectorAll(".re-exp-remove").forEach(btn => {
+        btn.addEventListener("click", () => {
+          syncFormToData(id, data);
+          const [listKey, idx] = btn.dataset.target.split(":");
+          data[listKey].splice(parseInt(idx, 10), 1);
+          renderEditorForm(id, data);
+        });
+      });
+
+      document.getElementById("re-save").addEventListener("click", () => {
+        syncFormToData(id, data);
+        saveResumeData(id, data);
+        renderResumeList();
+        const note = document.createElement("span");
+        note.className = "re-saved-note";
+        note.textContent = "Saved ✓";
+        document.getElementById("re-save").after(note);
+        setTimeout(() => note.remove(), 2000);
+      });
+      document.getElementById("re-reset").addEventListener("click", () => {
+        resetResumeData(id);
+        renderResumeList();
+        renderEditorForm(id, deepClone(RESUME_DEFAULTS[id]));
+      });
+      document.getElementById("re-download").addEventListener("click", () => {
+        syncFormToData(id, data);
+        downloadResumeAsDoc(id, data);
+      });
+    }
+
+    function escAttr(s) { return esc(s).replace(/"/g, "&quot;"); }
+    function field(key, label, value) {
+      return '<div class="re-field"><label>' + esc(label) + '</label><input data-field="' + key + '" value="' + escAttr(value || "") + '"></div>';
+    }
+    function inline(key, value, placeholder) {
+      return '<input data-field="' + key + '" value="' + escAttr(value || "") + '" placeholder="' + escAttr(placeholder) + '">';
+    }
+    function textarea(key, label, value) {
+      return '<div class="re-field"><label>' + esc(label) + '</label><textarea data-field="' + key + '">' + esc(value || "") + "</textarea></div>";
+    }
+
+    function renderExpBlocks(containerId, list) {
+      const container = document.getElementById(containerId);
+      if (!container) return;
+      container.innerHTML = "";
+      list.forEach((job, i) => {
+        const block = document.createElement("div");
+        block.className = "re-exp-block";
+        block.dataset.listKey = containerId === "re-exp-list" ? "experience" : "additionalExperience";
+        block.dataset.idx = i;
+        block.innerHTML =
+          '<button type="button" class="re-exp-remove" data-target="' + block.dataset.listKey + ':' + i + '">✕</button>' +
+          '<div class="re-exp-grid">' +
+            '<input data-exp-field="title" value="' + escAttr(job.title || "") + '" placeholder="Job title">' +
+            '<input data-exp-field="org" value="' + escAttr(job.org || "") + '" placeholder="Company">' +
+          "</div>" +
+          '<div class="re-field"><input data-exp-field="dates" value="' + escAttr(job.dates || "") + '" placeholder="Dates (e.g. 2020 – Present)"></div>' +
+          '<div class="re-field"><textarea data-exp-field="bullets" placeholder="One bullet per line">' + esc((job.bullets || []).join("\n")) + "</textarea></div>";
+        container.appendChild(block);
+      });
+    }
+
+    function syncFormToData(id, data) {
+      resumeModalBox.querySelectorAll("[data-field]").forEach(el => {
+        const key = el.dataset.field;
+        if (key === "certifications" || key === "skills" || key === "education") data[key] = linesToArr(el.value);
+        else if (key === "additionalText") data.additionalText = el.value;
+        else if (key.startsWith("proj-")) {
+          if (!data.project) return;
+          if (key === "proj-title") data.project.title = el.value;
+          else if (key === "proj-org") data.project.org = el.value;
+          else if (key === "proj-dates") data.project.dates = el.value;
+          else if (key === "proj-bullets") data.project.bullets = linesToArr(el.value);
+        } else {
+          data[key] = el.value;
+        }
+      });
+      ["re-exp-list", "re-addexp-list"].forEach(containerId => {
+        const container = document.getElementById(containerId);
+        if (!container) return;
+        const listKey = containerId === "re-exp-list" ? "experience" : "additionalExperience";
+        const blocks = Array.from(container.querySelectorAll(".re-exp-block"));
+        data[listKey] = blocks.map(block => {
+          const get = f => block.querySelector('[data-exp-field="' + f + '"]').value;
+          return { title: get("title"), org: get("org"), dates: get("dates"), bullets: linesToArr(get("bullets")) };
+        });
+      });
+    }
+
+    function downloadResumeAsDoc(id, data) {
+      const esc2 = s => esc(s);
+      let body = "";
+      body += '<h1 style="text-align:center;color:#1F2A44;font-size:26px;margin:0 0 4px">' + esc2(data.name) + "</h1>";
+      body += '<p style="text-align:center;color:#555;font-style:italic;margin:0 0 4px">' + esc2(data.title) + "</p>";
+      body += '<p style="text-align:center;color:#555;font-size:12px;margin:0 0 16px">' + esc2(data.contactLine) + (data.linkedin ? '  |  <a href="' + esc2(data.linkedin) + '">' + esc2(data.linkedin.replace(/^https?:\/\//, "")) + "</a>" : "") + "</p>";
+      const sect = title => '<h2 style="color:#1F2A44;font-size:13px;letter-spacing:1px;text-transform:uppercase;border-bottom:1px solid #1F2A44;padding-bottom:3px;margin:18px 0 8px">' + esc2(title) + "</h2>";
+      const ul = items => "<ul style='margin:0 0 8px;padding-left:20px'>" + items.map(x => "<li style='margin-bottom:3px'>" + esc2(x) + "</li>").join("") + "</ul>";
+      const jobBlock = job => (
+        '<p style="margin:10px 0 2px"><strong>' + esc2(job.title) + "</strong> — " + esc2(job.org) +
+        '<span style="float:right;color:#555;font-style:italic">' + esc2(job.dates) + "</span></p>" +
+        ul(job.bullets)
+      );
+
+      body += sect("Professional Summary") + "<p>" + esc2(data.summary) + "</p>";
+      if (data.certifications.length) body += sect("Certifications") + ul(data.certifications);
+      body += sect(data.skillsHeading) + ul(data.skills);
+      if (data.project) {
+        body += sect(data.project.heading || "Featured Project");
+        body += jobBlock(data.project);
+      }
+      body += sect(data.experienceHeading);
+      data.experience.forEach(job => { body += jobBlock(job); });
+      if (data.additionalExperience && data.additionalExperience.length) {
+        body += sect(data.additionalHeading);
+        data.additionalExperience.forEach(job => { body += jobBlock(job); });
+      } else if (data.additionalText) {
+        body += sect(data.additionalHeading) + "<p>" + esc2(data.additionalText) + "</p>";
+      }
+      body += sect(data.educationHeading);
+      data.education.forEach(line => { body += "<p style='margin:2px 0'>" + esc2(line) + "</p>"; });
+
+      const html = "<html><head><meta charset='utf-8'><style>body{font-family:Georgia,serif;color:#111;line-height:1.5}</style></head><body>" + body + "</body></html>";
+      const blob = new Blob(["﻿", html], { type: "application/msword" });
+      const a = document.createElement("a");
+      a.href = URL.createObjectURL(blob);
+      a.download = "Brendin_Van_Niekerk_Resume_" + (id === "technical" ? "Technical" : "Editor") + "_edited.doc";
+      document.body.appendChild(a);
+      a.click();
+      a.remove();
+    }
+
+    // ---- job hunt ----
+    let jobsData = null;
+    const jobhuntPanel = document.getElementById("jobhunt-panel");
+    const jobhuntTitle = document.getElementById("jobhunt-title");
+    const jobhuntUpdated = document.getElementById("jobhunt-updated");
+    const jobhuntList = document.getElementById("jobhunt-list");
+
+    async function loadJobs() {
+      if (jobsData) return jobsData;
+      try {
+        const r = await fetch("data/jobs.json?t=" + Date.now());
+        if (!r.ok) throw new Error();
+        jobsData = await r.json();
+      } catch {
+        jobsData = { updated: null, technical: [], editor: [] };
+      }
+      return jobsData;
+    }
+
+    function fmtSalary(job) {
+      if (!job.salary_min && !job.salary_max) return "";
+      const lo = job.salary_min ? "$" + Math.round(job.salary_min / 1000) + "k" : "";
+      const hi = job.salary_max ? "$" + Math.round(job.salary_max / 1000) + "k" : "";
+      return lo && hi && lo !== hi ? lo + "–" + hi : (lo || hi);
+    }
+
+    async function showJobHunt(id) {
+      const meta = RESUME_META.find(m => m.id === id);
+      jobhuntTitle.textContent = meta.name;
+      jobhuntPanel.style.display = "block";
+      jobhuntPanel.scrollIntoView({ behavior: "smooth", block: "nearest" });
+      jobhuntList.innerHTML = '<p class="dim">Loading listings…</p>';
+      const data = await loadJobs();
+      jobhuntUpdated.textContent = data.updated ? "Updated " + data.updated : "Not generated yet — runs automatically every morning once set up.";
+      const jobs = data[id] || [];
+      if (!jobs.length) {
+        jobhuntList.innerHTML = '<p class="dim">No listings yet. The daily Job Search Action needs to run at least once (or hasn\'t found matches recently).</p>';
+        return;
+      }
+      jobhuntList.innerHTML = "";
+      for (const job of jobs) {
+        const card = document.createElement("div");
+        card.className = "job-card";
+        const salary = fmtSalary(job);
+        card.innerHTML =
+          '<div class="job-main">' +
+            '<div class="job-title"><a href="' + escAttr(job.url) + '" target="_blank" rel="noopener">' + esc(job.title) + "</a></div>" +
+            '<div class="job-meta">' + esc(job.company || "") + (job.location ? " · " + esc(job.location) : "") +
+              (salary ? ' · <span class="job-salary">' + esc(salary) + "</span>" : "") + "</div>" +
+          "</div>" +
+          '<div class="job-actions"><button class="resume-btn" data-act="save">Save</button></div>';
+        card.querySelector('[data-act="save"]').addEventListener("click", (e) => {
+          addToShortlist(job, id);
+          e.target.textContent = "Saved ✓";
+          e.target.disabled = true;
+        });
+        jobhuntList.appendChild(card);
+      }
+    }
+
+    // ---- shortlist ----
+    const shortlistList = document.getElementById("shortlist-list");
+    const shortlistEmpty = document.getElementById("shortlist-empty");
+    function getShortlist() {
+      try { return JSON.parse(localStorage.getItem("job_shortlist") || "[]"); } catch { return []; }
+    }
+    function setShortlist(arr) { localStorage.setItem("job_shortlist", JSON.stringify(arr)); }
+    function addToShortlist(job, resumeId) {
+      const list = getShortlist();
+      if (list.some(j => j.id === job.id)) return;
+      list.unshift(Object.assign({}, job, { resumeId }));
+      setShortlist(list);
+      renderShortlist();
+    }
+    function removeFromShortlist(jobId) {
+      setShortlist(getShortlist().filter(j => j.id !== jobId));
+      renderShortlist();
+    }
+    function renderShortlist() {
+      const list = getShortlist();
+      shortlistList.innerHTML = "";
+      shortlistEmpty.style.display = list.length ? "none" : "block";
+      for (const job of list) {
+        const card = document.createElement("div");
+        card.className = "job-card";
+        const salary = fmtSalary(job);
+        card.innerHTML =
+          '<div class="job-main">' +
+            '<div class="job-title"><a href="' + escAttr(job.url) + '" target="_blank" rel="noopener">' + esc(job.title) + "</a></div>" +
+            '<div class="job-meta">' + esc(job.company || "") + (job.location ? " · " + esc(job.location) : "") +
+              (salary ? ' · <span class="job-salary">' + esc(salary) + "</span>" : "") +
+              ' · <span class="dim">' + (job.resumeId === "technical" ? "Technical" : "Editor") + "</span></div>" +
+          "</div>" +
+          '<div class="job-actions"><button class="resume-btn" data-act="remove">Remove</button></div>';
+        card.querySelector('[data-act="remove"]').addEventListener("click", () => removeFromShortlist(job.id));
+        shortlistList.appendChild(card);
+      }
+    }
+
+    renderResumeList();
+    renderShortlist();
   })();
 </script>
 </body>

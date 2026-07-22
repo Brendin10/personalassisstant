@@ -1,0 +1,41 @@
+name: Job Search
+
+on:
+  schedule:
+    # 11:00 UTC daily = 7:00 AM EDT / 6:00 AM EST - same fixed-UTC approach
+    # as the other nightly/morning workflows in this repo (accepted ~1hr
+    # seasonal drift rather than a DST-aware window, since exact timing
+    # doesn't matter here - just "fresh listings before you're up").
+    - cron: "0 11 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: job-search
+  cancel-in-progress: false
+
+jobs:
+  search:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run job search
+        env:
+          ADZUNA_APP_ID: ${{ secrets.ADZUNA_APP_ID }}
+          ADZUNA_APP_KEY: ${{ secrets.ADZUNA_APP_KEY }}
+        run: python scripts/job_search.py
+
+      - name: Commit results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/jobs.json
+          git diff --cached --quiet || git commit -m "Update job search results"
+          git push
