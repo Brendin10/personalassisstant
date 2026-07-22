@@ -1,5 +1,5 @@
 {
- "updated": "Jul 22, 2026 08:58 AM ET",
+ "updated": "Jul 22, 2026 09:17 AM ET",
  "criteria": "close < lower BB(20,2), market cap > $20B",
  "universe_size": 503,
  "results": [
@@ -21,6 +21,11 @@
    ],
    "news": [
     {
+     "title": "Apple Stumbles in Court as $634 Million Apple Watch Judgment Survives",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/apple-stumbles-court-634-million-131151982.html",
+     "publisher": "GuruFocus.com"
+    },
+    {
      "title": "Don\u2019t Quit on Danaher Stock After Horrific Earnings Reaction",
      "link": "https://www.barrons.com/articles/danaher-stock-stay-invested-after-horrific-earnings-reaction-88718388?siteid=yhoof2&yptr=yahoo",
      "publisher": "Barrons.com"
@@ -29,13 +34,19 @@
      "title": "US Stock Market Today S&P 500 Futures Rise On Earnings And Inflation Crosscurrents",
      "link": "https://finance.yahoo.com/markets/stocks/articles/us-stock-market-today-p-081013375.html",
      "publisher": "Simply Wall St."
-    },
-    {
-     "title": "Danaher (DHR) Q2 2026 Earnings Call Transcript",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/danaher-dhr-q2-2026-earnings-003012570.html",
-     "publisher": "Motley Fool"
     }
-   ]
+   ],
+   "sentiment": {
+    "label": "Bullish",
+    "bullish_pct": 71.4,
+    "sample_size": 14
+   },
+   "earnings_surprise": {
+    "date": "2026-07-21",
+    "actual_eps": 1.94,
+    "estimate_eps": 1.85,
+    "surprise_pct": 4.864864864864857
+   }
   },
   {
    "symbol": "PSA",
@@ -68,7 +79,18 @@
      "link": "https://finance.yahoo.com/markets/stocks/articles/friday-best-wall-street-analyst-120503412.html",
      "publisher": "24/7 Wall St."
     }
-   ]
+   ],
+   "sentiment": {
+    "label": "Bullish",
+    "bullish_pct": 87.5,
+    "sample_size": 8
+   },
+   "earnings_surprise": {
+    "date": "2026-04-27",
+    "actual_eps": 2.47,
+    "estimate_eps": 2.42,
+    "surprise_pct": 2.06611570247935
+   }
   },
   {
    "symbol": "PEG",
@@ -101,7 +123,18 @@
      "link": "https://finance.yahoo.com/technology/ai/articles/chief-investment-strategist-spending-almost-142733903.html",
      "publisher": "24/7 Wall St."
     }
-   ]
+   ],
+   "sentiment": {
+    "label": "Bullish",
+    "bullish_pct": 100.0,
+    "sample_size": 9
+   },
+   "earnings_surprise": {
+    "date": "2026-05-05",
+    "actual_eps": 1.55,
+    "estimate_eps": 1.43,
+    "surprise_pct": 8.391608391608399
+   }
   },
   {
    "symbol": "BA",
@@ -134,7 +167,18 @@
      "link": "https://finance.yahoo.com/markets/stocks/articles/ba-stock-gains-overnight-boeing-044114841.html",
      "publisher": "Stocktwits"
     }
-   ]
+   ],
+   "sentiment": {
+    "label": "Bullish",
+    "bullish_pct": 93.8,
+    "sample_size": 16
+   },
+   "earnings_surprise": {
+    "date": "2026-04-22",
+    "actual_eps": -0.2,
+    "estimate_eps": -0.67,
+    "surprise_pct": 70.1492537313433
+   }
   },
   {
    "symbol": "ISRG",
@@ -169,7 +213,18 @@
      "link": "https://finance.yahoo.com/markets/stocks/articles/intuitive-surgical-isrg-slid-despite-142345149.html",
      "publisher": "Insider Monkey"
     }
-   ]
+   ],
+   "sentiment": {
+    "label": "Bullish",
+    "bullish_pct": 100.0,
+    "sample_size": 7
+   },
+   "earnings_surprise": {
+    "date": "2026-07-16",
+    "actual_eps": 2.8,
+    "estimate_eps": 2.5,
+    "surprise_pct": 11.999999999999993
+   }
   },
   {
    "symbol": "LHX",
@@ -202,7 +257,18 @@
      "link": "https://www.barrons.com/articles/defense-tech-bubble-defense-stocks-value-91cf3da6?siteid=yhoof2&yptr=yahoo",
      "publisher": "Barrons.com"
     }
-   ]
+   ],
+   "sentiment": {
+    "label": "Bullish",
+    "bullish_pct": 100.0,
+    "sample_size": 14
+   },
+   "earnings_surprise": {
+    "date": "2026-04-30",
+    "actual_eps": 2.91,
+    "estimate_eps": 2.57,
+    "surprise_pct": 13.22957198443581
+   }
   },
   {
    "symbol": "DTE",
@@ -235,7 +301,18 @@
      "link": "https://finance.yahoo.com/markets/stocks/articles/wednesday-best-wall-street-analyst-120207329.html",
      "publisher": "24/7 Wall St."
     }
-   ]
+   ],
+   "sentiment": {
+    "label": "Bullish",
+    "bullish_pct": 100.0,
+    "sample_size": 4
+   },
+   "earnings_surprise": {
+    "date": "2026-04-30",
+    "actual_eps": 1.95,
+    "estimate_eps": 2.03,
+    "surprise_pct": -3.940886699507382
+   }
   },
   {
    "symbol": "VMC",
@@ -268,7 +345,18 @@
      "link": "https://finance.yahoo.com/markets/stocks/articles/vulcan-materials-vmc-stock-loses-091259299.html",
      "publisher": "Simply Wall St."
     }
-   ]
+   ],
+   "sentiment": {
+    "label": "Bullish",
+    "bullish_pct": 100.0,
+    "sample_size": 5
+   },
+   "earnings_surprise": {
+    "date": "2026-04-29",
+    "actual_eps": 1.35,
+    "estimate_eps": 1.1,
+    "surprise_pct": 22.727272727272727
+   }
   },
   {
    "symbol": "ECL",
@@ -301,7 +389,18 @@
      "link": "https://finance.yahoo.com/markets/stocks/articles/oppenheimer-upgrades-ecolab-outperform-sees-165719115.html",
      "publisher": "Investing.com"
     }
-   ]
+   ],
+   "sentiment": {
+    "label": "Bullish",
+    "bullish_pct": 100.0,
+    "sample_size": 15
+   },
+   "earnings_surprise": {
+    "date": "2026-04-28",
+    "actual_eps": 1.7,
+    "estimate_eps": 1.7,
+    "surprise_pct": 0.0
+   }
   },
   {
    "symbol": "SRE",
@@ -334,7 +433,18 @@
      "link": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-advance-afternoon-195551027.html",
      "publisher": "MT Newswires"
     }
-   ]
+   ],
+   "sentiment": {
+    "label": "Bullish",
+    "bullish_pct": 87.5,
+    "sample_size": 8
+   },
+   "earnings_surprise": {
+    "date": "2026-05-07",
+    "actual_eps": 1.51,
+    "estimate_eps": 1.51,
+    "surprise_pct": 0.0
+   }
   }
  ]
 }
