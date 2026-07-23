@@ -1,0 +1,28 @@
+# Normalize line endings so your Windows machine and the Linux GitHub Actions
+# stop disagreeing. Everything text is stored and checked out as LF.
+# This is what stops screener.json / README.md from showing as "modified"
+# every time the nightly Action runs.
+
+* text=auto eol=lf
+
+# Generated / data files the Actions own — always LF
+data/screener.json text eol=lf
+*.json  text eol=lf
+*.md    text eol=lf
+*.html  text eol=lf
+*.py    text eol=lf
+*.yml   text eol=lf
+*.yaml  text eol=lf
+*.css   text eol=lf
+*.js    text eol=lf
+
+# Binary files git must never touch or "normalize"
+*.docx  binary
+*.xlsx  binary
+*.pptx  binary
+*.pdf   binary
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.gif   binary
+*.ico   binary
