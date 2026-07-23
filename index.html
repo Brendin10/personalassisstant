@@ -205,6 +205,89 @@
   .wl-remove:hover { color: var(--pink); }
   .wl-status { font-size: 12px; color: var(--text-dim); margin-top: 10px; }
 
+  /* ---- widescreen stocks layout ---- */
+  /* full-bleed: break the stocks view out of the 960px column */
+  #view-stocks {
+    position: relative;
+    left: 50%;
+    width: min(96vw, 1680px);
+    margin-left: calc(min(96vw, 1680px) / -2);
+  }
+  .stocks-top {
+    display: grid;
+    grid-template-columns: 1.3fr 1fr 1fr;
+    gap: 20px;
+    align-items: start;
+    margin-bottom: 20px;
+  }
+  .stocks-top > * { margin-bottom: 0; }
+  .stocks-top .alert-banner { margin-bottom: 12px; }
+  .stocks-top .key-row { margin-bottom: 0; }
+  .stocks-cell { display: flex; flex-direction: column; }
+  @media (max-width: 1100px) {
+    .stocks-top { grid-template-columns: 1fr; }
+  }
+
+  /* ---- ticker tape (watchlist) ---- */
+  .ticker-tape {
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(180deg, #0b1120, var(--bg-panel));
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 12px 0;
+    margin-bottom: 14px;
+    white-space: nowrap;
+    -webkit-mask-image: linear-gradient(90deg, transparent, #000 4%, #000 96%, transparent);
+    mask-image: linear-gradient(90deg, transparent, #000 4%, #000 96%, transparent);
+  }
+  .ticker-track {
+    display: inline-flex;
+    gap: 40px;
+    padding-left: 40px;
+    animation: ticker-scroll 60s linear infinite;
+    will-change: transform;
+  }
+  .ticker-tape:hover .ticker-track { animation-play-state: paused; }
+  @keyframes ticker-scroll { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+  .ticker-item {
+    display: inline-flex; align-items: baseline; gap: 8px;
+    font-variant-numeric: tabular-nums; font-size: 15px;
+  }
+  .ticker-item .t-sym { font-weight: 700; color: var(--text); letter-spacing: .5px; }
+  .ticker-item .t-price { color: var(--text-dim); }
+  .ticker-item .t-chg.up { color: var(--green); }
+  .ticker-item .t-chg.down { color: var(--pink); }
+  .ticker-item .t-chg { font-weight: 600; }
+  .ticker-empty {
+    position: absolute; inset: 0; display: flex; align-items: center;
+    padding-left: 20px; color: var(--text-dim); font-size: 14px;
+  }
+  .ticker-bar {
+    display: flex; gap: 10px; align-items: center; flex-wrap: wrap; margin-bottom: 24px;
+  }
+  .ticker-bar input {
+    flex: 0 1 320px; min-width: 200px;
+    background: var(--bg); border: 1px solid var(--border);
+    color: var(--text); border-radius: 8px; padding: 9px 13px; font-size: 13px;
+  }
+  .ticker-bar button {
+    background: var(--amber); color: #1a1200; border: none;
+    border-radius: 8px; padding: 9px 18px; font-size: 13px; font-weight: 600; cursor: pointer;
+  }
+  .wl-manage-wrap { font-size: 12px; color: var(--text-dim); }
+  .wl-manage-wrap summary { cursor: pointer; padding: 6px 10px; border: 1px solid var(--border); border-radius: 8px; list-style: none; }
+  .wl-manage-wrap summary::-webkit-details-marker { display: none; }
+  .wl-manage { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
+  .wl-chip {
+    display: inline-flex; align-items: center; gap: 6px;
+    background: var(--bg); border: 1px solid var(--border); border-radius: 20px;
+    padding: 5px 8px 5px 12px; font-size: 12px; color: var(--text);
+  }
+  .wl-chip button { background: none; border: none; color: var(--text-dim); cursor: pointer; font-size: 14px; padding: 0 2px; }
+  .wl-chip button:hover { color: var(--pink); }
+  .ticker-bar .wl-status { margin-top: 0; }
+
   /* trade journal */
   .tj-form { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; }
   .tj-field { display: flex; flex-direction: column; gap: 6px; }
@@ -468,39 +551,51 @@
     <h2>Stocks</h2>
     <p class="sub">Markets &amp; portfolio</p>
 
-    <!-- ALERTS BANNER -->
-    <div id="alert-banner" class="alert-banner">
-      <div class="dot"></div>
-      <div class="msg">
-        <strong id="alert-title">Market alerts</strong>
-        <span id="alert-detail">Enter a free Twelve Data API key below to activate live alerts.</span>
-      </div>
-      <div class="rsi-val" id="rsi-val">–</div>
+    <!-- TICKER TAPE (watchlist) -->
+    <div class="ticker-tape" id="ticker-tape">
+      <div class="ticker-track" id="ticker-track"></div>
+      <div class="ticker-empty" id="ticker-empty">Add tickers below to start the tape ▸</div>
     </div>
-    <div class="key-row" id="key-row">
-      <input id="td-key" type="password" placeholder="Twelve Data API key (free at twelvedata.com)">
-      <button id="td-save">Activate</button>
-    </div>
-
-    <div class="panel">
-      <h3>Alert history</h3>
-      <ul class="alert-log" id="alert-log">
-        <li>No alerts yet. Watching: S&amp;P 500 (SPY) 5-min RSI(14) crossing below 30.</li>
-      </ul>
+    <div class="ticker-bar">
+      <input id="wl-input" placeholder="Add ticker (e.g. AAPL, MSFT, BTC/USD)" maxlength="12">
+      <button id="wl-add">Add</button>
+      <details class="wl-manage-wrap">
+        <summary>Manage</summary>
+        <div id="wl-manage" class="wl-manage"></div>
+      </details>
+      <span class="wl-status" id="wl-status"></span>
     </div>
 
-    <div class="panel">
-      <h3>Watchlist</h3>
-      <div class="key-row" style="margin-top:14px; margin-bottom:6px">
-        <input id="wl-input" placeholder="Add ticker (e.g. AAPL, MSFT, BTC/USD)" maxlength="12">
-        <button id="wl-add">Add</button>
+    <!-- TOP ROW: alerts · history · portfolio -->
+    <div class="stocks-top">
+      <div class="stocks-cell">
+        <div id="alert-banner" class="alert-banner">
+          <div class="dot"></div>
+          <div class="msg">
+            <strong id="alert-title">Market alerts</strong>
+            <span id="alert-detail">Enter a free Twelve Data API key below to activate live alerts.</span>
+          </div>
+          <div class="rsi-val" id="rsi-val">–</div>
+        </div>
+        <div class="key-row" id="key-row">
+          <input id="td-key" type="password" placeholder="Twelve Data API key (free at twelvedata.com)">
+          <button id="td-save">Activate</button>
+        </div>
       </div>
-      <table class="wl-table" id="wl-table" style="display:none">
-        <thead><tr><th>Symbol</th><th>Price</th><th>Change</th><th>%</th><th></th></tr></thead>
-        <tbody id="wl-body"></tbody>
-      </table>
-      <p class="wl-status" id="wl-status">No tickers yet. Add one above — quotes update every 5 min during market hours.</p>
+
+      <div class="panel">
+        <h3>Alert history</h3>
+        <ul class="alert-log" id="alert-log">
+          <li>No alerts yet. Watching: S&amp;P 500 (SPY) 5-min RSI(14) crossing below 30.</li>
+        </ul>
+      </div>
+
+      <div class="panel">
+        <h3>Portfolio</h3>
+        <p>Holdings overview, performance, and allocation breakdown.</p>
+      </div>
     </div>
+
     <div class="panel">
       <h3>Oversold screener</h3>
       <p style="margin-bottom:4px">Stocks that closed <strong>below their lower Bollinger Band (20, 2σ)</strong> with a market cap over <strong>$20B</strong>, sorted by <strong>Hot Score</strong> — a 0-100 blend of valuation, reversal technicals, catalyst strength, and sentiment. Click a row for the full breakdown.</p>
@@ -550,11 +645,6 @@
         <tbody id="tj-body"></tbody>
       </table>
       <p class="wl-status" id="tj-status">No entries yet. Add your first trade above.</p>
-    </div>
-
-    <div class="panel">
-      <h3>Portfolio</h3>
-      <p>Holdings overview, performance, and allocation breakdown.</p>
     </div>
   </div>
 
@@ -784,8 +874,9 @@
   // Quotes via Twelve Data /quote (1 credit per symbol). Credit-aware:
   // refreshes every POLL_MS only while market is open and tab is visible,
   // plus one fetch on load/add so you see last close after hours.
-  const wlBody = document.getElementById("wl-body");
-  const wlTable = document.getElementById("wl-table");
+  const tickerTrack = document.getElementById("ticker-track");
+  const tickerEmpty = document.getElementById("ticker-empty");
+  const wlManage = document.getElementById("wl-manage");
   const wlStatus = document.getElementById("wl-status");
   const wlInput = document.getElementById("wl-input");
   let lastQuotes = {};
@@ -794,35 +885,50 @@
   function getWL() { try { return JSON.parse(localStorage.getItem("watchlist") || "[]"); } catch { return []; } }
   function saveWL(l) { localStorage.setItem("watchlist", JSON.stringify(l)); }
 
+  // Build one ticker item's HTML (symbol · price · change/percent).
+  function tickerItemHTML(sym) {
+    const q = lastQuotes[sym];
+    const chg = q ? parseFloat(q.change) : null;
+    const pct = q ? parseFloat(q.percent_change) : null;
+    const cls = chg == null || isNaN(chg) ? "" : chg >= 0 ? "up" : "down";
+    const price = q ? "$" + parseFloat(q.close).toFixed(2) : "–";
+    const chgTxt = (chg == null || isNaN(chg)) ? "" :
+      (chg >= 0 ? "+" : "") + chg.toFixed(2) +
+      " (" + (pct >= 0 ? "+" : "") + (isNaN(pct) ? "0" : pct.toFixed(2)) + "%)";
+    return '<span class="ticker-item">' +
+      '<span class="t-sym">' + esc(sym) + '</span>' +
+      '<span class="t-price">' + price + '</span>' +
+      '<span class="t-chg ' + cls + '">' + chgTxt + '</span></span>';
+  }
+
   function renderWL() {
     const list = getWL();
-    wlTable.style.display = list.length ? "" : "none";
-    if (!list.length) {
-      wlStatus.textContent = "No tickers yet. Add one above — quotes update every 5 min during market hours.";
-      wlBody.innerHTML = "";
-      return;
-    }
-    wlBody.innerHTML = "";
-    for (const sym of list) {
-      const q = lastQuotes[sym];
-      const tr = document.createElement("tr");
-      const chg = q ? parseFloat(q.change) : null;
-      const pct = q ? parseFloat(q.percent_change) : null;
-      const cls = chg == null ? "" : chg >= 0 ? "up" : "down";
-      tr.innerHTML =
-        '<td class="sym"></td>' +
-        "<td>" + (q ? "$" + parseFloat(q.close).toFixed(2) : "–") + "</td>" +
-        '<td class="' + cls + '">' + (chg == null || isNaN(chg) ? "–" : (chg >= 0 ? "+" : "") + chg.toFixed(2)) + "</td>" +
-        '<td class="' + cls + '">' + (pct == null || isNaN(pct) ? "–" : (pct >= 0 ? "+" : "") + pct.toFixed(2) + "%") + "</td>" +
-        '<td><button class="wl-remove" title="Remove">✕</button></td>';
-      tr.querySelector(".sym").textContent = sym;
-      tr.querySelector(".wl-remove").addEventListener("click", () => {
+
+    // Manage chips (remove tickers)
+    wlManage.innerHTML = list.length
+      ? list.map(s => '<span class="wl-chip" data-sym="' + esc(s) + '">' + esc(s) +
+          ' <button title="Remove">✕</button></span>').join("")
+      : '<span class="dim">No tickers yet.</span>';
+    wlManage.querySelectorAll(".wl-chip button").forEach(btn => {
+      btn.addEventListener("click", () => {
+        const sym = btn.parentElement.dataset.sym;
         saveWL(getWL().filter(s => s !== sym));
         delete lastQuotes[sym];
         renderWL();
       });
-      wlBody.appendChild(tr);
+    });
+
+    // Ticker tape — duplicate the run so the -50% scroll loops seamlessly.
+    if (!list.length) {
+      tickerTrack.innerHTML = "";
+      tickerEmpty.style.display = "";
+      return;
     }
+    tickerEmpty.style.display = "none";
+    const run = list.map(tickerItemHTML).join("");
+    tickerTrack.innerHTML = run + run;
+    // Slower scroll for short lists, faster for long ones (keeps pace readable).
+    tickerTrack.style.animationDuration = Math.max(20, list.length * 6) + "s";
   }
 
   async function refreshQuotes(force = false) {
