@@ -514,7 +514,7 @@
 
     <div class="panel">
       <h3>Trade Journal</h3>
-      <p style="margin-bottom:14px">Log each trade with its strategy, outcome, ticker and notes. Weekdays you don't log are automatically marked <em>No trades</em> the next time you open this page.</p>
+      <p style="margin-bottom:14px">Log each trade with its strategy, ticker, notes, and your total account value before and after. The dollar and percent change — and whether it was a win or loss — are calculated for you. Weekdays you don't log are automatically marked <em>No trades</em> the next time you open this page.</p>
       <div class="tj-form">
         <div class="tj-field">
           <label>Date</label>
@@ -530,12 +530,12 @@
           <datalist id="tj-strategies"></datalist>
         </div>
         <div class="tj-field">
-          <label>Result</label>
-          <select id="tj-result">
-            <option value="win">Win</option>
-            <option value="loss">Loss</option>
-            <option value="be">Break-even</option>
-          </select>
+          <label>Account before ($)</label>
+          <input type="number" id="tj-before" placeholder="e.g. 10000" step="0.01" min="0" inputmode="decimal">
+        </div>
+        <div class="tj-field">
+          <label>Account after ($)</label>
+          <input type="number" id="tj-after" placeholder="e.g. 10250" step="0.01" min="0" inputmode="decimal">
         </div>
         <div class="tj-field tj-field-wide">
           <label>Notes</label>
@@ -546,7 +546,7 @@
         </div>
       </div>
       <table class="wl-table tj-table" id="tj-table" style="display:none; margin-top:18px">
-        <thead><tr><th>Date</th><th>Ticker</th><th>Strategy</th><th>Result</th><th>Notes</th><th></th></tr></thead>
+        <thead><tr><th>Date</th><th>Ticker</th><th>Strategy</th><th>Before</th><th>After</th><th>P/L $</th><th>P/L %</th><th>Result</th><th>Notes</th><th></th></tr></thead>
         <tbody id="tj-body"></tbody>
       </table>
       <p class="wl-status" id="tj-status">No entries yet. Add your first trade above.</p>
@@ -1779,6 +1779,31 @@
 
     const RESULT_LABEL = { win: "Win", loss: "Loss", be: "Break-even" };
 
+    function fmtMoney(n) {
+      if (n == null || isNaN(n)) return "–";
+      const sign = n < 0 ? "-" : "";
+      return sign + "$" + Math.abs(n).toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+    }
+    function fmtSigned(n) {
+      if (n == null || isNaN(n)) return "–";
+      return (n > 0 ? "+" : n < 0 ? "-" : "") + "$" + Math.abs(n).toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+    }
+    function fmtSignedPct(n) {
+      if (n == null || isNaN(n)) return "–";
+      return (n > 0 ? "+" : "") + n.toFixed(2) + "%";
+    }
+    // Derive dollar/percent change and win/loss from before & after account values.
+    function calc(e) {
+      const before = Number(e.before), after = Number(e.after);
+      if (e.before == null || e.after == null || isNaN(before) || isNaN(after)) {
+        return { pl: null, plPct: null, result: e.result || null };
+      }
+      const pl = after - before;
+      const plPct = before !== 0 ? (pl / before) * 100 : null;
+      const result = pl > 0 ? "win" : pl < 0 ? "loss" : "be";
+      return { pl, plPct, result };
+    }
+
     function todayStr() {
       const d = new Date();
       return d.getFullYear() + "-" + String(d.getMonth() + 1).padStart(2, "0") + "-" + String(d.getDate()).padStart(2, "0");
@@ -1838,14 +1863,20 @@
           tr.className = "tj-row-none";
           tr.innerHTML =
             '<td style="text-align:left">' + esc(e.date) + '</td>' +
-            '<td colspan="4" style="text-align:left">No trades were made</td>' +
+            '<td colspan="8" style="text-align:left">No trades were made</td>' +
             '<td><button class="wl-remove" title="Remove">✕</button></td>';
         } else {
+          const c = calc(e);
+          const cls = c.result === "win" ? "up" : c.result === "loss" ? "down" : "";
           tr.innerHTML =
             '<td style="text-align:left">' + esc(e.date) + '</td>' +
             '<td class="sym" style="text-align:left">' + esc(e.ticker || "–") + '</td>' +
             '<td class="tj-strat-cell">' + esc(e.strategy || "–") + '</td>' +
-            '<td><span class="tj-res ' + esc(e.result) + '">' + esc(RESULT_LABEL[e.result] || e.result || "–") + '</span></td>' +
+            '<td>' + esc(fmtMoney(e.before != null ? Number(e.before) : null)) + '</td>' +
+            '<td>' + esc(fmtMoney(e.after != null ? Number(e.after) : null)) + '</td>' +
+            '<td class="' + cls + '">' + esc(fmtSigned(c.pl)) + '</td>' +
+            '<td class="' + cls + '">' + esc(fmtSignedPct(c.plPct)) + '</td>' +
+            '<td><span class="tj-res ' + esc(c.result || "") + '">' + esc(RESULT_LABEL[c.result] || "–") + '</span></td>' +
             '<td class="tj-notes-cell">' + esc(e.notes || "") + '</td>' +
             '<td><button class="wl-remove" title="Remove">✕</button></td>';
         }
@@ -1864,19 +1895,30 @@
       const date = dateInput.value || todayStr();
       const ticker = document.getElementById("tj-ticker").value.trim().toUpperCase();
       const strategy = document.getElementById("tj-strategy").value.trim();
-      const result = document.getElementById("tj-result").value;
       const notes = document.getElementById("tj-notes").value.trim();
-      if (!ticker && !strategy && !notes) { alert("Add a ticker, strategy, or note first."); return; }
+      const beforeRaw = document.getElementById("tj-before").value.trim();
+      const afterRaw = document.getElementById("tj-after").value.trim();
+      const before = beforeRaw === "" ? null : Number(beforeRaw);
+      const after = afterRaw === "" ? null : Number(afterRaw);
+      if (!ticker && !strategy && !notes && before == null && after == null) {
+        alert("Add a ticker, strategy, note, or account values first.");
+        return;
+      }
+      if ((before != null && isNaN(before)) || (after != null && isNaN(after))) {
+        alert("Account values must be numbers.");
+        return;
+      }
 
       let list = load();
       // Replace an auto "No trades" entry on the same day, if present.
       list = list.filter(e => !(e.type === "none" && e.date === date));
-      list.push({ id: "t-" + Date.now(), date, type: "trade", ticker, strategy, result, notes, ts: Date.now() });
+      list.push({ id: "t-" + Date.now(), date, type: "trade", ticker, strategy, before, after, notes, ts: Date.now() });
       save(list);
       document.getElementById("tj-ticker").value = "";
       document.getElementById("tj-strategy").value = "";
       document.getElementById("tj-notes").value = "";
-      document.getElementById("tj-result").value = "win";
+      document.getElementById("tj-before").value = "";
+      document.getElementById("tj-after").value = "";
       render();
     }
 
