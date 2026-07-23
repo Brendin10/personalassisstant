@@ -204,6 +204,36 @@
   }
   .wl-remove:hover { color: var(--pink); }
   .wl-status { font-size: 12px; color: var(--text-dim); margin-top: 10px; }
+
+  /* trade journal */
+  .tj-form { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; }
+  .tj-field { display: flex; flex-direction: column; gap: 6px; }
+  .tj-field-wide { grid-column: 1 / -1; }
+  .tj-field label {
+    font-size: 11px; letter-spacing: 1.2px; text-transform: uppercase;
+    color: var(--text-dim); font-weight: 600;
+  }
+  .tj-field input, .tj-field select, .tj-field textarea {
+    background: var(--bg); border: 1px solid var(--border);
+    color: var(--text); border-radius: 8px; padding: 10px 12px;
+    font-size: 13px; font-family: inherit; width: 100%; box-sizing: border-box;
+  }
+  .tj-field textarea { resize: vertical; }
+  .tj-actions { justify-content: flex-end; }
+  .tj-actions button {
+    background: var(--amber); color: #1a1200; border: none;
+    border-radius: 8px; padding: 11px 20px; font-size: 13px; font-weight: 600;
+    cursor: pointer; margin-top: auto;
+  }
+  .tj-table td { vertical-align: top; }
+  .tj-table td.tj-notes-cell { text-align: left; color: var(--text-dim); font-size: 13px; max-width: 260px; white-space: normal; }
+  .tj-table td.tj-strat-cell { text-align: left; }
+  .tj-res { font-weight: 700; font-size: 12px; letter-spacing: .5px; }
+  .tj-res.win { color: var(--green); }
+  .tj-res.loss { color: var(--pink); }
+  .tj-res.be { color: var(--amber); }
+  .tj-row-none td { color: var(--text-dim); font-style: italic; }
+  @media (max-width: 620px) { .tj-form { grid-template-columns: repeat(2, 1fr); } }
   .dim { color: var(--text-dim); font-weight: 400; font-size: 12px; }
   .sc-row { cursor: pointer; transition: background .12s; }
   .sc-row:hover { background: rgba(53,224,255,0.05); }
@@ -480,6 +510,46 @@
         <tbody id="sc-body"></tbody>
       </table>
       <p class="wl-status" id="sc-status">Loading…</p>
+    </div>
+
+    <div class="panel">
+      <h3>Trade Journal</h3>
+      <p style="margin-bottom:14px">Log each trade with its strategy, outcome, ticker and notes. Weekdays you don't log are automatically marked <em>No trades</em> the next time you open this page.</p>
+      <div class="tj-form">
+        <div class="tj-field">
+          <label>Date</label>
+          <input type="date" id="tj-date">
+        </div>
+        <div class="tj-field">
+          <label>Ticker</label>
+          <input type="text" id="tj-ticker" placeholder="e.g. AAPL" maxlength="12">
+        </div>
+        <div class="tj-field">
+          <label>Strategy</label>
+          <input type="text" id="tj-strategy" placeholder="e.g. Bollinger reversal" list="tj-strategies">
+          <datalist id="tj-strategies"></datalist>
+        </div>
+        <div class="tj-field">
+          <label>Result</label>
+          <select id="tj-result">
+            <option value="win">Win</option>
+            <option value="loss">Loss</option>
+            <option value="be">Break-even</option>
+          </select>
+        </div>
+        <div class="tj-field tj-field-wide">
+          <label>Notes</label>
+          <textarea id="tj-notes" rows="2" placeholder="Entry/exit, reasoning, what to do differently…"></textarea>
+        </div>
+        <div class="tj-field tj-actions">
+          <button id="tj-add">Add trade</button>
+        </div>
+      </div>
+      <table class="wl-table tj-table" id="tj-table" style="display:none; margin-top:18px">
+        <thead><tr><th>Date</th><th>Ticker</th><th>Strategy</th><th>Result</th><th>Notes</th><th></th></tr></thead>
+        <tbody id="tj-body"></tbody>
+      </table>
+      <p class="wl-status" id="tj-status">No entries yet. Add your first trade above.</p>
     </div>
 
     <div class="panel">
@@ -1695,6 +1765,124 @@
 
     renderResumeList();
     renderShortlist();
+  })();
+
+  // ---------- TRADE JOURNAL ----------
+  (function () {
+    const LS = "tradeJournal";
+    const LS_START = "tradeJournalStart";
+    const body = document.getElementById("tj-body");
+    const table = document.getElementById("tj-table");
+    const status = document.getElementById("tj-status");
+    const dateInput = document.getElementById("tj-date");
+    if (!body) return;
+
+    const RESULT_LABEL = { win: "Win", loss: "Loss", be: "Break-even" };
+
+    function todayStr() {
+      const d = new Date();
+      return d.getFullYear() + "-" + String(d.getMonth() + 1).padStart(2, "0") + "-" + String(d.getDate()).padStart(2, "0");
+    }
+    function parseYMD(s) { const [y, m, d] = s.split("-").map(Number); return new Date(y, m - 1, d); }
+    function ymd(d) { return d.getFullYear() + "-" + String(d.getMonth() + 1).padStart(2, "0") + "-" + String(d.getDate()).padStart(2, "0"); }
+    function isWeekday(d) { const g = d.getDay(); return g >= 1 && g <= 5; }
+
+    function load() { try { return JSON.parse(localStorage.getItem(LS) || "[]"); } catch { return []; } }
+    function save(list) { localStorage.setItem(LS, JSON.stringify(list)); }
+
+    // Fill in "No trades" for every weekday between the journal start and yesterday
+    // that has no entry of any kind. Today is left open for a manual entry.
+    function backfill() {
+      let list = load();
+      let start = localStorage.getItem(LS_START);
+      if (!start) { start = todayStr(); localStorage.setItem(LS_START, start); }
+
+      const have = new Set(list.map(e => e.date));
+      const cur = parseYMD(start);
+      const today = parseYMD(todayStr());
+      let added = false;
+      while (cur < today) {
+        const key = ymd(cur);
+        if (isWeekday(cur) && !have.has(key)) {
+          list.push({ id: "auto-" + key, date: key, type: "none", ts: cur.getTime() });
+          have.add(key);
+          added = true;
+        }
+        cur.setDate(cur.getDate() + 1);
+      }
+      if (added) save(list);
+      return list;
+    }
+
+    function refreshStrategies(list) {
+      const dl = document.getElementById("tj-strategies");
+      if (!dl) return;
+      const seen = [...new Set(list.filter(e => e.strategy).map(e => e.strategy))].slice(0, 30);
+      dl.innerHTML = seen.map(s => '<option value="' + esc(s) + '">').join("");
+    }
+
+    function render() {
+      const list = backfill().slice().sort((a, b) => (b.date.localeCompare(a.date)) || (b.ts - a.ts));
+      body.innerHTML = "";
+      if (!list.length) {
+        table.style.display = "none";
+        status.style.display = "";
+        status.textContent = "No entries yet. Add your first trade above.";
+        return;
+      }
+      table.style.display = "";
+      status.style.display = "none";
+      for (const e of list) {
+        const tr = document.createElement("tr");
+        if (e.type === "none") {
+          tr.className = "tj-row-none";
+          tr.innerHTML =
+            '<td style="text-align:left">' + esc(e.date) + '</td>' +
+            '<td colspan="4" style="text-align:left">No trades were made</td>' +
+            '<td><button class="wl-remove" title="Remove">✕</button></td>';
+        } else {
+          tr.innerHTML =
+            '<td style="text-align:left">' + esc(e.date) + '</td>' +
+            '<td class="sym" style="text-align:left">' + esc(e.ticker || "–") + '</td>' +
+            '<td class="tj-strat-cell">' + esc(e.strategy || "–") + '</td>' +
+            '<td><span class="tj-res ' + esc(e.result) + '">' + esc(RESULT_LABEL[e.result] || e.result || "–") + '</span></td>' +
+            '<td class="tj-notes-cell">' + esc(e.notes || "") + '</td>' +
+            '<td><button class="wl-remove" title="Remove">✕</button></td>';
+        }
+        tr.querySelector(".wl-remove").addEventListener("click", () => remove(e.id));
+        body.appendChild(tr);
+      }
+      refreshStrategies(list);
+    }
+
+    function remove(id) {
+      save(load().filter(e => e.id !== id));
+      render();
+    }
+
+    function add() {
+      const date = dateInput.value || todayStr();
+      const ticker = document.getElementById("tj-ticker").value.trim().toUpperCase();
+      const strategy = document.getElementById("tj-strategy").value.trim();
+      const result = document.getElementById("tj-result").value;
+      const notes = document.getElementById("tj-notes").value.trim();
+      if (!ticker && !strategy && !notes) { alert("Add a ticker, strategy, or note first."); return; }
+
+      let list = load();
+      // Replace an auto "No trades" entry on the same day, if present.
+      list = list.filter(e => !(e.type === "none" && e.date === date));
+      list.push({ id: "t-" + Date.now(), date, type: "trade", ticker, strategy, result, notes, ts: Date.now() });
+      save(list);
+      document.getElementById("tj-ticker").value = "";
+      document.getElementById("tj-strategy").value = "";
+      document.getElementById("tj-notes").value = "";
+      document.getElementById("tj-result").value = "win";
+      render();
+    }
+
+    dateInput.value = todayStr();
+    document.getElementById("tj-add").addEventListener("click", add);
+    render();
   })();
 </script>
 </body>
