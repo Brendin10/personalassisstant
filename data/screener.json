@@ -1,243 +1,311 @@
 {
- "updated": "Aug 04, 2026 06:46 PM ET",
+ "updated": "Aug 05, 2026 06:45 PM ET",
  "criteria": "close < lower BB(20,2), market cap > $20B",
  "universe_size": 503,
  "results": [
   {
-   "symbol": "FICO",
-   "name": "Fair Isaac Corporation",
-   "close": 1046.989990234375,
-   "lower_band": 1062.6041776424343,
-   "pct_below_band": 1.4694265029808133,
-   "market_cap": 22612508672.0,
-   "chg_1d": 0.146349870300444,
-   "chg_5d": -21.645386748452488,
-   "chg_1mo": -18.61781235381802,
-   "off_52w_high": -44.295711045994246,
-   "rsi": 35.24904083833553,
+   "symbol": "CVS",
+   "name": "CVS Health Corporation",
+   "close": 99.12000274658203,
+   "lower_band": 101.27122176484434,
+   "pct_below_band": 2.1242155281364363,
+   "market_cap": 126469914624.0,
+   "chg_1d": -5.075651709731122,
+   "chg_5d": -6.41993536623472,
+   "chg_1mo": -4.993768803828258,
+   "off_52w_high": -10.379743115661277,
+   "rsi": 37.07794891601948,
    "rsi_divergence": false,
-   "macd_histogram": -26.429942132423857,
+   "macd_histogram": -1.091289051719517,
    "macd_turning_up": false,
-   "volume_ratio": 1.4485470085470085,
+   "volume_ratio": 2.1718920775469024,
    "valuation": {
-    "forward_pe": 19.678736,
-    "trailing_pe": 30.268574,
-    "peg_ratio": 0.77,
-    "analyst_target": 1489.4763,
-    "analyst_upside_pct": 42.26270679689801
+    "forward_pe": 11.756864,
+    "trailing_pe": 43.473686,
+    "peg_ratio": 0.29,
+    "analyst_target": 114.88,
+    "analyst_upside_pct": 15.899916078201892
    },
    "short_interest": {
-    "pct_of_float": 12.46,
-    "days_to_cover": 7.55
+    "pct_of_float": 1.54,
+    "days_to_cover": 2.47
    },
    "insider": {
     "recent_buys": 0,
     "shares": null
    },
    "hot_score": {
-    "total": 52.7,
-    "valuation": 21.8,
-    "technical": 5.3,
-    "catalyst": 12.6,
-    "sentiment": 13.1
+    "total": 56.3,
+    "valuation": 18.7,
+    "technical": 4.6,
+    "catalyst": 11.0,
+    "sentiment": 21.8
    },
    "reasons": [
-    "FICO reported earnings on Jul 29 \u2014 earnings reactions are the most common cause of a sharp break below the band.",
-    "Sharp one-day drop of -17.0% on Jul 30 \u2014 points to a specific catalyst (news, guidance, downgrade) rather than gradual selling.",
-    "Down -18.6% over the past month \u2014 an extended downtrend; the band break continues an existing move rather than starting one.",
-    "Trading 44% below its 52-week high \u2014 deep drawdown territory, often reflecting a broken growth story or re-rating."
+    "Sharp one-day drop of -5.1% on Aug 05 \u2014 points to a specific catalyst (news, guidance, downgrade) rather than gradual selling."
    ],
    "news": [
     {
-     "title": "Why Fair Isaac Corporation (FICO) Stock Is Trading Lower Today",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/why-fair-isaac-corporation-fico-182122695.html",
-     "publisher": "StockStory"
+     "title": "Eli Lilly is treating nearly 10% of US obesity population with GLP-1s: CFO",
+     "link": "https://finance.yahoo.com/video/eli-lilly-treating-nearly-10-150223508.html",
+     "publisher": "Yahoo Finance Video"
     },
     {
-     "title": "FICO Q2 Deep Dive: Mortgage Market Volatility and Platform Expansion Shape Outlook",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/fico-q2-deep-dive-mortgage-100522847.html",
-     "publisher": "StockStory"
-    },
-    {
-     "title": "3 S&P 500 Stocks Worth Your Attention",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/3-p-500-stocks-worth-194122264.html",
-     "publisher": "StockStory"
-    }
-   ],
-   "sentiment": {
-    "label": "Mixed",
-    "bullish_pct": 45.5,
-    "sample_size": 11
-   },
-   "earnings_surprise": {
-    "date": "2026-07-29",
-    "actual_eps": 12.18,
-    "estimate_eps": 11.78,
-    "surprise_pct": 3.395585738539901
-   }
-  },
-  {
-   "symbol": "ROK",
-   "name": "Rockwell Automation, Inc.",
-   "close": 445.2300109863281,
-   "lower_band": 449.5463204307899,
-   "pct_below_band": 0.9601478753792337,
-   "market_cap": 49542504448.0,
-   "chg_1d": -7.432741316357161,
-   "chg_5d": -5.505444256245051,
-   "chg_1mo": -7.795055503857629,
-   "off_52w_high": -10.069075086447876,
-   "rsi": 41.47545819060389,
-   "rsi_divergence": false,
-   "macd_histogram": -0.6926803587941446,
-   "macd_turning_up": false,
-   "volume_ratio": 2.8358431596339773,
-   "valuation": {
-    "forward_pe": 30.436064,
-    "trailing_pe": 46.281708,
-    "peg_ratio": 2.1,
-    "analyst_target": 474.58334,
-    "analyst_upside_pct": 6.592846009783759
-   },
-   "short_interest": {
-    "pct_of_float": 3.88,
-    "days_to_cover": 4.17
-   },
-   "insider": {
-    "recent_buys": 0,
-    "shares": null
-   },
-   "hot_score": {
-    "total": 50.8,
-    "valuation": 10.8,
-    "technical": 3.7,
-    "catalyst": 14.9,
-    "sentiment": 21.4
-   },
-   "reasons": [
-    "Sharp one-day drop of -7.4% on Aug 04 \u2014 points to a specific catalyst (news, guidance, downgrade) rather than gradual selling."
-   ],
-   "news": [
-    {
-     "title": "Rockwell Automation Inc (ROK) (Q3 2026) Earnings Call Highlights: Strong Growth and Raised ...",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/rockwell-automation-inc-rok-q3-210414646.html",
-     "publisher": "GuruFocus.com"
-    },
-    {
-     "title": "Rockwell and Zebra Earnings Are Both Strong\u2014but Only One Automation Stock Is Up",
-     "link": "https://www.barrons.com/articles/rockwell-automation-earnings-zebra-technologies-stock-price-804eb91e?siteid=yhoof2&yptr=yahoo",
+     "title": "Oscar Health Stock Has Doubled This Year. The ACA Insurer Reports Thursday.",
+     "link": "https://www.barrons.com/articles/oscar-health-earnings-stock-price-756d4582?siteid=yhoof2&yptr=yahoo",
      "publisher": "Barrons.com"
     },
     {
-     "title": "ROK Q3 Earnings Beat Estimates on Margin Gains, FY26 View Hiked",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/rok-q3-earnings-beat-estimates-150500062.html",
-     "publisher": "Zacks"
+     "title": "SpaceX, Alphabet, Nvidia, Micron, AMD, Uber, CVS, Lilly, and More Stocks That Explain Today\u2019s Market",
+     "link": "https://www.barrons.com/articles/stock-movers-c5965517?siteid=yhoof2&yptr=yahoo",
+     "publisher": "Barrons.com"
     }
    ],
    "sentiment": {
     "label": "Bullish",
     "bullish_pct": 100.0,
-    "sample_size": 14
+    "sample_size": 23
    },
    "earnings_surprise": {
-    "date": "2026-05-05",
-    "actual_eps": 3.3,
-    "estimate_eps": 2.88,
-    "surprise_pct": 14.583333333333332
+    "date": "2026-05-06",
+    "actual_eps": 2.57,
+    "estimate_eps": 2.21,
+    "surprise_pct": 16.28959276018099
    }
   },
   {
-   "symbol": "UNH",
-   "name": "UnitedHealth Group Incorporated",
-   "close": 407.54998779296875,
-   "lower_band": 410.11842049199146,
-   "pct_below_band": 0.6262661150263702,
-   "market_cap": 370114232320.0,
-   "chg_1d": -1.880296088700828,
-   "chg_5d": -4.953478469339833,
-   "chg_1mo": -2.497668050747426,
-   "off_52w_high": -6.6002103604221425,
-   "rsi": 42.96638022748787,
+   "symbol": "NI",
+   "name": "NiSource Inc",
+   "close": 42.90999984741211,
+   "lower_band": 43.59756409815383,
+   "pct_below_band": 1.5770703363008252,
+   "market_cap": 20572737536.0,
+   "chg_1d": -3.637994557138735,
+   "chg_5d": -4.24012824737694,
+   "chg_1mo": -9.644139122301565,
+   "off_52w_high": -12.571315716085806,
+   "rsi": 29.026483583606662,
    "rsi_divergence": false,
-   "macd_histogram": -2.9117195705328984,
+   "macd_histogram": -0.25400550755006923,
    "macd_turning_up": false,
-   "volume_ratio": 0.9568193443977813,
+   "volume_ratio": 2.897257131138611,
    "valuation": {
-    "forward_pe": 18.165455,
-    "trailing_pe": 30.665913,
-    "peg_ratio": 1.28,
-    "analyst_target": 475.23077,
-    "analyst_upside_pct": 16.606743769898568
+    "forward_pe": 19.041744,
+    "trailing_pe": 21.348259,
+    "peg_ratio": 2.54,
+    "analyst_target": 51.16667,
+    "analyst_upside_pct": 19.241832164876715
    },
    "short_interest": {
-    "pct_of_float": 2.13,
-    "days_to_cover": 2.88
+    "pct_of_float": 3.09,
+    "days_to_cover": 2.35
    },
    "insider": {
     "recent_buys": 0,
     "shares": null
    },
    "hot_score": {
-    "total": 46.5,
-    "valuation": 16.3,
-    "technical": 3.7,
-    "catalyst": 2.5,
-    "sentiment": 24.0
+    "total": 52.6,
+    "valuation": 12.9,
+    "technical": 7.3,
+    "catalyst": 14.4,
+    "sentiment": 18.0
    },
    "reasons": [
     "No single obvious catalyst in the price action \u2014 likely broad market or sector weakness. Check the headlines below."
    ],
    "news": [
     {
-     "title": "The Zacks Analyst Blog Highlights SpaceX, United Health, The Goldman Sachs and Industrial and Commercial Bank",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/zacks-analyst-blog-highlights-spacex-143400570.html",
+     "title": "NiSource Inc. Q2 2026 Earnings Call Summary",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/nisource-inc-q2-2026-earnings-220856295.html",
+     "publisher": "Moby"
+    },
+    {
+     "title": "NiSource Q2 Earnings Top Estimates on NIPSCO Gains, Data Center Demand",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/nisource-q2-earnings-top-estimates-160600485.html",
      "publisher": "Zacks"
     },
     {
-     "title": "Why Hims & Hers Is the Perfect Acquisition Target (Even If a Deal Never Happens)",
-     "link": "https://finance.yahoo.com/healthcare/articles/why-hims-hers-perfect-acquisition-141529935.html",
-     "publisher": "24/7 Wall St."
-    },
-    {
-     "title": "UnitedHealth Group (UNH) Expands Tennessee Health Hubs With $4 Million Commitment",
-     "link": "https://finance.yahoo.com/healthcare/articles/unitedhealth-group-unh-expands-tennessee-220917084.html",
-     "publisher": "Simply Wall St."
+     "title": "NiSource (NI) Beats Q2 Earnings and Revenue Estimates",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/nisource-ni-beats-q2-earnings-114504708.html",
+     "publisher": "Zacks"
     }
    ],
    "sentiment": {
     "label": "Bullish",
-    "bullish_pct": 83.3,
-    "sample_size": 12
+    "bullish_pct": 100.0,
+    "sample_size": 10
    },
    "earnings_surprise": {
-    "date": "2026-07-16",
-    "actual_eps": 6.38,
-    "estimate_eps": 4.92,
-    "surprise_pct": 29.67479674796748
+    "date": "2026-05-06",
+    "actual_eps": 1.06,
+    "estimate_eps": 1.05,
+    "surprise_pct": 0.9523809523809532
+   }
+  },
+  {
+   "symbol": "CNP",
+   "name": "CenterPoint Energy, Inc (Holdin",
+   "close": 40.650001525878906,
+   "lower_band": 41.10428058873679,
+   "pct_below_band": 1.1051867502635848,
+   "market_cap": 26776979456.0,
+   "chg_1d": -2.236652872105449,
+   "chg_5d": -5.310968467479816,
+   "chg_1mo": -8.610607139778892,
+   "off_52w_high": -9.746890098607885,
+   "rsi": 32.15236650351696,
+   "rsi_divergence": false,
+   "macd_histogram": -0.3248930418293569,
+   "macd_turning_up": false,
+   "volume_ratio": 1.1510684476799977,
+   "valuation": {
+    "forward_pe": 19.459446,
+    "trailing_pe": 24.19643,
+    "peg_ratio": 1.99,
+    "analyst_target": 46.5,
+    "analyst_upside_pct": 14.391139617539306
+   },
+   "short_interest": {
+    "pct_of_float": 8.69,
+    "days_to_cover": 6.11
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 47.4,
+    "valuation": 13.4,
+    "technical": 6.3,
+    "catalyst": 8.0,
+    "sentiment": 19.8
+   },
+   "reasons": [
+    "CNP reported earnings on Jul 28 \u2014 earnings reactions are the most common cause of a sharp break below the band."
+   ],
+   "news": [
+    {
+     "title": "Duke Energy Q2 Earnings Beat Estimates, Revenues Increase Y/Y",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/duke-energy-q2-earnings-beat-160900742.html",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Ameren Q2 Earnings Surpass Estimates, Revenues Decline Y/Y",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/ameren-q2-earnings-surpass-estimates-133500570.html",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "National Fuel Gas Co (NFG) (Q3 2026) Earnings Call Highlights: Strong Long-Term Growth Outlook ...",
+     "link": "https://finance.yahoo.com/energy/articles/national-fuel-gas-co-nfg-210209641.html",
+     "publisher": "GuruFocus.com"
+    }
+   ],
+   "sentiment": {
+    "label": "Bullish",
+    "bullish_pct": 100.0,
+    "sample_size": 1
+   },
+   "earnings_surprise": {
+    "date": "2026-07-28",
+    "actual_eps": 0.4,
+    "estimate_eps": 0.37,
+    "surprise_pct": 8.108108108108116
+   }
+  },
+  {
+   "symbol": "CI",
+   "name": "The Cigna Group",
+   "close": 270.5,
+   "lower_band": 270.7390754507164,
+   "pct_below_band": 0.08830474519366052,
+   "market_cap": 71477051392.0,
+   "chg_1d": -1.2953796573968779,
+   "chg_5d": -8.75973997833599,
+   "chg_1mo": -5.624169768964194,
+   "off_52w_high": -13.022508038585212,
+   "rsi": 38.44538443160092,
+   "rsi_divergence": false,
+   "macd_histogram": -2.287773020336204,
+   "macd_turning_up": false,
+   "volume_ratio": 2.3681650630921767,
+   "valuation": {
+    "forward_pe": 8.081277,
+    "trailing_pe": 11.19156,
+    "peg_ratio": 0.83,
+    "analyst_target": 342.625,
+    "analyst_upside_pct": 26.66358595194085
+   },
+   "short_interest": {
+    "pct_of_float": 2.61,
+    "days_to_cover": 3.93
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 46.3,
+    "valuation": 20.6,
+    "technical": 4.2,
+    "catalyst": 13.2,
+    "sentiment": 8.3
+   },
+   "reasons": [
+    "CI reported earnings on Jul 30 \u2014 earnings reactions are the most common cause of a sharp break below the band.",
+    "Down -8.8% over 5 sessions without a single large gap \u2014 suggests sustained selling pressure (sector rotation, macro, or sentiment shift)."
+   ],
+   "news": [
+    {
+     "title": "Oscar Health Stock Has Doubled This Year. The ACA Insurer Reports Thursday.",
+     "link": "https://www.barrons.com/articles/oscar-health-earnings-stock-price-756d4582?siteid=yhoof2&yptr=yahoo",
+     "publisher": "Barrons.com"
+    },
+    {
+     "title": "Healthcare Stocks Have Been Forgotten. Eli Lilly, McKesson, and 9 More to Buy.",
+     "link": "https://www.barrons.com/articles/healthcare-stocks-eli-lilly-mckesson-humana-a11231dc?siteid=yhoof2&yptr=yahoo",
+     "publisher": "Barrons.com"
+    },
+    {
+     "title": "The Case For UnitedHealth Stock Is Margin, Not Growth",
+     "link": "https://finance.yahoo.com/healthcare/articles/case-unitedhealth-stock-margin-not-155015893.html",
+     "publisher": "Trefis"
+    }
+   ],
+   "sentiment": {
+    "label": "Bearish",
+    "bullish_pct": 38.5,
+    "sample_size": 13
+   },
+   "earnings_surprise": {
+    "date": "2026-07-30",
+    "actual_eps": 7.78,
+    "estimate_eps": 7.6,
+    "surprise_pct": 2.368421052631587
    }
   },
   {
    "symbol": "EIX",
    "name": "Edison International",
-   "close": 70.69000244140625,
-   "lower_band": 71.45388343084721,
-   "pct_below_band": 1.069054546461767,
-   "market_cap": 27202500608.0,
-   "chg_1d": -1.077521204773868,
-   "chg_5d": -11.404935918919401,
-   "chg_1mo": -5.5451551303501105,
-   "off_52w_high": -12.055231578898407,
-   "rsi": 33.22789584456861,
+   "close": 68.31999969482422,
+   "lower_band": 70.01710986134347,
+   "pct_below_band": 2.4238506414790315,
+   "market_cap": 26290491392.0,
+   "chg_1d": -3.3526703419574644,
+   "chg_5d": -13.112041102285021,
+   "chg_1mo": -9.796670686856057,
+   "off_52w_high": -15.00372974705585,
+   "rsi": 28.72065735402488,
    "rsi_divergence": false,
-   "macd_histogram": -1.044984977309879,
+   "macd_histogram": -1.3058030439241324,
    "macd_turning_up": false,
-   "volume_ratio": 1.9003945016939443,
+   "volume_ratio": 1.5227900427085166,
    "valuation": {
-    "forward_pe": 10.872709,
-    "trailing_pe": 7.2951503,
+    "forward_pe": 10.508183,
+    "trailing_pe": 7.050568,
     "peg_ratio": 3.46,
     "analyst_target": 76.82143,
-    "analyst_upside_pct": 8.673684179988527
+    "analyst_upside_pct": 12.443545584236638
    },
    "short_interest": {
     "pct_of_float": 5.2,
@@ -248,10 +316,10 @@
     "shares": null
    },
    "hot_score": {
-    "total": 46.3,
-    "valuation": 5.1,
-    "technical": 5.9,
-    "catalyst": 11.3,
+    "total": 46.1,
+    "valuation": 6.1,
+    "technical": 7.4,
+    "catalyst": 8.6,
     "sentiment": 24.0
    },
    "reasons": [
@@ -259,6 +327,11 @@
     "Sharp one-day drop of -6.8% on Jul 31 \u2014 points to a specific catalyst (news, guidance, downgrade) rather than gradual selling."
    ],
    "news": [
+    {
+     "title": "Spire's Q3 Loss Wider Than Estimates, Revenues Decrease Y/Y",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/spires-q3-loss-wider-estimates-160600709.html",
+     "publisher": "Zacks"
+    },
     {
      "title": "PEG Q2 Earnings Outpace Expectations, Revenues Decrease Y/Y",
      "link": "https://finance.yahoo.com/markets/stocks/articles/peg-q2-earnings-outpace-expectations-152600102.html",
@@ -268,17 +341,12 @@
      "title": "NRG Energy Q2 Earnings Lag Estimates, Revenues Increase Y/Y",
      "link": "https://finance.yahoo.com/markets/stocks/articles/nrg-energy-q2-earnings-lag-151900357.html",
      "publisher": "Zacks"
-    },
-    {
-     "title": "WIX Q2 Earnings Beat Expectations, Revenue Rises Y/Y on Base44 Strength",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/wix-q2-earnings-beat-expectations-140700400.html",
-     "publisher": "Zacks"
     }
    ],
    "sentiment": {
     "label": "Bullish",
     "bullish_pct": 100.0,
-    "sample_size": 2
+    "sample_size": 1
    },
    "earnings_surprise": {
     "date": "2026-07-30",
@@ -288,144 +356,283 @@
    }
   },
   {
-   "symbol": "MAR",
-   "name": "Marriott International",
-   "close": 345.20001220703125,
-   "lower_band": 349.8130110971538,
-   "pct_below_band": 1.3187042058996927,
-   "market_cap": 90016522240.0,
-   "chg_1d": -0.46996350613840443,
-   "chg_5d": -9.991650475687353,
-   "chg_1mo": -9.098087634751483,
-   "off_52w_high": -14.244545913624806,
-   "rsi": 32.05852460064767,
+   "symbol": "PEG",
+   "name": "Public Service Enterprise Group",
+   "close": 75.54000091552734,
+   "lower_band": 75.55800475758296,
+   "pct_below_band": 0.023827842084214453,
+   "market_cap": 37643198464.0,
+   "chg_1d": -0.9571204401061517,
+   "chg_5d": -2.842442552376412,
+   "chg_1mo": -7.641520882797148,
+   "off_52w_high": -13.992941659238223,
+   "rsi": 31.278914878122066,
    "rsi_divergence": false,
-   "macd_histogram": -2.246820013198798,
+   "macd_histogram": -0.37421293128557787,
    "macd_turning_up": false,
-   "volume_ratio": 2.1835515925243487,
+   "volume_ratio": 0.933638395544118,
    "valuation": {
-    "forward_pe": 26.333075,
-    "trailing_pe": 36.184486,
-    "peg_ratio": 2.2,
-    "analyst_target": 380.875,
-    "analyst_upside_pct": 10.334584742590614
+    "forward_pe": 16.151863,
+    "trailing_pe": 18.791044,
+    "peg_ratio": 3.81,
+    "analyst_target": 88.23684,
+    "analyst_upside_pct": 16.808100252303284
    },
    "short_interest": {
-    "pct_of_float": 2.14,
-    "days_to_cover": 3.02
+    "pct_of_float": 2.56,
+    "days_to_cover": 3.5
    },
    "insider": {
     "recent_buys": 0,
     "shares": null
    },
    "hot_score": {
-    "total": 38.0,
-    "valuation": 11.5,
-    "technical": 6.3,
-    "catalyst": 11.5,
-    "sentiment": 8.6
+    "total": 39.7,
+    "valuation": 10.7,
+    "technical": 6.6,
+    "catalyst": 2.6,
+    "sentiment": 19.8
    },
    "reasons": [
-    "MAR reported earnings on Aug 03 \u2014 earnings reactions are the most common cause of a sharp break below the band.",
-    "Sharp one-day drop of -7.0% on Aug 03 \u2014 points to a specific catalyst (news, guidance, downgrade) rather than gradual selling."
+    "No single obvious catalyst in the price action \u2014 likely broad market or sector weakness. Check the headlines below."
    ],
    "news": [
     {
-     "title": "Can Marriott's Raised 2026 Outlook Overcome Middle East Weakness?",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/marriotts-raised-2026-outlook-overcome-170600006.html",
-     "publisher": "Zacks"
+     "title": "Public Service Enterprise Group (PEG) Could Be 15% Undervalued Following ESOP Share Filing",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/public-enterprise-group-peg-could-201247093.html",
+     "publisher": "Simply Wall St."
     },
     {
-     "title": "Is Marriott Stock Worth Buying as Growth Meets a Premium Valuation?",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/marriott-stock-worth-buying-growth-165300601.html",
-     "publisher": "Zacks"
+     "title": "Public Service Enterprise Group Q2 Earnings Call Highlights",
+     "link": "https://finance.yahoo.com/energy/articles/public-enterprise-group-q2-earnings-120407829.html",
+     "publisher": "MarketBeat"
     },
     {
-     "title": "Correction: US Equity Markets End Higher Monday as Crude Oil Falls on US-Iran's New Round of Talks",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/correction-us-equity-markets-end-124427376.html",
-     "publisher": "MT Newswires"
+     "title": "PSEG offers data center supply proposals in PJM\u2019s bilateral contracting process",
+     "link": "https://finance.yahoo.com/energy/articles/pseg-offers-data-center-supply-083851012.html",
+     "publisher": "Utility Dive"
     }
    ],
    "sentiment": {
-    "label": "Bearish",
-    "bullish_pct": 33.3,
-    "sample_size": 3
+    "label": "Bullish",
+    "bullish_pct": 100.0,
+    "sample_size": 5
    },
    "earnings_surprise": {
-    "date": "2026-08-03",
-    "actual_eps": 3.19,
-    "estimate_eps": 3.08,
-    "surprise_pct": 3.571428571428567
+    "date": "2026-05-05",
+    "actual_eps": 1.55,
+    "estimate_eps": 1.43,
+    "surprise_pct": 8.391608391608399
    }
   },
   {
-   "symbol": "HLT",
-   "name": "Hilton Worldwide Holdings Inc.",
-   "close": 312.07000732421875,
-   "lower_band": 312.1302128490754,
-   "pct_below_band": 0.01928859250987247,
-   "market_cap": 70236012544.0,
-   "chg_1d": -0.7221445059863885,
-   "chg_5d": -3.2130960477922854,
-   "chg_1mo": -8.055153366990398,
-   "off_52w_high": -10.893151094600917,
-   "rsi": 34.69700305567113,
+   "symbol": "D",
+   "name": "Dominion Energy, Inc.",
+   "close": 68.2699966430664,
+   "lower_band": 68.43269395770055,
+   "pct_below_band": 0.23774793190914015,
+   "market_cap": 60045234176.0,
+   "chg_1d": -1.3724423011893583,
+   "chg_5d": -3.231759475642715,
+   "chg_1mo": -2.234004220367236,
+   "off_52w_high": -4.7705477498554805,
+   "rsi": 41.55926596240003,
    "rsi_divergence": false,
-   "macd_histogram": -1.0168956660492001,
+   "macd_histogram": -0.3982055161316635,
    "macd_turning_up": false,
-   "volume_ratio": 0.8141736361765542,
+   "volume_ratio": 0.743232887257778,
    "valuation": {
-    "forward_pe": 29.874594,
-    "trailing_pe": 45.758064,
-    "peg_ratio": 1.59,
-    "analyst_target": 352.04166,
-    "analyst_upside_pct": 12.808553125149746
+    "forward_pe": 17.894117,
+    "trailing_pe": 23.622835,
+    "peg_ratio": 2.95,
+    "analyst_target": 71.0,
+    "analyst_upside_pct": 3.9988332959891126
    },
    "short_interest": {
-    "pct_of_float": 2.6,
-    "days_to_cover": 2.0
+    "pct_of_float": 3.57,
+    "days_to_cover": 4.31
    },
    "insider": {
     "recent_buys": 0,
     "shares": null
    },
    "hot_score": {
-    "total": 33.9,
-    "valuation": 14.3,
-    "technical": 5.4,
-    "catalyst": 1.7,
-    "sentiment": 12.5
+    "total": 35.4,
+    "valuation": 7.3,
+    "technical": 3.7,
+    "catalyst": 2.2,
+    "sentiment": 22.2
    },
    "reasons": [
-    "HLT reported earnings on Jul 28 \u2014 earnings reactions are the most common cause of a sharp break below the band."
+    "D reported earnings on Jul 31 \u2014 earnings reactions are the most common cause of a sharp break below the band."
    ],
    "news": [
     {
-     "title": "Can Marriott's Raised 2026 Outlook Overcome Middle East Weakness?",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/marriotts-raised-2026-outlook-overcome-170600006.html",
+     "title": "NiSource Q2 Earnings Top Estimates on NIPSCO Gains, Data Center Demand",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/nisource-q2-earnings-top-estimates-160600485.html",
      "publisher": "Zacks"
     },
     {
-     "title": "Is Marriott Stock Worth Buying as Growth Meets a Premium Valuation?",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/marriott-stock-worth-buying-growth-165300601.html",
+     "title": "Is Southern Company Stock Worth Buying Despite Its Premium Valuation?",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/southern-company-stock-worth-buying-120800908.html",
      "publisher": "Zacks"
     },
     {
-     "title": "Can Hilton's Travel Boom Outrun Rising Debt and Global Demand Risks?",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/hiltons-travel-boom-outrun-rising-162600618.html",
+     "title": "AI Power Demands Spur Builders to Seek Billions in Bank Pledges",
+     "link": "https://finance.yahoo.com/technology/ai/articles/ai-power-demands-spur-builders-093000020.html",
+     "publisher": "Bloomberg"
+    }
+   ],
+   "sentiment": {
+    "label": "Bullish",
+    "bullish_pct": 85.7,
+    "sample_size": 7
+   },
+   "earnings_surprise": {
+    "date": "2026-07-31",
+    "actual_eps": 0.79,
+    "estimate_eps": 0.67,
+    "surprise_pct": 17.91044776119403
+   }
+  },
+  {
+   "symbol": "KMI",
+   "name": "Kinder Morgan, Inc.",
+   "close": 31.1200008392334,
+   "lower_band": 31.15707843502942,
+   "pct_below_band": 0.1190021582843107,
+   "market_cap": 69298085888.0,
+   "chg_1d": -0.8285478919268785,
+   "chg_5d": -2.291992255865216,
+   "chg_1mo": -4.216684421230377,
+   "off_52w_high": -9.297582064630594,
+   "rsi": 39.5456938303209,
+   "rsi_divergence": false,
+   "macd_histogram": -0.13184912683499989,
+   "macd_turning_up": false,
+   "volume_ratio": 0.8290692717620339,
+   "valuation": {
+    "forward_pe": 20.224077,
+    "trailing_pe": 20.077421,
+    "peg_ratio": 3.5,
+    "analyst_target": 35.61905,
+    "analyst_upside_pct": 14.457098455777007
+   },
+   "short_interest": {
+    "pct_of_float": 2.33,
+    "days_to_cover": 4.41
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 34.8,
+    "valuation": 6.7,
+    "technical": 3.8,
+    "catalyst": 1.7,
+    "sentiment": 22.6
+   },
+   "reasons": [
+    "KMI reported earnings on Jul 22 \u2014 earnings reactions are the most common cause of a sharp break below the band."
+   ],
+   "news": [
+    {
+     "title": "Pembina Pipeline Q2 Earnings Miss Estimates, Revenues Increase Y/Y",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/pembina-pipeline-q2-earnings-miss-171000023.html",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "PARR Q2 Earnings Beat Estimates on Refining Margin Strength",
+     "link": "https://finance.yahoo.com/energy/articles/parr-q2-earnings-beat-estimates-143500280.html",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "TechnipFMC Q2 Earnings & Revenues Beat Estimates, Rise Y/Y",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/technipfmc-q2-earnings-revenues-beat-170200874.html",
      "publisher": "Zacks"
     }
    ],
    "sentiment": {
-    "label": "Mixed",
-    "bullish_pct": 50.0,
-    "sample_size": 4
+    "label": "Bullish",
+    "bullish_pct": 100.0,
+    "sample_size": 10
    },
    "earnings_surprise": {
-    "date": "2026-07-28",
-    "actual_eps": 2.29,
-    "estimate_eps": 2.27,
-    "surprise_pct": 0.8810572687224677
+    "date": "2026-07-22",
+    "actual_eps": 0.37,
+    "estimate_eps": 0.31,
+    "surprise_pct": 19.35483870967742
+   }
+  },
+  {
+   "symbol": "NEE",
+   "name": "NextEra Energy, Inc.",
+   "close": 85.91000366210938,
+   "lower_band": 86.10863891330723,
+   "pct_below_band": 0.23067981761718398,
+   "market_cap": 179206406144.0,
+   "chg_1d": -1.4793501505493079,
+   "chg_5d": -2.8826536838738037,
+   "chg_1mo": -2.8936334613666514,
+   "off_52w_high": -12.229254114420806,
+   "rsi": 39.30187254400601,
+   "rsi_divergence": false,
+   "macd_histogram": -0.33837296181499926,
+   "macd_turning_up": false,
+   "volume_ratio": 0.8927515786418448,
+   "valuation": {
+    "forward_pe": 19.43894,
+    "trailing_pe": 19.30562,
+    "peg_ratio": 1.9,
+    "analyst_target": 99.0,
+    "analyst_upside_pct": 15.236870888022057
+   },
+   "short_interest": {
+    "pct_of_float": null,
+    "days_to_cover": 0.01
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 34.5,
+    "valuation": 10.6,
+    "technical": 3.9,
+    "catalyst": 1.4,
+    "sentiment": 18.7
+   },
+   "reasons": [
+    "NEE reported earnings on Jul 24 \u2014 earnings reactions are the most common cause of a sharp break below the band."
+   ],
+   "news": [
+    {
+     "title": "Utilities Are Up 8% on AI Power Demand. The Fund Actually Building the Data Centers Is Up 40%",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/utilities-8-ai-power-demand-201033058.html",
+     "publisher": "24/7 Wall St."
+    },
+    {
+     "title": "NiSource Q2 Earnings Top Estimates on NIPSCO Gains, Data Center Demand",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/nisource-q2-earnings-top-estimates-160600485.html",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Duke Energy Q2 Earnings Call Highlights",
+     "link": "https://finance.yahoo.com/energy/articles/duke-energy-q2-earnings-call-050350166.html",
+     "publisher": "MarketBeat"
+    }
+   ],
+   "sentiment": {
+    "label": "Bullish",
+    "bullish_pct": 100.0,
+    "sample_size": 8
+   },
+   "earnings_surprise": {
+    "date": "2026-07-24",
+    "actual_eps": 1.15,
+    "estimate_eps": 1.11,
+    "surprise_pct": 3.6036036036035863
    }
   }
  ]
