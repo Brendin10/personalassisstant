@@ -1,30 +1,30 @@
 {
- "updated": "Aug 10, 2026 06:22 PM ET",
+ "updated": "Aug 11, 2026 06:26 PM ET",
  "criteria": "close < lower BB(20,2), market cap > $20B",
  "universe_size": 503,
  "results": [
   {
    "symbol": "CVS",
    "name": "CVS Health Corporation",
-   "close": 95.66999816894531,
-   "lower_band": 96.07479069619167,
-   "pct_below_band": 0.42133063659372916,
-   "market_cap": 122359095296.0,
-   "chg_1d": -0.03134668783020267,
-   "chg_5d": -9.205660363287183,
-   "chg_1mo": -8.142105840321578,
-   "off_52w_high": -13.499096303034042,
-   "rsi": 31.636430596078796,
+   "close": 93.5,
+   "lower_band": 94.18554848656945,
+   "pct_below_band": 0.7278701431220119,
+   "market_cap": 119583727616.0,
+   "chg_1d": -2.268211780576468,
+   "chg_5d": -10.457765141192022,
+   "chg_1mo": -11.70916085666789,
+   "off_52w_high": -15.461119990993733,
+   "rsi": 28.40369208572814,
    "rsi_divergence": false,
-   "macd_histogram": -1.6877606169797843,
+   "macd_histogram": -1.767859492494352,
    "macd_turning_up": false,
-   "volume_ratio": 0.6553017163975925,
+   "volume_ratio": 0.6724410782516087,
    "valuation": {
-    "forward_pe": 11.27142,
-    "trailing_pe": 25.242744,
+    "forward_pe": 11.00978,
+    "trailing_pe": 24.670185,
     "peg_ratio": 0.26,
     "analyst_target": 115.8,
-    "analyst_upside_pct": 21.041081024697796
+    "analyst_upside_pct": 23.850267379679146
    },
    "short_interest": {
     "pct_of_float": 1.54,
@@ -35,9 +35,9 @@
     "shares": null
    },
    "hot_score": {
-    "total": 51.6,
-    "valuation": 20.2,
-    "technical": 6.5,
+    "total": 53.5,
+    "valuation": 21.0,
+    "technical": 7.5,
     "catalyst": 1.0,
     "sentiment": 24.0
    },
@@ -47,25 +47,25 @@
    ],
    "news": [
     {
-     "title": "CVS pharmacists take step towards strike over staffing, burnout",
-     "link": "https://finance.yahoo.com/healthcare/articles/cvs-pharmacists-step-towards-strike-085129912.html",
-     "publisher": "Healthcare Dive"
+     "title": "AbbVie vs. CVS Health: Which Healthcare Stock Is a Better Buy in 2026?",
+     "link": "https://finance.yahoo.com/healthcare/articles/abbvie-vs-cvs-health-healthcare-204701582.html",
+     "publisher": "Motley Fool"
     },
     {
-     "title": "Healthcare giant slashes key consultation fee to beat rivals",
-     "link": "https://finance.yahoo.com/healthcare/articles/healthcare-giant-slashes-key-consultation-030700690.html",
+     "title": "Pharmacy giant closes more stores across U.S. in 2026",
+     "link": "https://finance.yahoo.com/healthcare/articles/pharmacy-giant-closes-more-stores-141700084.html",
      "publisher": "TheStreet"
     },
     {
-     "title": "UNH Leads Its Peer Group. You Pay For That",
-     "link": "https://finance.yahoo.com/healthcare/articles/unh-leads-peer-group-pay-204001762.html",
-     "publisher": "Trefis"
+     "title": "Elizabeth Warren Says UnitedHealth, CVS Have Too Much Control Over US Healthcare\u2014Now She Wants to Break Up the Vertical Integration",
+     "link": "https://finance.yahoo.com/healthcare/articles/elizabeth-warren-says-unitedhealth-cvs-223113505.html",
+     "publisher": "Benzinga"
     }
    ],
    "sentiment": {
     "label": "Bullish",
     "bullish_pct": 100.0,
-    "sample_size": 17
+    "sample_size": 12
    },
    "earnings_surprise": {
     "date": "2026-08-05",
@@ -77,25 +77,25 @@
   {
    "symbol": "APP",
    "name": "Applovin Corporation",
-   "close": 339.0,
-   "lower_band": 342.4750988287301,
-   "pct_below_band": 1.0147011682352924,
-   "market_cap": 113446526976.0,
-   "chg_1d": -2.2491315073589813,
-   "chg_5d": -16.535356277468615,
-   "chg_1mo": -33.1334583901096,
-   "off_52w_high": -53.78952954173213,
-   "rsi": 31.110534448273626,
+   "close": 318.67999267578125,
+   "lower_band": 328.72273477178385,
+   "pct_below_band": 3.055079869353966,
+   "market_cap": 107057201152.0,
+   "chg_1d": -5.994102455521755,
+   "chg_5d": -24.069577458439163,
+   "chg_1mo": -28.038841981795027,
+   "off_52w_high": -56.55943248617932,
+   "rsi": 28.419290909406342,
    "rsi_divergence": false,
-   "macd_histogram": -5.047419243972584,
+   "macd_histogram": -6.520541756881208,
    "macd_turning_up": false,
-   "volume_ratio": 0.8557392124336639,
+   "volume_ratio": 1.1216839955558358,
    "valuation": {
-    "forward_pe": 15.92858,
-    "trailing_pe": 26.056879,
-    "peg_ratio": 0.96,
-    "analyst_target": 560.8333,
-    "analyst_upside_pct": 65.4375516224189
+    "forward_pe": 14.973804,
+    "trailing_pe": 24.476189,
+    "peg_ratio": 0.94,
+    "analyst_target": 559.0,
+    "analyst_upside_pct": 75.41107469797001
    },
    "short_interest": {
     "pct_of_float": 4.3,
@@ -106,39 +106,39 @@
     "shares": null
    },
    "hot_score": {
-    "total": 48.7,
-    "valuation": 21.1,
-    "technical": 6.6,
-    "catalyst": 3.1,
+    "total": 51.7,
+    "valuation": 21.2,
+    "technical": 7.5,
+    "catalyst": 5.1,
     "sentiment": 17.9
    },
    "reasons": [
     "APP reported earnings on Aug 05 \u2014 earnings reactions are the most common cause of a sharp break below the band.",
     "Sharp one-day drop of -19.7% on Aug 06 \u2014 points to a specific catalyst (news, guidance, downgrade) rather than gradual selling.",
-    "Down -33.1% over the past month \u2014 an extended downtrend; the band break continues an existing move rather than starting one.",
-    "Trading 54% below its 52-week high \u2014 deep drawdown territory, often reflecting a broken growth story or re-rating."
+    "Down -28.0% over the past month \u2014 an extended downtrend; the band break continues an existing move rather than starting one.",
+    "Trading 57% below its 52-week high \u2014 deep drawdown territory, often reflecting a broken growth story or re-rating."
    ],
    "news": [
     {
-     "title": "Trade Desk (TTD) Stock Is Falling Today: What\u2019s Behind the Drop, and Are Its Peers Moving Too?",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/trade-desk-ttd-stock-falling-183928555.html",
-     "publisher": "24/7 Wall St."
+     "title": "Update: US Equity Indexes Decline as Growth Sectors Hit Amid Gains in Crude Oil Ahead of July's Consumer Price Inflation Data",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-decline-growth-205722038.html",
+     "publisher": "MT Newswires"
     },
     {
-     "title": "APP Stock Falls 17% Since Q2 Earnings: Is it a Buy After the Pullback?",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/app-stock-falls-17-since-173400163.html",
-     "publisher": "Zacks"
+     "title": "Update: Equities Post Back-to-Back Declines Amid Hormuz Deal Doubts",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/equities-post-back-back-declines-202958244.html",
+     "publisher": "MT Newswires"
     },
     {
-     "title": "AppLovin Revenue Jumped 53%. So Why Did the Stock Just Plunge 20%?",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/applovin-revenue-jumped-53-why-180300693.html",
-     "publisher": "Motley Fool"
+     "title": "Micron, SpaceX, Rocket Lab, Fermi, AppLovin, and More Stocks That Explain Today\u2019s Market",
+     "link": "https://www.barrons.com/articles/stock-movers-86153631?siteid=yhoof2&yptr=yahoo",
+     "publisher": "Barrons.com"
     }
    ],
    "sentiment": {
     "label": "Bullish",
-    "bullish_pct": 90.0,
-    "sample_size": 10
+    "bullish_pct": 92.3,
+    "sample_size": 13
    },
    "earnings_surprise": {
     "date": "2026-08-05",
@@ -148,1011 +148,98 @@
    }
   },
   {
-   "symbol": "HONA",
-   "name": "Honeywell Aerospace Inc.",
-   "close": 163.08999633789062,
-   "lower_band": 167.09137072171617,
-   "pct_below_band": 2.3947223405628018,
-   "market_cap": 51689701376.0,
-   "chg_1d": -3.216425343082807,
-   "chg_5d": -21.692998035120493,
-   "chg_1mo": -26.120046959052946,
-   "off_52w_high": -39.58511244192391,
-   "rsi": 33.55454016136093,
+   "symbol": "VTR",
+   "name": "Ventas, Inc.",
+   "close": 86.95999908447266,
+   "lower_band": 87.75205473273012,
+   "pct_below_band": 0.9026063841694132,
+   "market_cap": 44605816832.0,
+   "chg_1d": -5.4268602820926155,
+   "chg_5d": -4.28178255914502,
+   "chg_1mo": -5.539863794668342,
+   "off_52w_high": -13.498458032030559,
+   "rsi": 36.773565254861666,
    "rsi_divergence": false,
-   "macd_histogram": -4.713521048559277,
+   "macd_histogram": -1.0941806952056212,
    "macd_turning_up": false,
-   "volume_ratio": 1.1961267663797934,
+   "volume_ratio": 1.4439755013938504,
    "valuation": {
-    "forward_pe": 17.726923,
-    "trailing_pe": 49.571426,
-    "peg_ratio": 0.78,
-    "analyst_target": 229.92308,
-    "analyst_upside_pct": 40.97926614925189
+    "forward_pe": 106.48119,
+    "trailing_pe": 158.10909,
+    "peg_ratio": 1.72,
+    "analyst_target": 100.63636,
+    "analyst_upside_pct": 15.727186130995886
    },
    "short_interest": {
-    "pct_of_float": null,
-    "days_to_cover": 2.85
+    "pct_of_float": 5.53,
+    "days_to_cover": 5.88
    },
    "insider": {
     "recent_buys": 0,
     "shares": null
    },
    "hot_score": {
-    "total": 48.2,
-    "valuation": 21.7,
-    "technical": 5.8,
-    "catalyst": 5.8,
-    "sentiment": 14.8
+    "total": 51.6,
+    "valuation": 14.6,
+    "technical": 4.7,
+    "catalyst": 8.2,
+    "sentiment": 24.0
    },
    "reasons": [
-    "HONA reported earnings on Aug 05 \u2014 earnings reactions are the most common cause of a sharp break below the band.",
-    "Sharp one-day drop of -23.2% on Aug 06 \u2014 points to a specific catalyst (news, guidance, downgrade) rather than gradual selling.",
-    "Down -26.1% over the past month \u2014 an extended downtrend; the band break continues an existing move rather than starting one."
+    "VTR reported earnings on Jul 29 \u2014 earnings reactions are the most common cause of a sharp break below the band.",
+    "Sharp one-day drop of -5.4% on Aug 11 \u2014 points to a specific catalyst (news, guidance, downgrade) rather than gradual selling."
    ],
    "news": [
     {
-     "title": "Jim Cramer Dumps Honeywell Aerospace (HONA) After Shock Guidance Cut Triggers Sharp Selloff",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-dumps-honeywell-aerospace-171533014.html",
-     "publisher": "Insider Monkey"
-    },
-    {
-     "title": "Honeywell Aerospace Needs to Resolve Supply Chain Issues for Upside, Morgan Stanley Says",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/honeywell-aerospace-needs-resolve-supply-150840001.html",
-     "publisher": "MT Newswires"
-    },
-    {
-     "title": "Stock Market News for Aug 7, 2026",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-aug-7-103500039.html",
+     "title": "Top Research Reports for Meta, Texas Instruments & CrowdStrike",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/top-research-reports-meta-texas-203100631.html",
      "publisher": "Zacks"
-    }
-   ],
-   "sentiment": {
-    "label": "Bullish",
-    "bullish_pct": 90.9,
-    "sample_size": 11
-   },
-   "earnings_surprise": {
-    "date": "2026-08-05",
-    "actual_eps": 1.87,
-    "estimate_eps": 2.12,
-    "surprise_pct": -11.792452830188678
-   }
-  },
-  {
-   "symbol": "DUK",
-   "name": "Duke Energy Corporation (Holdin",
-   "close": 121.19000244140625,
-   "lower_band": 121.43390817087852,
-   "pct_below_band": 0.20085471442544436,
-   "market_cap": 94492114944.0,
-   "chg_1d": -2.9315146795724556,
-   "chg_5d": -2.4863182879314327,
-   "chg_1mo": -3.4188721714680237,
-   "off_52w_high": -9.193768661174529,
-   "rsi": 36.626043579104,
-   "rsi_divergence": false,
-   "macd_histogram": -0.6367645218646675,
-   "macd_turning_up": false,
-   "volume_ratio": 2.029792563272397,
-   "valuation": {
-    "forward_pe": 16.91204,
-    "trailing_pe": 18.251507,
-    "peg_ratio": 2.48,
-    "analyst_target": 137.73685,
-    "analyst_upside_pct": 13.65364075027058
-   },
-   "short_interest": {
-    "pct_of_float": 2.53,
-    "days_to_cover": 4.5
-   },
-   "insider": {
-    "recent_buys": 0,
-    "shares": null
-   },
-   "hot_score": {
-    "total": 47.2,
-    "valuation": 11.5,
-    "technical": 4.8,
-    "catalyst": 10.6,
-    "sentiment": 20.2
-   },
-   "reasons": [
-    "DUK reported earnings on Aug 04 \u2014 earnings reactions are the most common cause of a sharp break below the band."
-   ],
-   "news": [
-    {
-     "title": "America's $4 Billion Wind Retreat Is a Bet on Permanently Cheap Gas",
-     "link": "https://finance.yahoo.com/energy/articles/americas-4-billion-wind-retreat-190000701.html",
-     "publisher": "Oilprice.com"
     },
     {
-     "title": "Did Strong Q2 2026 Results and a US$10 Billion Equity Plan Just Shift Duke Energy's (DUK) Investment Narrative?",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/did-strong-q2-2026-results-091222264.html",
-     "publisher": "Simply Wall St."
-    },
-    {
-     "title": "Duke Energy (DUK) Earnings Beat Puts Its Valuation Back In Focus",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/duke-energy-duk-earnings-beat-221337240.html",
-     "publisher": "Simply Wall St."
-    }
-   ],
-   "sentiment": {
-    "label": "Bullish",
-    "bullish_pct": 100.0,
-    "sample_size": 10
-   },
-   "earnings_surprise": {
-    "date": "2026-08-04",
-    "actual_eps": 1.43,
-    "estimate_eps": 1.3,
-    "surprise_pct": 9.999999999999991
-   }
-  },
-  {
-   "symbol": "DTE",
-   "name": "DTE Energy Company",
-   "close": 136.77999877929688,
-   "lower_band": 136.99982336538991,
-   "pct_below_band": 0.1604561091343523,
-   "market_cap": 28462284800.0,
-   "chg_1d": -2.2091917107037395,
-   "chg_5d": -3.485748235150732,
-   "chg_1mo": -8.977177819669691,
-   "off_52w_high": -11.429123054832836,
-   "rsi": 28.735014095381175,
-   "rsi_divergence": false,
-   "macd_histogram": -0.8403650484576555,
-   "macd_turning_up": false,
-   "volume_ratio": 0.7453198204676017,
-   "valuation": {
-    "forward_pe": 16.35692,
-    "trailing_pe": 21.642405,
-    "peg_ratio": 1.96,
-    "analyst_target": 160.03333,
-    "analyst_upside_pct": 17.0005347479377
-   },
-   "short_interest": {
-    "pct_of_float": 3.26,
-    "days_to_cover": 4.45
-   },
-   "insider": {
-    "recent_buys": 0,
-    "shares": null
-   },
-   "hot_score": {
-    "total": 45.3,
-    "valuation": 14.2,
-    "technical": 7.4,
-    "catalyst": 2.0,
-    "sentiment": 21.7
-   },
-   "reasons": [
-    "DTE reported earnings on Jul 28 \u2014 earnings reactions are the most common cause of a sharp break below the band."
-   ],
-   "news": [
-    {
-     "title": "Prediction: DTE Energy Will End The Year At This Price",
-     "link": "https://finance.yahoo.com/energy/articles/prediction-dte-energy-end-price-123049643.html",
-     "publisher": "24/7 Wall St."
-    },
-    {
-     "title": "Social Buzz: Wallstreetbets Stocks Mixed Premarket Wednesday; SpaceX, Advanced Micro Devices to Decline",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/social-buzz-wallstreetbets-stocks-mixed-103231312.html",
-     "publisher": "MT Newswires"
-    },
-    {
-     "title": "DTE Energy (DTE) Stock Looks Fully Priced As Its 45% Run Matures",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/dte-energy-dte-stock-looks-071404657.html",
-     "publisher": "Simply Wall St."
-    }
-   ],
-   "sentiment": {
-    "label": "Bullish",
-    "bullish_pct": 83.3,
-    "sample_size": 6
-   },
-   "earnings_surprise": {
-    "date": "2026-07-28",
-    "actual_eps": 1.32,
-    "estimate_eps": 1.14,
-    "surprise_pct": 15.789473684210542
-   }
-  },
-  {
-   "symbol": "NI",
-   "name": "NiSource Inc",
-   "close": 41.779998779296875,
-   "lower_band": 42.24001608534208,
-   "pct_below_band": 1.0890557075446643,
-   "market_cap": 20036020224.0,
-   "chg_1d": -1.9479038234349377,
-   "chg_5d": -6.175612116294382,
-   "chg_1mo": -10.916849850755062,
-   "off_52w_high": -14.873681294646646,
-   "rsi": 26.966570789155767,
-   "rsi_divergence": false,
-   "macd_histogram": -0.34586180877764827,
-   "macd_turning_up": false,
-   "volume_ratio": 1.125651687445364,
-   "valuation": {
-    "forward_pe": 18.546387,
-    "trailing_pe": 22.223404,
-    "peg_ratio": 2.43,
-    "analyst_target": 50.03333,
-    "analyst_upside_pct": 19.754263910588897
-   },
-   "short_interest": {
-    "pct_of_float": 3.09,
-    "days_to_cover": 2.35
-   },
-   "insider": {
-    "recent_buys": 0,
-    "shares": null
-   },
-   "hot_score": {
-    "total": 43.5,
-    "valuation": 13.4,
-    "technical": 8.0,
-    "catalyst": 4.3,
-    "sentiment": 17.8
-   },
-   "reasons": [
-    "NI reported earnings on Aug 05 \u2014 earnings reactions are the most common cause of a sharp break below the band."
-   ],
-   "news": [
-    {
-     "title": "The Bull Case For NiSource (NI) Could Change Following Q2 Profit Drop Despite Higher Revenue",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/bull-case-nisource-ni-could-021027350.html",
-     "publisher": "Simply Wall St."
-    },
-    {
-     "title": "NiSource (NI) Reports Mixed Q2 Results, Is It Still 15% Below Fair Value?",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/nisource-ni-reports-mixed-q2-061222116.html",
-     "publisher": "Simply Wall St."
-    },
-    {
-     "title": "NiSource Q2 Earnings Call Highlights",
-     "link": "https://finance.yahoo.com/energy/articles/nisource-q2-earnings-call-highlights-210352310.html",
-     "publisher": "MarketBeat"
-    }
-   ],
-   "sentiment": {
-    "label": "Bullish",
-    "bullish_pct": 100.0,
-    "sample_size": 11
-   },
-   "earnings_surprise": {
-    "date": "2026-08-05",
-    "actual_eps": 0.16,
-    "estimate_eps": 0.16,
-    "surprise_pct": 0.0
-   }
-  },
-  {
-   "symbol": "AEP",
-   "name": "American Electric Power Company",
-   "close": 122.83999633789062,
-   "lower_band": 123.2402726617315,
-   "pct_below_band": 0.324793442269918,
-   "market_cap": 66873769984.0,
-   "chg_1d": -2.2985818355850673,
-   "chg_5d": -4.270581883994207,
-   "chg_1mo": -9.296313238405773,
-   "off_52w_high": -11.428369618936252,
-   "rsi": 29.843455028710707,
-   "rsi_divergence": false,
-   "macd_histogram": -0.9056156005502272,
-   "macd_turning_up": false,
-   "volume_ratio": 1.1346958720905311,
-   "valuation": {
-    "forward_pe": 17.910961,
-    "trailing_pe": 21.289427,
-    "peg_ratio": 2.14,
-    "analyst_target": 144.4762,
-    "analyst_upside_pct": 17.613321643706037
-   },
-   "short_interest": {
-    "pct_of_float": 6.05,
-    "days_to_cover": 5.56
-   },
-   "insider": {
-    "recent_buys": 0,
-    "shares": null
-   },
-   "hot_score": {
-    "total": 42.8,
-    "valuation": 13.8,
-    "technical": 7.1,
-    "catalyst": 6.2,
-    "sentiment": 15.7
-   },
-   "reasons": [
-    "AEP reported earnings on Jul 30 \u2014 earnings reactions are the most common cause of a sharp break below the band."
-   ],
-   "news": [
-    {
-     "title": "American Electric Power Co Inc's Dividend Analysis",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/american-electric-power-co-incs-110145019.html",
-     "publisher": "GuruFocus.com"
-    },
-    {
-     "title": "American Electric Power Stock: Is Wall Street Bullish or Bearish?",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/american-electric-power-stock-wall-122835904.html",
+     "title": "Are Wall Street Analysts Bullish on Ventas Stock?",
+     "link": "https://finance.yahoo.com/real-estate/articles/wall-street-analysts-bullish-ventas-085504268.html",
      "publisher": "Barchart"
     },
     {
-     "title": "3 Dividend Stocks Ready to Pay You \u2013 If You Buy Them This Week",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/3-dividend-stocks-ready-pay-173515116.html",
-     "publisher": "24/7 Wall St."
-    }
-   ],
-   "sentiment": {
-    "label": "Bullish",
-    "bullish_pct": 100.0,
-    "sample_size": 4
-   },
-   "earnings_surprise": {
-    "date": "2026-07-30",
-    "actual_eps": 1.36,
-    "estimate_eps": 1.48,
-    "surprise_pct": -8.1081081081081
-   }
-  },
-  {
-   "symbol": "FE",
-   "name": "FirstEnergy Corp.",
-   "close": 46.7599983215332,
-   "lower_band": 47.02429275855766,
-   "pct_below_band": 0.5620380903577891,
-   "market_cap": 27047440384.0,
-   "chg_1d": -1.4956875519528512,
-   "chg_5d": -3.4482799362363425,
-   "chg_1mo": -2.4207009426887915,
-   "off_52w_high": -9.921020113691359,
-   "rsi": 37.39662907799127,
-   "rsi_divergence": false,
-   "macd_histogram": -0.30882698063160474,
-   "macd_turning_up": false,
-   "volume_ratio": 0.46825261030514453,
-   "valuation": {
-    "forward_pe": 15.810276,
-    "trailing_pe": 25.005346,
-    "peg_ratio": 1.69,
-    "analyst_target": 53.07692,
-    "analyst_upside_pct": 13.509242739980643
-   },
-   "short_interest": {
-    "pct_of_float": 6.55,
-    "days_to_cover": 6.63
-   },
-   "insider": {
-    "recent_buys": 0,
-    "shares": null
-   },
-   "hot_score": {
-    "total": 40.5,
-    "valuation": 14.1,
-    "technical": 4.5,
-    "catalyst": 4.1,
-    "sentiment": 17.8
-   },
-   "reasons": [
-    "FE reported earnings on Jul 28 \u2014 earnings reactions are the most common cause of a sharp break below the band."
-   ],
-   "news": [
-    {
-     "title": "Dominion's Q2 Earnings Beat Estimates on Virginia Utility Strength",
-     "link": "https://finance.yahoo.com/energy/articles/dominions-q2-earnings-beat-estimates-150700258.html",
-     "publisher": "Zacks"
-    },
-    {
-     "title": "How Investors Are Reacting To FirstEnergy (FE) Reaffirmed Earnings Outlook And US$6 Billion Grid Investment Plan",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/investors-reacting-firstenergy-fe-reaffirmed-010738190.html",
-     "publisher": "Simply Wall St."
-    },
-    {
-     "title": "Xcel Q2 Earnings Beat Estimates on Infrastructure Investment Recovery",
-     "link": "https://finance.yahoo.com/energy/articles/xcel-q2-earnings-beat-estimates-172700804.html",
-     "publisher": "Zacks"
-    }
-   ],
-   "sentiment": {
-    "label": "Bullish",
-    "bullish_pct": 100.0,
-    "sample_size": 3
-   },
-   "earnings_surprise": {
-    "date": "2026-07-28",
-    "actual_eps": 0.5,
-    "estimate_eps": 0.5,
-    "surprise_pct": 0.0
-   }
-  },
-  {
-   "symbol": "HLT",
-   "name": "Hilton Worldwide Holdings Inc.",
-   "close": 311.0,
-   "lower_band": 312.0862465923919,
-   "pct_below_band": 0.34805974446243615,
-   "market_cap": 69995184128.0,
-   "chg_1d": -2.078087524143335,
-   "chg_5d": -1.06254258980788,
-   "chg_1mo": -7.2970103090063905,
-   "off_52w_high": -11.198675428016836,
-   "rsi": 38.20225914569317,
-   "rsi_divergence": true,
-   "macd_histogram": -0.4769723405558426,
-   "macd_turning_up": false,
-   "volume_ratio": 0.669073852983933,
-   "valuation": {
-    "forward_pe": 29.689312,
-    "trailing_pe": 45.735294,
-    "peg_ratio": 1.54,
-    "analyst_target": 352.04166,
-    "analyst_upside_pct": 13.196675241157552
-   },
-   "short_interest": {
-    "pct_of_float": 2.6,
-    "days_to_cover": 2.0
-   },
-   "insider": {
-    "recent_buys": 0,
-    "shares": null
-   },
-   "hot_score": {
-    "total": 39.6,
-    "valuation": 14.5,
-    "technical": 10.9,
-    "catalyst": 1.6,
-    "sentiment": 12.5
-   },
-   "reasons": [
-    "HLT reported earnings on Jul 28 \u2014 earnings reactions are the most common cause of a sharp break below the band."
-   ],
-   "news": [
-    {
-     "title": "Why Airbnb Stock Surged And The Rest Of Travel Did Not",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/why-airbnb-stock-surged-rest-194818638.html",
-     "publisher": "Trefis"
-    },
-    {
-     "title": "The Bull Case For Hilton Worldwide Holdings (HLT) Could Change Following Strong Q2 2026 Results And Upgraded Guidance",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/bull-case-hilton-worldwide-holdings-080905119.html",
-     "publisher": "Simply Wall St."
-    },
-    {
-     "title": "Hilton Worldwide Holdings (HLT) Could Be 9% Undervalued On Earnings And Buybacks",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/hilton-worldwide-holdings-hlt-could-161300167.html",
-     "publisher": "Simply Wall St."
-    }
-   ],
-   "sentiment": {
-    "label": "Mixed",
-    "bullish_pct": 50.0,
-    "sample_size": 6
-   },
-   "earnings_surprise": {
-    "date": "2026-07-28",
-    "actual_eps": 2.29,
-    "estimate_eps": 2.27,
-    "surprise_pct": 0.8810572687224677
-   }
-  },
-  {
-   "symbol": "ATO",
-   "name": "Atmos Energy Corporation",
-   "close": 167.9199981689453,
-   "lower_band": 168.85131051062976,
-   "pct_below_band": 0.5515576626962673,
-   "market_cap": 28376559616.0,
-   "chg_1d": -1.3338058874771241,
-   "chg_5d": -2.8746609047652583,
-   "chg_1mo": -4.699204836949622,
-   "off_52w_high": -12.673563871274506,
-   "rsi": 33.263295258318266,
-   "rsi_divergence": false,
-   "macd_histogram": -1.016578277744808,
-   "macd_turning_up": false,
-   "volume_ratio": 0.5333349643540424,
-   "valuation": {
-    "forward_pe": 18.617191,
-    "trailing_pe": 20.014301,
-    "peg_ratio": 2.05,
-    "analyst_target": 188.91667,
-    "analyst_upside_pct": 12.503973356365705
-   },
-   "short_interest": {
-    "pct_of_float": 2.38,
-    "days_to_cover": 2.72
-   },
-   "insider": {
-    "recent_buys": 0,
-    "shares": null
-   },
-   "hot_score": {
-    "total": 39.3,
-    "valuation": 12.6,
-    "technical": 5.9,
-    "catalyst": 1.5,
-    "sentiment": 19.2
-   },
-   "reasons": [
-    "ATO reported earnings on Aug 05 \u2014 earnings reactions are the most common cause of a sharp break below the band."
-   ],
-   "news": [
-    {
-     "title": "Atmos Energy (ATO) Could Be 9% Undervalued On Earnings Guidance And Dividend",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/atmos-energy-ato-could-9-002103967.html",
-     "publisher": "Simply Wall St."
-    },
-    {
-     "title": "Atmos Energy Q3 Earnings Call Highlights",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/atmos-energy-q3-earnings-call-230346906.html",
-     "publisher": "MarketBeat"
-    },
-    {
-     "title": "Atmos Energy Q3 Earnings Beat Estimates, Revenues Increase Y/Y",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/atmos-energy-q3-earnings-beat-181900633.html",
-     "publisher": "Zacks"
-    }
-   ],
-   "sentiment": {
-    "label": "Bullish",
-    "bullish_pct": 100.0,
-    "sample_size": 3
-   },
-   "earnings_surprise": {
-    "date": "2026-08-05",
-    "actual_eps": 1.43,
-    "estimate_eps": 1.35,
-    "surprise_pct": 5.925925925925914
-   }
-  },
-  {
-   "symbol": "SO",
-   "name": "Southern Company (The)",
-   "close": 91.33999633789062,
-   "lower_band": 91.49832709713567,
-   "pct_below_band": 0.17304224488930922,
-   "market_cap": 105074155520.0,
-   "chg_1d": -1.4564743423855497,
-   "chg_5d": -1.7215473009314253,
-   "chg_1mo": -4.466064475684806,
-   "off_52w_high": -8.403534677326807,
-   "rsi": 35.52643913493064,
-   "rsi_divergence": false,
-   "macd_histogram": -0.4702672169895234,
-   "macd_turning_up": false,
-   "volume_ratio": 0.6772550263665791,
-   "valuation": {
-    "forward_pe": 18.550146,
-    "trailing_pe": 22.009638,
-    "peg_ratio": 2.35,
-    "analyst_target": 100.675,
-    "analyst_upside_pct": 10.220061349221798
-   },
-   "short_interest": {
-    "pct_of_float": 3.18,
-    "days_to_cover": 5.76
-   },
-   "insider": {
-    "recent_buys": 0,
-    "shares": null
-   },
-   "hot_score": {
-    "total": 38.9,
-    "valuation": 11.0,
-    "technical": 5.2,
-    "catalyst": 2.0,
-    "sentiment": 20.7
-   },
-   "reasons": [
-    "SO reported earnings on Jul 30 \u2014 earnings reactions are the most common cause of a sharp break below the band."
-   ],
-   "news": [
-    {
-     "title": "Southern (SO) Stock Stays Cheap On Earnings While Broader Checks Look Expensive",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/southern-stock-stays-cheap-earnings-101004538.html",
-     "publisher": "Simply Wall St."
-    },
-    {
-     "title": "Southern (SO) Completes Multiple Large Convertible Debt Offerings",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/southern-completes-multiple-large-convertible-191019211.html",
-     "publisher": "Simply Wall St."
-    },
-    {
-     "title": "Train operators to crack down on \u2018donutters\u2019 and other digital ticket cheats",
-     "link": "https://finance.yahoo.com/news/train-operators-crack-down-donutters-100042117.html",
-     "publisher": "The Guardian"
-    }
-   ],
-   "sentiment": {
-    "label": "Bullish",
-    "bullish_pct": 85.7,
-    "sample_size": 7
-   },
-   "earnings_surprise": {
-    "date": "2026-07-30",
-    "actual_eps": 1.13,
-    "estimate_eps": 1.01,
-    "surprise_pct": 11.88118811881187
-   }
-  },
-  {
-   "symbol": "CMS",
-   "name": "CMS Energy Corporation",
-   "close": 69.05999755859375,
-   "lower_band": 69.8541576051843,
-   "pct_below_band": 1.1368830057033121,
-   "market_cap": 21333987328.0,
-   "chg_1d": -2.7734777622962947,
-   "chg_5d": -3.7357128310276266,
-   "chg_1mo": -8.40849315514819,
-   "off_52w_high": -13.610213348176003,
-   "rsi": 26.923341311441675,
-   "rsi_divergence": false,
-   "macd_histogram": -0.399413411524447,
-   "macd_turning_up": false,
-   "volume_ratio": 0.6573464338804316,
-   "valuation": {
-    "forward_pe": 16.618498,
-    "trailing_pe": 20.801205,
-    "peg_ratio": 2.74,
-    "analyst_target": 80.30769,
-    "analyst_upside_pct": 16.286841643547945
-   },
-   "short_interest": {
-    "pct_of_float": null,
-    "days_to_cover": null
-   },
-   "insider": {
-    "recent_buys": 0,
-    "shares": null
-   },
-   "hot_score": {
-    "total": 37.9,
-    "valuation": 11.4,
-    "technical": 8.0,
-    "catalyst": 0.0,
-    "sentiment": 18.4
-   },
-   "reasons": [
-    "CMS reported earnings on Jul 28 \u2014 earnings reactions are the most common cause of a sharp break below the band."
-   ],
-   "news": [
-    {
-     "title": "Prediction: DTE Energy Will End The Year At This Price",
-     "link": "https://finance.yahoo.com/energy/articles/prediction-dte-energy-end-price-123049643.html",
-     "publisher": "24/7 Wall St."
-    },
-    {
-     "title": "Duke Energy Q2 Earnings Beat Estimates, Revenues Increase Y/Y",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/duke-energy-q2-earnings-beat-160900742.html",
-     "publisher": "Zacks"
-    },
-    {
-     "title": "Ameren Q2 Earnings Surpass Estimates, Revenues Decline Y/Y",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/ameren-q2-earnings-surpass-estimates-133500570.html",
-     "publisher": "Zacks"
-    }
-   ],
-   "sentiment": {
-    "label": "Bullish",
-    "bullish_pct": 100.0,
-    "sample_size": 3
-   },
-   "earnings_surprise": {
-    "date": "2026-07-28",
-    "actual_eps": 0.37,
-    "estimate_eps": 0.36,
-    "surprise_pct": 2.7777777777777803
-   }
-  },
-  {
-   "symbol": "ROK",
-   "name": "Rockwell Automation, Inc.",
-   "close": 435.2200012207031,
-   "lower_band": 436.1263047531416,
-   "pct_below_band": 0.20780758293207327,
-   "market_cap": 48330604544.0,
-   "chg_1d": -1.3196098339060214,
-   "chg_5d": -9.513910915297007,
-   "chg_1mo": -7.815808327991958,
-   "off_52w_high": -12.090972565061442,
-   "rsi": 38.444242024179204,
-   "rsi_divergence": false,
-   "macd_histogram": -3.699507068083463,
-   "macd_turning_up": false,
-   "volume_ratio": 0.8256971665360062,
-   "valuation": {
-    "forward_pe": 29.343985,
-    "trailing_pe": 40.789127,
-    "peg_ratio": 1.93,
-    "analyst_target": 477.66666,
-    "analyst_upside_pct": 9.752920054281212
-   },
-   "short_interest": {
-    "pct_of_float": 3.88,
-    "days_to_cover": 4.17
-   },
-   "insider": {
-    "recent_buys": 0,
-    "shares": null
-   },
-   "hot_score": {
-    "total": 37.6,
-    "valuation": 12.3,
-    "technical": 4.2,
-    "catalyst": 2.6,
-    "sentiment": 18.6
-   },
-   "reasons": [
-    "ROK reported earnings on Aug 03 \u2014 earnings reactions are the most common cause of a sharp break below the band.",
-    "Sharp one-day drop of -7.4% on Aug 04 \u2014 points to a specific catalyst (news, guidance, downgrade) rather than gradual selling."
-   ],
-   "news": [
-    {
-     "title": "1 High-Flying Stock with Promising Prospects and 2 We Ignore",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/1-high-flying-stock-promising-180522466.html",
-     "publisher": "StockStory"
-    },
-    {
-     "title": "KE vs. ROK: Which Stock Is the Better Value Option?",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/ke-vs-rok-stock-better-154005847.html",
-     "publisher": "Zacks"
-    },
-    {
-     "title": "Why Rockwell Automation (ROK) International Revenue Trends Deserve Your Attention",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/why-rockwell-automation-rok-international-131509169.html",
-     "publisher": "Zacks"
-    }
-   ],
-   "sentiment": {
-    "label": "Bullish",
-    "bullish_pct": 100.0,
-    "sample_size": 12
-   },
-   "earnings_surprise": {
-    "date": "2026-08-03",
-    "actual_eps": 3.49,
-    "estimate_eps": 3.38,
-    "surprise_pct": 3.2544378698224947
-   }
-  },
-  {
-   "symbol": "ED",
-   "name": "Consolidated Edison, Inc.",
-   "close": 106.30000305175781,
-   "lower_band": 106.50882113596343,
-   "pct_below_band": 0.19605707957188975,
-   "market_cap": 39312785408.0,
-   "chg_1d": -1.5558439090082699,
-   "chg_5d": -1.5284797991013233,
-   "chg_1mo": -4.337652605909859,
-   "off_52w_high": -7.933480084313205,
-   "rsi": 36.82576494665013,
-   "rsi_divergence": false,
-   "macd_histogram": -0.5728836744339824,
-   "macd_turning_up": false,
-   "volume_ratio": 0.6726616055621863,
-   "valuation": {
-    "forward_pe": 16.383362,
-    "trailing_pe": 17.483553,
-    "peg_ratio": 2.96,
-    "analyst_target": 111.20588,
-    "analyst_upside_pct": 4.61512399567241
-   },
-   "short_interest": {
-    "pct_of_float": 4.83,
-    "days_to_cover": 5.92
-   },
-   "insider": {
-    "recent_buys": 0,
-    "shares": null
-   },
-   "hot_score": {
-    "total": 34.9,
-    "valuation": 7.4,
-    "technical": 4.7,
-    "catalyst": 3.0,
-    "sentiment": 19.7
-   },
-   "reasons": [
-    "ED reported earnings on Aug 06 \u2014 earnings reactions are the most common cause of a sharp break below the band."
-   ],
-   "news": [
-    {
-     "title": "Consolidated Edison Q2 Earnings Top Estimates, Revenues Rise Y/Y",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/consolidated-edison-q2-earnings-top-145600115.html",
-     "publisher": "Zacks"
-    },
-    {
-     "title": "Consolidated Edison Q2 Profit Rises 25% on Higher Electric and Gas Rate Base",
-     "link": "https://finance.yahoo.com/energy/articles/consolidated-edison-q2-profit-rises-011500302.html",
-     "publisher": "Oilprice.com"
-    },
-    {
-     "title": "Consolidated Edison (ED) Q2 Earnings and Revenues Beat Estimates",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/consolidated-edison-ed-q2-earnings-231014379.html",
-     "publisher": "Zacks"
-    }
-   ],
-   "sentiment": {
-    "label": "Bullish",
-    "bullish_pct": 100.0,
-    "sample_size": 4
-   },
-   "earnings_surprise": {
-    "date": "2026-08-06",
-    "actual_eps": 0.83,
-    "estimate_eps": 0.77,
-    "surprise_pct": 7.792207792207785
-   }
-  },
-  {
-   "symbol": "EXC",
-   "name": "Exelon Corporation",
-   "close": 44.5,
-   "lower_band": 44.65528586652563,
-   "pct_below_band": 0.3477435280333428,
-   "market_cap": 45846302720.0,
-   "chg_1d": -2.433678130887018,
-   "chg_5d": -2.4764432208283282,
-   "chg_1mo": -4.914528364434667,
-   "off_52w_high": -11.513224915730014,
-   "rsi": 37.04204887062456,
-   "rsi_divergence": false,
-   "macd_histogram": -0.21095022294125423,
-   "macd_turning_up": false,
-   "volume_ratio": 0.7337824766709404,
-   "valuation": {
-    "forward_pe": 14.672281,
-    "trailing_pe": 16.360294,
-    "peg_ratio": 2.62,
-    "analyst_target": 49.33333,
-    "analyst_upside_pct": 10.861415730337075
-   },
-   "short_interest": {
-    "pct_of_float": 3.99,
-    "days_to_cover": 3.79
-   },
-   "insider": {
-    "recent_buys": 0,
-    "shares": null
-   },
-   "hot_score": {
-    "total": 34.1,
-    "valuation": 10.3,
-    "technical": 4.7,
-    "catalyst": 2.5,
-    "sentiment": 16.6
-   },
-   "reasons": [
-    "EXC reported earnings on Jul 30 \u2014 earnings reactions are the most common cause of a sharp break below the band."
-   ],
-   "news": [
-    {
-     "title": "Exelon (EXC) Q2 2026 Earnings Call Transcript",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/exelon-exc-q2-2026-earnings-132444170.html",
+     "title": "Ventas (VTR) Q2 2026 Earnings Call Transcript",
+     "link": "https://finance.yahoo.com/real-estate/articles/ventas-vtr-q2-2026-earnings-001433194.html",
      "publisher": "Motley Fool"
-    },
-    {
-     "title": "Exelon (EXC) Could Be a Great Choice",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/exelon-exc-could-great-choice-154502738.html",
-     "publisher": "Zacks"
-    },
-    {
-     "title": "3 Top Dividend Stocks to Maximize Your Retirement Income",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/3-top-dividend-stocks-maximize-131002598.html",
-     "publisher": "Zacks"
     }
    ],
    "sentiment": {
     "label": "Bullish",
     "bullish_pct": 100.0,
-    "sample_size": 4
-   },
-   "earnings_surprise": {
-    "date": "2026-07-30",
-    "actual_eps": 0.43,
-    "estimate_eps": 0.45,
-    "surprise_pct": -4.444444444444448
-   }
-  },
-  {
-   "symbol": "MNST",
-   "name": "Monster Beverage Corporation",
-   "close": 91.43000030517578,
-   "lower_band": 92.55270675062006,
-   "pct_below_band": 1.2130455011644032,
-   "market_cap": 89558048768.0,
-   "chg_1d": -6.225640712640224,
-   "chg_5d": -5.810239422457897,
-   "chg_1mo": -0.25093099252042617,
-   "off_52w_high": -8.51511099493898,
-   "rsi": 41.35635605183047,
-   "rsi_divergence": false,
-   "macd_histogram": -0.6520795805953479,
-   "macd_turning_up": false,
-   "volume_ratio": 0.8243587186551574,
-   "valuation": {
-    "forward_pe": 34.95739,
-    "trailing_pe": 42.3287,
-    "peg_ratio": 2.66,
-    "analyst_target": 98.13043,
-    "analyst_upside_pct": 7.328480446745567
-   },
-   "short_interest": {
-    "pct_of_float": 2.67,
-    "days_to_cover": 3.15
-   },
-   "insider": {
-    "recent_buys": 0,
-    "shares": null
-   },
-   "hot_score": {
-    "total": 32.9,
-    "valuation": 9.2,
-    "technical": 3.7,
-    "catalyst": 1.8,
-    "sentiment": 18.2
-   },
-   "reasons": [
-    "MNST reported earnings on Aug 06 \u2014 earnings reactions are the most common cause of a sharp break below the band.",
-    "Sharp one-day drop of -6.2% on Aug 10 \u2014 points to a specific catalyst (news, guidance, downgrade) rather than gradual selling."
-   ],
-   "news": [
-    {
-     "title": "Should Investors Buy CELH or Wait as Growth Outruns Profitability?",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/investors-buy-celh-wait-growth-163100908.html",
-     "publisher": "Zacks"
-    },
-    {
-     "title": "CELH Q2 Results Test Whether Alani Nu Can Offset Core Brand Weakness",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/celh-q2-results-test-whether-160400650.html",
-     "publisher": "Zacks"
-    },
-    {
-     "title": "PRMB vs. MNST: Which Stock Is the Better Value Option?",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/prmb-vs-mnst-stock-better-154005249.html",
-     "publisher": "Zacks"
-    }
-   ],
-   "sentiment": {
-    "label": "Bullish",
-    "bullish_pct": 60.0,
     "sample_size": 10
    },
    "earnings_surprise": {
-    "date": "2026-08-06",
-    "actual_eps": 0.59,
-    "estimate_eps": 0.58,
-    "surprise_pct": 1.7241379310344844
+    "date": "2026-07-29",
+    "actual_eps": 0.17,
+    "estimate_eps": 0.11,
+    "surprise_pct": 54.545454545454554
    }
   },
   {
    "symbol": "AVB",
    "name": "AvalonBay Communities, Inc.",
-   "close": 183.83999633789062,
-   "lower_band": 184.4131768209347,
-   "pct_below_band": 0.310813192920931,
-   "market_cap": 26251978752.0,
-   "chg_1d": -1.9781427104767046,
-   "chg_5d": -2.6168039375726537,
-   "chg_1mo": -4.170141864426169,
-   "off_52w_high": -6.599606448367457,
-   "rsi": 41.37728727631917,
+   "close": 181.75999450683594,
+   "lower_band": 182.98991083351842,
+   "pct_below_band": 0.6721224799117177,
+   "market_cap": 25954957312.0,
+   "chg_1d": -1.1314196434336954,
+   "chg_5d": -3.9577307757802216,
+   "chg_1mo": -6.5645424112448,
+   "off_52w_high": -7.656356848055001,
+   "rsi": 38.516804186101254,
    "rsi_divergence": false,
-   "macd_histogram": -0.7168033218252081,
+   "macd_histogram": -0.9342577165322805,
    "macd_turning_up": false,
-   "volume_ratio": 0.39696947067569127,
+   "volume_ratio": 0.6533863581585925,
    "valuation": {
-    "forward_pe": 37.735695,
-    "trailing_pe": 25.252747,
+    "forward_pe": 37.308746,
+    "trailing_pe": 24.967031,
     "peg_ratio": 7.17,
     "analyst_target": 201.33333,
-    "analyst_upside_pct": 9.515521111062974
+    "analyst_upside_pct": 10.768780856465042
    },
    "short_interest": {
     "pct_of_float": 3.1,
@@ -1163,9 +250,9 @@
     "shares": null
    },
    "hot_score": {
-    "total": 29.1,
-    "valuation": 5.3,
-    "technical": 3.7,
+    "total": 30.0,
+    "valuation": 5.7,
+    "technical": 4.2,
     "catalyst": 1.9,
     "sentiment": 18.2
    },
@@ -1202,27 +289,97 @@
    }
   },
   {
+   "symbol": "WELL",
+   "name": "Welltower Inc.",
+   "close": 226.00999450683594,
+   "lower_band": 226.61599970062326,
+   "pct_below_band": 0.2674150080258692,
+   "market_cap": 162856484864.0,
+   "chg_1d": -3.8418988415745647,
+   "chg_5d": -2.401007315942383,
+   "chg_1mo": -3.6410183047566935,
+   "off_52w_high": -10.338402848484773,
+   "rsi": 39.54325631213137,
+   "rsi_divergence": false,
+   "macd_histogram": -2.1810223369102,
+   "macd_turning_up": false,
+   "volume_ratio": 0.8906200811333069,
+   "valuation": {
+    "forward_pe": 69.01068,
+    "trailing_pe": 101.34977,
+    "peg_ratio": 3.66,
+    "analyst_target": 255.59091,
+    "analyst_upside_pct": 13.088321849531903
+   },
+   "short_interest": {
+    "pct_of_float": 3.01,
+    "days_to_cover": 5.3
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 29.5,
+    "valuation": 9.6,
+    "technical": 3.8,
+    "catalyst": 2.5,
+    "sentiment": 13.5
+   },
+   "reasons": [
+    "No single obvious catalyst in the price action \u2014 likely broad market or sector weakness. Check the headlines below."
+   ],
+   "news": [
+    {
+     "title": "Welltower Stock: Analyst Estimates & Ratings",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/welltower-stock-analyst-estimates-ratings-141440618.html",
+     "publisher": "Barchart"
+    },
+    {
+     "title": "Ventas Q2 Earnings Call Highlights",
+     "link": "https://finance.yahoo.com/real-estate/articles/ventas-q2-earnings-call-highlights-050345656.html",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Welltower (WELL) Earnings Beat Keeps Fair Value In Focus",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/welltower-well-earnings-beat-keeps-042719843.html",
+     "publisher": "Simply Wall St."
+    }
+   ],
+   "sentiment": {
+    "label": "Bullish",
+    "bullish_pct": 66.7,
+    "sample_size": 9
+   },
+   "earnings_surprise": {
+    "date": "2026-07-27",
+    "actual_eps": 0.54,
+    "estimate_eps": 0.65,
+    "surprise_pct": -16.92307692307692
+   }
+  },
+  {
    "symbol": "EQR",
    "name": "Equity Residential",
-   "close": 65.83000183105469,
-   "lower_band": 65.97632729753687,
-   "pct_below_band": 0.22178480142171336,
-   "market_cap": 25448861696.0,
-   "chg_1d": -1.8488114945753087,
-   "chg_5d": -2.575104146260365,
-   "chg_1mo": -4.1636344572722805,
-   "off_52w_high": -6.158231790245273,
-   "rsi": 40.39379770606245,
+   "close": 65.08999633789062,
+   "lower_band": 65.48079749833099,
+   "pct_below_band": 0.5968179609454545,
+   "market_cap": 25164328960.0,
+   "chg_1d": -1.1241158629513692,
+   "chg_5d": -3.8410489137834514,
+   "chg_1mo": -6.640855997916473,
+   "off_52w_high": -7.213121992765181,
+   "rsi": 37.36602324654307,
    "rsi_divergence": false,
-   "macd_histogram": -0.25469710332557954,
+   "macd_histogram": -0.3261756454685983,
    "macd_turning_up": false,
-   "volume_ratio": 0.6309254130912095,
+   "volume_ratio": 0.563724353792973,
    "valuation": {
-    "forward_pe": 42.777866,
-    "trailing_pe": 28.62174,
+    "forward_pe": 42.296993,
+    "trailing_pe": 28.3,
     "peg_ratio": 16.1,
     "analyst_target": 73.05,
-    "analyst_upside_pct": 10.967640844784764
+    "analyst_upside_pct": 12.2292273927747
    },
    "short_interest": {
     "pct_of_float": 3.08,
@@ -1233,9 +390,9 @@
     "shares": null
    },
    "hot_score": {
-    "total": 27.7,
-    "valuation": 5.7,
-    "technical": 3.7,
+    "total": 28.9,
+    "valuation": 6.1,
+    "technical": 4.5,
     "catalyst": 1.9,
     "sentiment": 16.4
    },
