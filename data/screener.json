@@ -1,144 +1,73 @@
 {
- "updated": "Aug 11, 2026 06:26 PM ET",
+ "updated": "Aug 12, 2026 06:25 PM ET",
  "criteria": "close < lower BB(20,2), market cap > $20B",
  "universe_size": 503,
  "results": [
   {
-   "symbol": "CVS",
-   "name": "CVS Health Corporation",
-   "close": 93.5,
-   "lower_band": 94.18554848656945,
-   "pct_below_band": 0.7278701431220119,
-   "market_cap": 119583727616.0,
-   "chg_1d": -2.268211780576468,
-   "chg_5d": -10.457765141192022,
-   "chg_1mo": -11.70916085666789,
-   "off_52w_high": -15.461119990993733,
-   "rsi": 28.40369208572814,
-   "rsi_divergence": false,
-   "macd_histogram": -1.767859492494352,
-   "macd_turning_up": false,
-   "volume_ratio": 0.6724410782516087,
-   "valuation": {
-    "forward_pe": 11.00978,
-    "trailing_pe": 24.670185,
-    "peg_ratio": 0.26,
-    "analyst_target": 115.8,
-    "analyst_upside_pct": 23.850267379679146
-   },
-   "short_interest": {
-    "pct_of_float": 1.54,
-    "days_to_cover": 2.47
-   },
-   "insider": {
-    "recent_buys": 0,
-    "shares": null
-   },
-   "hot_score": {
-    "total": 53.5,
-    "valuation": 21.0,
-    "technical": 7.5,
-    "catalyst": 1.0,
-    "sentiment": 24.0
-   },
-   "reasons": [
-    "CVS reported earnings on Aug 05 \u2014 earnings reactions are the most common cause of a sharp break below the band.",
-    "Sharp one-day drop of -5.1% on Aug 05 \u2014 points to a specific catalyst (news, guidance, downgrade) rather than gradual selling."
-   ],
-   "news": [
-    {
-     "title": "AbbVie vs. CVS Health: Which Healthcare Stock Is a Better Buy in 2026?",
-     "link": "https://finance.yahoo.com/healthcare/articles/abbvie-vs-cvs-health-healthcare-204701582.html",
-     "publisher": "Motley Fool"
-    },
-    {
-     "title": "Pharmacy giant closes more stores across U.S. in 2026",
-     "link": "https://finance.yahoo.com/healthcare/articles/pharmacy-giant-closes-more-stores-141700084.html",
-     "publisher": "TheStreet"
-    },
-    {
-     "title": "Elizabeth Warren Says UnitedHealth, CVS Have Too Much Control Over US Healthcare\u2014Now She Wants to Break Up the Vertical Integration",
-     "link": "https://finance.yahoo.com/healthcare/articles/elizabeth-warren-says-unitedhealth-cvs-223113505.html",
-     "publisher": "Benzinga"
-    }
-   ],
-   "sentiment": {
-    "label": "Bullish",
-    "bullish_pct": 100.0,
-    "sample_size": 12
-   },
-   "earnings_surprise": {
-    "date": "2026-08-05",
-    "actual_eps": 2.58,
-    "estimate_eps": 1.85,
-    "surprise_pct": 39.45945945945945
-   }
-  },
-  {
    "symbol": "APP",
    "name": "Applovin Corporation",
-   "close": 318.67999267578125,
-   "lower_band": 328.72273477178385,
-   "pct_below_band": 3.055079869353966,
-   "market_cap": 107057201152.0,
-   "chg_1d": -5.994102455521755,
-   "chg_5d": -24.069577458439163,
-   "chg_1mo": -28.038841981795027,
-   "off_52w_high": -56.55943248617932,
-   "rsi": 28.419290909406342,
+   "close": 303.760009765625,
+   "lower_band": 314.3563078077157,
+   "pct_below_band": 3.3707922439947433,
+   "market_cap": 102044991488.0,
+   "chg_1d": -4.681807221370038,
+   "chg_5d": -27.295352168333153,
+   "chg_1mo": -32.34442462186256,
+   "off_52w_high": -58.5932361130455,
+   "rsi": 26.599787638763857,
    "rsi_divergence": false,
-   "macd_histogram": -6.520541756881208,
+   "macd_histogram": -7.798031399150002,
    "macd_turning_up": false,
-   "volume_ratio": 1.1216839955558358,
+   "volume_ratio": 1.2169872244446813,
    "valuation": {
-    "forward_pe": 14.973804,
-    "trailing_pe": 24.476189,
+    "forward_pe": 14.27276,
+    "trailing_pe": 23.366154,
     "peg_ratio": 0.94,
     "analyst_target": 559.0,
-    "analyst_upside_pct": 75.41107469797001
+    "analyst_upside_pct": 84.0268573968354
    },
    "short_interest": {
-    "pct_of_float": 4.3,
-    "days_to_cover": 2.13
+    "pct_of_float": 4.09,
+    "days_to_cover": 1.94
    },
    "insider": {
     "recent_buys": 0,
     "shares": null
    },
    "hot_score": {
-    "total": 51.7,
+    "total": 52.8,
     "valuation": 21.2,
-    "technical": 7.5,
-    "catalyst": 5.1,
+    "technical": 8.1,
+    "catalyst": 5.6,
     "sentiment": 17.9
    },
    "reasons": [
     "APP reported earnings on Aug 05 \u2014 earnings reactions are the most common cause of a sharp break below the band.",
     "Sharp one-day drop of -19.7% on Aug 06 \u2014 points to a specific catalyst (news, guidance, downgrade) rather than gradual selling.",
-    "Down -28.0% over the past month \u2014 an extended downtrend; the band break continues an existing move rather than starting one.",
-    "Trading 57% below its 52-week high \u2014 deep drawdown territory, often reflecting a broken growth story or re-rating."
+    "Down -32.3% over the past month \u2014 an extended downtrend; the band break continues an existing move rather than starting one.",
+    "Trading 59% below its 52-week high \u2014 deep drawdown territory, often reflecting a broken growth story or re-rating."
    ],
    "news": [
     {
-     "title": "Update: US Equity Indexes Decline as Growth Sectors Hit Amid Gains in Crude Oil Ahead of July's Consumer Price Inflation Data",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-decline-growth-205722038.html",
-     "publisher": "MT Newswires"
+     "title": "Advanced Micro Devices vs. AppLovin: Which Technology Stock Is a Better Buy in 2026?",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/advanced-micro-devices-vs-applovin-214553275.html",
+     "publisher": "Motley Fool"
     },
     {
-     "title": "Update: Equities Post Back-to-Back Declines Amid Hormuz Deal Doubts",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/equities-post-back-back-declines-202958244.html",
-     "publisher": "MT Newswires"
+     "title": "AppLovin Q3 Guidance Signals Reacceleration After a Mixed Q2 Print",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/applovin-q3-guidance-signals-reacceleration-161100806.html",
+     "publisher": "Zacks"
     },
     {
-     "title": "Micron, SpaceX, Rocket Lab, Fermi, AppLovin, and More Stocks That Explain Today\u2019s Market",
-     "link": "https://www.barrons.com/articles/stock-movers-86153631?siteid=yhoof2&yptr=yahoo",
-     "publisher": "Barrons.com"
+     "title": "Is AppLovin Stock Worth Holding as Growth Clashes With Valuation Risk?",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/applovin-stock-worth-holding-growth-155700990.html",
+     "publisher": "Zacks"
     }
    ],
    "sentiment": {
     "label": "Bullish",
-    "bullish_pct": 92.3,
-    "sample_size": 13
+    "bullish_pct": 82.4,
+    "sample_size": 17
    },
    "earnings_surprise": {
     "date": "2026-08-05",
@@ -148,252 +77,184 @@
    }
   },
   {
-   "symbol": "VTR",
-   "name": "Ventas, Inc.",
-   "close": 86.95999908447266,
-   "lower_band": 87.75205473273012,
-   "pct_below_band": 0.9026063841694132,
-   "market_cap": 44605816832.0,
-   "chg_1d": -5.4268602820926155,
-   "chg_5d": -4.28178255914502,
-   "chg_1mo": -5.539863794668342,
-   "off_52w_high": -13.498458032030559,
-   "rsi": 36.773565254861666,
+   "symbol": "MNST",
+   "name": "Monster Beverage Corporation",
+   "close": 45.97999954223633,
+   "lower_band": 60.40837353229153,
+   "pct_below_band": 23.884725157088457,
+   "market_cap": 90077200384.0,
+   "chg_1d": 0.9883610257070297,
+   "chg_5d": -51.17859482560498,
+   "chg_1mo": -52.78776072451281,
+   "off_52w_high": -53.99239701920769,
+   "rsi": 10.54941248748888,
    "rsi_divergence": false,
-   "macd_histogram": -1.0941806952056212,
+   "macd_histogram": -5.324777131229051,
    "macd_turning_up": false,
-   "volume_ratio": 1.4439755013938504,
+   "volume_ratio": 1.3859239015980762,
    "valuation": {
-    "forward_pe": 106.48119,
-    "trailing_pe": 158.10909,
-    "peg_ratio": 1.72,
-    "analyst_target": 100.63636,
-    "analyst_upside_pct": 15.727186130995886
+    "forward_pe": 35.09629,
+    "trailing_pe": 42.574074,
+    "peg_ratio": 2.69,
+    "analyst_target": 48.69565,
+    "analyst_upside_pct": 5.906155904306032
    },
    "short_interest": {
-    "pct_of_float": 5.53,
-    "days_to_cover": 5.88
+    "pct_of_float": 2.62,
+    "days_to_cover": 3.29
    },
    "insider": {
     "recent_buys": 0,
     "shares": null
    },
    "hot_score": {
-    "total": 51.6,
-    "valuation": 14.6,
-    "technical": 4.7,
-    "catalyst": 8.2,
-    "sentiment": 24.0
+    "total": 45.2,
+    "valuation": 8.7,
+    "technical": 12.0,
+    "catalyst": 5.9,
+    "sentiment": 18.6
    },
    "reasons": [
-    "VTR reported earnings on Jul 29 \u2014 earnings reactions are the most common cause of a sharp break below the band.",
-    "Sharp one-day drop of -5.4% on Aug 11 \u2014 points to a specific catalyst (news, guidance, downgrade) rather than gradual selling."
+    "MNST reported earnings on Aug 06 \u2014 earnings reactions are the most common cause of a sharp break below the band.",
+    "Sharp one-day drop of -49.6% on Aug 11 \u2014 points to a specific catalyst (news, guidance, downgrade) rather than gradual selling.",
+    "Down -52.8% over the past month \u2014 an extended downtrend; the band break continues an existing move rather than starting one.",
+    "Trading 54% below its 52-week high \u2014 deep drawdown territory, often reflecting a broken growth story or re-rating."
    ],
    "news": [
     {
-     "title": "Top Research Reports for Meta, Texas Instruments & CrowdStrike",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/top-research-reports-meta-texas-203100631.html",
+     "title": "Forget big tech: the real AI money is in plumbing",
+     "link": "https://finance.yahoo.com/video/forget-big-tech-real-ai-100000112.html",
+     "publisher": "Yahoo Finance Video"
+    },
+    {
+     "title": "Will Strong Q2 2026 International-Driven Results Change Monster Beverage's (MNST) Margin and Growth Narrative?",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/strong-q2-2026-international-driven-013907519.html",
+     "publisher": "Simply Wall St."
+    },
+    {
+     "title": "MNST Q2 Deep Dive: International Acceleration, Margin Compression, and Innovation Drive Focus",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/mnst-q2-deep-dive-international-164522665.html",
+     "publisher": "StockStory"
+    }
+   ],
+   "sentiment": {
+    "label": "Bullish",
+    "bullish_pct": 78.6,
+    "sample_size": 14
+   },
+   "earnings_surprise": {
+    "date": "2026-08-06",
+    "actual_eps": 0.3,
+    "estimate_eps": 0.29,
+    "surprise_pct": 3.448275862068969
+   }
+  },
+  {
+   "symbol": "AIG",
+   "name": "American International Group, I",
+   "close": 76.13999938964844,
+   "lower_band": 76.42710428023301,
+   "pct_below_band": 0.37565846997402064,
+   "market_cap": 39813087232.0,
+   "chg_1d": -1.5133853394039498,
+   "chg_5d": -4.96755269657474,
+   "chg_1mo": -3.827205822123414,
+   "off_52w_high": -12.068365157869177,
+   "rsi": 40.44662031384318,
+   "rsi_divergence": false,
+   "macd_histogram": -0.44137900951215997,
+   "macd_turning_up": false,
+   "volume_ratio": 0.7681507450666958,
+   "valuation": {
+    "forward_pe": 8.6682205,
+    "trailing_pe": 13.89416,
+    "peg_ratio": 0.63,
+    "analyst_target": 88.65,
+    "analyst_upside_pct": 16.43026098060667
+   },
+   "short_interest": {
+    "pct_of_float": 1.64,
+    "days_to_cover": 2.11
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 41.8,
+    "valuation": 18.5,
+    "technical": 3.7,
+    "catalyst": 1.0,
+    "sentiment": 18.7
+   },
+   "reasons": [
+    "AIG reported earnings on Aug 06 \u2014 earnings reactions are the most common cause of a sharp break below the band."
+   ],
+   "news": [
+    {
+     "title": "AIG Q2 Deep Dive: Selective Growth and Strategic Discipline Define Outlook",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/aig-q2-deep-dive-selective-074122510.html",
+     "publisher": "StockStory"
+    },
+    {
+     "title": "AIG CEO on Earnings, Shipping in Hormuz, AI Buildout",
+     "link": "https://finance.yahoo.com/video/aig-ceo-earnings-shipping-hormuz-155444821.html",
+     "publisher": "Bloomberg"
+    },
+    {
+     "title": "American International Group (AIG) Could Be a Great Choice",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/american-international-group-aig-could-154505597.html",
      "publisher": "Zacks"
-    },
-    {
-     "title": "Are Wall Street Analysts Bullish on Ventas Stock?",
-     "link": "https://finance.yahoo.com/real-estate/articles/wall-street-analysts-bullish-ventas-085504268.html",
-     "publisher": "Barchart"
-    },
-    {
-     "title": "Ventas (VTR) Q2 2026 Earnings Call Transcript",
-     "link": "https://finance.yahoo.com/real-estate/articles/ventas-vtr-q2-2026-earnings-001433194.html",
-     "publisher": "Motley Fool"
-    }
-   ],
-   "sentiment": {
-    "label": "Bullish",
-    "bullish_pct": 100.0,
-    "sample_size": 10
-   },
-   "earnings_surprise": {
-    "date": "2026-07-29",
-    "actual_eps": 0.17,
-    "estimate_eps": 0.11,
-    "surprise_pct": 54.545454545454554
-   }
-  },
-  {
-   "symbol": "AVB",
-   "name": "AvalonBay Communities, Inc.",
-   "close": 181.75999450683594,
-   "lower_band": 182.98991083351842,
-   "pct_below_band": 0.6721224799117177,
-   "market_cap": 25954957312.0,
-   "chg_1d": -1.1314196434336954,
-   "chg_5d": -3.9577307757802216,
-   "chg_1mo": -6.5645424112448,
-   "off_52w_high": -7.656356848055001,
-   "rsi": 38.516804186101254,
-   "rsi_divergence": false,
-   "macd_histogram": -0.9342577165322805,
-   "macd_turning_up": false,
-   "volume_ratio": 0.6533863581585925,
-   "valuation": {
-    "forward_pe": 37.308746,
-    "trailing_pe": 24.967031,
-    "peg_ratio": 7.17,
-    "analyst_target": 201.33333,
-    "analyst_upside_pct": 10.768780856465042
-   },
-   "short_interest": {
-    "pct_of_float": 3.1,
-    "days_to_cover": 2.83
-   },
-   "insider": {
-    "recent_buys": 0,
-    "shares": null
-   },
-   "hot_score": {
-    "total": 30.0,
-    "valuation": 5.7,
-    "technical": 4.2,
-    "catalyst": 1.9,
-    "sentiment": 18.2
-   },
-   "reasons": [
-    "No single obvious catalyst in the price action \u2014 likely broad market or sector weakness. Check the headlines below."
-   ],
-   "news": [
-    {
-     "title": "Apartment REITs Signal Recovery, but Lease Pricing Lags",
-     "link": "https://finance.yahoo.com/real-estate/articles/apartment-reits-signal-recovery-lease-055045003.html",
-     "publisher": "CRE Daily"
-    },
-    {
-     "title": "AvalonBay Communities (AVB) Could Be 8% Below Fair Value As Merger Plans Progress",
-     "link": "https://finance.yahoo.com/real-estate/articles/avalonbay-communities-avb-could-8-080823525.html",
-     "publisher": "Simply Wall St."
-    },
-    {
-     "title": "Equity Residential, AvalonBay announce name of combined firm: Vivmark Residential",
-     "link": "https://finance.yahoo.com/real-estate/articles/equity-residential-avalonbay-announce-name-134500431.html",
-     "publisher": "Multifamily Dive"
-    }
-   ],
-   "sentiment": {
-    "label": "Bullish",
-    "bullish_pct": 100.0,
-    "sample_size": 4
-   },
-   "earnings_surprise": {
-    "date": "2026-07-21",
-    "actual_eps": 1.11,
-    "estimate_eps": 1.09,
-    "surprise_pct": 1.8348623853211024
-   }
-  },
-  {
-   "symbol": "WELL",
-   "name": "Welltower Inc.",
-   "close": 226.00999450683594,
-   "lower_band": 226.61599970062326,
-   "pct_below_band": 0.2674150080258692,
-   "market_cap": 162856484864.0,
-   "chg_1d": -3.8418988415745647,
-   "chg_5d": -2.401007315942383,
-   "chg_1mo": -3.6410183047566935,
-   "off_52w_high": -10.338402848484773,
-   "rsi": 39.54325631213137,
-   "rsi_divergence": false,
-   "macd_histogram": -2.1810223369102,
-   "macd_turning_up": false,
-   "volume_ratio": 0.8906200811333069,
-   "valuation": {
-    "forward_pe": 69.01068,
-    "trailing_pe": 101.34977,
-    "peg_ratio": 3.66,
-    "analyst_target": 255.59091,
-    "analyst_upside_pct": 13.088321849531903
-   },
-   "short_interest": {
-    "pct_of_float": 3.01,
-    "days_to_cover": 5.3
-   },
-   "insider": {
-    "recent_buys": 0,
-    "shares": null
-   },
-   "hot_score": {
-    "total": 29.5,
-    "valuation": 9.6,
-    "technical": 3.8,
-    "catalyst": 2.5,
-    "sentiment": 13.5
-   },
-   "reasons": [
-    "No single obvious catalyst in the price action \u2014 likely broad market or sector weakness. Check the headlines below."
-   ],
-   "news": [
-    {
-     "title": "Welltower Stock: Analyst Estimates & Ratings",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/welltower-stock-analyst-estimates-ratings-141440618.html",
-     "publisher": "Barchart"
-    },
-    {
-     "title": "Ventas Q2 Earnings Call Highlights",
-     "link": "https://finance.yahoo.com/real-estate/articles/ventas-q2-earnings-call-highlights-050345656.html",
-     "publisher": "MarketBeat"
-    },
-    {
-     "title": "Welltower (WELL) Earnings Beat Keeps Fair Value In Focus",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/welltower-well-earnings-beat-keeps-042719843.html",
-     "publisher": "Simply Wall St."
     }
    ],
    "sentiment": {
     "label": "Bullish",
     "bullish_pct": 66.7,
-    "sample_size": 9
+    "sample_size": 3
    },
    "earnings_surprise": {
-    "date": "2026-07-27",
-    "actual_eps": 0.54,
-    "estimate_eps": 0.65,
-    "surprise_pct": -16.92307692307692
+    "date": "2026-08-06",
+    "actual_eps": 2.0,
+    "estimate_eps": 1.93,
+    "surprise_pct": 3.6269430051813503
    }
   },
   {
    "symbol": "EQR",
    "name": "Equity Residential",
-   "close": 65.08999633789062,
-   "lower_band": 65.48079749833099,
-   "pct_below_band": 0.5968179609454545,
-   "market_cap": 25164328960.0,
-   "chg_1d": -1.1241158629513692,
-   "chg_5d": -3.8410489137834514,
-   "chg_1mo": -6.640855997916473,
-   "off_52w_high": -7.213121992765181,
-   "rsi": 37.36602324654307,
+   "close": 64.41999816894531,
+   "lower_band": 64.87608317891693,
+   "pct_below_band": 0.7030094722485223,
+   "market_cap": 24905304064.0,
+   "chg_1d": -1.0293412300521054,
+   "chg_5d": -4.901092116213235,
+   "chg_1mo": -6.216340254323505,
+   "off_52w_high": -8.1682155841718,
+   "rsi": 35.61908880638555,
    "rsi_divergence": false,
-   "macd_histogram": -0.3261756454685983,
+   "macd_histogram": -0.41330326411511686,
    "macd_turning_up": false,
-   "volume_ratio": 0.563724353792973,
+   "volume_ratio": 2.426213349598128,
    "valuation": {
-    "forward_pe": 42.296993,
-    "trailing_pe": 28.3,
+    "forward_pe": 41.861614,
+    "trailing_pe": 28.008696,
     "peg_ratio": 16.1,
     "analyst_target": 73.05,
-    "analyst_upside_pct": 12.2292273927747
+    "analyst_upside_pct": 13.39646394962941
    },
    "short_interest": {
-    "pct_of_float": 3.08,
-    "days_to_cover": 3.41
+    "pct_of_float": 3.12,
+    "days_to_cover": 3.47
    },
    "insider": {
     "recent_buys": 0,
     "shares": null
    },
    "hot_score": {
-    "total": 28.9,
-    "valuation": 6.1,
-    "technical": 4.5,
-    "catalyst": 1.9,
+    "total": 41.8,
+    "valuation": 6.4,
+    "technical": 5.1,
+    "catalyst": 13.9,
     "sentiment": 16.4
    },
    "reasons": [
@@ -426,6 +287,146 @@
     "actual_eps": 0.34,
     "estimate_eps": 0.36,
     "surprise_pct": -5.555555555555546
+   }
+  },
+  {
+   "symbol": "EBAY",
+   "name": "eBay Inc.",
+   "close": 102.30999755859375,
+   "lower_band": 104.2177709201239,
+   "pct_below_band": 1.8305643506732936,
+   "market_cap": 45527949312.0,
+   "chg_1d": -3.4902410179012633,
+   "chg_5d": -7.953219834393755,
+   "chg_1mo": -11.104352407637851,
+   "off_52w_high": -13.996302668139615,
+   "rsi": 36.0624909342242,
+   "rsi_divergence": false,
+   "macd_histogram": -1.0479987483545457,
+   "macd_turning_up": false,
+   "volume_ratio": 0.9161246942270739,
+   "valuation": {
+    "forward_pe": 15.232182,
+    "trailing_pe": 21.493696,
+    "peg_ratio": 1.66,
+    "analyst_target": 115.65385,
+    "analyst_upside_pct": 13.042569406537341
+   },
+   "short_interest": {
+    "pct_of_float": 3.91,
+    "days_to_cover": 5.28
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 41.6,
+    "valuation": 14.1,
+    "technical": 5.0,
+    "catalyst": 3.3,
+    "sentiment": 19.2
+   },
+   "reasons": [
+    "EBAY reported earnings on Aug 05 \u2014 earnings reactions are the most common cause of a sharp break below the band."
+   ],
+   "news": [
+    {
+     "title": "eBay (EBAY) Q2 2026 Earnings Call Transcript",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/ebay-ebay-q2-2026-earnings-221340613.html",
+     "publisher": "Motley Fool"
+    },
+    {
+     "title": "EBAY Stock: Where Compounding Could Take The Price",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/ebay-stock-where-compounding-could-194332824.html",
+     "publisher": "Trefis"
+    },
+    {
+     "title": "Etsy (ETSY) On Earnings, Depop Sale And Buyback Looks Fully Valued",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/etsy-etsy-earnings-depop-sale-111340752.html",
+     "publisher": "Simply Wall St."
+    }
+   ],
+   "sentiment": {
+    "label": "Bullish",
+    "bullish_pct": 64.7,
+    "sample_size": 17
+   },
+   "earnings_surprise": {
+    "date": "2026-08-05",
+    "actual_eps": 1.6,
+    "estimate_eps": 1.51,
+    "surprise_pct": 5.960264900662257
+   }
+  },
+  {
+   "symbol": "AVB",
+   "name": "AvalonBay Communities, Inc.",
+   "close": 179.7899932861328,
+   "lower_band": 181.41625135212684,
+   "pct_below_band": 0.8964235860201271,
+   "market_cap": 25673646080.0,
+   "chg_1d": -1.0838475353436627,
+   "chg_5d": -5.179055583887083,
+   "chg_1mo": -5.103986638371949,
+   "off_52w_high": -8.657221148403915,
+   "rsi": 35.796294331722606,
+   "rsi_divergence": false,
+   "macd_histogram": -1.291027745881456,
+   "macd_turning_up": false,
+   "volume_ratio": 1.5242441769473118,
+   "valuation": {
+    "forward_pe": 36.904373,
+    "trailing_pe": 24.66255,
+    "peg_ratio": 7.17,
+    "analyst_target": 201.33333,
+    "analyst_upside_pct": 11.982500427363219
+   },
+   "short_interest": {
+    "pct_of_float": 3.63,
+    "days_to_cover": 4.56
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 36.9,
+    "valuation": 6.0,
+    "technical": 5.1,
+    "catalyst": 7.6,
+    "sentiment": 18.2
+   },
+   "reasons": [
+    "No single obvious catalyst in the price action \u2014 likely broad market or sector weakness. Check the headlines below."
+   ],
+   "news": [
+    {
+     "title": "Apartment REITs Signal Recovery, but Lease Pricing Lags",
+     "link": "https://finance.yahoo.com/real-estate/articles/apartment-reits-signal-recovery-lease-055045003.html",
+     "publisher": "CRE Daily"
+    },
+    {
+     "title": "AvalonBay Communities (AVB) Could Be 8% Below Fair Value As Merger Plans Progress",
+     "link": "https://finance.yahoo.com/real-estate/articles/avalonbay-communities-avb-could-8-080823525.html",
+     "publisher": "Simply Wall St."
+    },
+    {
+     "title": "Equity Residential, AvalonBay announce name of combined firm: Vivmark Residential",
+     "link": "https://finance.yahoo.com/real-estate/articles/equity-residential-avalonbay-announce-name-134500431.html",
+     "publisher": "Multifamily Dive"
+    }
+   ],
+   "sentiment": {
+    "label": "Bullish",
+    "bullish_pct": 100.0,
+    "sample_size": 4
+   },
+   "earnings_surprise": {
+    "date": "2026-07-21",
+    "actual_eps": 1.11,
+    "estimate_eps": 1.09,
+    "surprise_pct": 1.8348623853211024
    }
   }
  ]
