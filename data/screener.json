@@ -1,30 +1,30 @@
 {
- "updated": "Aug 13, 2026 06:26 PM ET",
+ "updated": "Aug 14, 2026 06:01 PM ET",
  "criteria": "close < lower BB(20,2), market cap > $20B",
  "universe_size": 503,
  "results": [
   {
    "symbol": "TPR",
    "name": "Tapestry, Inc.",
-   "close": 128.38999938964844,
-   "lower_band": 131.85906013686753,
-   "pct_below_band": 2.6308853890041846,
-   "market_cap": 25940520960.0,
-   "chg_1d": -16.488880706227626,
-   "chg_5d": -20.74691395700714,
-   "chg_1mo": -8.462851548599614,
-   "off_52w_high": -22.08399056877558,
-   "rsi": 30.94852330586039,
+   "close": 128.97999572753906,
+   "lower_band": 129.33393233138221,
+   "pct_below_band": 0.27366105511760697,
+   "market_cap": 26059726848.0,
+   "chg_1d": 0.45953449699773774,
+   "chg_5d": -20.55925397716727,
+   "chg_1mo": -10.54858621009317,
+   "off_52w_high": -21.725939626755085,
+   "rsi": 31.66738346350465,
    "rsi_divergence": false,
-   "macd_histogram": -1.4518177971260018,
+   "macd_histogram": -2.7350088220474342,
    "macd_turning_up": false,
-   "volume_ratio": 3.473918402509333,
+   "volume_ratio": 2.027992133829565,
    "valuation": {
-    "forward_pe": 16.384573,
-    "trailing_pe": 39.262997,
+    "forward_pe": 14.61177,
+    "trailing_pe": 17.741402,
     "peg_ratio": 0.34,
     "analyst_target": 168.2,
-    "analyst_upside_pct": 31.007088402214976
+    "analyst_upside_pct": 30.407819484899324
    },
    "short_interest": {
     "pct_of_float": 9.56,
@@ -35,10 +35,10 @@
     "shares": null
    },
    "hot_score": {
-    "total": 66.4,
+    "total": 62.6,
     "valuation": 22.7,
-    "technical": 6.7,
-    "catalyst": 18.5,
+    "technical": 6.4,
+    "catalyst": 15.0,
     "sentiment": 18.5
    },
    "reasons": [
@@ -47,104 +47,31 @@
    ],
    "news": [
     {
-     "title": "Stock Market Today: Nasdaq 100 Leads Upside; Cerebras Smashed On Earnings, Yet Up For Week (Live Coverage)",
-     "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-inflation-data-cisco-cerebras-earnings/?src=A00220&yptr=yahoo",
-     "publisher": "Investor's Business Daily"
-    },
-    {
-     "title": "Update: S&P 500 Rises to Record as Producer Inflation Cools",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/p-500-rises-record-producer-204454316.html",
+     "title": "S&P 500 Ekes Out Weekly Gain Amid Growing Probability of Fed Pause Extension",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/p-500-ekes-weekly-gain-204531244.html",
      "publisher": "MT Newswires"
     },
     {
-     "title": "Tapestry Triggers Sell Signal Despite Strong Earnings. Here's Why.",
-     "link": "https://www.investors.com/news/tpr-stock-tapestry-sinks-sluggish-guidance-outweighs-strong-earnings/?src=A00220&yptr=yahoo",
-     "publisher": "Investor's Business Daily"
+     "title": "Capri Holdings Cuts 2027 Sales View Despite Stronger Profitability",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/capri-holdings-cuts-2027-sales-165100289.html",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Should You Buy Capri Holdings as Value Clashes With Turnaround Risk?",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/buy-capri-holdings-value-clashes-164900340.html",
+     "publisher": "Zacks"
     }
    ],
    "sentiment": {
     "label": "Bullish",
-    "bullish_pct": 88.9,
-    "sample_size": 9
+    "bullish_pct": 90.9,
+    "sample_size": 11
    },
    "earnings_surprise": {
     "date": "2026-08-13",
     "actual_eps": 1.32,
     "estimate_eps": 1.28,
     "surprise_pct": 3.1250000000000027
-   }
-  },
-  {
-   "symbol": "MNST",
-   "name": "Monster Beverage Corporation",
-   "close": 46.68000030517578,
-   "lower_band": 52.530531873215345,
-   "pct_below_band": 11.13739259705207,
-   "market_cap": 91448541184.0,
-   "chg_1d": 1.522402718374205,
-   "chg_5d": -50.58225623797507,
-   "chg_1mo": -52.372207644386926,
-   "off_52w_high": -53.2919760207693,
-   "rsi": 12.008841500206913,
-   "rsi_divergence": false,
-   "macd_histogram": -5.986745585316978,
-   "macd_turning_up": false,
-   "volume_ratio": 1.4943495460563054,
-   "valuation": {
-    "forward_pe": 35.715652,
-    "trailing_pe": 43.22222,
-    "peg_ratio": 2.71,
-    "analyst_target": 50.04348,
-    "analyst_upside_pct": 7.2053977567161365
-   },
-   "short_interest": {
-    "pct_of_float": 2.62,
-    "days_to_cover": 3.29
-   },
-   "insider": {
-    "recent_buys": 0,
-    "shares": null
-   },
-   "hot_score": {
-    "total": 46.3,
-    "valuation": 9.0,
-    "technical": 12.0,
-    "catalyst": 6.7,
-    "sentiment": 18.6
-   },
-   "reasons": [
-    "MNST reported earnings on Aug 06 \u2014 earnings reactions are the most common cause of a sharp break below the band.",
-    "Sharp one-day drop of -49.6% on Aug 11 \u2014 points to a specific catalyst (news, guidance, downgrade) rather than gradual selling.",
-    "Down -52.4% over the past month \u2014 an extended downtrend; the band break continues an existing move rather than starting one.",
-    "Trading 53% below its 52-week high \u2014 deep drawdown territory, often reflecting a broken growth story or re-rating."
-   ],
-   "news": [
-    {
-     "title": "5 Strong Buy Dividend Aristocrats Posted Huge Q2 Earnings: Grab Them Before September",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/5-strong-buy-dividend-aristocrats-123534605.html",
-     "publisher": "24/7 Wall St."
-    },
-    {
-     "title": "The Debates That Matter For KO Stock",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/debates-matter-ko-stock-222150709.html",
-     "publisher": "Trefis"
-    },
-    {
-     "title": "Forget big tech: the real AI money is in plumbing",
-     "link": "https://finance.yahoo.com/video/forget-big-tech-real-ai-100000112.html",
-     "publisher": "Yahoo Finance Video"
-    }
-   ],
-   "sentiment": {
-    "label": "Bullish",
-    "bullish_pct": 86.7,
-    "sample_size": 15
-   },
-   "earnings_surprise": {
-    "date": "2026-08-06",
-    "actual_eps": 0.3,
-    "estimate_eps": 0.29,
-    "surprise_pct": 3.448275862068969
    }
   }
  ]
