@@ -1,77 +1,146 @@
 {
- "updated": "Aug 14, 2026 06:01 PM ET",
+ "updated": "Aug 17, 2026 06:02 PM ET",
  "criteria": "close < lower BB(20,2), market cap > $20B",
  "universe_size": 503,
  "results": [
   {
-   "symbol": "TPR",
-   "name": "Tapestry, Inc.",
-   "close": 128.97999572753906,
-   "lower_band": 129.33393233138221,
-   "pct_below_band": 0.27366105511760697,
-   "market_cap": 26059726848.0,
-   "chg_1d": 0.45953449699773774,
-   "chg_5d": -20.55925397716727,
-   "chg_1mo": -10.54858621009317,
-   "off_52w_high": -21.725939626755085,
-   "rsi": 31.66738346350465,
+   "symbol": "NKE",
+   "name": "Nike, Inc.",
+   "close": 39.09000015258789,
+   "lower_band": 39.872737456868265,
+   "pct_below_band": 1.9630889530147977,
+   "market_cap": 57989967872.0,
+   "chg_1d": -4.0265146282356,
+   "chg_5d": -7.1716941676350565,
+   "chg_1mo": -10.671842660120312,
+   "off_52w_high": -50.62523549745252,
+   "rsi": 35.681656067450646,
    "rsi_divergence": false,
-   "macd_histogram": -2.7350088220474342,
+   "macd_histogram": -0.2221452295362566,
    "macd_turning_up": false,
-   "volume_ratio": 2.027992133829565,
+   "volume_ratio": 2.793859766100947,
    "valuation": {
-    "forward_pe": 14.61177,
-    "trailing_pe": 17.741402,
-    "peg_ratio": 0.34,
-    "analyst_target": 168.2,
-    "analyst_upside_pct": 30.407819484899324
+    "forward_pe": 17.020147,
+    "trailing_pe": 18.614286,
+    "peg_ratio": 1.51,
+    "analyst_target": 50.66471,
+    "analyst_upside_pct": 29.610411364109
    },
    "short_interest": {
-    "pct_of_float": 9.56,
-    "days_to_cover": 7.32
+    "pct_of_float": 6.01,
+    "days_to_cover": 2.41
    },
    "insider": {
     "recent_buys": 0,
     "shares": null
    },
    "hot_score": {
-    "total": 62.6,
-    "valuation": 22.7,
-    "technical": 6.4,
-    "catalyst": 15.0,
-    "sentiment": 18.5
+    "total": 54.6,
+    "valuation": 19.2,
+    "technical": 5.1,
+    "catalyst": 16.3,
+    "sentiment": 14.0
    },
    "reasons": [
-    "TPR reported earnings on Aug 13 \u2014 earnings reactions are the most common cause of a sharp break below the band.",
-    "Sharp one-day drop of -16.5% on Aug 13 \u2014 points to a specific catalyst (news, guidance, downgrade) rather than gradual selling."
+    "Trading 51% below its 52-week high \u2014 deep drawdown territory, often reflecting a broken growth story or re-rating."
    ],
    "news": [
     {
-     "title": "S&P 500 Ekes Out Weekly Gain Amid Growing Probability of Fed Pause Extension",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/p-500-ekes-weekly-gain-204531244.html",
-     "publisher": "MT Newswires"
+     "title": "Nike stock hits 12-year low as turnaround skepticism lingers",
+     "link": "https://finance.yahoo.com/video/nike-stock-hits-12-low-203330811.html",
+     "publisher": "Yahoo Finance Video"
     },
     {
-     "title": "Capri Holdings Cuts 2027 Sales View Despite Stronger Profitability",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/capri-holdings-cuts-2027-sales-165100289.html",
-     "publisher": "Zacks"
+     "title": "Nike's stock plunge is relentless",
+     "link": "https://finance.yahoo.com/markets/stocks/article/nikes-stock-plunge-is-relentless-182413545.html",
+     "publisher": "Yahoo Finance"
     },
     {
-     "title": "Should You Buy Capri Holdings as Value Clashes With Turnaround Risk?",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/buy-capri-holdings-value-clashes-164900340.html",
-     "publisher": "Zacks"
+     "title": "Nike Falls Out of Stride, Hitting 12-Year Low",
+     "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-08-17-2026/card/nike-falls-out-of-stride-hitting-12-year-low-d0To0oWYno963oaTfaPf?siteid=yhoof2&yptr=yahoo",
+     "publisher": "The Wall Street Journal"
+    }
+   ],
+   "sentiment": {
+    "label": "Bearish",
+    "bullish_pct": 29.4,
+    "sample_size": 17
+   },
+   "earnings_surprise": {
+    "date": "2026-06-30",
+    "actual_eps": 0.72,
+    "estimate_eps": 0.13,
+    "surprise_pct": 453.8461538461538
+   }
+  },
+  {
+   "symbol": "EQR",
+   "name": "Equity Residential",
+   "close": 63.65999984741211,
+   "lower_band": 64.19164827789106,
+   "pct_below_band": 0.8282205625526263,
+   "market_cap": 24611481600.0,
+   "chg_1d": -3.5015936494572575,
+   "chg_5d": -3.2963723580194393,
+   "chg_1mo": -7.739130655924475,
+   "off_52w_high": -9.251605897788306,
+   "rsi": 35.40027060219154,
+   "rsi_divergence": false,
+   "macd_histogram": -0.336873957601342,
+   "macd_turning_up": false,
+   "volume_ratio": 2.1547214943107207,
+   "valuation": {
+    "forward_pe": 41.09191,
+    "trailing_pe": 27.67826,
+    "peg_ratio": 16.1,
+    "analyst_target": 73.05,
+    "analyst_upside_pct": 14.750235901814257
+   },
+   "short_interest": {
+    "pct_of_float": 3.12,
+    "days_to_cover": 3.47
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 40.2,
+    "valuation": 6.8,
+    "technical": 5.2,
+    "catalyst": 11.9,
+    "sentiment": 16.4
+   },
+   "reasons": [
+    "No single obvious catalyst in the price action \u2014 likely broad market or sector weakness. Check the headlines below."
+   ],
+   "news": [
+    {
+     "title": "Equity Residential Stock: Analyst Estimates & Ratings",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/equity-residential-stock-analyst-estimates-105842940.html",
+     "publisher": "Barchart"
+    },
+    {
+     "title": "Why Reddit (RDDT) Stock Is Up Today",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/why-reddit-rddt-stock-today-024500799.html",
+     "publisher": "StockStory"
+    },
+    {
+     "title": "Equity Residential (EQR) Stock Looks Reasonable Following Its 17% Three Year Return",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/equity-residential-eqr-stock-looks-230941738.html",
+     "publisher": "Simply Wall St."
     }
    ],
    "sentiment": {
     "label": "Bullish",
-    "bullish_pct": 90.9,
-    "sample_size": 11
+    "bullish_pct": 100.0,
+    "sample_size": 9
    },
    "earnings_surprise": {
-    "date": "2026-08-13",
-    "actual_eps": 1.32,
-    "estimate_eps": 1.28,
-    "surprise_pct": 3.1250000000000027
+    "date": "2026-07-22",
+    "actual_eps": 0.34,
+    "estimate_eps": 0.36,
+    "surprise_pct": -5.555555555555546
    }
   }
  ]
