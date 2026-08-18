@@ -1,146 +1,357 @@
 {
- "updated": "Aug 17, 2026 06:02 PM ET",
+ "updated": "Aug 18, 2026 06:01 PM ET",
  "criteria": "close < lower BB(20,2), market cap > $20B",
  "universe_size": 503,
  "results": [
   {
-   "symbol": "NKE",
-   "name": "Nike, Inc.",
-   "close": 39.09000015258789,
-   "lower_band": 39.872737456868265,
-   "pct_below_band": 1.9630889530147977,
-   "market_cap": 57989967872.0,
-   "chg_1d": -4.0265146282356,
-   "chg_5d": -7.1716941676350565,
-   "chg_1mo": -10.671842660120312,
-   "off_52w_high": -50.62523549745252,
-   "rsi": 35.681656067450646,
+   "symbol": "XYL",
+   "name": "Xylem Inc.",
+   "close": 113.94000244140625,
+   "lower_band": 114.46766701652767,
+   "pct_below_band": 0.46097259503439725,
+   "market_cap": 26603489280.0,
+   "chg_1d": -3.005021488562598,
+   "chg_5d": -7.501215977332065,
+   "chg_1mo": -5.538053517715635,
+   "off_52w_high": -25.505063932781113,
+   "rsi": 38.56408682269015,
    "rsi_divergence": false,
-   "macd_histogram": -0.2221452295362566,
+   "macd_histogram": -0.7791376968530341,
    "macd_turning_up": false,
-   "volume_ratio": 2.793859766100947,
+   "volume_ratio": 0.9743425334717568,
    "valuation": {
-    "forward_pe": 17.020147,
-    "trailing_pe": 18.614286,
-    "peg_ratio": 1.51,
-    "analyst_target": 50.66471,
-    "analyst_upside_pct": 29.610411364109
+    "forward_pe": 18.369184,
+    "trailing_pe": 27.064133,
+    "peg_ratio": 1.63,
+    "analyst_target": 153.41176,
+    "analyst_upside_pct": 34.642580931040555
    },
    "short_interest": {
-    "pct_of_float": 6.01,
-    "days_to_cover": 2.41
+    "pct_of_float": 4.28,
+    "days_to_cover": 3.77
    },
    "insider": {
     "recent_buys": 0,
     "shares": null
    },
    "hot_score": {
-    "total": 54.6,
-    "valuation": 19.2,
-    "technical": 5.1,
-    "catalyst": 16.3,
-    "sentiment": 14.0
-   },
-   "reasons": [
-    "Trading 51% below its 52-week high \u2014 deep drawdown territory, often reflecting a broken growth story or re-rating."
-   ],
-   "news": [
-    {
-     "title": "Nike stock hits 12-year low as turnaround skepticism lingers",
-     "link": "https://finance.yahoo.com/video/nike-stock-hits-12-low-203330811.html",
-     "publisher": "Yahoo Finance Video"
-    },
-    {
-     "title": "Nike's stock plunge is relentless",
-     "link": "https://finance.yahoo.com/markets/stocks/article/nikes-stock-plunge-is-relentless-182413545.html",
-     "publisher": "Yahoo Finance"
-    },
-    {
-     "title": "Nike Falls Out of Stride, Hitting 12-Year Low",
-     "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-08-17-2026/card/nike-falls-out-of-stride-hitting-12-year-low-d0To0oWYno963oaTfaPf?siteid=yhoof2&yptr=yahoo",
-     "publisher": "The Wall Street Journal"
-    }
-   ],
-   "sentiment": {
-    "label": "Bearish",
-    "bullish_pct": 29.4,
-    "sample_size": 17
-   },
-   "earnings_surprise": {
-    "date": "2026-06-30",
-    "actual_eps": 0.72,
-    "estimate_eps": 0.13,
-    "surprise_pct": 453.8461538461538
-   }
-  },
-  {
-   "symbol": "EQR",
-   "name": "Equity Residential",
-   "close": 63.65999984741211,
-   "lower_band": 64.19164827789106,
-   "pct_below_band": 0.8282205625526263,
-   "market_cap": 24611481600.0,
-   "chg_1d": -3.5015936494572575,
-   "chg_5d": -3.2963723580194393,
-   "chg_1mo": -7.739130655924475,
-   "off_52w_high": -9.251605897788306,
-   "rsi": 35.40027060219154,
-   "rsi_divergence": false,
-   "macd_histogram": -0.336873957601342,
-   "macd_turning_up": false,
-   "volume_ratio": 2.1547214943107207,
-   "valuation": {
-    "forward_pe": 41.09191,
-    "trailing_pe": 27.67826,
-    "peg_ratio": 16.1,
-    "analyst_target": 73.05,
-    "analyst_upside_pct": 14.750235901814257
-   },
-   "short_interest": {
-    "pct_of_float": 3.12,
-    "days_to_cover": 3.47
-   },
-   "insider": {
-    "recent_buys": 0,
-    "shares": null
-   },
-   "hot_score": {
-    "total": 40.2,
-    "valuation": 6.8,
-    "technical": 5.2,
-    "catalyst": 11.9,
-    "sentiment": 16.4
+    "total": 47.0,
+    "valuation": 18.9,
+    "technical": 4.1,
+    "catalyst": 4.0,
+    "sentiment": 20.0
    },
    "reasons": [
     "No single obvious catalyst in the price action \u2014 likely broad market or sector weakness. Check the headlines below."
    ],
    "news": [
     {
-     "title": "Equity Residential Stock: Analyst Estimates & Ratings",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/equity-residential-stock-analyst-estimates-105842940.html",
+     "title": "Xylem Stock: Analyst Estimates & Ratings",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/xylem-stock-analyst-estimates-ratings-095644774.html",
      "publisher": "Barchart"
     },
     {
-     "title": "Why Reddit (RDDT) Stock Is Up Today",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/why-reddit-rddt-stock-today-024500799.html",
-     "publisher": "StockStory"
+     "title": "Is WTS Worth Buying as Fast Growth Collides With Premium Valuation?",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/wts-worth-buying-fast-growth-143600237.html",
+     "publisher": "Zacks"
     },
     {
-     "title": "Equity Residential (EQR) Stock Looks Reasonable Following Its 17% Three Year Return",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/equity-residential-eqr-stock-looks-230941738.html",
-     "publisher": "Simply Wall St."
+     "title": "Is VLTO Worth Buying as Growth Improves but Valuation Stays Rich?",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/vlto-worth-buying-growth-improves-150900210.html",
+     "publisher": "Zacks"
     }
    ],
    "sentiment": {
     "label": "Bullish",
     "bullish_pct": 100.0,
-    "sample_size": 9
+    "sample_size": 10
+   },
+   "earnings_surprise": {
+    "date": "2026-07-28",
+    "actual_eps": 1.46,
+    "estimate_eps": 1.34,
+    "surprise_pct": 8.955223880597005
+   }
+  },
+  {
+   "symbol": "OTIS",
+   "name": "Otis Worldwide Corporation",
+   "close": 70.3499984741211,
+   "lower_band": 70.45913559535516,
+   "pct_below_band": 0.15489420968892068,
+   "market_cap": 26780088320.0,
+   "chg_1d": -0.29761776040067023,
+   "chg_5d": -3.682916768466782,
+   "chg_1mo": -6.200002034505204,
+   "off_52w_high": -24.85580387713725,
+   "rsi": 39.73961999247974,
+   "rsi_divergence": false,
+   "macd_histogram": -0.2905944463804997,
+   "macd_turning_up": false,
+   "volume_ratio": 0.6440574328109744,
+   "valuation": {
+    "forward_pe": 15.372815,
+    "trailing_pe": 18.084831,
+    "peg_ratio": 1.43,
+    "analyst_target": 88.83333,
+    "analyst_upside_pct": 26.273392930744954
+   },
+   "short_interest": {
+    "pct_of_float": 4.33,
+    "days_to_cover": 3.71
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 42.7,
+    "valuation": 18.5,
+    "technical": 3.8,
+    "catalyst": 2.7,
+    "sentiment": 17.8
+   },
+   "reasons": [
+    "No single obvious catalyst in the price action \u2014 likely broad market or sector weakness. Check the headlines below."
+   ],
+   "news": [
+    {
+     "title": "Otis Worldwide Stock: Analyst Estimates & Ratings",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/otis-worldwide-stock-analyst-estimates-130231120.html",
+     "publisher": "Barchart"
+    },
+    {
+     "title": "Generac Tops Q2 Earnings Estimates, Reaffirms 2026 Revenue Outlook",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/generac-tops-q2-earnings-estimates-140900720.html",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "1 Mid-Cap Stock for Long-Term Investors and 2 We Find Risky",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/1-mid-cap-stock-long-234902208.html",
+     "publisher": "StockStory"
+    }
+   ],
+   "sentiment": {
+    "label": "Bullish",
+    "bullish_pct": 90.9,
+    "sample_size": 11
    },
    "earnings_surprise": {
     "date": "2026-07-22",
-    "actual_eps": 0.34,
-    "estimate_eps": 0.36,
-    "surprise_pct": -5.555555555555546
+    "actual_eps": 1.01,
+    "estimate_eps": 1.01,
+    "surprise_pct": 0.0
+   }
+  },
+  {
+   "symbol": "META",
+   "name": "Meta Platforms, Inc.",
+   "close": 543.6699829101562,
+   "lower_band": 546.0057985498387,
+   "pct_below_band": 0.42780051894801024,
+   "market_cap": 1385002696704.0,
+   "chg_1d": -4.44662971609967,
+   "chg_5d": -9.255243133086433,
+   "chg_1mo": -15.821010534695779,
+   "off_52w_high": -30.321053135513452,
+   "rsi": 36.19389134375041,
+   "rsi_divergence": false,
+   "macd_histogram": -3.183221341283458,
+   "macd_turning_up": false,
+   "volume_ratio": 1.6461657743085814,
+   "valuation": {
+    "forward_pe": 15.584636,
+    "trailing_pe": 20.461798,
+    "peg_ratio": 0.88,
+    "analyst_target": 754.14246,
+    "analyst_upside_pct": 38.71327895706636
+   },
+   "short_interest": {
+    "pct_of_float": 1.43,
+    "days_to_cover": 1.55
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 42.1,
+    "valuation": 21.4,
+    "technical": 4.9,
+    "catalyst": 7.1,
+    "sentiment": 8.6
+   },
+   "reasons": [
+    "Down -9.3% over 5 sessions without a single large gap \u2014 suggests sustained selling pressure (sector rotation, macro, or sentiment shift).",
+    "Down -15.8% over the past month \u2014 an extended downtrend; the band break continues an existing move rather than starting one."
+   ],
+   "news": [
+    {
+     "title": "Meta social media addiction trial kicks off with major implications for company's future",
+     "link": "https://finance.yahoo.com/technology/article/meta-social-media-addiction-trial-kicks-off-with-major-implications-for-companys-future-215458217.html",
+     "publisher": "Yahoo Finance"
+    },
+    {
+     "title": "Why tech stock bulls may not shake this AI problem",
+     "link": "https://finance.yahoo.com/markets/article/why-tech-stock-bulls-may-not-shake-this-ai-problem-132840379.html",
+     "publisher": "Yahoo Finance"
+    },
+    {
+     "title": "Meta to face massive social media addiction trial Tuesday",
+     "link": "https://finance.yahoo.com/technology/article/meta-to-face-massive-social-media-addiction-trial-tuesday-135141870.html",
+     "publisher": "Yahoo Finance"
+    }
+   ],
+   "sentiment": {
+    "label": "Mixed",
+    "bullish_pct": 54.5,
+    "sample_size": 11
+   },
+   "earnings_surprise": {
+    "date": "2026-07-29",
+    "actual_eps": 6.18,
+    "estimate_eps": 7.22,
+    "surprise_pct": -14.40443213296399
+   }
+  },
+  {
+   "symbol": "CRH",
+   "name": "CRH PLC",
+   "close": 93.25,
+   "lower_band": 93.78868559426704,
+   "pct_below_band": 0.5743609592711516,
+   "market_cap": 62037778432.0,
+   "chg_1d": -2.9151514448666815,
+   "chg_5d": -7.937605728952901,
+   "chg_1mo": -6.703348827225774,
+   "off_52w_high": -29.022684933543317,
+   "rsi": 34.935522907611954,
+   "rsi_divergence": false,
+   "macd_histogram": -0.24666914888509872,
+   "macd_turning_up": false,
+   "volume_ratio": 0.6256286086397221,
+   "valuation": {
+    "forward_pe": 14.090572,
+    "trailing_pe": 16.475266,
+    "peg_ratio": 1.94,
+    "analyst_target": 137.96906,
+    "analyst_upside_pct": 47.956096514745326
+   },
+   "short_interest": {
+    "pct_of_float": 2.44,
+    "days_to_cover": 3.53
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 41.4,
+    "valuation": 17.9,
+    "technical": 5.4,
+    "catalyst": 1.5,
+    "sentiment": 16.6
+   },
+   "reasons": [
+    "No single obvious catalyst in the price action \u2014 likely broad market or sector weakness. Check the headlines below."
+   ],
+   "news": [
+    {
+     "title": "Will Martin Marietta's $13.5B Lhoist Deal Strengthen Long-Term Growth?",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/martin-mariettas-13-5b-lhoist-170100944.html",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Can MLM Justify Its Premium Valuation as Earnings Growth Improves?",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/mlm-justify-premium-valuation-earnings-165700182.html",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "CRH (CRH) Stock May Be Fairly Valued After Utah Aggregates Deal",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/crh-crh-stock-may-fairly-050938862.html",
+     "publisher": "Simply Wall St."
+    }
+   ],
+   "sentiment": {
+    "label": "Bullish",
+    "bullish_pct": 85.7,
+    "sample_size": 7
+   },
+   "earnings_surprise": {
+    "date": "2026-07-30",
+    "actual_eps": 1.93,
+    "estimate_eps": 2.02,
+    "surprise_pct": -4.455445544554459
+   }
+  },
+  {
+   "symbol": "CDNS",
+   "name": "Cadence Design Systems, Inc.",
+   "close": 316.5199890136719,
+   "lower_band": 317.625376520773,
+   "pct_below_band": 0.34801611861413095,
+   "market_cap": 87167385600.0,
+   "chg_1d": -2.1485801406014415,
+   "chg_5d": -3.3615271293192306,
+   "chg_1mo": -4.064499730185867,
+   "off_52w_high": -23.98473117062784,
+   "rsi": 32.8683022281636,
+   "rsi_divergence": false,
+   "macd_histogram": -0.4515922833523973,
+   "macd_turning_up": false,
+   "volume_ratio": 0.6685278425970662,
+   "valuation": {
+    "forward_pe": 33.188217,
+    "trailing_pe": 62.677223,
+    "peg_ratio": 2.94,
+    "analyst_target": 403.6727,
+    "analyst_upside_pct": 27.534662584157886
+   },
+   "short_interest": {
+    "pct_of_float": 2.23,
+    "days_to_cover": 2.6
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 39.6,
+    "valuation": 13.8,
+    "technical": 6.0,
+    "catalyst": 1.4,
+    "sentiment": 18.4
+   },
+   "reasons": [
+    "No single obvious catalyst in the price action \u2014 likely broad market or sector weakness. Check the headlines below."
+   ],
+   "news": [
+    {
+     "title": "INTU or CDNS: Which Is the Better Value Stock Right Now?",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/intu-cdns-better-value-stock-154001593.html",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "A Look Back at Design Software Stocks\u2019 Q2 Earnings: Cadence Design Systems (NASDAQ:CDNS) Vs The Rest Of The Pack",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/look-back-design-software-stocks-212500931.html",
+     "publisher": "StockStory"
+    },
+    {
+     "title": "1 Software Stock with Promising Prospects and 2 Facing Challenges",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/1-software-stock-promising-prospects-023700068.html",
+     "publisher": "StockStory"
+    }
+   ],
+   "sentiment": {
+    "label": "Bullish",
+    "bullish_pct": 92.3,
+    "sample_size": 13
+   },
+   "earnings_surprise": {
+    "date": "2026-07-27",
+    "actual_eps": 2.11,
+    "estimate_eps": 2.06,
+    "surprise_pct": 2.427184466019409
    }
   }
  ]
