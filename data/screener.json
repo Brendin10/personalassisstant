@@ -1,102 +1,100 @@
 {
- "updated": "Aug 24, 2026 06:04 PM ET",
+ "updated": "Aug 25, 2026 06:03 PM ET",
  "criteria": "close < lower BB(20,2), market cap > $20B",
  "universe_size": 503,
  "results": [
   {
-   "symbol": "ON",
-   "name": "ON Semiconductor Corporation",
-   "close": 71.93000030517578,
-   "lower_band": 73.07613782942329,
-   "pct_below_band": 1.5684155707884548,
-   "market_cap": 28003190784.0,
-   "chg_1d": -3.072360608307745,
-   "chg_5d": -13.732306698742214,
-   "chg_1mo": -17.140879704983845,
-   "off_52w_high": -46.292836378103544,
-   "rsi": 33.15612787742701,
+   "symbol": "CARR",
+   "name": "Carrier Global Corporation",
+   "close": 58.52000045776367,
+   "lower_band": 58.56220292931938,
+   "pct_below_band": 0.07206435114240319,
+   "market_cap": 48239501312.0,
+   "chg_1d": -2.417876827454324,
+   "chg_5d": -4.721585473195134,
+   "chg_1mo": -15.592097342840304,
+   "off_52w_high": -22.99999939767938,
+   "rsi": 29.635585472462267,
    "rsi_divergence": false,
-   "macd_histogram": -0.1635699903015091,
+   "macd_histogram": -0.268334845603873,
    "macd_turning_up": false,
-   "volume_ratio": 0.8639820027077374,
+   "volume_ratio": 0.9988395384428372,
    "valuation": {
-    "forward_pe": 15.884092,
-    "trailing_pe": 47.013073,
-    "peg_ratio": 0.23,
-    "analyst_target": 107.68,
-    "analyst_upside_pct": 49.70109765487072
+    "forward_pe": 17.701632,
+    "trailing_pe": 41.8,
+    "peg_ratio": 1.43,
+    "analyst_target": 77.81524,
+    "analyst_upside_pct": 32.97204270557468
    },
    "short_interest": {
-    "pct_of_float": 10.91,
-    "days_to_cover": 2.98
+    "pct_of_float": 2.66,
+    "days_to_cover": 2.58
    },
    "insider": {
     "recent_buys": 0,
     "shares": null
    },
    "hot_score": {
-    "total": 54.3,
-    "valuation": 22.7,
-    "technical": 5.9,
-    "catalyst": 7.3,
-    "sentiment": 18.4
+    "total": 48.8,
+    "valuation": 19.6,
+    "technical": 7.1,
+    "catalyst": 3.1,
+    "sentiment": 19.0
    },
    "reasons": [
-    "Down -13.7% over 5 sessions without a single large gap \u2014 suggests sustained selling pressure (sector rotation, macro, or sentiment shift).",
-    "Down -17.1% over the past month \u2014 an extended downtrend; the band break continues an existing move rather than starting one.",
-    "Trading 46% below its 52-week high \u2014 deep drawdown territory, often reflecting a broken growth story or re-rating."
+    "Down -15.6% over the past month \u2014 an extended downtrend; the band break continues an existing move rather than starting one."
    ],
    "news": [
     {
-     "title": "Chipmaker Stock Pullback Could Reap Bullish Implications",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/chipmaker-stock-pullback-could-reap-183904323.html",
-     "publisher": "Schaeffer's Investment Research"
+     "title": "Can TT's Raised 2026 Outlook Hold as HVAC Backlog Reaches a Record?",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/tts-raised-2026-outlook-hold-152800227.html",
+     "publisher": "Zacks"
     },
     {
-     "title": "ON Semiconductor (ON) Stock May Be 2% Undervalued As AI Data Center Wins Build",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/semiconductor-stock-may-2-undervalued-080901019.html",
-     "publisher": "Simply Wall St."
+     "title": "Is TT Stock Worth Buying as Growth Runs Into a Premium Valuation?",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/tt-stock-worth-buying-growth-152700333.html",
+     "publisher": "Zacks"
     },
     {
-     "title": "Synaptics CFO Resigns, Company Skips Successor Search Before Merger",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/synaptics-cfo-resigns-company-skips-115724601.html",
-     "publisher": "Benzinga"
+     "title": "Zacks Industry Outlook Comfort Systems, Carrier Global and SPX Technologies",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/zacks-industry-outlook-comfort-systems-100500522.html",
+     "publisher": "Zacks"
     }
    ],
    "sentiment": {
     "label": "Bullish",
-    "bullish_pct": 71.4,
-    "sample_size": 7
+    "bullish_pct": 81.8,
+    "sample_size": 11
    },
    "earnings_surprise": {
-    "date": "2026-08-03",
-    "actual_eps": 0.74,
-    "estimate_eps": 0.72,
-    "surprise_pct": 2.7777777777777803
+    "date": "2026-07-28",
+    "actual_eps": 0.86,
+    "estimate_eps": 0.82,
+    "surprise_pct": 4.878048780487809
    }
   },
   {
    "symbol": "HWM",
    "name": "Howmet Aerospace Inc.",
-   "close": 263.2900085449219,
-   "lower_band": 267.767352055529,
-   "pct_below_band": 1.6721020976741825,
-   "market_cap": 105000427520.0,
-   "chg_1d": -3.088186232716761,
-   "chg_5d": -8.93400214737694,
-   "chg_1mo": -8.978082121253294,
-   "off_52w_high": -10.032457189097933,
-   "rsi": 35.428141062296206,
+   "close": 264.0400085449219,
+   "lower_band": 264.74226323120735,
+   "pct_below_band": 0.26525975781666983,
+   "market_cap": 105299525632.0,
+   "chg_1d": 0.2848569925402389,
+   "chg_5d": -9.776178352384445,
+   "chg_1mo": -8.300338158588383,
+   "off_52w_high": -9.776178352384445,
+   "rsi": 36.2721458896237,
    "rsi_divergence": false,
-   "macd_histogram": -2.680076600153246,
+   "macd_histogram": -3.0565952110363983,
    "macd_turning_up": false,
-   "volume_ratio": 1.092588047696708,
+   "volume_ratio": 0.9097443867401048,
    "valuation": {
-    "forward_pe": 41.09104,
-    "trailing_pe": 56.621506,
+    "forward_pe": 41.134262,
+    "trailing_pe": 57.02808,
     "peg_ratio": 0.8,
-    "analyst_target": 336.628,
-    "analyst_upside_pct": 27.854452913113636
+    "analyst_target": 337.128,
+    "analyst_upside_pct": 27.680650314266074
    },
    "short_interest": {
     "pct_of_float": 1.74,
@@ -107,14 +105,14 @@
     "shares": null
    },
    "hot_score": {
-    "total": 48.9,
-    "valuation": 21.1,
-    "technical": 5.2,
-    "catalyst": 3.2,
+    "total": 47.2,
+    "valuation": 21.0,
+    "technical": 4.9,
+    "catalyst": 1.9,
     "sentiment": 19.4
    },
    "reasons": [
-    "Down -8.9% over 5 sessions without a single large gap \u2014 suggests sustained selling pressure (sector rotation, macro, or sentiment shift)."
+    "Down -9.8% over 5 sessions without a single large gap \u2014 suggests sustained selling pressure (sector rotation, macro, or sentiment shift)."
    ],
    "news": [
     {
@@ -148,25 +146,25 @@
   {
    "symbol": "CMI",
    "name": "Cummins Inc.",
-   "close": 571.6199951171875,
-   "lower_band": 584.015436212517,
-   "pct_below_band": 2.122450936522664,
-   "market_cap": 78691770368.0,
-   "chg_1d": -2.7327793627056396,
-   "chg_5d": -10.845963712658014,
-   "chg_1mo": -13.996844336068104,
-   "off_52w_high": -21.43652688758799,
-   "rsi": 29.137393882031645,
+   "close": 572.6699829101562,
+   "lower_band": 575.1902104207478,
+   "pct_below_band": 0.4381554944664346,
+   "market_cap": 78836318208.0,
+   "chg_1d": 0.18368633041843108,
+   "chg_5d": -7.754387789783279,
+   "chg_1mo": -13.473050937849251,
+   "off_52w_high": -21.29221652677854,
+   "rsi": 29.657207146728638,
    "rsi_divergence": false,
-   "macd_histogram": -5.492615239892997,
+   "macd_histogram": -5.91086710371815,
    "macd_turning_up": false,
-   "volume_ratio": 1.2466258900033618,
+   "volume_ratio": 0.7296500245344647,
    "valuation": {
-    "forward_pe": 16.566761,
-    "trailing_pe": 29.208994,
+    "forward_pe": 16.597193,
+    "trailing_pe": 29.292583,
     "peg_ratio": 1.33,
     "analyst_target": 757.0175,
-    "analyst_upside_pct": 32.43369834269081
+    "analyst_upside_pct": 32.190881762832916
    },
    "short_interest": {
     "pct_of_float": 2.14,
@@ -177,30 +175,30 @@
     "shares": null
    },
    "hot_score": {
-    "total": 48.0,
+    "total": 44.6,
     "valuation": 19.9,
-    "technical": 7.3,
-    "catalyst": 4.6,
+    "technical": 7.1,
+    "catalyst": 1.3,
     "sentiment": 16.2
    },
    "reasons": [
-    "Down -10.8% over 5 sessions without a single large gap \u2014 suggests sustained selling pressure (sector rotation, macro, or sentiment shift)."
+    "No single obvious catalyst in the price action \u2014 likely broad market or sector weakness. Check the headlines below."
    ],
    "news": [
     {
-     "title": "Unpacking Q2 Earnings: Cummins (NYSE:CMI) In The Context Of Other Heavy Transportation Equipment Stocks",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/unpacking-q2-earnings-cummins-nyse-220347090.html",
-     "publisher": "StockStory"
+     "title": "The Peer-Group Mispricing Sitting On BE Stock",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/peer-group-mispricing-sitting-stock-200231815.html",
+     "publisher": "Trefis"
+    },
+    {
+     "title": "Before The Surge, Caterpillar Stock\u2019s Order Book Told A Different Story",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/surge-caterpillar-stock-order-book-151658668.html",
+     "publisher": "Trefis"
     },
     {
      "title": "Hyperscalers Will Spend $750 Billion on AI This Year. Cummins Sells the Backup Power.",
-     "link": "https://finance.yahoo.com/technology/ai/articles/hyperscalers-spend-750-billion-ai-172500304.html",
+     "link": "https://finance.yahoo.com/technology/ai/articles/hyperscalers-spend-750-billion-ai-023500088.html",
      "publisher": "Motley Fool"
-    },
-    {
-     "title": "Is Wall Street Bullish or Bearish on Cummins Stock?",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/wall-street-bullish-bearish-cummins-115627061.html",
-     "publisher": "Barchart"
     }
    ],
    "sentiment": {
@@ -216,201 +214,131 @@
    }
   },
   {
-   "symbol": "TXN",
-   "name": "Texas Instruments Incorporated",
-   "close": 258.94000244140625,
-   "lower_band": 261.12958435216206,
-   "pct_below_band": 0.838503962003368,
-   "market_cap": 236476350464.0,
-   "chg_1d": -2.0502281776678233,
-   "chg_5d": -8.472659471360178,
-   "chg_1mo": -7.382497003419941,
-   "off_52w_high": -22.071745698603916,
-   "rsi": 36.17536773542352,
+   "symbol": "ODFL",
+   "name": "Old Dominion Freight Line, Inc.",
+   "close": 198.33999633789062,
+   "lower_band": 199.53846935082805,
+   "pct_below_band": 0.6006225350111686,
+   "market_cap": 41248428032.0,
+   "chg_1d": -1.558467071785452,
+   "chg_5d": -4.644232529860282,
+   "chg_1mo": -12.536934955653155,
+   "off_52w_high": -20.258915392273824,
+   "rsi": 33.212446051505324,
    "rsi_divergence": false,
-   "macd_histogram": -1.3123177234469496,
+   "macd_histogram": -1.1128585698745317,
    "macd_turning_up": false,
-   "volume_ratio": 0.9198977639080219,
+   "volume_ratio": 0.7071964035228919,
    "valuation": {
-    "forward_pe": 24.632826,
-    "trailing_pe": 39.352585,
-    "peg_ratio": 1.17,
-    "analyst_target": 323.67743,
-    "analyst_upside_pct": 25.00093726277104
+    "forward_pe": 29.868052,
+    "trailing_pe": 38.142307,
+    "peg_ratio": 2.92,
+    "analyst_target": 232.13635,
+    "analyst_upside_pct": 17.039605871795093
    },
    "short_interest": {
-    "pct_of_float": 2.04,
-    "days_to_cover": 2.02
+    "pct_of_float": 4.63,
+    "days_to_cover": 4.63
    },
    "insider": {
     "recent_buys": 0,
     "shares": null
    },
    "hot_score": {
-    "total": 46.5,
-    "valuation": 19.0,
-    "technical": 4.9,
-    "catalyst": 2.2,
-    "sentiment": 20.3
-   },
-   "reasons": [
-    "Down -8.5% over 5 sessions without a single large gap \u2014 suggests sustained selling pressure (sector rotation, macro, or sentiment shift)."
-   ],
-   "news": [
-    {
-     "title": "After Its Recent Stumble, Is Broadcom Stock An Opportunity Or A Trap?",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/recent-stumble-broadcom-stock-opportunity-213457266.html",
-     "publisher": "Trefis"
-    },
-    {
-     "title": "1 Cash-Producing Stock for Long-Term Investors and 2 We Question",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/1-cash-producing-stock-long-083336643.html",
-     "publisher": "StockStory"
-    },
-    {
-     "title": "Texas Instruments (TXN) Stock Gets Fair Value Boost After Analyst Target Increases",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/texas-instruments-txn-stock-gets-011035655.html",
-     "publisher": "Simply Wall St."
-    }
-   ],
-   "sentiment": {
-    "label": "Bullish",
-    "bullish_pct": 90.0,
-    "sample_size": 10
-   },
-   "earnings_surprise": {
-    "date": "2026-07-22",
-    "actual_eps": 2.14,
-    "estimate_eps": 1.94,
-    "surprise_pct": 10.309278350515473
-   }
-  },
-  {
-   "symbol": "JBHT",
-   "name": "J.B. Hunt Transport Services, I",
-   "close": 259.8800048828125,
-   "lower_band": 261.08880269451396,
-   "pct_below_band": 0.4629833984553556,
-   "market_cap": 24406614016.0,
-   "chg_1d": -5.652570932731038,
-   "chg_5d": -8.289512171061276,
-   "chg_1mo": -9.857781516995745,
-   "off_52w_high": -12.911765123975039,
-   "rsi": 37.939845937049505,
-   "rsi_divergence": false,
-   "macd_histogram": -0.6410554166594249,
-   "macd_turning_up": false,
-   "volume_ratio": 1.4615007356547327,
-   "valuation": {
-    "forward_pe": 25.69147,
-    "trailing_pe": 37.019943,
-    "peg_ratio": 2.57,
-    "analyst_target": 305.45456,
-    "analyst_upside_pct": 17.536768608934892
-   },
-   "short_interest": {
-    "pct_of_float": 4.29,
-    "days_to_cover": 2.48
-   },
-   "insider": {
-    "recent_buys": 0,
-    "shares": null
-   },
-   "hot_score": {
-    "total": 44.4,
-    "valuation": 12.3,
-    "technical": 4.4,
-    "catalyst": 7.5,
+    "total": 40.0,
+    "valuation": 11.0,
+    "technical": 5.9,
+    "catalyst": 2.9,
     "sentiment": 20.2
-   },
-   "reasons": [
-    "Sharp one-day drop of -5.7% on Aug 24 \u2014 points to a specific catalyst (news, guidance, downgrade) rather than gradual selling."
-   ],
-   "news": [
-    {
-     "title": "J.B. Hunt Sees Freight Recovery, Intermodal Pricing Upside Into 2027",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/j-b-hunt-sees-freight-210219385.html",
-     "publisher": "MarketBeat"
-    },
-    {
-     "title": "JB Hunt (JBHT) Down 5.4% Since Last Earnings Report: Can It Rebound?",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/jb-hunt-jbht-down-5-153004456.html",
-     "publisher": "Zacks"
-    },
-    {
-     "title": "Should Investors Buy Landstar Stock Post Latest Dividend Hike?",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/investors-buy-landstar-stock-post-172600688.html",
-     "publisher": "Zacks"
-    }
-   ],
-   "sentiment": {
-    "label": "Bullish",
-    "bullish_pct": 88.9,
-    "sample_size": 9
-   },
-   "earnings_surprise": {
-    "date": "2026-07-15",
-    "actual_eps": 1.91,
-    "estimate_eps": 1.74,
-    "surprise_pct": 9.770114942528732
-   }
-  },
-  {
-   "symbol": "RTX",
-   "name": "RTX Corporation",
-   "close": 209.22000122070312,
-   "lower_band": 209.41444760428314,
-   "pct_below_band": 0.09285242054905767,
-   "market_cap": 281977946112.0,
-   "chg_1d": -0.3287134626117849,
-   "chg_5d": -5.603680835204594,
-   "chg_1mo": -1.6777067428303427,
-   "off_52w_high": -7.215399297577374,
-   "rsi": 43.93010544262672,
-   "rsi_divergence": false,
-   "macd_histogram": -2.524194888491431,
-   "macd_turning_up": false,
-   "volume_ratio": 0.7550861215678789,
-   "valuation": {
-    "forward_pe": 26.632347,
-    "trailing_pe": 36.76977,
-    "peg_ratio": 2.61,
-    "analyst_target": 234.81818,
-    "analyst_upside_pct": 12.235053355292624
-   },
-   "short_interest": {
-    "pct_of_float": 1.34,
-    "days_to_cover": 3.57
-   },
-   "insider": {
-    "recent_buys": 0,
-    "shares": null
-   },
-   "hot_score": {
-    "total": 36.4,
-    "valuation": 10.7,
-    "technical": 3.7,
-    "catalyst": 0.8,
-    "sentiment": 21.2
    },
    "reasons": [
     "No single obvious catalyst in the price action \u2014 likely broad market or sector weakness. Check the headlines below."
    ],
    "news": [
     {
-     "title": "Which Aerospace and Defense Stock Has Dominated in 2026: GE Aerospace, Boeing, or RTX?",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/aerospace-defense-stock-dominated-2026-193940631.html",
-     "publisher": "24/7 Wall St."
-    },
-    {
-     "title": "Do Howmet's Strong Q2 Margins Signal Further Upside for the Stock?",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/howmets-strong-q2-margins-signal-152800766.html",
+     "title": "Old Dominion EPS Estimates Northbound: How to Play the Stock?",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/old-dominion-eps-estimates-northbound-153000255.html",
      "publisher": "Zacks"
     },
     {
-     "title": "2 Profitable Stocks Worth Investigating and 1 We Brush Off",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/2-profitable-stocks-worth-investigating-134536004.html",
+     "title": "3 Reasons to Sell ODFL and 1 Stock to Buy Instead",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/3-reasons-sell-odfl-1-175547945.html",
      "publisher": "StockStory"
+    },
+    {
+     "title": "Old Dominion Freight Line (ODFL) Stock Looks Fully Valued On Its 53% Five Year Run",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/old-dominion-freight-line-odfl-171439715.html",
+     "publisher": "Simply Wall St."
+    }
+   ],
+   "sentiment": {
+    "label": "Bullish",
+    "bullish_pct": 66.7,
+    "sample_size": 12
+   },
+   "earnings_surprise": {
+    "date": "2026-07-29",
+    "actual_eps": 1.68,
+    "estimate_eps": 1.53,
+    "surprise_pct": 9.803921568627445
+   }
+  },
+  {
+   "symbol": "GD",
+   "name": "General Dynamics Corporation",
+   "close": 376.5799865722656,
+   "lower_band": 376.8665527164974,
+   "pct_below_band": 0.0760391555488685,
+   "market_cap": 101886418944.0,
+   "chg_1d": -1.8735186823454542,
+   "chg_5d": -4.295014725576419,
+   "chg_1mo": -3.227637252241722,
+   "off_52w_high": -4.896839303144585,
+   "rsi": 42.04072643882428,
+   "rsi_divergence": false,
+   "macd_histogram": -2.483378906731632,
+   "macd_turning_up": false,
+   "volume_ratio": 1.01709920490568,
+   "valuation": {
+    "forward_pe": 20.30325,
+    "trailing_pe": 22.976206,
+    "peg_ratio": 2.67,
+    "analyst_target": 420.02475,
+    "analyst_upside_pct": 11.536662854332903
+   },
+   "short_interest": {
+    "pct_of_float": 1.01,
+    "days_to_cover": 2.04
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 35.6,
+    "valuation": 10.3,
+    "technical": 3.7,
+    "catalyst": 2.2,
+    "sentiment": 19.5
+   },
+   "reasons": [
+    "No single obvious catalyst in the price action \u2014 likely broad market or sector weakness. Check the headlines below."
+   ],
+   "news": [
+    {
+     "title": "Boeing Lands $131 Bil F-15 Fighter Jet Contract, Analyst Lifts Booz Allen Targets",
+     "link": "https://www.investors.com/news/boeing-air-force-f15-contract-131-billion-ba-stock-parsons-dod-booz-allen-analyst-targets/?src=A00220&yptr=yahoo",
+     "publisher": "Investor's Business Daily"
+    },
+    {
+     "title": "Is Textron Benefiting from the Growing Demand for Light Jets?",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/textron-benefiting-growing-demand-light-134800432.html",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Boeing Is Delivering Airplanes Faster Than It Is Delivering Cash",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/boeing-delivering-airplanes-faster-delivering-175544180.html",
+     "publisher": "Trefis"
     }
    ],
    "sentiment": {
@@ -419,80 +347,10 @@
     "sample_size": 8
    },
    "earnings_surprise": {
-    "date": "2026-07-23",
-    "actual_eps": 1.89,
-    "estimate_eps": 1.66,
-    "surprise_pct": 13.855421686746988
-   }
-  },
-  {
-   "symbol": "GE",
-   "name": "GE Aerospace",
-   "close": 341.8399963378906,
-   "lower_band": 341.9064739178211,
-   "pct_below_band": 0.0194432059646895,
-   "market_cap": 354680373248.0,
-   "chg_1d": -1.8744435143159377,
-   "chg_5d": -7.468261073784587,
-   "chg_1mo": -3.361324818124367,
-   "off_52w_high": -10.329994427552048,
-   "rsi": 39.45272914465149,
-   "rsi_divergence": false,
-   "macd_histogram": -3.505171308622213,
-   "macd_turning_up": false,
-   "volume_ratio": 0.733537500568535,
-   "valuation": {
-    "forward_pe": 37.667862,
-    "trailing_pe": 40.358913,
-    "peg_ratio": 5.12,
-    "analyst_target": 404.90475,
-    "analyst_upside_pct": 18.44861758065701
-   },
-   "short_interest": {
-    "pct_of_float": 1.37,
-    "days_to_cover": 3.59
-   },
-   "insider": {
-    "recent_buys": 0,
-    "shares": null
-   },
-   "hot_score": {
-    "total": 35.7,
-    "valuation": 11.1,
-    "technical": 3.8,
-    "catalyst": 0.9,
-    "sentiment": 19.9
-   },
-   "reasons": [
-    "Sharp one-day drop of -5.0% on Aug 19 \u2014 points to a specific catalyst (news, guidance, downgrade) rather than gradual selling."
-   ],
-   "news": [
-    {
-     "title": "Which Aerospace and Defense Stock Has Dominated in 2026: GE Aerospace, Boeing, or RTX?",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/aerospace-defense-stock-dominated-2026-193940631.html",
-     "publisher": "24/7 Wall St."
-    },
-    {
-     "title": "Do Howmet's Strong Q2 Margins Signal Further Upside for the Stock?",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/howmets-strong-q2-margins-signal-152800766.html",
-     "publisher": "Zacks"
-    },
-    {
-     "title": "General Electric (GE) Could Be 14% Overvalued On Air Force Contract Win And Capital Returns",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/general-electric-ge-could-14-011106138.html",
-     "publisher": "Simply Wall St."
-    }
-   ],
-   "sentiment": {
-    "label": "Bullish",
-    "bullish_pct": 80.0,
-    "sample_size": 5
-   },
-   "earnings_surprise": {
-    "date": "2026-07-16",
-    "actual_eps": 2.02,
-    "estimate_eps": 1.86,
-    "surprise_pct": 8.602150537634405
+    "date": "2026-07-29",
+    "actual_eps": 4.24,
+    "estimate_eps": 3.97,
+    "surprise_pct": 6.801007556675064
    }
   }
  ]
