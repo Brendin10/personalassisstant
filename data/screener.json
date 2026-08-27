@@ -1,356 +1,356 @@
 {
- "updated": "Aug 25, 2026 06:03 PM ET",
+ "updated": "Aug 26, 2026 10:12 PM ET",
  "criteria": "close < lower BB(20,2), market cap > $20B",
  "universe_size": 503,
  "results": [
   {
-   "symbol": "CARR",
-   "name": "Carrier Global Corporation",
-   "close": 58.52000045776367,
-   "lower_band": 58.56220292931938,
-   "pct_below_band": 0.07206435114240319,
-   "market_cap": 48239501312.0,
-   "chg_1d": -2.417876827454324,
-   "chg_5d": -4.721585473195134,
-   "chg_1mo": -15.592097342840304,
-   "off_52w_high": -22.99999939767938,
-   "rsi": 29.635585472462267,
+   "symbol": "NKE",
+   "name": "Nike, Inc.",
+   "close": 38.59000015258789,
+   "lower_band": 38.82755227649983,
+   "pct_below_band": 0.6118132871736973,
+   "market_cap": 57248215040.0,
+   "chg_1d": -2.254304457871892,
+   "chg_5d": -5.992689720324607,
+   "chg_1mo": -10.360044514549415,
+   "off_52w_high": -50.563667230938236,
+   "rsi": 37.14510338977661,
    "rsi_divergence": false,
-   "macd_histogram": -0.268334845603873,
+   "macd_histogram": -0.1410753650615154,
    "macd_turning_up": false,
-   "volume_ratio": 0.9988395384428372,
+   "volume_ratio": 1.4609069927290375,
    "valuation": {
-    "forward_pe": 17.701632,
-    "trailing_pe": 41.8,
-    "peg_ratio": 1.43,
-    "analyst_target": 77.81524,
-    "analyst_upside_pct": 32.97204270557468
+    "forward_pe": 16.843216,
+    "trailing_pe": 18.82439,
+    "peg_ratio": 1.58,
+    "analyst_target": 50.66471,
+    "analyst_upside_pct": 31.289737755034363
    },
    "short_interest": {
-    "pct_of_float": 2.66,
-    "days_to_cover": 2.58
+    "pct_of_float": 7.22,
+    "days_to_cover": 3.47
    },
    "insider": {
     "recent_buys": 0,
     "shares": null
    },
    "hot_score": {
-    "total": 48.8,
-    "valuation": 19.6,
-    "technical": 7.1,
-    "catalyst": 3.1,
-    "sentiment": 19.0
+    "total": 57.1,
+    "valuation": 19.1,
+    "technical": 4.6,
+    "catalyst": 9.4,
+    "sentiment": 24.0
    },
    "reasons": [
-    "Down -15.6% over the past month \u2014 an extended downtrend; the band break continues an existing move rather than starting one."
+    "Trading 51% below its 52-week high \u2014 deep drawdown territory, often reflecting a broken growth story or re-rating."
    ],
    "news": [
     {
-     "title": "Can TT's Raised 2026 Outlook Hold as HVAC Backlog Reaches a Record?",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/tts-raised-2026-outlook-hold-152800227.html",
-     "publisher": "Zacks"
+     "title": "Dick's Sporting Goods stock crash reveals a major problem for struggling Nike",
+     "link": "https://finance.yahoo.com/markets/stocks/article/dicks-sporting-goods-stock-crash-reveals-a-major-problem-for-struggling-nike-114409937.html",
+     "publisher": "Yahoo Finance"
     },
     {
-     "title": "Is TT Stock Worth Buying as Growth Runs Into a Premium Valuation?",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/tt-stock-worth-buying-growth-152700333.html",
-     "publisher": "Zacks"
-    },
-    {
-     "title": "Zacks Industry Outlook Comfort Systems, Carrier Global and SPX Technologies",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/zacks-industry-outlook-comfort-systems-100500522.html",
-     "publisher": "Zacks"
-    }
-   ],
-   "sentiment": {
-    "label": "Bullish",
-    "bullish_pct": 81.8,
-    "sample_size": 11
-   },
-   "earnings_surprise": {
-    "date": "2026-07-28",
-    "actual_eps": 0.86,
-    "estimate_eps": 0.82,
-    "surprise_pct": 4.878048780487809
-   }
-  },
-  {
-   "symbol": "HWM",
-   "name": "Howmet Aerospace Inc.",
-   "close": 264.0400085449219,
-   "lower_band": 264.74226323120735,
-   "pct_below_band": 0.26525975781666983,
-   "market_cap": 105299525632.0,
-   "chg_1d": 0.2848569925402389,
-   "chg_5d": -9.776178352384445,
-   "chg_1mo": -8.300338158588383,
-   "off_52w_high": -9.776178352384445,
-   "rsi": 36.2721458896237,
-   "rsi_divergence": false,
-   "macd_histogram": -3.0565952110363983,
-   "macd_turning_up": false,
-   "volume_ratio": 0.9097443867401048,
-   "valuation": {
-    "forward_pe": 41.134262,
-    "trailing_pe": 57.02808,
-    "peg_ratio": 0.8,
-    "analyst_target": 337.128,
-    "analyst_upside_pct": 27.680650314266074
-   },
-   "short_interest": {
-    "pct_of_float": 1.74,
-    "days_to_cover": 3.27
-   },
-   "insider": {
-    "recent_buys": 0,
-    "shares": null
-   },
-   "hot_score": {
-    "total": 47.2,
-    "valuation": 21.0,
-    "technical": 4.9,
-    "catalyst": 1.9,
-    "sentiment": 19.4
-   },
-   "reasons": [
-    "Down -9.8% over 5 sessions without a single large gap \u2014 suggests sustained selling pressure (sector rotation, macro, or sentiment shift)."
-   ],
-   "news": [
-    {
-     "title": "Do Howmet's Strong Q2 Margins Signal Further Upside for the Stock?",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/howmets-strong-q2-margins-signal-152800766.html",
-     "publisher": "Zacks"
-    },
-    {
-     "title": "The Hidden Tax Cost of JEPI\u2019s Monthly Income Machine",
-     "link": "https://finance.yahoo.com/markets/options/articles/hidden-tax-cost-jepi-monthly-163031968.html",
+     "title": "Your Annuity Might Be Backed by LeBron\u2019s Nike Deal: Inside the $245 Million Two Retirement Insurers Are Betting on the King",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/annuity-might-backed-lebron-nike-221701580.html",
      "publisher": "24/7 Wall St."
     },
     {
-     "title": "GE Aerospace's Robust Capital Position Fuels Higher Shareholder Returns",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/ge-aerospaces-robust-capital-position-155600843.html",
-     "publisher": "Zacks"
+     "title": "Update: US Equity Indexes Slip After Fed's Preferred Inflation Gauge Accelerates in July",
+     "link": "https://finance.yahoo.com/economy/policy/articles/us-equity-indexes-slip-fed-211156808.html",
+     "publisher": "MT Newswires"
     }
    ],
    "sentiment": {
     "label": "Bullish",
-    "bullish_pct": 100.0,
-    "sample_size": 5
+    "bullish_pct": 62.5,
+    "sample_size": 16
    },
    "earnings_surprise": {
-    "date": "2026-08-06",
-    "actual_eps": 1.33,
-    "estimate_eps": 1.25,
-    "surprise_pct": 6.400000000000006
+    "date": "2026-06-30",
+    "actual_eps": 0.72,
+    "estimate_eps": 0.13,
+    "surprise_pct": 453.8461538461538
    }
   },
   {
-   "symbol": "CMI",
-   "name": "Cummins Inc.",
-   "close": 572.6699829101562,
-   "lower_band": 575.1902104207478,
-   "pct_below_band": 0.4381554944664346,
-   "market_cap": 78836318208.0,
-   "chg_1d": 0.18368633041843108,
-   "chg_5d": -7.754387789783279,
-   "chg_1mo": -13.473050937849251,
-   "off_52w_high": -21.29221652677854,
-   "rsi": 29.657207146728638,
+   "symbol": "CASY",
+   "name": "Caseys General Stores, Inc.",
+   "close": 807.1199951171875,
+   "lower_band": 812.5995419576274,
+   "pct_below_band": 0.6743231515045076,
+   "market_cap": 29867405312.0,
+   "chg_1d": -2.157783562252169,
+   "chg_5d": -3.4718684983855552,
+   "chg_1mo": -5.804914581694121,
+   "off_52w_high": -11.913392269768618,
+   "rsi": 41.20344824793021,
    "rsi_divergence": false,
-   "macd_histogram": -5.91086710371815,
+   "macd_histogram": -4.3777389257006805,
    "macd_turning_up": false,
-   "volume_ratio": 0.7296500245344647,
+   "volume_ratio": 0.789239782543676,
    "valuation": {
-    "forward_pe": 16.597193,
-    "trailing_pe": 29.292583,
-    "peg_ratio": 1.33,
-    "analyst_target": 757.0175,
-    "analyst_upside_pct": 32.190881762832916
+    "forward_pe": 34.208523,
+    "trailing_pe": 43.092365,
+    "peg_ratio": 3.63,
+    "analyst_target": 957.3889,
+    "analyst_upside_pct": 18.617913791244224
    },
    "short_interest": {
-    "pct_of_float": 2.14,
-    "days_to_cover": 2.89
+    "pct_of_float": 3.46,
+    "days_to_cover": 3.89
    },
    "insider": {
     "recent_buys": 0,
     "shares": null
    },
    "hot_score": {
-    "total": 44.6,
-    "valuation": 19.9,
-    "technical": 7.1,
-    "catalyst": 1.3,
-    "sentiment": 16.2
+    "total": 41.0,
+    "valuation": 11.2,
+    "technical": 3.7,
+    "catalyst": 2.2,
+    "sentiment": 24.0
    },
    "reasons": [
-    "No single obvious catalyst in the price action \u2014 likely broad market or sector weakness. Check the headlines below."
+    "CASY reports earnings on Sep 08 \u2014 earnings reactions are the most common cause of a sharp break below the band."
    ],
    "news": [
     {
-     "title": "The Peer-Group Mispricing Sitting On BE Stock",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/peer-group-mispricing-sitting-stock-200231815.html",
-     "publisher": "Trefis"
-    },
-    {
-     "title": "Before The Surge, Caterpillar Stock\u2019s Order Book Told A Different Story",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/surge-caterpillar-stock-order-book-151658668.html",
-     "publisher": "Trefis"
-    },
-    {
-     "title": "Hyperscalers Will Spend $750 Billion on AI This Year. Cummins Sells the Backup Power.",
-     "link": "https://finance.yahoo.com/technology/ai/articles/hyperscalers-spend-750-billion-ai-023500088.html",
-     "publisher": "Motley Fool"
-    }
-   ],
-   "sentiment": {
-    "label": "Bullish",
-    "bullish_pct": 87.5,
-    "sample_size": 8
-   },
-   "earnings_surprise": {
-    "date": "2026-08-04",
-    "actual_eps": 6.73,
-    "estimate_eps": 7.17,
-    "surprise_pct": -6.136680613668054
-   }
-  },
-  {
-   "symbol": "ODFL",
-   "name": "Old Dominion Freight Line, Inc.",
-   "close": 198.33999633789062,
-   "lower_band": 199.53846935082805,
-   "pct_below_band": 0.6006225350111686,
-   "market_cap": 41248428032.0,
-   "chg_1d": -1.558467071785452,
-   "chg_5d": -4.644232529860282,
-   "chg_1mo": -12.536934955653155,
-   "off_52w_high": -20.258915392273824,
-   "rsi": 33.212446051505324,
-   "rsi_divergence": false,
-   "macd_histogram": -1.1128585698745317,
-   "macd_turning_up": false,
-   "volume_ratio": 0.7071964035228919,
-   "valuation": {
-    "forward_pe": 29.868052,
-    "trailing_pe": 38.142307,
-    "peg_ratio": 2.92,
-    "analyst_target": 232.13635,
-    "analyst_upside_pct": 17.039605871795093
-   },
-   "short_interest": {
-    "pct_of_float": 4.63,
-    "days_to_cover": 4.63
-   },
-   "insider": {
-    "recent_buys": 0,
-    "shares": null
-   },
-   "hot_score": {
-    "total": 40.0,
-    "valuation": 11.0,
-    "technical": 5.9,
-    "catalyst": 2.9,
-    "sentiment": 20.2
-   },
-   "reasons": [
-    "No single obvious catalyst in the price action \u2014 likely broad market or sector weakness. Check the headlines below."
-   ],
-   "news": [
-    {
-     "title": "Old Dominion EPS Estimates Northbound: How to Play the Stock?",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/old-dominion-eps-estimates-northbound-153000255.html",
+     "title": "Casey's Food and Grocery Categories Fuel Strong Inside Sales Momentum",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/caseys-food-grocery-categories-fuel-140600546.html",
      "publisher": "Zacks"
     },
     {
-     "title": "3 Reasons to Sell ODFL and 1 Stock to Buy Instead",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/3-reasons-sell-odfl-1-175547945.html",
-     "publisher": "StockStory"
+     "title": "Casey's General Stores (CASY) Texas Football Tie Up Keeps Valuation Questions In Play",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/caseys-general-stores-casy-texas-081457189.html",
+     "publisher": "Simply Wall St."
     },
     {
-     "title": "Old Dominion Freight Line (ODFL) Stock Looks Fully Valued On Its 53% Five Year Run",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/old-dominion-freight-line-odfl-171439715.html",
+     "title": "Caseys General Stores (CASY) Stock May Be 16% Overvalued On Cash Flow Strength",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/caseys-general-stores-casy-stock-181551810.html",
      "publisher": "Simply Wall St."
     }
    ],
    "sentiment": {
     "label": "Bullish",
-    "bullish_pct": 66.7,
-    "sample_size": 12
+    "bullish_pct": 92.9,
+    "sample_size": 14
    },
    "earnings_surprise": {
-    "date": "2026-07-29",
-    "actual_eps": 1.68,
-    "estimate_eps": 1.53,
-    "surprise_pct": 9.803921568627445
+    "date": "2026-06-09",
+    "actual_eps": 4.37,
+    "estimate_eps": 3.31,
+    "surprise_pct": 32.02416918429003
    }
   },
   {
-   "symbol": "GD",
-   "name": "General Dynamics Corporation",
-   "close": 376.5799865722656,
-   "lower_band": 376.8665527164974,
-   "pct_below_band": 0.0760391555488685,
-   "market_cap": 101886418944.0,
-   "chg_1d": -1.8735186823454542,
-   "chg_5d": -4.295014725576419,
-   "chg_1mo": -3.227637252241722,
-   "off_52w_high": -4.896839303144585,
-   "rsi": 42.04072643882428,
+   "symbol": "WM",
+   "name": "Waste Management, Inc.",
+   "close": 221.24000549316406,
+   "lower_band": 221.6626148749624,
+   "pct_below_band": 0.19065433385631037,
+   "market_cap": 88432992256.0,
+   "chg_1d": -0.40066599292516436,
+   "chg_5d": -1.7060584266268664,
+   "chg_1mo": -7.589489950716299,
+   "off_52w_high": -10.251101203513723,
+   "rsi": 38.788131623709106,
    "rsi_divergence": false,
-   "macd_histogram": -2.483378906731632,
+   "macd_histogram": -0.3953361777263593,
    "macd_turning_up": false,
-   "volume_ratio": 1.01709920490568,
+   "volume_ratio": 1.198529283068037,
    "valuation": {
-    "forward_pe": 20.30325,
-    "trailing_pe": 22.976206,
-    "peg_ratio": 2.67,
-    "analyst_target": 420.02475,
-    "analyst_upside_pct": 11.536662854332903
+    "forward_pe": 24.260796,
+    "trailing_pe": 31.426138,
+    "peg_ratio": 2.3,
+    "analyst_target": 259.92,
+    "analyst_upside_pct": 17.483273163284707
    },
    "short_interest": {
-    "pct_of_float": 1.01,
-    "days_to_cover": 2.04
+    "pct_of_float": 1.53,
+    "days_to_cover": 3.19
    },
    "insider": {
     "recent_buys": 0,
     "shares": null
    },
    "hot_score": {
-    "total": 35.6,
-    "valuation": 10.3,
-    "technical": 3.7,
-    "catalyst": 2.2,
-    "sentiment": 19.5
+    "total": 39.4,
+    "valuation": 13.2,
+    "technical": 4.1,
+    "catalyst": 3.9,
+    "sentiment": 18.3
    },
    "reasons": [
     "No single obvious catalyst in the price action \u2014 likely broad market or sector weakness. Check the headlines below."
    ],
    "news": [
     {
-     "title": "Boeing Lands $131 Bil F-15 Fighter Jet Contract, Analyst Lifts Booz Allen Targets",
-     "link": "https://www.investors.com/news/boeing-air-force-f15-contract-131-billion-ba-stock-parsons-dod-booz-allen-analyst-targets/?src=A00220&yptr=yahoo",
-     "publisher": "Investor's Business Daily"
+     "title": "Bill Gates makes $180 million bet on backbone of America's economy",
+     "link": "https://finance.yahoo.com/economy/articles/bill-gates-makes-180-million-183300203.html",
+     "publisher": "TheStreet"
     },
     {
-     "title": "Is Textron Benefiting from the Growing Demand for Light Jets?",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/textron-benefiting-growing-demand-light-134800432.html",
-     "publisher": "Zacks"
+     "title": "3 Things to Know Before You Buy Waste Management Stock",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/3-things-know-buy-waste-110500068.html",
+     "publisher": "Motley Fool"
     },
     {
-     "title": "Boeing Is Delivering Airplanes Faster Than It Is Delivering Cash",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/boeing-delivering-airplanes-faster-delivering-175544180.html",
-     "publisher": "Trefis"
+     "title": "Where Does Waste Management (WM) Value Sit After A 59% Gain?",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/where-does-waste-management-wm-140929865.html",
+     "publisher": "Simply Wall St."
     }
    ],
    "sentiment": {
     "label": "Bullish",
-    "bullish_pct": 87.5,
-    "sample_size": 8
+    "bullish_pct": 77.8,
+    "sample_size": 9
+   },
+   "earnings_surprise": {
+    "date": "2026-07-28",
+    "actual_eps": 2.02,
+    "estimate_eps": 1.98,
+    "surprise_pct": 2.020202020202022
+   }
+  },
+  {
+   "symbol": "EXR",
+   "name": "Extra Space Storage Inc",
+   "close": 144.08999633789062,
+   "lower_band": 144.40466471024314,
+   "pct_below_band": 0.2179073459876908,
+   "market_cap": 31801028608.0,
+   "chg_1d": -0.5384129257862691,
+   "chg_5d": -2.582656500330638,
+   "chg_1mo": -5.334741487293282,
+   "off_52w_high": -5.731115090497541,
+   "rsi": 39.482690157416776,
+   "rsi_divergence": false,
+   "macd_histogram": -0.4848039251349249,
+   "macd_turning_up": false,
+   "volume_ratio": 0.6809536599169312,
+   "valuation": {
+    "forward_pe": 29.978466,
+    "trailing_pe": 31.949,
+    "peg_ratio": 6.34,
+    "analyst_target": 158.2,
+    "analyst_upside_pct": 9.79249359478187
+   },
+   "short_interest": {
+    "pct_of_float": 3.16,
+    "days_to_cover": 3.91
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 34.5,
+    "valuation": 8.7,
+    "technical": 3.8,
+    "catalyst": 2.0,
+    "sentiment": 19.9
+   },
+   "reasons": [
+    "No single obvious catalyst in the price action \u2014 likely broad market or sector weakness. Check the headlines below."
+   ],
+   "news": [
+    {
+     "title": "Are Wall Street Analysts Predicting Extra Space Storage Stock Will Climb or Sink?",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/wall-street-analysts-predicting-extra-143959947.html",
+     "publisher": "Barchart"
+    },
+    {
+     "title": "Extra Space Storage (EXR) Keeps Income In Focus Following Its Dividend Declaration",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/extra-space-storage-exr-keeps-043130143.html",
+     "publisher": "Simply Wall St."
+    },
+    {
+     "title": "Extra Space Storage (EXR) Stock Could Be Undervalued On Cash Flow Yet Full On Earnings",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/extra-space-storage-exr-stock-181424541.html",
+     "publisher": "Simply Wall St."
+    }
+   ],
+   "sentiment": {
+    "label": "Bullish",
+    "bullish_pct": 100.0,
+    "sample_size": 2
+   },
+   "earnings_surprise": {
+    "date": "2026-07-28",
+    "actual_eps": 1.25,
+    "estimate_eps": 1.15,
+    "surprise_pct": 8.695652173913052
+   }
+  },
+  {
+   "symbol": "PSA",
+   "name": "Public Storage",
+   "close": 317.3699951171875,
+   "lower_band": 318.56990118731454,
+   "pct_below_band": 0.3766539354957814,
+   "market_cap": 59267493888.0,
+   "chg_1d": -1.6425506213746388,
+   "chg_5d": -2.386740580409352,
+   "chg_1mo": -3.964053032083492,
+   "off_52w_high": -3.964053032083492,
+   "rsi": 42.45137965567158,
+   "rsi_divergence": false,
+   "macd_histogram": -0.9305761804495574,
+   "macd_turning_up": false,
+   "volume_ratio": 0.8638699454193322,
+   "valuation": {
+    "forward_pe": 31.191645,
+    "trailing_pe": 30.782734,
+    "peg_ratio": 4.7,
+    "analyst_target": 337.17648,
+    "analyst_upside_pct": 6.240818346894783
+   },
+   "short_interest": {
+    "pct_of_float": 3.72,
+    "days_to_cover": 4.4
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 27.8,
+    "valuation": 4.4,
+    "technical": 3.7,
+    "catalyst": 2.8,
+    "sentiment": 17.0
+   },
+   "reasons": [
+    "No single obvious catalyst in the price action \u2014 likely broad market or sector weakness. Check the headlines below."
+   ],
+   "news": [
+    {
+     "title": "Top Stock Reports for Berkshire Hathaway, Roche & RTX",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/top-stock-reports-berkshire-hathaway-201400047.html",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Do Wall Street Analysts Like Public Storage Stock?",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/wall-street-analysts-public-storage-135157479.html",
+     "publisher": "Barchart"
+    },
+    {
+     "title": "3 REITs to Beat Rising Interest Rates, According to a Real Estate Pro",
+     "link": "https://www.barrons.com/articles/reits-rates-stock-data-center-5966321c?siteid=yhoof2&yptr=yahoo",
+     "publisher": "Barrons.com"
+    }
+   ],
+   "sentiment": {
+    "label": "Bullish",
+    "bullish_pct": 100.0,
+    "sample_size": 6
    },
    "earnings_surprise": {
     "date": "2026-07-29",
-    "actual_eps": 4.24,
-    "estimate_eps": 3.97,
-    "surprise_pct": 6.801007556675064
+    "actual_eps": 2.45,
+    "estimate_eps": 2.53,
+    "surprise_pct": -3.1620553359683647
    }
   }
  ]
