@@ -1,385 +1,171 @@
 {
- "updated": "Sep 07, 2026 07:48 PM ET",
+ "updated": "Sep 08, 2026 07:43 PM ET",
  "criteria": "close < lower BB(20,2), market cap > $20B",
  "universe_size": 503,
  "results": [
   {
-   "symbol": "FICO",
-   "name": "Fair Isaac Corporation",
-   "close": 932.260009765625,
-   "lower_band": 990.0729146052271,
-   "pct_below_band": 5.839257289717282,
-   "market_cap": 20134612992.0,
-   "chg_1d": -16.68290554232772,
-   "chg_5d": -19.184786950749967,
-   "chg_1mo": -9.655099232330123,
-   "off_52w_high": -50.39983051545358,
-   "rsi": 30.23780982273206,
+   "symbol": "STZ",
+   "name": "Constellation Brands, Inc.",
+   "close": 120.9800033569336,
+   "lower_band": 124.53017226650766,
+   "pct_below_band": 2.8508503963010137,
+   "market_cap": 20663910400.0,
+   "chg_1d": -5.617092939815748,
+   "chg_5d": -7.380180769112155,
+   "chg_1mo": -10.886853084807779,
+   "off_52w_high": -27.41780137208267,
+   "rsi": 28.19908047790463,
    "rsi_divergence": false,
-   "macd_histogram": -10.121152433846648,
+   "macd_histogram": -1.0376881502374924,
    "macd_turning_up": false,
-   "volume_ratio": 5.560632278887096,
+   "volume_ratio": 2.5046649621028774,
    "valuation": {
-    "forward_pe": 17.570574,
-    "trailing_pe": 27.029863,
-    "peg_ratio": 0.65,
-    "analyst_target": 1463.8406,
-    "analyst_upside_pct": 57.02063637461152
+    "forward_pe": 9.766667,
+    "trailing_pe": 11.521905,
+    "peg_ratio": 1.63,
+    "analyst_target": 170.8261,
+    "analyst_upside_pct": 41.2019302859522
    },
    "short_interest": {
-    "pct_of_float": 10.01,
-    "days_to_cover": 4.91
+    "pct_of_float": 4.94,
+    "days_to_cover": 4.08
    },
    "insider": {
     "recent_buys": 0,
     "shares": null
    },
    "hot_score": {
-    "total": 60.9,
-    "valuation": 22.2,
-    "technical": 6.9,
-    "catalyst": 18.8,
-    "sentiment": 13.1
+    "total": 61.6,
+    "valuation": 18.9,
+    "technical": 7.6,
+    "catalyst": 15.6,
+    "sentiment": 19.5
    },
    "reasons": [
-    "Sharp one-day drop of -16.7% on Sep 04 \u2014 points to a specific catalyst (news, guidance, downgrade) rather than gradual selling.",
-    "Trading 50% below its 52-week high \u2014 deep drawdown territory, often reflecting a broken growth story or re-rating."
+    "Sharp one-day drop of -5.6% on Sep 08 \u2014 points to a specific catalyst (news, guidance, downgrade) rather than gradual selling."
    ],
    "news": [
     {
-     "title": "FICO Stock Falls Pre-Market After Bill Pulte Declares \u2018No More\u2019 to FICO\u2019s Mortgage Scoring Monopoly \u2014 Orders Fannie Mae, Freddie Mac to Open Door to VantageScore (UPDATED)",
-     "link": "https://finance.yahoo.com/real-estate/articles/fico-stock-falls-pre-market-163005697.html",
-     "publisher": "Benzinga"
+     "title": "Modelo hikes marketing spend on college football for new platform",
+     "link": "https://finance.yahoo.com/media-advertising/articles/modelo-hikes-marketing-spend-college-142900826.html",
+     "publisher": "Marketing Dive"
     },
     {
-     "title": "One Regulator Just Ended Fair Isaac\u2019s (FICO) Mortgage Monopoly. The Stock Fell 16% \u2013 Is It Justified?",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/one-regulator-just-ended-fair-035755697.html",
-     "publisher": "Insider Monkey"
+     "title": "Should you Avoid Constellation Brands Stock, Even at a 52-Week Low?",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/avoid-constellation-brands-stock-even-094500086.html",
+     "publisher": "Motley Fool"
     },
     {
-     "title": "Has Fair Isaac (FICO) Fallen Into Reasonable Territory After FHFA?",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/fair-isaac-fico-fallen-reasonable-230722466.html",
-     "publisher": "Simply Wall St."
-    }
-   ],
-   "sentiment": {
-    "label": "Mixed",
-    "bullish_pct": 53.3,
-    "sample_size": 15
-   },
-   "earnings_surprise": {
-    "date": "2026-07-29",
-    "actual_eps": 12.18,
-    "estimate_eps": 11.78,
-    "surprise_pct": 3.395585738539901
-   }
-  },
-  {
-   "symbol": "CIEN",
-   "name": "Ciena Corporation",
-   "close": 321.0,
-   "lower_band": 322.693216138987,
-   "pct_below_band": 0.5247138936623054,
-   "market_cap": 45520535552.0,
-   "chg_1d": 1.115103836768916,
-   "chg_5d": -15.178100113848213,
-   "chg_1mo": -20.49732706655758,
-   "off_52w_high": -48.803827751196174,
-   "rsi": 33.91577000291552,
-   "rsi_divergence": false,
-   "macd_histogram": -7.750351373007042,
-   "macd_turning_up": false,
-   "volume_ratio": 1.4507168886900548,
-   "valuation": {
-    "forward_pe": 27.72023,
-    "trailing_pe": 71.97309,
-    "peg_ratio": 0.55,
-    "analyst_target": 504.12775,
-    "analyst_upside_pct": 57.049143302180696
-   },
-   "short_interest": {
-    "pct_of_float": 3.25,
-    "days_to_cover": 1.35
-   },
-   "insider": {
-    "recent_buys": 0,
-    "shares": null
-   },
-   "hot_score": {
-    "total": 58.3,
-    "valuation": 22.5,
-    "technical": 5.7,
-    "catalyst": 6.8,
-    "sentiment": 23.2
-   },
-   "reasons": [
-    "CIEN reported earnings on Sep 03 \u2014 earnings reactions are the most common cause of a sharp break below the band.",
-    "Sharp one-day drop of -10.4% on Sep 03 \u2014 points to a specific catalyst (news, guidance, downgrade) rather than gradual selling.",
-    "Down -20.5% over the past month \u2014 an extended downtrend; the band break continues an existing move rather than starting one.",
-    "Trading 49% below its 52-week high \u2014 deep drawdown territory, often reflecting a broken growth story or re-rating."
-   ],
-   "news": [
-    {
-     "title": "AAOI Dips 46% in Three Months: Should You Buy the Stock Now or Wait?",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/aaoi-dips-46-three-months-162800982.html",
+     "title": "Premiumization and Strong Brands Fuel Constellation Brands' Growth",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/premiumization-strong-brands-fuel-constellation-170400930.html",
      "publisher": "Zacks"
-    },
-    {
-     "title": "NetApp Raised Guidance as Ciena\u2019s Revenue Jumped 37%. Are AI Networks and Storage Finally Converting Into Earnings?",
-     "link": "https://finance.yahoo.com/technology/ai/articles/netapp-raised-guidance-ciena-revenue-224652965.html",
-     "publisher": "Insider Monkey"
-    },
-    {
-     "title": "How Much Track Is Left For ANET Stock?",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/much-track-left-anet-stock-211447991.html",
-     "publisher": "Trefis"
     }
    ],
    "sentiment": {
     "label": "Bullish",
-    "bullish_pct": 87.5,
-    "sample_size": 8
-   },
-   "earnings_surprise": {
-    "date": "2026-09-03",
-    "actual_eps": 2.11,
-    "estimate_eps": 1.73,
-    "surprise_pct": 21.96531791907514
-   }
-  },
-  {
-   "symbol": "ADSK",
-   "name": "Autodesk, Inc.",
-   "close": 217.89999389648438,
-   "lower_band": 229.75229285122577,
-   "pct_below_band": 5.158729346138129,
-   "market_cap": 45541097472.0,
-   "chg_1d": -8.260361242445203,
-   "chg_5d": -16.40451514036435,
-   "chg_1mo": -10.133215325822686,
-   "off_52w_high": -33.321096667944495,
-   "rsi": 35.298322902397075,
-   "rsi_divergence": false,
-   "macd_histogram": -4.611277823538961,
-   "macd_turning_up": false,
-   "volume_ratio": 2.059632024490051,
-   "valuation": {
-    "forward_pe": 15.329524,
-    "trailing_pe": 28.261997,
-    "peg_ratio": 0.84,
-    "analyst_target": 315.36765,
-    "analyst_upside_pct": 44.730453801581405
-   },
-   "short_interest": {
-    "pct_of_float": 3.96,
-    "days_to_cover": 3.5
-   },
-   "insider": {
-    "recent_buys": 0,
-    "shares": null
-   },
-   "hot_score": {
-    "total": 57.7,
-    "valuation": 21.5,
-    "technical": 5.2,
-    "catalyst": 11.7,
-    "sentiment": 19.2
-   },
-   "reasons": [
-    "ADSK reported earnings on Aug 27 \u2014 earnings reactions are the most common cause of a sharp break below the band.",
-    "Sharp one-day drop of -8.3% on Sep 04 \u2014 points to a specific catalyst (news, guidance, downgrade) rather than gradual selling."
-   ],
-   "news": [
-    {
-     "title": "Own Oracle For The AI Boom? PTC's Story Looks Cleaner",
-     "link": "https://finance.yahoo.com/technology/ai/articles/own-oracle-ai-boom-ptcs-212329139.html",
-     "publisher": "Trefis"
-    },
-    {
-     "title": "Is Autodesk Stock's Pullback A Foundation To Build On?",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/autodesk-stocks-pullback-foundation-build-184402001.html",
-     "publisher": "Trefis"
-    },
-    {
-     "title": "What Pays Adobe Stock Owners While The Freemium Bet Waits",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/pays-adobe-stock-owners-while-172415240.html",
-     "publisher": "Trefis"
-    }
-   ],
-   "sentiment": {
-    "label": "Bullish",
-    "bullish_pct": 71.4,
-    "sample_size": 7
-   },
-   "earnings_surprise": {
-    "date": "2026-08-27",
-    "actual_eps": 3.3,
-    "estimate_eps": 3.12,
-    "surprise_pct": 5.769230769230759
-   }
-  },
-  {
-   "symbol": "CDNS",
-   "name": "Cadence Design Systems, Inc.",
-   "close": 292.70001220703125,
-   "lower_band": 296.4321005024658,
-   "pct_below_band": 1.2590027494014624,
-   "market_cap": 80607535104.0,
-   "chg_1d": -3.9950119655970617,
-   "chg_5d": -14.010399949793351,
-   "chg_1mo": -13.50983966864776,
-   "off_52w_high": -29.705323876663815,
-   "rsi": 31.04702073718113,
-   "rsi_divergence": false,
-   "macd_histogram": -2.1020522229664653,
-   "macd_turning_up": false,
-   "volume_ratio": 1.975791930331645,
-   "valuation": {
-    "forward_pe": 30.669674,
-    "trailing_pe": 58.190853,
-    "peg_ratio": 2.21,
-    "analyst_target": 403.12036,
-    "analyst_upside_pct": 37.72474997878261
-   },
-   "short_interest": {
-    "pct_of_float": 1.64,
-    "days_to_cover": 1.85
-   },
-   "insider": {
-    "recent_buys": 0,
-    "shares": null
-   },
-   "hot_score": {
-    "total": 51.6,
-    "valuation": 17.0,
-    "technical": 6.7,
-    "catalyst": 9.7,
-    "sentiment": 18.4
-   },
-   "reasons": [
-    "Sharp one-day drop of -7.6% on Sep 01 \u2014 points to a specific catalyst (news, guidance, downgrade) rather than gradual selling."
-   ],
-   "news": [
-    {
-     "title": "Wall Street Bulls Look Optimistic About Cadence (CDNS): Should You Buy?",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/wall-street-bulls-look-optimistic-133003026.html",
-     "publisher": "Zacks"
-    },
-    {
-     "title": "Cadence Design Systems (CDNS) Stock Still Looks Overvalued Despite AI Chip Demand",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/cadence-design-systems-cdns-stock-141306563.html",
-     "publisher": "Simply Wall St."
-    },
-    {
-     "title": "Cadence Design Systems (CDNS) Following PCIe 6.0 Progress Has Fair Value Back In Focus",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/cadence-design-systems-cdns-following-090710711.html",
-     "publisher": "Simply Wall St."
-    }
-   ],
-   "sentiment": {
-    "label": "Bullish",
-    "bullish_pct": 87.5,
-    "sample_size": 8
-   },
-   "earnings_surprise": {
-    "date": "2026-07-27",
-    "actual_eps": 2.11,
-    "estimate_eps": 2.06,
-    "surprise_pct": 2.427184466019409
-   }
-  },
-  {
-   "symbol": "KMB",
-   "name": "Kimberly-Clark Corporation",
-   "close": 104.95999908447266,
-   "lower_band": 105.98681684097598,
-   "pct_below_band": 0.9688164878505321,
-   "market_cap": 34907496448.0,
-   "chg_1d": -2.7697989331144868,
-   "chg_5d": -4.189871145066581,
-   "chg_1mo": -3.405120976382725,
-   "off_52w_high": -19.85951125739085,
-   "rsi": 39.45050441576901,
-   "rsi_divergence": false,
-   "macd_histogram": -0.45334224729889544,
-   "macd_turning_up": false,
-   "volume_ratio": 1.4354712594366061,
-   "valuation": {
-    "forward_pe": 13.989034,
-    "trailing_pe": 20.743084,
-    "peg_ratio": 2.11,
-    "analyst_target": 118.6,
-    "analyst_upside_pct": 12.995427814885696
-   },
-   "short_interest": {
-    "pct_of_float": 15.28,
-    "days_to_cover": 12.89
-   },
-   "insider": {
-    "recent_buys": 0,
-    "shares": null
-   },
-   "hot_score": {
-    "total": 49.8,
-    "valuation": 12.6,
-    "technical": 3.8,
-    "catalyst": 14.2,
-    "sentiment": 19.1
-   },
-   "reasons": [
-    "No single obvious catalyst in the price action \u2014 likely broad market or sector weakness. Check the headlines below."
-   ],
-   "news": [
-    {
-     "title": "Kenvue's Kimberly-Clark Deal Nears Closing With Key Risks Still Ahead",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/kenvues-kimberly-clark-deal-nears-192800397.html",
-     "publisher": "Zacks"
-    },
-    {
-     "title": "Can Kimberly-Clark's Innovation Pipeline Power Its Next Growth Phase?",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/kimberly-clarks-innovation-pipeline-power-165700026.html",
-     "publisher": "Zacks"
-    },
-    {
-     "title": "4 Battle-Tested Consumer Staples Stocks That Keep Raising Their Dividends",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/4-battle-tested-consumer-staples-164718819.html",
-     "publisher": "24/7 Wall St."
-    }
-   ],
-   "sentiment": {
-    "label": "Bullish",
-    "bullish_pct": 100.0,
+    "bullish_pct": 75.0,
     "sample_size": 12
    },
    "earnings_surprise": {
-    "date": "2026-08-04",
-    "actual_eps": 2.12,
-    "estimate_eps": 2.01,
-    "surprise_pct": 5.472636815920414
+    "date": "2026-06-30",
+    "actual_eps": 3.43,
+    "estimate_eps": 3.2,
+    "surprise_pct": 7.187499999999999
+   }
+  },
+  {
+   "symbol": "SYK",
+   "name": "Stryker Corporation",
+   "close": 276.42999267578125,
+   "lower_band": 293.44006659325447,
+   "pct_below_band": 5.796779599648661,
+   "market_cap": 106031095808.0,
+   "chg_1d": -8.808106019512408,
+   "chg_5d": -14.629399908277618,
+   "chg_1mo": -18.464444541459958,
+   "off_52w_high": -29.618600213209678,
+   "rsi": 24.74234562917988,
+   "rsi_divergence": false,
+   "macd_histogram": -5.228507831494538,
+   "macd_turning_up": false,
+   "volume_ratio": 2.7300332114462074,
+   "valuation": {
+    "forward_pe": 16.498426,
+    "trailing_pe": 28.67531,
+    "peg_ratio": 1.29,
+    "analyst_target": 382.72,
+    "analyst_upside_pct": 38.45096774606655
+   },
+   "short_interest": {
+    "pct_of_float": 1.89,
+    "days_to_cover": 2.91
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 61.6,
+    "valuation": 20.0,
+    "technical": 8.8,
+    "catalyst": 13.7,
+    "sentiment": 19.2
+   },
+   "reasons": [
+    "Sharp one-day drop of -8.8% on Sep 08 \u2014 points to a specific catalyst (news, guidance, downgrade) rather than gradual selling.",
+    "Down -18.5% over the past month \u2014 an extended downtrend; the band break continues an existing move rather than starting one."
+   ],
+   "news": [
+    {
+     "title": "Boston Scientific Flags Guidance Miss Amid 'Material Impact' From Cybersecurity Incident; Shares Fall",
+     "link": "https://finance.yahoo.com/healthcare/articles/boston-scientific-flags-guidance-miss-174558467.html",
+     "publisher": "MT Newswires"
+    },
+    {
+     "title": "Supply chain woes send Stryker stock tumbling 7.7%",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/supply-chain-woes-send-stryker-153146624.html",
+     "publisher": "Investing.com"
+    },
+    {
+     "title": "Stryker (SYK) is Buying ZuriMED. Can FiberLocker Strengthen its Shoulder Portfolio?",
+     "link": "https://finance.yahoo.com/healthcare/articles/stryker-syk-buying-zurimed-fiberlocker-183612993.html",
+     "publisher": "Insider Monkey"
+    }
+   ],
+   "sentiment": {
+    "label": "Bullish",
+    "bullish_pct": 85.7,
+    "sample_size": 7
+   },
+   "earnings_surprise": {
+    "date": "2026-07-30",
+    "actual_eps": 3.69,
+    "estimate_eps": 3.49,
+    "surprise_pct": 5.730659025787958
    }
   },
   {
    "symbol": "EXPE",
    "name": "Expedia Group, Inc.",
-   "close": 298.0400085449219,
-   "lower_band": 298.971555662676,
-   "pct_below_band": 0.31158386144438716,
-   "market_cap": 35771379712.0,
-   "chg_1d": -1.6823929066013599,
-   "chg_5d": -9.53132396302393,
-   "chg_1mo": -2.7823983349668735,
-   "off_52w_high": -12.116296330691645,
-   "rsi": 43.50422200901788,
+   "close": 274.54998779296875,
+   "lower_band": 289.16983944427176,
+   "pct_below_band": 5.05580100587237,
+   "market_cap": 32952059904.0,
+   "chg_1d": -7.881499153967653,
+   "chg_5d": -13.423942980475756,
+   "chg_1mo": -11.629331059150939,
+   "off_52w_high": -19.04284969186363,
+   "rsi": 34.71199486012074,
    "rsi_divergence": false,
-   "macd_histogram": -5.518674601379679,
+   "macd_histogram": -7.101198556004771,
    "macd_turning_up": false,
-   "volume_ratio": 1.310633765311557,
+   "volume_ratio": 2.4120701497321306,
    "valuation": {
-    "forward_pe": 12.22492,
-    "trailing_pe": 18.732874,
+    "forward_pe": 11.261414,
+    "trailing_pe": 17.245602,
     "peg_ratio": 0.78,
     "analyst_target": 339.80557,
-    "analyst_upside_pct": 14.013407682741708
+    "analyst_upside_pct": 23.768197089208698
    },
    "short_interest": {
     "pct_of_float": 5.98,
@@ -390,36 +176,36 @@
     "shares": null
    },
    "hot_score": {
-    "total": 48.6,
-    "valuation": 17.3,
-    "technical": 3.7,
-    "catalyst": 7.5,
+    "total": 61.2,
+    "valuation": 20.0,
+    "technical": 5.4,
+    "catalyst": 15.6,
     "sentiment": 20.2
    },
    "reasons": [
-    "Down -9.5% over 5 sessions without a single large gap \u2014 suggests sustained selling pressure (sector rotation, macro, or sentiment shift)."
+    "Sharp one-day drop of -7.9% on Sep 08 \u2014 points to a specific catalyst (news, guidance, downgrade) rather than gradual selling."
    ],
    "news": [
+    {
+     "title": "Google Warns EU Regulations Will Result In Lower Search Quality",
+     "link": "https://finance.yahoo.com/media-advertising/articles/google-warns-eu-regulations-result-214549231.html",
+     "publisher": "MediaPost"
+    },
+    {
+     "title": "Google degrades E.U. search results to comply with DMA rules",
+     "link": "https://finance.yahoo.com/technology/articles/google-degrades-e-u-search-180715424.html",
+     "publisher": "Quartz"
+    },
     {
      "title": "Expedia Group (EXPE) Rolls Out New Vacation Rental Partner Tools",
      "link": "https://finance.yahoo.com/markets/stocks/articles/expedia-group-expe-rolls-vacation-190554141.html",
      "publisher": "Simply Wall St."
-    },
-    {
-     "title": "Expedia Group (EXPE) Stock Still Looks Cheap Despite Its 175% Run",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/expedia-group-expe-stock-still-130607043.html",
-     "publisher": "Simply Wall St."
-    },
-    {
-     "title": "Like everything else, fall travel looks pricier this year. But there are still deals to be had.",
-     "link": "https://finance.yahoo.com/economy/article/like-everything-else-fall-travel-looks-pricier-this-year-but-there-are-still-deals-to-be-had-120641276.html",
-     "publisher": "Yahoo Finance"
     }
    ],
    "sentiment": {
     "label": "Bullish",
     "bullish_pct": 100.0,
-    "sample_size": 10
+    "sample_size": 8
    },
    "earnings_surprise": {
     "date": "2026-08-05",
@@ -431,25 +217,25 @@
   {
    "symbol": "BKNG",
    "name": "Booking Holdings Inc. Common St",
-   "close": 193.2899932861328,
-   "lower_band": 193.34260080574666,
-   "pct_below_band": 0.027209481715154388,
-   "market_cap": 145234329600.0,
-   "chg_1d": -0.9429670223114694,
-   "chg_5d": -6.001075379885434,
-   "chg_1mo": -6.798787861040612,
-   "off_52w_high": -13.334223198778473,
-   "rsi": 41.92197433219509,
+   "close": 180.3000030517578,
+   "lower_band": 187.74900696709403,
+   "pct_below_band": 3.9675330568548763,
+   "market_cap": 135473905664.0,
+   "chg_1d": -6.720467011008447,
+   "chg_5d": -9.437939440333754,
+   "chg_1mo": -15.912692569983022,
+   "off_52w_high": -19.15856813853878,
+   "rsi": 32.80217204931327,
    "rsi_divergence": false,
-   "macd_histogram": -2.911052775370292,
+   "macd_histogram": -3.681074501806147,
    "macd_turning_up": false,
-   "volume_ratio": 1.300061607957403,
+   "volume_ratio": 2.1771551231988306,
    "valuation": {
-    "forward_pe": 15.616732,
-    "trailing_pe": 21.45283,
+    "forward_pe": 14.567214,
+    "trailing_pe": 20.011099,
     "peg_ratio": 0.71,
     "analyst_target": 238.67567,
-    "analyst_upside_pct": 23.480613736005186
+    "analyst_upside_pct": 32.37696392688611
    },
    "short_interest": {
     "pct_of_float": 2.83,
@@ -460,16 +246,22 @@
     "shares": null
    },
    "hot_score": {
-    "total": 48.1,
-    "valuation": 20.2,
-    "technical": 3.7,
-    "catalyst": 5.4,
+    "total": 58.8,
+    "valuation": 22.0,
+    "technical": 6.1,
+    "catalyst": 11.9,
     "sentiment": 18.9
    },
    "reasons": [
-    "No single obvious catalyst in the price action \u2014 likely broad market or sector weakness. Check the headlines below."
+    "Sharp one-day drop of -6.7% on Sep 08 \u2014 points to a specific catalyst (news, guidance, downgrade) rather than gradual selling.",
+    "Down -15.9% over the past month \u2014 an extended downtrend; the band break continues an existing move rather than starting one."
    ],
    "news": [
+    {
+     "title": "Booking Holdings (BKNG) Declines More Than Market: Some Information for Investors",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/booking-holdings-bkng-declines-more-220003667.html",
+     "publisher": "Zacks"
+    },
     {
      "title": "Here's How Many Shares of Booking Holdings (BKNG) Stock You'd Need for $1,000 in Yearly Dividends",
      "link": "https://finance.yahoo.com/markets/stocks/articles/heres-many-shares-booking-holdings-161400620.html",
@@ -479,17 +271,12 @@
      "title": "Why Is Booking Holdings (BKNG) Down 3.6% Since Last Earnings Report?",
      "link": "https://finance.yahoo.com/markets/stocks/articles/why-booking-holdings-bkng-down-153009641.html",
      "publisher": "Zacks"
-    },
-    {
-     "title": "Booking Holdings (BKNG) Rises Higher Than Market: Key Facts",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/booking-holdings-bkng-rises-higher-220002817.html",
-     "publisher": "Zacks"
     }
    ],
    "sentiment": {
     "label": "Bullish",
-    "bullish_pct": 88.9,
-    "sample_size": 9
+    "bullish_pct": 60.0,
+    "sample_size": 10
    },
    "earnings_surprise": {
     "date": "2026-08-04",
@@ -499,27 +286,382 @@
    }
   },
   {
+   "symbol": "FICO",
+   "name": "Fair Isaac Corporation",
+   "close": 933.2999877929688,
+   "lower_band": 963.6813291347016,
+   "pct_below_band": 3.1526335961092617,
+   "market_cap": 20157073408.0,
+   "chg_1d": 0.11155450372748454,
+   "chg_5d": -18.64610493529223,
+   "chg_1mo": -10.380260619056125,
+   "off_52w_high": -50.3444992925371,
+   "rsi": 30.390118446980324,
+   "rsi_divergence": false,
+   "macd_histogram": -17.15034330007733,
+   "macd_turning_up": false,
+   "volume_ratio": 2.1297696764616685,
+   "valuation": {
+    "forward_pe": 17.590174,
+    "trailing_pe": 27.060017,
+    "peg_ratio": 0.65,
+    "analyst_target": 1463.8406,
+    "analyst_upside_pct": 56.845667968091696
+   },
+   "short_interest": {
+    "pct_of_float": 10.01,
+    "days_to_cover": 4.91
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 58.2,
+    "valuation": 22.2,
+    "technical": 6.9,
+    "catalyst": 16.0,
+    "sentiment": 13.1
+   },
+   "reasons": [
+    "Sharp one-day drop of -16.7% on Sep 04 \u2014 points to a specific catalyst (news, guidance, downgrade) rather than gradual selling.",
+    "Trading 50% below its 52-week high \u2014 deep drawdown territory, often reflecting a broken growth story or re-rating."
+   ],
+   "news": [
+    {
+     "title": "FICO\u2019s Monopoly Cracks, But the Dip Could Be a Gift for Patient Investors",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/fico-monopoly-cracks-dip-could-172538934.html",
+     "publisher": "Barchart"
+    },
+    {
+     "title": "FICO Stock Falls Pre-Market After Bill Pulte Declares \u2018No More\u2019 to FICO\u2019s Mortgage Scoring Monopoly \u2014 Orders Fannie Mae, Freddie Mac to Open Door to VantageScore (UPDATED)",
+     "link": "https://finance.yahoo.com/real-estate/articles/fico-stock-falls-pre-market-163005697.html",
+     "publisher": "Benzinga"
+    },
+    {
+     "title": "One Regulator Just Ended Fair Isaac\u2019s (FICO) Mortgage Monopoly. The Stock Fell 16% \u2013 Is It Justified?",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/one-regulator-just-ended-fair-035755697.html",
+     "publisher": "Insider Monkey"
+    }
+   ],
+   "sentiment": {
+    "label": "Mixed",
+    "bullish_pct": 50.0,
+    "sample_size": 14
+   },
+   "earnings_surprise": {
+    "date": "2026-07-29",
+    "actual_eps": 12.18,
+    "estimate_eps": 11.78,
+    "surprise_pct": 3.395585738539901
+   }
+  },
+  {
+   "symbol": "HWM",
+   "name": "Howmet Aerospace Inc.",
+   "close": 231.52999877929688,
+   "lower_band": 237.97324032556145,
+   "pct_below_band": 2.707548772059345,
+   "market_cap": 92334489600.0,
+   "chg_1d": -10.699267716986792,
+   "chg_5d": -5.4786684368814065,
+   "chg_1mo": -17.862212725747572,
+   "off_52w_high": -20.88501499808907,
+   "rsi": 29.49433708759001,
+   "rsi_divergence": false,
+   "macd_histogram": -3.134478594075782,
+   "macd_turning_up": false,
+   "volume_ratio": 4.202861540236016,
+   "valuation": {
+    "forward_pe": 36.07083,
+    "trailing_pe": 49.89871,
+    "peg_ratio": 0.8,
+    "analyst_target": 337.128,
+    "analyst_upside_pct": 45.60877716816434
+   },
+   "short_interest": {
+    "pct_of_float": 1.87,
+    "days_to_cover": 3.52
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 56.4,
+    "valuation": 21.7,
+    "technical": 7.2,
+    "catalyst": 13.7,
+    "sentiment": 13.9
+   },
+   "reasons": [
+    "Sharp one-day drop of -10.7% on Sep 08 \u2014 points to a specific catalyst (news, guidance, downgrade) rather than gradual selling.",
+    "Down -17.9% over the past month \u2014 an extended downtrend; the band break continues an existing move rather than starting one."
+   ],
+   "news": [
+    {
+     "title": "Why Howmet (HWM) Dipped More Than Broader Market Today",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/why-howmet-hwm-dipped-more-220001229.html",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Canada\u2019s Tariffs Take Effect",
+     "link": "https://www.wsj.com/finance/stocks/canadas-tariffs-take-effect-c3d61304?siteid=yhoof2&yptr=yahoo",
+     "publisher": "The Wall Street Journal"
+    },
+    {
+     "title": "An Under the Radar Rare Earth Comment From Elon Musk Could Upend Another Industry",
+     "link": "https://www.barrons.com/articles/elon-musk-radar-rare-earth-cybercab-comment-b71c6c0b?siteid=yhoof2&yptr=yahoo",
+     "publisher": "Barrons.com"
+    }
+   ],
+   "sentiment": {
+    "label": "Mixed",
+    "bullish_pct": 50.0,
+    "sample_size": 6
+   },
+   "earnings_surprise": {
+    "date": "2026-08-06",
+    "actual_eps": 1.33,
+    "estimate_eps": 1.25,
+    "surprise_pct": 6.400000000000006
+   }
+  },
+  {
+   "symbol": "ADSK",
+   "name": "Autodesk, Inc.",
+   "close": 212.2100067138672,
+   "lower_band": 221.90399432085331,
+   "pct_below_band": 4.368550298815031,
+   "market_cap": 44351889408.0,
+   "chg_1d": -2.6112837732892635,
+   "chg_5d": -17.916679798916626,
+   "chg_1mo": -14.80247103185569,
+   "off_52w_high": -34.742764193033935,
+   "rsi": 33.10508848596187,
+   "rsi_divergence": false,
+   "macd_histogram": -5.856346693499969,
+   "macd_turning_up": false,
+   "volume_ratio": 1.4577576767905935,
+   "valuation": {
+    "forward_pe": 14.929227,
+    "trailing_pe": 27.523996,
+    "peg_ratio": 0.84,
+    "analyst_target": 315.36765,
+    "analyst_upside_pct": 48.61111164527938
+   },
+   "short_interest": {
+    "pct_of_float": 3.96,
+    "days_to_cover": 3.5
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 54.0,
+    "valuation": 21.5,
+    "technical": 6.0,
+    "catalyst": 7.3,
+    "sentiment": 19.2
+   },
+   "reasons": [
+    "ADSK reported earnings on Aug 27 \u2014 earnings reactions are the most common cause of a sharp break below the band.",
+    "Sharp one-day drop of -8.3% on Sep 04 \u2014 points to a specific catalyst (news, guidance, downgrade) rather than gradual selling."
+   ],
+   "news": [
+    {
+     "title": "Can Selling Puts On Adobe Stock Yield Nearly 10%?",
+     "link": "https://finance.yahoo.com/markets/options/articles/selling-puts-adobe-stock-yield-195537223.html",
+     "publisher": "Trefis"
+    },
+    {
+     "title": "Own Oracle For The AI Boom? PTC's Story Looks Cleaner",
+     "link": "https://finance.yahoo.com/technology/ai/articles/own-oracle-ai-boom-ptcs-212329139.html",
+     "publisher": "Trefis"
+    },
+    {
+     "title": "Is Autodesk Stock's Pullback A Foundation To Build On?",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/autodesk-stocks-pullback-foundation-build-184402001.html",
+     "publisher": "Trefis"
+    }
+   ],
+   "sentiment": {
+    "label": "Bullish",
+    "bullish_pct": 77.8,
+    "sample_size": 9
+   },
+   "earnings_surprise": {
+    "date": "2026-08-27",
+    "actual_eps": 3.3,
+    "estimate_eps": 3.12,
+    "surprise_pct": 5.769230769230759
+   }
+  },
+  {
+   "symbol": "CDNS",
+   "name": "Cadence Design Systems, Inc.",
+   "close": 284.1099853515625,
+   "lower_band": 289.59265189675926,
+   "pct_below_band": 1.8932339993044274,
+   "market_cap": 78241898496.0,
+   "chg_1d": -2.934754525870298,
+   "chg_5d": -16.137320274137533,
+   "chg_1mo": -16.251033625111276,
+   "off_52w_high": -31.768300065639288,
+   "rsi": 28.33963595687041,
+   "rsi_divergence": false,
+   "macd_histogram": -3.3341138316502814,
+   "macd_turning_up": false,
+   "volume_ratio": 1.8918762278540786,
+   "valuation": {
+    "forward_pe": 29.769594,
+    "trailing_pe": 56.483097,
+    "peg_ratio": 2.21,
+    "analyst_target": 403.12036,
+    "analyst_upside_pct": 41.88883910615533
+   },
+   "short_interest": {
+    "pct_of_float": 1.64,
+    "days_to_cover": 1.85
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 51.9,
+    "valuation": 17.0,
+    "technical": 7.6,
+    "catalyst": 9.1,
+    "sentiment": 18.4
+   },
+   "reasons": [
+    "Sharp one-day drop of -7.6% on Sep 01 \u2014 points to a specific catalyst (news, guidance, downgrade) rather than gradual selling.",
+    "Down -16.3% over the past month \u2014 an extended downtrend; the band break continues an existing move rather than starting one."
+   ],
+   "news": [
+    {
+     "title": "Why Cadence Design Systems (CDNS) Dipped More Than Broader Market Today",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/why-cadence-design-systems-cdns-215003702.html",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Synopsys Stock Is Down, But Is Its Future Worth Buying Into?",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/synopsys-stock-down-future-worth-204028779.html",
+     "publisher": "Trefis"
+    },
+    {
+     "title": "Wall Street Bulls Look Optimistic About Cadence (CDNS): Should You Buy?",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/wall-street-bulls-look-optimistic-133003026.html",
+     "publisher": "Zacks"
+    }
+   ],
+   "sentiment": {
+    "label": "Bullish",
+    "bullish_pct": 100.0,
+    "sample_size": 7
+   },
+   "earnings_surprise": {
+    "date": "2026-07-27",
+    "actual_eps": 2.11,
+    "estimate_eps": 2.06,
+    "surprise_pct": 2.427184466019409
+   }
+  },
+  {
+   "symbol": "BSX",
+   "name": "Boston Scientific Corporation",
+   "close": 44.97999954223633,
+   "lower_band": 45.26709560180437,
+   "pct_below_band": 0.6342268169654762,
+   "market_cap": 65186344960.0,
+   "chg_1d": -5.8995810456787705,
+   "chg_5d": -6.873705480882874,
+   "chg_1mo": -8.781183756770394,
+   "off_52w_high": -58.386528757362235,
+   "rsi": 38.556129641886386,
+   "rsi_divergence": false,
+   "macd_histogram": -0.5162785671099726,
+   "macd_turning_up": false,
+   "volume_ratio": 1.5213759728707152,
+   "valuation": {
+    "forward_pe": 13.094728,
+    "trailing_pe": 18.210526,
+    "peg_ratio": 0.66,
+    "analyst_target": 62.68966,
+    "analyst_upside_pct": 39.372300217865195
+   },
+   "short_interest": {
+    "pct_of_float": 1.91,
+    "days_to_cover": 1.4
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 51.4,
+    "valuation": 22.1,
+    "technical": 4.1,
+    "catalyst": 6.5,
+    "sentiment": 18.7
+   },
+   "reasons": [
+    "Sharp one-day drop of -5.9% on Sep 08 \u2014 points to a specific catalyst (news, guidance, downgrade) rather than gradual selling.",
+    "Trading 58% below its 52-week high \u2014 deep drawdown territory, often reflecting a broken growth story or re-rating."
+   ],
+   "news": [
+    {
+     "title": "Update: Equities Dip, Oil Jumps as Middle East Tensions Escalate",
+     "link": "https://finance.yahoo.com/markets/articles/equities-dip-oil-jumps-middle-202729439.html",
+     "publisher": "MT Newswires"
+    },
+    {
+     "title": "Boston Scientific Slammed After Cyberattack Hamstrings Sales, Profit",
+     "link": "https://www.investors.com/news/technology/boston-scientific-cybersecurity-attack-guidance/?src=A00220&yptr=yahoo",
+     "publisher": "Investor's Business Daily"
+    },
+    {
+     "title": "Sector Update: Healthcare Stocks Fall Late Afternoon",
+     "link": "https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-fall-afternoon-194859259.html",
+     "publisher": "MT Newswires"
+    }
+   ],
+   "sentiment": {
+    "label": "Bullish",
+    "bullish_pct": 62.5,
+    "sample_size": 8
+   },
+   "earnings_surprise": {
+    "date": "2026-07-29",
+    "actual_eps": 0.86,
+    "estimate_eps": 0.83,
+    "surprise_pct": 3.6144578313253044
+   }
+  },
+  {
    "symbol": "LYV",
    "name": "Live Nation Entertainment, Inc.",
-   "close": 173.5,
-   "lower_band": 175.12795574641305,
-   "pct_below_band": 0.9295807396794753,
-   "market_cap": 40418471936.0,
-   "chg_1d": -2.248016997958646,
-   "chg_5d": -4.486646942101613,
-   "chg_1mo": -4.549707915539658,
-   "off_52w_high": -7.938027263567116,
-   "rsi": 38.97712440041385,
+   "close": 170.4499969482422,
+   "lower_band": 172.86300964908867,
+   "pct_below_band": 1.3959103834561757,
+   "market_cap": 39707947008.0,
+   "chg_1d": -1.7579268309843354,
+   "chg_5d": -5.247652717458107,
+   "chg_1mo": -5.651503657092293,
+   "off_52w_high": -9.55640938343435,
+   "rsi": 35.63592517928544,
    "rsi_divergence": false,
-   "macd_histogram": -1.137511629408778,
+   "macd_histogram": -1.4327932789127398,
    "macd_turning_up": false,
-   "volume_ratio": 1.1698021393105065,
+   "volume_ratio": 1.442307578859189,
    "valuation": {
-    "forward_pe": 91.89132,
+    "forward_pe": 90.27593,
     "trailing_pe": null,
     "peg_ratio": 4.53,
     "analyst_target": 201.95833,
-    "analyst_upside_pct": 16.402495677233418
+    "analyst_upside_pct": 18.4853819981736
    },
    "short_interest": {
     "pct_of_float": 15.59,
@@ -530,10 +672,10 @@
     "shares": null
    },
    "hot_score": {
-    "total": 47.3,
-    "valuation": 6.8,
-    "technical": 4.0,
-    "catalyst": 12.5,
+    "total": 51.3,
+    "valuation": 7.7,
+    "technical": 5.1,
+    "catalyst": 14.5,
     "sentiment": 24.0
    },
    "reasons": [
@@ -569,97 +711,449 @@
    }
   },
   {
-   "symbol": "SYK",
-   "name": "Stryker Corporation",
-   "close": 303.1300048828125,
-   "lower_band": 304.9654229413239,
-   "pct_below_band": 0.6018446421922785,
-   "market_cap": 116272504832.0,
-   "chg_1d": -1.5779686047147634,
-   "chg_5d": -8.334088528568994,
-   "chg_1mo": -10.165067877035405,
-   "off_52w_high": -22.88926351954147,
-   "rsi": 34.06308795331623,
+   "symbol": "ACGL",
+   "name": "Arch Capital Group Ltd.",
+   "close": 95.70999908447266,
+   "lower_band": 96.3290349836992,
+   "pct_below_band": 0.6426264929689155,
+   "market_cap": 32659038208.0,
+   "chg_1d": -2.4362889162316548,
+   "chg_5d": -2.4064450063173703,
+   "chg_1mo": -2.8127581011763936,
+   "off_52w_high": -10.114579200714902,
+   "rsi": 38.334658738242794,
    "rsi_divergence": false,
-   "macd_histogram": -3.486353347067942,
+   "macd_histogram": -0.2661868207378734,
    "macd_turning_up": false,
-   "volume_ratio": 1.0876398387608135,
+   "volume_ratio": 2.581973038169722,
    "valuation": {
-    "forward_pe": 18.091988,
-    "trailing_pe": 31.44502,
-    "peg_ratio": 1.29,
-    "analyst_target": 382.72,
-    "analyst_upside_pct": 26.256059721952084
+    "forward_pe": 9.809056,
+    "trailing_pe": 7.4890456,
+    "peg_ratio": 1.05,
+    "analyst_target": 111.86842,
+    "analyst_upside_pct": 16.882688402562927
    },
    "short_interest": {
-    "pct_of_float": 1.89,
-    "days_to_cover": 2.91
+    "pct_of_float": 2.51,
+    "days_to_cover": 4.08
    },
    "insider": {
     "recent_buys": 0,
     "shares": null
    },
    "hot_score": {
-    "total": 47.1,
-    "valuation": 19.0,
-    "technical": 5.6,
-    "catalyst": 3.3,
-    "sentiment": 19.2
+    "total": 50.9,
+    "valuation": 13.9,
+    "technical": 4.2,
+    "catalyst": 14.1,
+    "sentiment": 18.8
    },
    "reasons": [
-    "Down -8.3% over 5 sessions without a single large gap \u2014 suggests sustained selling pressure (sector rotation, macro, or sentiment shift)."
+    "No single obvious catalyst in the price action \u2014 likely broad market or sector weakness. Check the headlines below."
    ],
    "news": [
     {
-     "title": "Stryker (SYK) is Buying ZuriMED. Can FiberLocker Strengthen its Shoulder Portfolio?",
-     "link": "https://finance.yahoo.com/healthcare/articles/stryker-syk-buying-zurimed-fiberlocker-183612993.html",
-     "publisher": "Insider Monkey"
+     "title": "Arch Capital (ACGL) Stock Still Trades At A Discount Despite Strong Earnings",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/arch-capital-acgl-stock-still-190600927.html",
+     "publisher": "Simply Wall St."
     },
     {
-     "title": "How Much Upside Can BSX Stock's Growth Deliver?",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/much-upside-bsx-stocks-growth-182539906.html",
-     "publisher": "Trefis"
+     "title": "Arch Capital Group (ACGL) Outpaces Stock Market Gains: What You Should Know",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/arch-capital-group-acgl-outpaces-220003744.html",
+     "publisher": "Zacks"
     },
     {
-     "title": "Intuitive Surgical Vs. Stryker: Wall Street Loves Both But One Has a Quiet Advantage That Will Make Investors Money",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/intuitive-surgical-vs-stryker-wall-144542715.html",
-     "publisher": "24/7 Wall St."
+     "title": "Why Is Arch Capital (ACGL) Down 3.7% Since Last Earnings Report?",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/why-arch-capital-acgl-down-153004554.html",
+     "publisher": "Zacks"
     }
    ],
    "sentiment": {
     "label": "Bullish",
-    "bullish_pct": 62.5,
-    "sample_size": 8
+    "bullish_pct": 100.0,
+    "sample_size": 5
    },
    "earnings_surprise": {
-    "date": "2026-07-30",
-    "actual_eps": 3.69,
-    "estimate_eps": 3.49,
-    "surprise_pct": 5.730659025787958
+    "date": "2026-07-28",
+    "actual_eps": 2.56,
+    "estimate_eps": 2.46,
+    "surprise_pct": 4.065040650406507
+   }
+  },
+  {
+   "symbol": "ISRG",
+   "name": "Intuitive Surgical, Inc.",
+   "close": 350.1600036621094,
+   "lower_band": 351.53704502034594,
+   "pct_below_band": 0.39172012672430256,
+   "market_cap": 125454639104.0,
+   "chg_1d": -4.510501225613195,
+   "chg_5d": -7.084854515542538,
+   "chg_1mo": -7.563156749064637,
+   "off_52w_high": -40.936152807287854,
+   "rsi": 35.114031257229016,
+   "rsi_divergence": false,
+   "macd_histogram": -2.1974957259688845,
+   "macd_turning_up": false,
+   "volume_ratio": 1.3984339966367714,
+   "valuation": {
+    "forward_pe": 29.006277,
+    "trailing_pe": 40.109966,
+    "peg_ratio": 1.6,
+    "analyst_target": 478.00934,
+    "analyst_upside_pct": 36.511690370342876
+   },
+   "short_interest": {
+    "pct_of_float": 2.01,
+    "days_to_cover": 1.72
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 50.7,
+    "valuation": 19.0,
+    "technical": 5.3,
+    "catalyst": 5.7,
+    "sentiment": 20.8
+   },
+   "reasons": [
+    "Trading 41% below its 52-week high \u2014 deep drawdown territory, often reflecting a broken growth story or re-rating."
+   ],
+   "news": [
+    {
+     "title": "Here's Why Intuitive Surgical, Inc. (ISRG) Fell More Than Broader Market",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/heres-why-intuitive-surgical-inc-215001666.html",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "The Zacks Analyst Blog Highlights FANUY, ABBNY, KYCCF, NVDA, ISRG, ILMN, NOVT, BOTZ, ROBO, ROBT and IBOT",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/zacks-analyst-blog-highlights-fanuy-141100603.html",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "ISRG's Ion Platform Is Quietly Becoming a Second Growth Engine",
+     "link": "https://finance.yahoo.com/healthcare/articles/isrgs-ion-platform-quietly-becoming-145100172.html",
+     "publisher": "Zacks"
+    }
+   ],
+   "sentiment": {
+    "label": "Bullish",
+    "bullish_pct": 100.0,
+    "sample_size": 7
+   },
+   "earnings_surprise": {
+    "date": "2026-07-16",
+    "actual_eps": 2.8,
+    "estimate_eps": 2.5,
+    "surprise_pct": 11.999999999999993
+   }
+  },
+  {
+   "symbol": "KMB",
+   "name": "Kimberly-Clark Corporation",
+   "close": 102.93000030517578,
+   "lower_band": 104.74601850238719,
+   "pct_below_band": 1.7337348217870623,
+   "market_cap": 34232360960.0,
+   "chg_1d": -1.9340689758039264,
+   "chg_5d": -4.6502980870609,
+   "chg_1mo": -6.154266941300756,
+   "off_52w_high": -21.40948358721929,
+   "rsi": 35.513521993118175,
+   "rsi_divergence": false,
+   "macd_histogram": -0.6832093385915989,
+   "macd_turning_up": false,
+   "volume_ratio": 1.1091367851127245,
+   "valuation": {
+    "forward_pe": 13.718476,
+    "trailing_pe": 20.341898,
+    "peg_ratio": 2.11,
+    "analyst_target": 118.6,
+    "analyst_upside_pct": 15.223938257421988
+   },
+   "short_interest": {
+    "pct_of_float": 15.28,
+    "days_to_cover": 12.89
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 49.3,
+    "valuation": 13.2,
+    "technical": 5.2,
+    "catalyst": 11.8,
+    "sentiment": 19.1
+   },
+   "reasons": [
+    "No single obvious catalyst in the price action \u2014 likely broad market or sector weakness. Check the headlines below."
+   ],
+   "news": [
+    {
+     "title": "Can Kimberly-Clark Turn its $40 Billion Kenvue Bet into $2.1 Billion in Savings?",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/kimberly-clark-turn-40-billion-010322656.html",
+     "publisher": "Insider Monkey"
+    },
+    {
+     "title": "Altria Is Spending More on Capex Than Any Other Consumer Staples Name. It\u2019s a Calculated Sign of Strength.",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/altria-spending-more-capex-other-233002723.html",
+     "publisher": "Barchart"
+    },
+    {
+     "title": "Kenvue's Kimberly-Clark Deal Nears Closing With Key Risks Still Ahead",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/kenvues-kimberly-clark-deal-nears-192800397.html",
+     "publisher": "Zacks"
+    }
+   ],
+   "sentiment": {
+    "label": "Bullish",
+    "bullish_pct": 100.0,
+    "sample_size": 12
+   },
+   "earnings_surprise": {
+    "date": "2026-08-04",
+    "actual_eps": 2.12,
+    "estimate_eps": 2.01,
+    "surprise_pct": 5.472636815920414
+   }
+  },
+  {
+   "symbol": "AMGN",
+   "name": "Amgen Inc.",
+   "close": 393.1700134277344,
+   "lower_band": 403.65564571876143,
+   "pct_below_band": 2.597667690824942,
+   "market_cap": 212560297984.0,
+   "chg_1d": -10.07707532682871,
+   "chg_5d": -8.539590359659888,
+   "chg_1mo": -4.326559983246703,
+   "off_52w_high": -11.472120654241035,
+   "rsi": 36.83982075177469,
+   "rsi_divergence": false,
+   "macd_histogram": -4.768331365760577,
+   "macd_turning_up": false,
+   "volume_ratio": 2.9454701091572275,
+   "valuation": {
+    "forward_pe": 16.107756,
+    "trailing_pe": 24.435675,
+    "peg_ratio": 2.11,
+    "analyst_target": 389.68967,
+    "analyst_upside_pct": -0.8852006279400748
+   },
+   "short_interest": {
+    "pct_of_float": 2.23,
+    "days_to_cover": 4.58
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 48.3,
+    "valuation": 9.0,
+    "technical": 4.7,
+    "catalyst": 13.9,
+    "sentiment": 20.7
+   },
+   "reasons": [
+    "Sharp one-day drop of -10.1% on Sep 08 \u2014 points to a specific catalyst (news, guidance, downgrade) rather than gradual selling."
+   ],
+   "news": [
+    {
+     "title": "Stock Market Today, Sept. 8: Stocks Slide Amid Surging Oil Prices, Persistent Geopolotical Tenisons",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-sept-8-213626957.html",
+     "publisher": "Motley Fool"
+    },
+    {
+     "title": "\ud83d\udcac Money Quote: A Bad Day for Amgen Stock",
+     "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-09-08-2026/card/-money-quote-a-bad-day-for-amgen-stock-8L626SHAYzE2EQMbuUyN?siteid=yhoof2&yptr=yahoo",
+     "publisher": "The Wall Street Journal"
+    },
+    {
+     "title": "Update: US Equity Indexes Drop as Houthi Strikes on Saudi Arabia's Energy Infrastructure Lift Crude Oil",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-drop-houthi-205651069.html",
+     "publisher": "MT Newswires"
+    }
+   ],
+   "sentiment": {
+    "label": "Bullish",
+    "bullish_pct": 90.0,
+    "sample_size": 10
+   },
+   "earnings_surprise": {
+    "date": "2026-08-04",
+    "actual_eps": 6.29,
+    "estimate_eps": 5.62,
+    "surprise_pct": 11.92170818505338
+   }
+  },
+  {
+   "symbol": "EFX",
+   "name": "Equifax, Inc.",
+   "close": 171.6199951171875,
+   "lower_band": 173.42902729452103,
+   "pct_below_band": 1.0430965366953227,
+   "market_cap": 20162756608.0,
+   "chg_1d": -3.066934674371591,
+   "chg_5d": -9.272577820548712,
+   "chg_1mo": -5.992551811847491,
+   "off_52w_high": -34.578582738611054,
+   "rsi": 38.529331894007136,
+   "rsi_divergence": false,
+   "macd_histogram": -2.2842962301315,
+   "macd_turning_up": false,
+   "volume_ratio": 1.359677121902087,
+   "valuation": {
+    "forward_pe": 16.872452,
+    "trailing_pe": 30.214788,
+    "peg_ratio": 1.47,
+    "analyst_target": 212.33333,
+    "analyst_upside_pct": 23.72295539049056
+   },
+   "short_interest": {
+    "pct_of_float": 6.33,
+    "days_to_cover": 3.88
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 48.2,
+    "valuation": 17.7,
+    "technical": 4.2,
+    "catalyst": 8.1,
+    "sentiment": 18.3
+   },
+   "reasons": [
+    "Sharp one-day drop of -6.4% on Sep 04 \u2014 points to a specific catalyst (news, guidance, downgrade) rather than gradual selling."
+   ],
+   "news": [
+    {
+     "title": "FICO\u2019s Monopoly Cracks, But the Dip Could Be a Gift for Patient Investors",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/fico-monopoly-cracks-dip-could-172538934.html",
+     "publisher": "Barchart"
+    },
+    {
+     "title": "Equifax (EFX) Faces Complaint Portal Focus, Is It A Bargain?",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/equifax-efx-faces-complaint-portal-121347607.html",
+     "publisher": "Simply Wall St."
+    },
+    {
+     "title": "Tesla, Fair Isaac, Micron, Sandisk, AMC, Trade Desk, UiPath, and More Stocks That Explain Today\u2019s Market",
+     "link": "https://www.barrons.com/articles/stock-movers-3ea909fc?siteid=yhoof2&yptr=yahoo",
+     "publisher": "Barrons.com"
+    }
+   ],
+   "sentiment": {
+    "label": "Bullish",
+    "bullish_pct": 66.7,
+    "sample_size": 6
+   },
+   "earnings_surprise": {
+    "date": "2026-07-21",
+    "actual_eps": 2.25,
+    "estimate_eps": 2.2,
+    "surprise_pct": 2.2727272727272645
+   }
+  },
+  {
+   "symbol": "INTU",
+   "name": "Intuit Inc.",
+   "close": 318.92999267578125,
+   "lower_band": 323.1930508282539,
+   "pct_below_band": 1.319043878433526,
+   "market_cap": 87239147520.0,
+   "chg_1d": -4.138869559969017,
+   "chg_5d": -11.235735176381079,
+   "chg_1mo": -1.9431229282763307,
+   "off_52w_high": -54.57420266967618,
+   "rsi": 40.8317445565119,
+   "rsi_divergence": false,
+   "macd_histogram": -5.5192633754996105,
+   "macd_turning_up": false,
+   "volume_ratio": 0.9521143084494494,
+   "valuation": {
+    "forward_pe": 11.671178,
+    "trailing_pe": 19.3643,
+    "peg_ratio": 1.06,
+    "analyst_target": 405.6,
+    "analyst_upside_pct": 27.175245136736326
+   },
+   "short_interest": {
+    "pct_of_float": 3.84,
+    "days_to_cover": 2.43
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 48.0,
+    "valuation": 20.0,
+    "technical": 3.7,
+    "catalyst": 3.5,
+    "sentiment": 20.8
+   },
+   "reasons": [
+    "INTU reported earnings on Aug 25 \u2014 earnings reactions are the most common cause of a sharp break below the band.",
+    "Down -11.2% over 5 sessions without a single large gap \u2014 suggests sustained selling pressure (sector rotation, macro, or sentiment shift).",
+    "Trading 55% below its 52-week high \u2014 deep drawdown territory, often reflecting a broken growth story or re-rating."
+   ],
+   "news": [
+    {
+     "title": "S&P 500 falls as AI worries hit software makers",
+     "link": "https://finance.yahoo.com/markets/articles/wall-st-futures-slip-oil-091327897.html",
+     "publisher": "Reuters"
+    },
+    {
+     "title": "Adobe Sinks 7% as Internal CEO Pick Lands Ahead of Earnings, Workday Falls 4%",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/adobe-sinks-7-internal-ceo-145720857.html",
+     "publisher": "24/7 Wall St."
+    },
+    {
+     "title": "Software Stocks Are Back. 2 Winners, 2 Losers\u2014and Salesforce.",
+     "link": "https://www.barrons.com/articles/salesforce-stock-software-ai-winners-losers-ed4679cb?siteid=yhoof2&yptr=yahoo",
+     "publisher": "Barrons.com"
+    }
+   ],
+   "sentiment": {
+    "label": "Bullish",
+    "bullish_pct": 81.2,
+    "sample_size": 16
+   },
+   "earnings_surprise": {
+    "date": "2026-08-25",
+    "actual_eps": 4.03,
+    "estimate_eps": 3.59,
+    "surprise_pct": 12.256267409470764
    }
   },
   {
    "symbol": "GEHC",
    "name": "GE HealthCare Technologies Inc.",
-   "close": 68.86000061035156,
-   "lower_band": 69.27723054197503,
-   "pct_below_band": 0.6022612745332938,
-   "market_cap": 31103115264.0,
-   "chg_1d": -1.2335063042084204,
-   "chg_5d": -3.9944202505675097,
-   "chg_1mo": -2.0622912794639348,
-   "off_52w_high": -21.892017071288794,
-   "rsi": 41.585386577761454,
+   "close": 66.7750015258789,
+   "lower_band": 68.12525375631006,
+   "pct_below_band": 1.9820142399191962,
+   "market_cap": 30161348608.0,
+   "chg_1d": -3.0278813040835573,
+   "chg_5d": -6.254389472271493,
+   "chg_1mo": -6.959726000865096,
+   "off_52w_high": -24.25703408338402,
+   "rsi": 35.052309845026116,
    "rsi_divergence": false,
-   "macd_histogram": -0.8134193238313341,
+   "macd_histogram": -0.9569578317925389,
    "macd_turning_up": false,
-   "volume_ratio": 1.0934374702352605,
+   "volume_ratio": 1.1936873159791033,
    "valuation": {
-    "forward_pe": 12.727763,
-    "trailing_pe": 15.866359,
+    "forward_pe": 12.3423815,
+    "trailing_pe": 15.385944,
     "peg_ratio": 1.72,
     "analyst_target": 82.5,
-    "analyst_upside_pct": 19.80830564732521
+    "analyst_upside_pct": 23.54922967396236
    },
    "short_interest": {
     "pct_of_float": 4.37,
@@ -670,16 +1164,21 @@
     "shares": null
    },
    "hot_score": {
-    "total": 44.2,
-    "valuation": 15.8,
-    "technical": 3.7,
-    "catalyst": 4.9,
+    "total": 47.7,
+    "valuation": 16.8,
+    "technical": 5.3,
+    "catalyst": 5.6,
     "sentiment": 19.9
    },
    "reasons": [
     "No single obvious catalyst in the price action \u2014 likely broad market or sector weakness. Check the headlines below."
    ],
    "news": [
+    {
+     "title": "GE\u2019s $12 Billion Bet on the Unsexy Industry SpaceX Is Trying to Disrupt",
+     "link": "https://www.barrons.com/articles/ge-12-billion-deal-casting-sapcex-disruption-df230ef8?siteid=yhoof2&yptr=yahoo",
+     "publisher": "Barrons.com"
+    },
     {
      "title": "GE HealthCare (GEHC) Stock Looks Reasonable On Earnings Yet Weak On Market Read",
      "link": "https://finance.yahoo.com/healthcare/articles/ge-healthcare-gehc-stock-looks-021202359.html",
@@ -689,11 +1188,6 @@
      "title": "GEHC Wins CE Mark for Photonova Spectra, Expands International Reach",
      "link": "https://finance.yahoo.com/healthcare/articles/gehc-wins-ce-mark-photonova-145400733.html",
      "publisher": "Zacks"
-    },
-    {
-     "title": "GE HealthCare\u2019s (GEHC) Latest Scanner Breakthrough Meets A Mixed Market",
-     "link": "https://finance.yahoo.com/healthcare/articles/ge-healthcare-gehc-latest-scanner-074432439.html",
-     "publisher": "Insider Monkey"
     }
    ],
    "sentiment": {
@@ -709,61 +1203,61 @@
    }
   },
   {
-   "symbol": "GD",
-   "name": "General Dynamics Corporation",
-   "close": 359.3900146484375,
-   "lower_band": 360.14045450165395,
-   "pct_below_band": 0.20837421729110475,
-   "market_cap": 97235550208.0,
-   "chg_1d": -1.7711155752672458,
-   "chg_5d": -5.2541369532207005,
-   "chg_1mo": -7.115165363354537,
-   "off_52w_high": -9.238070171855494,
-   "rsi": 31.029923731861913,
+   "symbol": "MAR",
+   "name": "Marriott International",
+   "close": 328.7900085449219,
+   "lower_band": 329.51483824252534,
+   "pct_below_band": 0.21996875815042602,
+   "market_cap": 85737349120.0,
+   "chg_1d": -2.2941371717530856,
+   "chg_5d": -3.795061110162601,
+   "chg_1mo": -7.097848282686714,
+   "off_52w_high": -18.321160241086886,
+   "rsi": 29.064095640979374,
    "rsi_divergence": false,
-   "macd_histogram": -3.5025751680625357,
+   "macd_histogram": -2.014335643740994,
    "macd_turning_up": false,
-   "volume_ratio": 1.2291901364376017,
+   "volume_ratio": 1.484129363128809,
    "valuation": {
-    "forward_pe": 19.352737,
-    "trailing_pe": 21.927397,
-    "peg_ratio": 2.22,
-    "analyst_target": 420.02475,
-    "analyst_upside_pct": 16.87156929245144
+    "forward_pe": 25.00424,
+    "trailing_pe": 34.036232,
+    "peg_ratio": 1.68,
+    "analyst_target": 380.64,
+    "analyst_upside_pct": 15.769941332628413
    },
    "short_interest": {
-    "pct_of_float": 1.12,
-    "days_to_cover": 2.47
+    "pct_of_float": 2.4,
+    "days_to_cover": 3.29
    },
    "insider": {
     "recent_buys": 0,
     "shares": null
    },
    "hot_score": {
-    "total": 43.2,
-    "valuation": 13.3,
-    "technical": 6.7,
-    "catalyst": 3.9,
-    "sentiment": 19.5
+    "total": 47.3,
+    "valuation": 14.8,
+    "technical": 7.3,
+    "catalyst": 6.5,
+    "sentiment": 18.6
    },
    "reasons": [
     "No single obvious catalyst in the price action \u2014 likely broad market or sector weakness. Check the headlines below."
    ],
    "news": [
     {
-     "title": "White House reviewed potential replacements for Pentagon deputy Feinberg - Reuters",
-     "link": "https://www.yahoo.com/news/politics/articles/white-house-reviewed-potential-replacements-054023976.html",
-     "publisher": "Investing.com"
+     "title": "BetMGM CEO pitches sportsbooks over prediction markets ahead of NFL season",
+     "link": "https://finance.yahoo.com/video/betmgm-ceo-pitches-sportsbooks-over-120000902.html",
+     "publisher": "Yahoo Finance Video"
     },
     {
-     "title": "General Dynamics (GD) Stock May Still Have Value On A 98% Run",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/general-dynamics-gd-stock-may-050733081.html",
-     "publisher": "Simply Wall St."
+     "title": "Major Marriott resort plans extended closure",
+     "link": "https://finance.yahoo.com/real-estate/articles/major-marriott-resort-plans-extended-202300612.html",
+     "publisher": "TheStreet"
     },
     {
-     "title": "Can the Sea-Launched Cruise Missile Program Boost GD's Growth?",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/sea-launched-cruise-missile-program-143000673.html",
-     "publisher": "Zacks"
+     "title": "Marriott finally fixes an annoying part of hotel rooms",
+     "link": "https://finance.yahoo.com/media-advertising/articles/marriott-finally-fixes-annoying-part-133300947.html",
+     "publisher": "TheStreet"
     }
    ],
    "sentiment": {
@@ -772,104 +1266,665 @@
     "sample_size": 7
    },
    "earnings_surprise": {
-    "date": "2026-07-29",
-    "actual_eps": 4.24,
-    "estimate_eps": 3.97,
-    "surprise_pct": 6.801007556675064
+    "date": "2026-08-03",
+    "actual_eps": 3.19,
+    "estimate_eps": 3.08,
+    "surprise_pct": 3.571428571428567
    }
   },
   {
-   "symbol": "MCD",
-   "name": "McDonald's Corporation",
-   "close": 255.69000244140625,
-   "lower_band": 256.10939772153625,
-   "pct_below_band": 0.16375630252584725,
-   "market_cap": 180936867840.0,
-   "chg_1d": -1.517545109312235,
-   "chg_5d": -3.513206625884435,
-   "chg_1mo": -7.445886699877424,
-   "off_52w_high": -25.030785119419065,
-   "rsi": 34.2673510759751,
+   "symbol": "PHM",
+   "name": "PulteGroup, Inc.",
+   "close": 120.06999969482422,
+   "lower_band": 121.3998832706222,
+   "pct_below_band": 1.0954570465553322,
+   "market_cap": 22871695360.0,
+   "chg_1d": -3.5194836165721832,
+   "chg_5d": -4.947751753561858,
+   "chg_1mo": -9.653871174481331,
+   "off_52w_high": -15.775812464170313,
+   "rsi": 37.070768691340234,
    "rsi_divergence": false,
-   "macd_histogram": -1.138234893896533,
+   "macd_histogram": -0.8738476382080238,
    "macd_turning_up": false,
-   "volume_ratio": 0.9981026645600953,
+   "volume_ratio": 1.0983880577390075,
    "valuation": {
-    "forward_pe": 18.29178,
-    "trailing_pe": 20.787806,
-    "peg_ratio": 2.21,
-    "analyst_target": 315.3871,
-    "analyst_upside_pct": 23.347450814888184
+    "forward_pe": 10.673107,
+    "trailing_pe": 12.264556,
+    "peg_ratio": 1.04,
+    "analyst_target": 142.26666,
+    "analyst_upside_pct": 18.486433215284336
    },
    "short_interest": {
-    "pct_of_float": 1.74,
-    "days_to_cover": 2.42
+    "pct_of_float": 5.92,
+    "days_to_cover": 4.81
    },
    "insider": {
     "recent_buys": 0,
     "shares": null
    },
    "hot_score": {
-    "total": 41.4,
-    "valuation": 15.1,
-    "technical": 5.6,
-    "catalyst": 2.5,
-    "sentiment": 18.2
+    "total": 47.2,
+    "valuation": 17.7,
+    "technical": 4.6,
+    "catalyst": 5.9,
+    "sentiment": 19.0
    },
    "reasons": [
     "No single obvious catalyst in the price action \u2014 likely broad market or sector weakness. Check the headlines below."
    ],
    "news": [
     {
-     "title": "McDonald's (MCD) Exit From A 90% Restaurant Stake Still Haunts Investors",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/mcdonalds-mcd-exit-90-restaurant-181105022.html",
+     "title": "PulteGroup (PHM) Falls More Steeply Than Broader Market: What Investors Need to Know",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/pultegroup-phm-falls-more-steeply-214504419.html",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "PulteGroup (PHM) Stock Could Be 40% Undervalued On Cash Flow Strength",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/pultegroup-phm-stock-could-40-021147310.html",
      "publisher": "Simply Wall St."
     },
     {
-     "title": "McDonald\u2019s India Drama Erupts While Wall Street Targets 24% Stock Rally",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/mcdonald-india-drama-erupts-while-175220642.html",
-     "publisher": "BeInCrypto"
-    },
-    {
-     "title": "McDonald's Once Owned 90% Of A Popular Restaurant Chain. Selling It Left Billions On The Table",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/mcdonalds-once-owned-90-popular-103000301.html",
-     "publisher": "Money Digest"
+     "title": "What Is Drawing Attention To PulteGroup (PHM) Today?",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/drawing-attention-pultegroup-phm-today-001732205.html",
+     "publisher": "Simply Wall St."
     }
    ],
    "sentiment": {
     "label": "Bullish",
-    "bullish_pct": 85.7,
-    "sample_size": 14
+    "bullish_pct": 100.0,
+    "sample_size": 7
+   },
+   "earnings_surprise": {
+    "date": "2026-07-22",
+    "actual_eps": 2.48,
+    "estimate_eps": 2.36,
+    "surprise_pct": 5.084745762711869
+   }
+  },
+  {
+   "symbol": "SBUX",
+   "name": "Starbucks Corporation",
+   "close": 102.01000213623047,
+   "lower_band": 103.20584793234477,
+   "pct_below_band": 1.1586996474252305,
+   "market_cap": 116291403776.0,
+   "chg_1d": -2.354742084548911,
+   "chg_5d": -3.9905862247242685,
+   "chg_1mo": -3.381321872428833,
+   "off_52w_high": -6.02487400429551,
+   "rsi": 38.55572822139151,
+   "rsi_divergence": false,
+   "macd_histogram": -0.5196622148127138,
+   "macd_turning_up": false,
+   "volume_ratio": 1.1063449735295166,
+   "valuation": {
+    "forward_pe": 32.681686,
+    "trailing_pe": 58.965317,
+    "peg_ratio": 1.27,
+    "analyst_target": 112.22581,
+    "analyst_upside_pct": 10.01451588063562
+   },
+   "short_interest": {
+    "pct_of_float": 3.64,
+    "days_to_cover": 5.06
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 47.2,
+    "valuation": 14.5,
+    "technical": 4.1,
+    "catalyst": 4.5,
+    "sentiment": 24.0
+   },
+   "reasons": [
+    "No single obvious catalyst in the price action \u2014 likely broad market or sector weakness. Check the headlines below."
+   ],
+   "news": [
+    {
+     "title": "Starbucks Is Up 24% This Year While Dutch Bros Is Down 24%. Here's Why Only 1 of These Coffee Stocks Is a Buy in September.",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/starbucks-24-while-dutch-bros-143700163.html",
+     "publisher": "Motley Fool"
+    },
+    {
+     "title": "Scooter\u2019s Has a Role to Play in the Drive-Thru Coffee Rush",
+     "link": "https://finance.yahoo.com/small-business/articles/scooter-role-play-drive-thru-183507933.html",
+     "publisher": "QSR"
+    },
+    {
+     "title": "CEO Brian Niccol Just Announced Incredible News for Starbucks Investors",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/ceo-brian-niccol-just-announced-070501651.html",
+     "publisher": "Motley Fool"
+    }
+   ],
+   "sentiment": {
+    "label": "Bullish",
+    "bullish_pct": 60.0,
+    "sample_size": 10
+   },
+   "earnings_surprise": {
+    "date": "2026-07-29",
+    "actual_eps": 0.85,
+    "estimate_eps": 0.65,
+    "surprise_pct": 30.76923076923076
+   }
+  },
+  {
+   "symbol": "DHI",
+   "name": "D.R. Horton, Inc.",
+   "close": 138.49000549316406,
+   "lower_band": 139.72825899552205,
+   "pct_below_band": 0.8861868824957412,
+   "market_cap": 38735831040.0,
+   "chg_1d": -2.984234330533053,
+   "chg_5d": -4.198943115621856,
+   "chg_1mo": -8.333330808381511,
+   "off_52w_high": -23.490409537615943,
+   "rsi": 38.920760035826135,
+   "rsi_divergence": false,
+   "macd_histogram": -0.7764683341508598,
+   "macd_turning_up": false,
+   "volume_ratio": 1.272071780910463,
+   "valuation": {
+    "forward_pe": 11.798976,
+    "trailing_pe": 13.202098,
+    "peg_ratio": 1.2,
+    "analyst_target": 162.91667,
+    "analyst_upside_pct": 17.637853663051285
+   },
+   "short_interest": {
+    "pct_of_float": 4.58,
+    "days_to_cover": 3.78
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 46.8,
+    "valuation": 16.9,
+    "technical": 4.0,
+    "catalyst": 6.3,
+    "sentiment": 19.5
+   },
+   "reasons": [
+    "No single obvious catalyst in the price action \u2014 likely broad market or sector weakness. Check the headlines below."
+   ],
+   "news": [
+    {
+     "title": "D.R. Horton Stock: Is DHI Underperforming the Consumer Cyclical Sector?",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/d-r-horton-stock-dhi-130844917.html",
+     "publisher": "Barchart"
+    },
+    {
+     "title": "Why D.R. Horton (DHI) Outpaced the Stock Market Today",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/why-d-r-horton-dhi-221501666.html",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Warren Buffett and Greg Abel Are Bullish on 4 Contrarian Stocks That All Pay Dividends",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/warren-buffett-greg-abel-bullish-124506754.html",
+     "publisher": "24/7 Wall St."
+    }
+   ],
+   "sentiment": {
+    "label": "Bullish",
+    "bullish_pct": 91.7,
+    "sample_size": 12
+   },
+   "earnings_surprise": {
+    "date": "2026-07-21",
+    "actual_eps": 3.2,
+    "estimate_eps": 2.99,
+    "surprise_pct": 7.023411371237456
+   }
+  },
+  {
+   "symbol": "UBER",
+   "name": "Uber Technologies, Inc.",
+   "close": 73.12999725341797,
+   "lower_band": 73.1555816799336,
+   "pct_below_band": 0.034972623999589184,
+   "market_cap": 149372420096.0,
+   "chg_1d": -3.471495259574131,
+   "chg_5d": -3.3311357853692547,
+   "chg_1mo": -2.519327478299904,
+   "off_52w_high": -26.943058573248322,
+   "rsi": 43.31729155405547,
+   "rsi_divergence": false,
+   "macd_histogram": -0.596352512219567,
+   "macd_turning_up": false,
+   "volume_ratio": 1.5592641955423066,
+   "valuation": {
+    "forward_pe": 16.690973,
+    "trailing_pe": 16.037281,
+    "peg_ratio": 6.42,
+    "analyst_target": 101.80979,
+    "analyst_upside_pct": 39.217549328215775
+   },
+   "short_interest": {
+    "pct_of_float": 2.36,
+    "days_to_cover": 2.3
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 45.7,
+    "valuation": 11.0,
+    "technical": 3.7,
+    "catalyst": 7.1,
+    "sentiment": 24.0
+   },
+   "reasons": [
+    "No single obvious catalyst in the price action \u2014 likely broad market or sector weakness. Check the headlines below."
+   ],
+   "news": [
+    {
+     "title": "Uber Stock Falls As Wall Street Sizes Up Tesla's Cybercab Rollout",
+     "link": "https://www.investors.com/news/technology/uber-stock-tesla-cybercab-austin-rollout/?src=A00220&yptr=yahoo",
+     "publisher": "Investor's Business Daily"
+    },
+    {
+     "title": "Top Uber Executive Buys $5.3 Million in Stock After Job Cuts",
+     "link": "https://www.barrons.com/articles/uber-executive-buys-stock-e6a18a88?siteid=yhoof2&yptr=yahoo",
+     "publisher": "Barrons.com"
+    },
+    {
+     "title": "Uber Falls 4% on Tesla Cybercab Threat as Slovenia Clears Full Self-Driving; TSLA Stock Rises 4%",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/uber-falls-4-tesla-cybercab-191351116.html",
+     "publisher": "24/7 Wall St."
+    }
+   ],
+   "sentiment": {
+    "label": "Bullish",
+    "bullish_pct": 86.7,
+    "sample_size": 15
+   },
+   "earnings_surprise": {
+    "date": "2026-08-05",
+    "actual_eps": 1.17,
+    "estimate_eps": 0.83,
+    "surprise_pct": 40.963855421686745
+   }
+  },
+  {
+   "symbol": "BRO",
+   "name": "Brown & Brown, Inc.",
+   "close": 68.18000030517578,
+   "lower_band": 68.63790505586516,
+   "pct_below_band": 0.6671310121086683,
+   "market_cap": 22813734912.0,
+   "chg_1d": -4.536541510551784,
+   "chg_5d": -5.52861017736096,
+   "chg_1mo": -4.549908982381046,
+   "off_52w_high": -28.949561321736162,
+   "rsi": 40.243825831832275,
+   "rsi_divergence": false,
+   "macd_histogram": -0.48746636170357627,
+   "macd_turning_up": false,
+   "volume_ratio": 1.5529839998541575,
+   "valuation": {
+    "forward_pe": 14.130101,
+    "trailing_pe": 21.782747,
+    "peg_ratio": 1.51,
+    "analyst_target": 76.6875,
+    "analyst_upside_pct": 12.477998909862698
+   },
+   "short_interest": {
+    "pct_of_float": 5.62,
+    "days_to_cover": 5.15
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 44.9,
+    "valuation": 14.4,
+    "technical": 3.7,
+    "catalyst": 9.0,
+    "sentiment": 17.8
+   },
+   "reasons": [
+    "No single obvious catalyst in the price action \u2014 likely broad market or sector weakness. Check the headlines below."
+   ],
+   "news": [
+    {
+     "title": "2 Mid-Cap Stocks with Exciting Potential and 1 We Question",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/2-mid-cap-stocks-exciting-115118301.html",
+     "publisher": "StockStory"
+    },
+    {
+     "title": "Why Is Aon (AON) Down 4.6% Since Last Earnings Report?",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/why-aon-aon-down-4-153008019.html",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Why Is Brown & Brown (BRO) Down 0.4% Since Last Earnings Report?",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/why-brown-brown-bro-down-153002334.html",
+     "publisher": "Zacks"
+    }
+   ],
+   "sentiment": {
+    "label": "Bullish",
+    "bullish_pct": 87.5,
+    "sample_size": 8
+   },
+   "earnings_surprise": {
+    "date": "2026-07-27",
+    "actual_eps": 1.07,
+    "estimate_eps": 1.07,
+    "surprise_pct": 0.0
+   }
+  },
+  {
+   "symbol": "PPG",
+   "name": "PPG Industries, Inc.",
+   "close": 109.72000122070312,
+   "lower_band": 109.78908487552484,
+   "pct_below_band": 0.06292397363548058,
+   "market_cap": 24390756352.0,
+   "chg_1d": -2.4971097388039154,
+   "chg_5d": -2.1841820346222285,
+   "chg_1mo": -8.352823169091906,
+   "off_52w_high": -16.60078803829682,
+   "rsi": 40.89047851224305,
+   "rsi_divergence": false,
+   "macd_histogram": -0.23566470240298099,
+   "macd_turning_up": false,
+   "volume_ratio": 1.7681274581587865,
+   "valuation": {
+    "forward_pe": 12.651004,
+    "trailing_pe": 15.741751,
+    "peg_ratio": 1.61,
+    "analyst_target": 126.2,
+    "analyst_upside_pct": 15.020049759338928
+   },
+   "short_interest": {
+    "pct_of_float": 2.71,
+    "days_to_cover": 2.91
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 44.8,
+    "valuation": 14.8,
+    "technical": 3.7,
+    "catalyst": 8.8,
+    "sentiment": 17.5
+   },
+   "reasons": [
+    "No single obvious catalyst in the price action \u2014 likely broad market or sector weakness. Check the headlines below."
+   ],
+   "news": [
+    {
+     "title": "PPG Industries' ONE RANGE Portfolio Simplifies Marine Maintenance",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/ppg-industries-one-range-portfolio-161900525.html",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "PPG Industries (PPG) Could Be a Great Choice",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/ppg-industries-ppg-could-great-154502805.html",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Here's Why You Should Hold PPG Industries Stock for Now",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/heres-why-hold-ppg-industries-163300315.html",
+     "publisher": "Zacks"
+    }
+   ],
+   "sentiment": {
+    "label": "Bullish",
+    "bullish_pct": 66.7,
+    "sample_size": 3
+   },
+   "earnings_surprise": {
+    "date": "2026-07-28",
+    "actual_eps": 2.23,
+    "estimate_eps": 2.25,
+    "surprise_pct": -0.8888888888888897
+   }
+  },
+  {
+   "symbol": "AIG",
+   "name": "American International Group, I",
+   "close": 74.68000030517578,
+   "lower_band": 75.07805717545966,
+   "pct_below_band": 0.5301906912076989,
+   "market_cap": 39049662464.0,
+   "chg_1d": -2.007608972152064,
+   "chg_5d": -2.2001051489620282,
+   "chg_1mo": -5.204364734261158,
+   "off_52w_high": -13.754471112621115,
+   "rsi": 38.184618338185615,
+   "rsi_divergence": false,
+   "macd_histogram": -0.06592703311065462,
+   "macd_turning_up": false,
+   "volume_ratio": 0.9905522014056729,
+   "valuation": {
+    "forward_pe": 8.4993925,
+    "trailing_pe": 13.627737,
+    "peg_ratio": 0.57,
+    "analyst_target": 88.5,
+    "analyst_upside_pct": 18.50562351144822
+   },
+   "short_interest": {
+    "pct_of_float": 1.75,
+    "days_to_cover": 2.35
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 44.7,
+    "valuation": 19.2,
+    "technical": 4.3,
+    "catalyst": 2.5,
+    "sentiment": 18.7
+   },
+   "reasons": [
+    "No single obvious catalyst in the price action \u2014 likely broad market or sector weakness. Check the headlines below."
+   ],
+   "news": [
+    {
+     "title": "Is AIG Stock Worth Holding as Buybacks Boost Shareholder Value?",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/aig-stock-worth-holding-buybacks-151900982.html",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "3 Reasons AIG is Risky and 1 Stock to Buy Instead",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/3-reasons-aig-risky-1-145518723.html",
+     "publisher": "StockStory"
+    },
+    {
+     "title": "Steve Eisman Owns AIG as Cantor Calls Stock \u2018Really, Really Cheap\u2019",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/steve-eisman-owns-aig-cantor-144331756.html",
+     "publisher": "Benzinga Prediction Markets"
+    }
+   ],
+   "sentiment": {
+    "label": "Bullish",
+    "bullish_pct": 66.7,
+    "sample_size": 3
+   },
+   "earnings_surprise": {
+    "date": "2026-08-06",
+    "actual_eps": 2.0,
+    "estimate_eps": 1.93,
+    "surprise_pct": 3.6269430051813503
+   }
+  },
+  {
+   "symbol": "IDXX",
+   "name": "IDEXX Laboratories, Inc.",
+   "close": 520.2100219726562,
+   "lower_band": 522.6907743431594,
+   "pct_below_band": 0.4746118531785119,
+   "market_cap": 40982728704.0,
+   "chg_1d": -2.833498220292474,
+   "chg_5d": -6.553015198542145,
+   "chg_1mo": -11.32833839696854,
+   "off_52w_high": -32.14769826494662,
+   "rsi": 36.18854420173596,
+   "rsi_divergence": false,
+   "macd_histogram": -3.417720846152286,
+   "macd_turning_up": false,
+   "volume_ratio": 1.217636860041053,
+   "valuation": {
+    "forward_pe": 31.076424,
+    "trailing_pe": 36.531605,
+    "peg_ratio": 2.93,
+    "analyst_target": 698.9231,
+    "analyst_upside_pct": 34.354024428375475
+   },
+   "short_interest": {
+    "pct_of_float": 2.81,
+    "days_to_cover": 3.07
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 44.2,
+    "valuation": 14.6,
+    "technical": 4.9,
+    "catalyst": 4.8,
+    "sentiment": 19.9
+   },
+   "reasons": [
+    "No single obvious catalyst in the price action \u2014 likely broad market or sector weakness. Check the headlines below."
+   ],
+   "news": [
+    {
+     "title": "Idexx (IDXX) Down 7.8% Since Last Earnings Report: Can It Rebound?",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/idexx-idxx-down-7-8-153015551.html",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Are Wall Street Analysts Predicting IDEXX Laboratories Stock Will Climb or Sink?",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/wall-street-analysts-predicting-idexx-120900269.html",
+     "publisher": "Barchart"
+    },
+    {
+     "title": "Is it a Prudent Move to Retain IDEXX Stock in Your Portfolio Now?",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/prudent-move-retain-idexx-stock-135400978.html",
+     "publisher": "Zacks"
+    }
+   ],
+   "sentiment": {
+    "label": "Bullish",
+    "bullish_pct": 100.0,
+    "sample_size": 11
    },
    "earnings_surprise": {
     "date": "2026-08-04",
-    "actual_eps": 3.38,
-    "estimate_eps": 3.32,
-    "surprise_pct": 1.8072289156626522
+    "actual_eps": 4.27,
+    "estimate_eps": 3.93,
+    "surprise_pct": 8.651399491094132
+   }
+  },
+  {
+   "symbol": "DLTR",
+   "name": "Dollar Tree, Inc.",
+   "close": 124.04000091552734,
+   "lower_band": 124.59613697753198,
+   "pct_below_band": 0.4463509668080049,
+   "market_cap": 23273662464.0,
+   "chg_1d": -5.615581613333087,
+   "chg_5d": -2.0143735651566796,
+   "chg_1mo": -5.240636593445458,
+   "off_52w_high": -12.159199052466096,
+   "rsi": 42.11464317875703,
+   "rsi_divergence": false,
+   "macd_histogram": -0.739486197343832,
+   "macd_turning_up": false,
+   "volume_ratio": 1.2270425012680934,
+   "valuation": {
+    "forward_pe": 15.693538,
+    "trailing_pe": 15.200981,
+    "peg_ratio": 1.64,
+    "analyst_target": 136.4,
+    "analyst_upside_pct": 9.964526760113435
+   },
+   "short_interest": {
+    "pct_of_float": 5.18,
+    "days_to_cover": 3.41
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 44.0,
+    "valuation": 10.0,
+    "technical": 3.7,
+    "catalyst": 6.4,
+    "sentiment": 24.0
+   },
+   "reasons": [
+    "DLTR reported earnings on Aug 27 \u2014 earnings reactions are the most common cause of a sharp break below the band.",
+    "Sharp one-day drop of -5.6% on Sep 08 \u2014 points to a specific catalyst (news, guidance, downgrade) rather than gradual selling."
+   ],
+   "news": [
+    {
+     "title": "Dollar Tree Director Stephanie Stahl Sells 1,185 Shares",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/dollar-tree-director-stephanie-stahl-172001313.html",
+     "publisher": "Motley Fool"
+    },
+    {
+     "title": "Dollar Tree CIO Sells 2,500 Shares Valued at $315,000",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/dollar-tree-cio-sells-2-161901530.html",
+     "publisher": "Motley Fool"
+    },
+    {
+     "title": "The Stock Market Has Ignored the Iran Conflict. Why That\u2019s About to Change.",
+     "link": "https://www.barrons.com/articles/stock-market-things-to-know-today-40c7adfa?siteid=yhoof2&yptr=yahoo",
+     "publisher": "Barrons.com"
+    }
+   ],
+   "sentiment": {
+    "label": "Bullish",
+    "bullish_pct": 91.7,
+    "sample_size": 12
+   },
+   "earnings_surprise": {
+    "date": "2026-08-27",
+    "actual_eps": 2.7,
+    "estimate_eps": 1.14,
+    "surprise_pct": 136.84210526315792
    }
   },
   {
    "symbol": "STE",
    "name": "STERIS plc (Ireland)",
-   "close": 224.58999633789062,
-   "lower_band": 226.07911308936173,
-   "pct_below_band": 0.6586706445909056,
-   "market_cap": 21897549824.0,
-   "chg_1d": -0.9875261098981292,
-   "chg_5d": -3.931047347674166,
-   "chg_1mo": -3.102080627868431,
-   "off_52w_high": -16.400520587977695,
-   "rsi": 40.2102501213931,
+   "close": 218.44000244140625,
+   "lower_band": 222.89148886204694,
+   "pct_below_band": 1.9971540606451,
+   "market_cap": 21297924096.0,
+   "chg_1d": -2.738320493683899,
+   "chg_5d": -6.1038501485114915,
+   "chg_1mo": -8.013643273455207,
+   "off_52w_high": -18.689742265330157,
+   "rsi": 33.30175267934682,
    "rsi_divergence": false,
-   "macd_histogram": -1.8741726550547724,
+   "macd_histogram": -2.3325440454422233,
    "macd_turning_up": false,
-   "volume_ratio": 0.9349871192355492,
+   "volume_ratio": 1.1256666582731096,
    "valuation": {
-    "forward_pe": 18.338203,
-    "trailing_pe": 27.455988,
+    "forward_pe": 17.836044,
+    "trailing_pe": 26.704155,
     "peg_ratio": 1.87,
     "analyst_target": 263.125,
-    "analyst_upside_pct": 17.15793414241582
+    "analyst_upside_pct": 20.456416892130335
    },
    "short_interest": {
     "pct_of_float": 2.38,
@@ -880,10 +1935,10 @@
     "shares": null
    },
    "hot_score": {
-    "total": 39.4,
-    "valuation": 14.5,
-    "technical": 3.7,
-    "catalyst": 2.5,
+    "total": 44.0,
+    "valuation": 15.4,
+    "technical": 5.9,
+    "catalyst": 3.9,
     "sentiment": 18.8
    },
    "reasons": [
@@ -908,8 +1963,8 @@
    ],
    "sentiment": {
     "label": "Bullish",
-    "bullish_pct": 94.4,
-    "sample_size": 18
+    "bullish_pct": 94.1,
+    "sample_size": 17
    },
    "earnings_surprise": {
     "date": "2026-08-05",
@@ -919,27 +1974,654 @@
    }
   },
   {
+   "symbol": "SW",
+   "name": "Smurfit WestRock plc",
+   "close": 44.2599983215332,
+   "lower_band": 44.42811714639043,
+   "pct_below_band": 0.3784063688840861,
+   "market_cap": 23215382528.0,
+   "chg_1d": -3.4257112083675323,
+   "chg_5d": -5.629004516959302,
+   "chg_1mo": -8.326430321882071,
+   "off_52w_high": -14.62191706933529,
+   "rsi": 38.08598252839557,
+   "rsi_divergence": false,
+   "macd_histogram": -0.5833918257787483,
+   "macd_turning_up": false,
+   "volume_ratio": 0.8416019514418623,
+   "valuation": {
+    "forward_pe": 12.986517,
+    "trailing_pe": 47.085106,
+    "peg_ratio": 0.26,
+    "analyst_target": 56.71875,
+    "analyst_upside_pct": 28.149010734158608
+   },
+   "short_interest": {
+    "pct_of_float": 4.56,
+    "days_to_cover": 4.19
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 43.2,
+    "valuation": 22.2,
+    "technical": 4.3,
+    "catalyst": 3.2,
+    "sentiment": 13.6
+   },
+   "reasons": [
+    "No single obvious catalyst in the price action \u2014 likely broad market or sector weakness. Check the headlines below."
+   ],
+   "news": [
+    {
+     "title": "North American containerboard prices rise as capacity cuts tighten supply",
+     "link": "https://finance.yahoo.com/markets/commodities/articles/north-american-containerboard-prices-rise-080242753.html",
+     "publisher": "Packaging Gateway"
+    },
+    {
+     "title": "Used box businesses eye opportunity amid rising containerboard prices",
+     "link": "https://finance.yahoo.com/small-business/articles/used-box-businesses-eye-opportunity-122300983.html",
+     "publisher": "Packaging Dive"
+    },
+    {
+     "title": "Are Wall Street Analysts Bullish on Smurfit Westrock Stock?",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/wall-street-analysts-bullish-smurfit-121631539.html",
+     "publisher": "Barchart"
+    }
+   ],
+   "sentiment": {
+    "label": "Bullish",
+    "bullish_pct": 100.0,
+    "sample_size": 5
+   },
+   "earnings_surprise": {
+    "date": "2026-07-29",
+    "actual_eps": 0.35,
+    "estimate_eps": 0.42,
+    "surprise_pct": -16.666666666666668
+   }
+  },
+  {
+   "symbol": "EW",
+   "name": "Edwards Lifesciences Corporatio",
+   "close": 86.72000122070312,
+   "lower_band": 87.92158893474358,
+   "pct_below_band": 1.3666583243079118,
+   "market_cap": 49985409024.0,
+   "chg_1d": -3.537263905674548,
+   "chg_5d": -4.440770004734851,
+   "chg_1mo": -3.3437360222725254,
+   "off_52w_high": -8.888420946992381,
+   "rsi": 36.5349940998392,
+   "rsi_divergence": false,
+   "macd_histogram": -0.42274189563013087,
+   "macd_turning_up": false,
+   "volume_ratio": 1.2769510408758968,
+   "valuation": {
+    "forward_pe": 25.675797,
+    "trailing_pe": 51.61905,
+    "peg_ratio": 1.92,
+    "analyst_target": 100.96154,
+    "analyst_upside_pct": 16.42243839809463
+   },
+   "short_interest": {
+    "pct_of_float": 2.02,
+    "days_to_cover": 2.15
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 42.9,
+    "valuation": 14.2,
+    "technical": 4.8,
+    "catalyst": 4.8,
+    "sentiment": 19.1
+   },
+   "reasons": [
+    "No single obvious catalyst in the price action \u2014 likely broad market or sector weakness. Check the headlines below."
+   ],
+   "news": [
+    {
+     "title": "Is Edwards Lifesciences Stock Underperforming the Dow?",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/edwards-lifesciences-stock-underperforming-dow-092007959.html",
+     "publisher": "Barchart"
+    },
+    {
+     "title": "Pacific Biosciences (PACB) Up 11.6% Since Last Earnings Report: Can It Continue?",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/pacific-biosciences-pacb-11-6-153017504.html",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Why Is ISRG Investing More Aggressively in R&D Despite Macro Headwinds?",
+     "link": "https://finance.yahoo.com/healthcare/articles/why-isrg-investing-more-aggressively-150200095.html",
+     "publisher": "Zacks"
+    }
+   ],
+   "sentiment": {
+    "label": "Bullish",
+    "bullish_pct": 100.0,
+    "sample_size": 3
+   },
+   "earnings_surprise": {
+    "date": "2026-07-23",
+    "actual_eps": 0.78,
+    "estimate_eps": 0.74,
+    "surprise_pct": 5.405405405405411
+   }
+  },
+  {
+   "symbol": "LIN",
+   "name": "Linde plc",
+   "close": 468.3800048828125,
+   "lower_band": 471.5833740375483,
+   "pct_below_band": 0.6792794935303959,
+   "market_cap": 215913889792.0,
+   "chg_1d": -1.9243257115112766,
+   "chg_5d": -4.330238627171468,
+   "chg_1mo": -4.408344344503945,
+   "off_52w_high": -14.316553429766143,
+   "rsi": 32.62849289054911,
+   "rsi_divergence": false,
+   "macd_histogram": -0.381819123137042,
+   "macd_turning_up": false,
+   "volume_ratio": 1.3372347690806734,
+   "valuation": {
+    "forward_pe": 23.951036,
+    "trailing_pe": 30.179123,
+    "peg_ratio": 1.85,
+    "analyst_target": 544.5417,
+    "analyst_upside_pct": 16.260663205775174
+   },
+   "short_interest": {
+    "pct_of_float": 1.07,
+    "days_to_cover": 2.31
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 42.9,
+    "valuation": 14.4,
+    "technical": 6.1,
+    "catalyst": 4.6,
+    "sentiment": 17.8
+   },
+   "reasons": [
+    "No single obvious catalyst in the price action \u2014 likely broad market or sector weakness. Check the headlines below."
+   ],
+   "news": [
+    {
+     "title": "Is Linde Stock Underperforming the Dow?",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/linde-stock-underperforming-dow-072651206.html",
+     "publisher": "Barchart"
+    },
+    {
+     "title": "The Peer-Group Mispricing Sitting On BE Stock",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/peer-group-mispricing-sitting-stock-200231815.html",
+     "publisher": "Trefis"
+    },
+    {
+     "title": "How to Build $8,200 a Month in Dividend Income (And the Tax Bill Almost Nobody Plans For)",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/build-8-200-month-dividend-210235481.html",
+     "publisher": "24/7 Wall St."
+    }
+   ],
+   "sentiment": {
+    "label": "Bullish",
+    "bullish_pct": 100.0,
+    "sample_size": 13
+   },
+   "earnings_surprise": {
+    "date": "2026-07-31",
+    "actual_eps": 4.5,
+    "estimate_eps": 4.49,
+    "surprise_pct": 0.22271714922048524
+   }
+  },
+  {
+   "symbol": "UPS",
+   "name": "United Parcel Service, Inc.",
+   "close": 100.4800033569336,
+   "lower_band": 100.61146259011572,
+   "pct_below_band": 0.13066029436196885,
+   "market_cap": 85486534656.0,
+   "chg_1d": -1.7694765298599147,
+   "chg_5d": -3.5978124141070933,
+   "chg_1mo": -3.8468867397764672,
+   "off_52w_high": -16.266663869222008,
+   "rsi": 36.57775996768097,
+   "rsi_divergence": false,
+   "macd_histogram": -0.0638964884401243,
+   "macd_turning_up": false,
+   "volume_ratio": 0.886240797705663,
+   "valuation": {
+    "forward_pe": 12.443499,
+    "trailing_pe": 18.67658,
+    "peg_ratio": 1.45,
+    "analyst_target": 116.07692,
+    "analyst_upside_pct": 15.52240856089715
+   },
+   "short_interest": {
+    "pct_of_float": 3.48,
+    "days_to_cover": 4.72
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 42.4,
+    "valuation": 15.5,
+    "technical": 4.8,
+    "catalyst": 2.8,
+    "sentiment": 19.3
+   },
+   "reasons": [
+    "No single obvious catalyst in the price action \u2014 likely broad market or sector weakness. Check the headlines below."
+   ],
+   "news": [
+    {
+     "title": "United Parcel Service (UPS) Dips More Than Broader Market: What You Should Know",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/united-parcel-ups-dips-more-220003177.html",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Air T Gains Nearly 45% in Three Months: What's Driving the Stock?",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/air-t-gains-nearly-45-173000102.html",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Vertiv Stock Keeps Cooling Off. One Analyst Says a 100% Rally Is Coming",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/vertiv-stock-keeps-cooling-off-154133274.html",
+     "publisher": "24/7 Wall St."
+    }
+   ],
+   "sentiment": {
+    "label": "Bullish",
+    "bullish_pct": 75.0,
+    "sample_size": 12
+   },
+   "earnings_surprise": {
+    "date": "2026-07-28",
+    "actual_eps": 1.76,
+    "estimate_eps": 1.66,
+    "surprise_pct": 6.024096385542174
+   }
+  },
+  {
+   "symbol": "AON",
+   "name": "Aon plc",
+   "close": 315.7900085449219,
+   "lower_band": 316.43112972055144,
+   "pct_below_band": 0.2026100201316334,
+   "market_cap": 66987094016.0,
+   "chg_1d": -2.2594286037053157,
+   "chg_5d": -1.7821537274643084,
+   "chg_1mo": -11.8643540877288,
+   "off_52w_high": -17.172008483383827,
+   "rsi": 32.019342942359,
+   "rsi_divergence": false,
+   "macd_histogram": -3.6650635172060966,
+   "macd_turning_up": false,
+   "volume_ratio": 1.879625999394532,
+   "valuation": {
+    "forward_pe": 15.46771,
+    "trailing_pe": 17.418093,
+    "peg_ratio": 2.44,
+    "analyst_target": 389.52942,
+    "analyst_upside_pct": 23.350774077637904
+   },
+   "short_interest": {
+    "pct_of_float": 1.6,
+    "days_to_cover": 2.6
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 41.9,
+    "valuation": 14.4,
+    "technical": 6.3,
+    "catalyst": 8.9,
+    "sentiment": 12.3
+   },
+   "reasons": [
+    "No single obvious catalyst in the price action \u2014 likely broad market or sector weakness. Check the headlines below."
+   ],
+   "news": [
+    {
+     "title": "Here\u2019s Why SGA U.S. LCG Liquidated Its Position in Aon plc (AON)",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/why-sga-u-lcg-liquidated-135528166.html",
+     "publisher": "Insider Monkey"
+    },
+    {
+     "title": "Is Aon Stock Underperforming the Dow?",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/aon-stock-underperforming-dow-090703575.html",
+     "publisher": "Barchart"
+    },
+    {
+     "title": "Aon (AON) is Paying $17B for USI. Can $395M of Synergies Justify Another Debt-Funded Megadeal?",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/aon-aon-paying-17b-usi-162842766.html",
+     "publisher": "Insider Monkey"
+    }
+   ],
+   "sentiment": {
+    "label": "Mixed",
+    "bullish_pct": 50.0,
+    "sample_size": 2
+   },
+   "earnings_surprise": {
+    "date": "2026-07-29",
+    "actual_eps": 3.81,
+    "estimate_eps": 3.8,
+    "surprise_pct": 0.2631578947368482
+   }
+  },
+  {
+   "symbol": "HLT",
+   "name": "Hilton Worldwide Holdings Inc.",
+   "close": 304.4700012207031,
+   "lower_band": 305.5730129967337,
+   "pct_below_band": 0.3609650489791088,
+   "market_cap": 68525514752.0,
+   "chg_1d": -2.1563055508100337,
+   "chg_5d": -3.734032377695462,
+   "chg_1mo": -4.1341324403290525,
+   "off_52w_high": -13.063217360669555,
+   "rsi": 34.38808029078892,
+   "rsi_divergence": false,
+   "macd_histogram": -2.057521709943203,
+   "macd_turning_up": false,
+   "volume_ratio": 0.8973220362978976,
+   "valuation": {
+    "forward_pe": 29.121311,
+    "trailing_pe": 44.70925,
+    "peg_ratio": 1.29,
+    "analyst_target": 352.84616,
+    "analyst_upside_pct": 15.888645378967947
+   },
+   "short_interest": {
+    "pct_of_float": 2.55,
+    "days_to_cover": 2.31
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 41.9,
+    "valuation": 16.1,
+    "technical": 5.5,
+    "catalyst": 2.3,
+    "sentiment": 18.0
+   },
+   "reasons": [
+    "No single obvious catalyst in the price action \u2014 likely broad market or sector weakness. Check the headlines below."
+   ],
+   "news": [
+    {
+     "title": "How Is Hilton Worldwide's Stock Performance Compared to Other Leisure and Entertainment Stocks?",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/hilton-worldwides-stock-performance-compared-144546914.html",
+     "publisher": "Barchart"
+    },
+    {
+     "title": "Hilton Worldwide Holdings (HLT) As Its Asset Light Growth Story Keeps Fair Value In Focus",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/hilton-worldwide-holdings-hlt-asset-121541230.html",
+     "publisher": "Simply Wall St."
+    },
+    {
+     "title": "Hilton (HLT) Stock Looks Fully Valued After a 165% Five Year Run",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/hilton-hlt-stock-looks-fully-170532595.html",
+     "publisher": "Simply Wall St."
+    }
+   ],
+   "sentiment": {
+    "label": "Bullish",
+    "bullish_pct": 87.5,
+    "sample_size": 8
+   },
+   "earnings_surprise": {
+    "date": "2026-07-28",
+    "actual_eps": 2.29,
+    "estimate_eps": 2.27,
+    "surprise_pct": 0.8810572687224677
+   }
+  },
+  {
+   "symbol": "AMCR",
+   "name": "Amcor plc",
+   "close": 44.34000015258789,
+   "lower_band": 44.53973173222612,
+   "pct_below_band": 0.44843462650162147,
+   "market_cap": 20500408320.0,
+   "chg_1d": -1.7940229145435138,
+   "chg_5d": -3.377640570224516,
+   "chg_1mo": -7.354785651637319,
+   "off_52w_high": -12.336894924024321,
+   "rsi": 40.060466885567784,
+   "rsi_divergence": false,
+   "macd_histogram": -0.4005510302703152,
+   "macd_turning_up": false,
+   "volume_ratio": 0.7049238377896949,
+   "valuation": {
+    "forward_pe": 10.177498,
+    "trailing_pe": 18.63025,
+    "peg_ratio": 1.02,
+    "analyst_target": 49.93462,
+    "analyst_upside_pct": 12.617545846096668
+   },
+   "short_interest": {
+    "pct_of_float": 4.98,
+    "days_to_cover": 5.45
+   },
+   "insider": null,
+   "hot_score": {
+    "total": 41.7,
+    "valuation": 16.1,
+    "technical": 3.7,
+    "catalyst": 3.1,
+    "sentiment": 18.8
+   },
+   "reasons": [
+    "No single obvious catalyst in the price action \u2014 likely broad market or sector weakness. Check the headlines below."
+   ],
+   "news": [
+    {
+     "title": "Amcor supplies Tiptree with certified 30% PCR films",
+     "link": "https://finance.yahoo.com/technology/articles/amcor-supplies-tiptree-certified-30-143932997.html",
+     "publisher": "Packaging Gateway"
+    },
+    {
+     "title": "Former Amcor flexibles leader to join Kaiser Aluminum as CEO",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/former-amcor-flexibles-leader-join-114400150.html",
+     "publisher": "Packaging Dive"
+    },
+    {
+     "title": "Apple upgraded, Workday downgraded: Wall Street's top analyst calls",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/apple-upgraded-brinker-initiated-wall-134131346.html",
+     "publisher": "The Fly"
+    }
+   ],
+   "sentiment": {
+    "label": "Bullish",
+    "bullish_pct": 100.0,
+    "sample_size": 5
+   },
+   "earnings_surprise": {
+    "date": "2026-08-12",
+    "actual_eps": 1.23,
+    "estimate_eps": 1.18,
+    "surprise_pct": 4.237288135593224
+   }
+  },
+  {
+   "symbol": "DXCM",
+   "name": "DexCom, Inc.",
+   "close": 84.52999877929688,
+   "lower_band": 86.61386330345145,
+   "pct_below_band": 2.405924923188986,
+   "market_cap": 31898304512.0,
+   "chg_1d": -3.833905219660161,
+   "chg_5d": -7.171094832387914,
+   "chg_1mo": -0.25958846100663235,
+   "off_52w_high": -8.457870769255171,
+   "rsi": 43.566556396810995,
+   "rsi_divergence": false,
+   "macd_histogram": -1.046055782019784,
+   "macd_turning_up": false,
+   "volume_ratio": 1.9817523565641626,
+   "valuation": {
+    "forward_pe": 27.05774,
+    "trailing_pe": 33.411068,
+    "peg_ratio": 1.35,
+    "analyst_target": 94.12,
+    "analyst_upside_pct": 11.345086193295817
+   },
+   "short_interest": {
+    "pct_of_float": 5.06,
+    "days_to_cover": 3.11
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 41.6,
+    "valuation": 14.7,
+    "technical": 3.7,
+    "catalyst": 11.9,
+    "sentiment": 11.4
+   },
+   "reasons": [
+    "No single obvious catalyst in the price action \u2014 likely broad market or sector weakness. Check the headlines below."
+   ],
+   "news": [
+    {
+     "title": "DexCom Stock: Is DXCM Underperforming the Healthcare Sector?",
+     "link": "https://finance.yahoo.com/healthcare/articles/dexcom-stock-dxcm-underperforming-healthcare-123657602.html",
+     "publisher": "Barchart"
+    },
+    {
+     "title": "DexCom (DXCM) Stock Looks Undervalued On Fair Value While Earnings Look Fair",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/dexcom-dxcm-stock-looks-undervalued-061936913.html",
+     "publisher": "Simply Wall St."
+    },
+    {
+     "title": "Q2 Earnings Highs And Lows: DexCom (NASDAQ:DXCM) Vs The Rest Of The Patient Monitoring Stocks",
+     "link": "https://finance.yahoo.com/healthcare/articles/q2-earnings-highs-lows-dexcom-192718915.html",
+     "publisher": "StockStory"
+    }
+   ],
+   "sentiment": {
+    "label": "Bearish",
+    "bullish_pct": 18.2,
+    "sample_size": 11
+   },
+   "earnings_surprise": {
+    "date": "2026-07-30",
+    "actual_eps": 0.7,
+    "estimate_eps": 0.61,
+    "surprise_pct": 14.754098360655732
+   }
+  },
+  {
+   "symbol": "ABT",
+   "name": "Abbott Laboratories",
+   "close": 105.5199966430664,
+   "lower_band": 105.99165367458598,
+   "pct_below_band": 0.4449945020837623,
+   "market_cap": 182590046208.0,
+   "chg_1d": -2.5939307121683686,
+   "chg_5d": -4.38565054414396,
+   "chg_1mo": -2.1241081229806613,
+   "off_52w_high": -22.763870286662424,
+   "rsi": 40.66596301782796,
+   "rsi_divergence": false,
+   "macd_histogram": -1.3717301861966535,
+   "macd_turning_up": false,
+   "volume_ratio": 1.5060893730978449,
+   "valuation": {
+    "forward_pe": 17.39856,
+    "trailing_pe": 34.14887,
+    "peg_ratio": 1.99,
+    "analyst_target": 120.2,
+    "analyst_upside_pct": 13.91205821072039
+   },
+   "short_interest": {
+    "pct_of_float": 1.32,
+    "days_to_cover": 1.85
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 41.3,
+    "valuation": 13.2,
+    "technical": 3.7,
+    "catalyst": 6.0,
+    "sentiment": 18.3
+   },
+   "reasons": [
+    "No single obvious catalyst in the price action \u2014 likely broad market or sector weakness. Check the headlines below."
+   ],
+   "news": [
+    {
+     "title": "Here's Why Abbott (ABT) Fell More Than Broader Market",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/heres-why-abbott-abt-fell-215002518.html",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Is Medtronic Worth Buying as Growth Improves but Risks Stay Elevated?",
+     "link": "https://finance.yahoo.com/healthcare/articles/medtronic-worth-buying-growth-improves-125800041.html",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Boston Scientific's 2026 Growth Outlook Weakens: Is Recovery Ahead?",
+     "link": "https://finance.yahoo.com/healthcare/articles/boston-scientifics-2026-growth-outlook-125500583.html",
+     "publisher": "Zacks"
+    }
+   ],
+   "sentiment": {
+    "label": "Bullish",
+    "bullish_pct": 100.0,
+    "sample_size": 7
+   },
+   "earnings_surprise": {
+    "date": "2026-07-16",
+    "actual_eps": 1.31,
+    "estimate_eps": 1.28,
+    "surprise_pct": 2.343750000000002
+   }
+  },
+  {
    "symbol": "OMC",
    "name": "Omnicom Group Inc.",
-   "close": 82.62000274658203,
-   "lower_band": 82.73516667503863,
-   "pct_below_band": 0.13919586203159381,
-   "market_cap": 22666463232.0,
-   "chg_1d": -2.490263810639748,
-   "chg_5d": -6.411413809446276,
-   "chg_1mo": 0.13331790995465553,
-   "off_52w_high": -7.1059135612098085,
-   "rsi": 44.19709492531941,
+   "close": 81.12999725341797,
+   "lower_band": 81.95011549622787,
+   "pct_below_band": 1.0007530042439625,
+   "market_cap": 22257686528.0,
+   "chg_1d": -1.803444013109412,
+   "chg_5d": -7.3117806639255605,
+   "chg_1mo": -4.821680799335725,
+   "off_52w_high": -8.781206401622843,
+   "rsi": 41.06436327849517,
    "rsi_divergence": false,
-   "macd_histogram": -0.8172731797214872,
+   "macd_histogram": -0.9637151723705166,
    "macd_turning_up": false,
-   "volume_ratio": 1.268343595729166,
+   "volume_ratio": 1.6715370101829998,
    "valuation": {
-    "forward_pe": 6.859523,
-    "trailing_pe": 223.2973,
+    "forward_pe": 6.735815,
+    "trailing_pe": 219.27026,
     "peg_ratio": 15.97,
     "analyst_target": 102.08333,
-    "analyst_upside_pct": 23.557645372050253
+    "analyst_upside_pct": 25.826862388682347
    },
    "short_interest": {
     "pct_of_float": 9.33,
@@ -950,10 +2632,10 @@
     "shares": null
    },
    "hot_score": {
-    "total": 37.6,
-    "valuation": 12.5,
+    "total": 41.2,
+    "valuation": 13.2,
     "technical": 3.7,
-    "catalyst": 9.3,
+    "catalyst": 12.2,
     "sentiment": 12.2
    },
    "reasons": [
@@ -989,27 +2671,447 @@
    }
   },
   {
+   "symbol": "DASH",
+   "name": "DoorDash, Inc.",
+   "close": 200.44000244140625,
+   "lower_band": 203.0300727285295,
+   "pct_below_band": 1.2757077078854273,
+   "market_cap": 86850240512.0,
+   "chg_1d": -5.33225972415412,
+   "chg_5d": -13.506516919747424,
+   "chg_1mo": -7.315265174914087,
+   "off_52w_high": -28.856389086028077,
+   "rsi": 38.00454710414445,
+   "rsi_divergence": false,
+   "macd_histogram": -3.8790479934378626,
+   "macd_turning_up": false,
+   "volume_ratio": 1.1028722936305995,
+   "valuation": {
+    "forward_pe": 24.612017,
+    "trailing_pe": 104.94241,
+    "peg_ratio": 2.64,
+    "analyst_target": 254.42857,
+    "analyst_upside_pct": 26.93502639243681
+   },
+   "short_interest": {
+    "pct_of_float": 3.97,
+    "days_to_cover": 4.05
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 40.9,
+    "valuation": 14.7,
+    "technical": 4.3,
+    "catalyst": 4.7,
+    "sentiment": 17.2
+   },
+   "reasons": [
+    "Sharp one-day drop of -5.3% on Sep 08 \u2014 points to a specific catalyst (news, guidance, downgrade) rather than gradual selling."
+   ],
+   "news": [
+    {
+     "title": "Ace Hardware: \u2018We\u2019re in the business of building national brands\u2019",
+     "link": "https://finance.yahoo.com/media-advertising/articles/ace-hardware-business-building-national-114900727.html",
+     "publisher": "Retail Dive"
+    },
+    {
+     "title": "Tractor Supply\u2019s Petsense selects Instacart for same-day delivery",
+     "link": "https://finance.yahoo.com/small-business/articles/tractor-supply-petsense-selects-instacart-101000650.html",
+     "publisher": "Supply Chain Dive"
+    },
+    {
+     "title": "Why Is DoorDash (DASH) Up 4.1% Since Last Earnings Report?",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/why-doordash-dash-4-1-153009411.html",
+     "publisher": "Zacks"
+    }
+   ],
+   "sentiment": {
+    "label": "Bullish",
+    "bullish_pct": 71.4,
+    "sample_size": 7
+   },
+   "earnings_surprise": {
+    "date": "2026-08-05",
+    "actual_eps": 0.46,
+    "estimate_eps": 0.47,
+    "surprise_pct": -2.1276595744680753
+   }
+  },
+  {
+   "symbol": "BX",
+   "name": "Blackstone Inc.",
+   "close": 133.97000122070312,
+   "lower_band": 134.15224168152582,
+   "pct_below_band": 0.13584600491084745,
+   "market_cap": 160134053888.0,
+   "chg_1d": -1.6011698666976937,
+   "chg_5d": -6.471658696566673,
+   "chg_1mo": -2.3043852910308193,
+   "off_52w_high": -28.996180612053113,
+   "rsi": 42.51216918471962,
+   "rsi_divergence": false,
+   "macd_histogram": -1.6423274021519547,
+   "macd_turning_up": false,
+   "volume_ratio": 0.8440820402927892,
+   "valuation": {
+    "forward_pe": 17.885202,
+    "trailing_pe": 29.970919,
+    "peg_ratio": 1.28,
+    "analyst_target": 144.04762,
+    "analyst_upside_pct": 7.522295056708206
+   },
+   "short_interest": {
+    "pct_of_float": 2.93,
+    "days_to_cover": 4.22
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 40.8,
+    "valuation": 13.8,
+    "technical": 3.7,
+    "catalyst": 2.2,
+    "sentiment": 21.1
+   },
+   "reasons": [
+    "No single obvious catalyst in the price action \u2014 likely broad market or sector weakness. Check the headlines below."
+   ],
+   "news": [
+    {
+     "title": "Reflecting On Asset Management Stocks\u2019 Q2 Earnings: Blackstone (NYSE:BX)",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/reflecting-asset-management-stocks-q2-225518138.html",
+     "publisher": "StockStory"
+    },
+    {
+     "title": "Blackstone\u2019s Head of Real Estate Is Leaving the Firm",
+     "link": "https://www.wsj.com/real-estate/blackstones-head-of-real-estate-is-leaving-the-firm-b36717a8?siteid=yhoof2&yptr=yahoo",
+     "publisher": "The Wall Street Journal"
+    },
+    {
+     "title": "Nvidia-Backed Firmus Passes 900 Megawatts With OpenAI Deal",
+     "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-backed-firmus-passes-900-122635680.html",
+     "publisher": "GuruFocus.com"
+    }
+   ],
+   "sentiment": {
+    "label": "Bullish",
+    "bullish_pct": 85.7,
+    "sample_size": 7
+   },
+   "earnings_surprise": {
+    "date": "2026-07-23",
+    "actual_eps": 1.52,
+    "estimate_eps": 1.34,
+    "surprise_pct": 13.432835820895516
+   }
+  },
+  {
+   "symbol": "MSCI",
+   "name": "MSCI Inc.",
+   "close": 551.3900146484375,
+   "lower_band": 552.6522001740743,
+   "pct_below_band": 0.2283869538996245,
+   "market_cap": 40086052864.0,
+   "chg_1d": -3.7730571453770234,
+   "chg_5d": -3.3734052127170955,
+   "chg_1mo": -2.091725166324787,
+   "off_52w_high": -14.357827374877841,
+   "rsi": 40.54222296696953,
+   "rsi_divergence": false,
+   "macd_histogram": 0.3182973843233792,
+   "macd_turning_up": false,
+   "volume_ratio": 0.9350938599561557,
+   "valuation": {
+    "forward_pe": 24.50911,
+    "trailing_pe": 30.163567,
+    "peg_ratio": 1.94,
+    "analyst_target": 692.05884,
+    "analyst_upside_pct": 25.511674425452192
+   },
+   "short_interest": {
+    "pct_of_float": 1.76,
+    "days_to_cover": 1.37
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 39.9,
+    "valuation": 16.6,
+    "technical": 3.7,
+    "catalyst": 2.1,
+    "sentiment": 17.5
+   },
+   "reasons": [
+    "No single obvious catalyst in the price action \u2014 likely broad market or sector weakness. Check the headlines below."
+   ],
+   "news": [
+    {
+     "title": "Rising Bond Yields Threaten Commercial Real Estate Recovery",
+     "link": "https://finance.yahoo.com/real-estate/articles/rising-bond-yields-threaten-commercial-075012010.html",
+     "publisher": "CRE Daily"
+    },
+    {
+     "title": "Saylor Urges MSCI to Drop 'Discriminatory' Rule That Would Delete Strategy",
+     "link": "https://finance.yahoo.com/markets/crypto/articles/saylor-urges-msci-drop-discriminatory-112845788.html",
+     "publisher": "decrypt"
+    },
+    {
+     "title": "Michael Saylor\u2019s Strategy Calls MSCI\u2019s New Delisting Test \u2018Fundamentally Flawed,\u2019 Says It\u2019s Damaging \u2018Its Reputation\u2019",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/michael-saylor-strategy-calls-msci-103836289.html",
+     "publisher": "Stocktwits"
+    }
+   ],
+   "sentiment": {
+    "label": "Bullish",
+    "bullish_pct": 75.0,
+    "sample_size": 4
+   },
+   "earnings_surprise": {
+    "date": "2026-07-21",
+    "actual_eps": 4.94,
+    "estimate_eps": 4.98,
+    "surprise_pct": -0.8032128514056232
+   }
+  },
+  {
+   "symbol": "FDX",
+   "name": "FedEx Corporation",
+   "close": 314.1300048828125,
+   "lower_band": 315.585515532484,
+   "pct_below_band": 0.4612095860025903,
+   "market_cap": 74345283584.0,
+   "chg_1d": -2.6013842293984846,
+   "chg_5d": -4.053142718709857,
+   "chg_1mo": -1.3937289573175415,
+   "off_52w_high": -7.431855242993568,
+   "rsi": 41.14120974987194,
+   "rsi_divergence": false,
+   "macd_histogram": -2.0035616263268947,
+   "macd_turning_up": false,
+   "volume_ratio": 0.6184288509211876,
+   "valuation": {
+    "forward_pe": 15.142072,
+    "trailing_pe": 16.943365,
+    "peg_ratio": 1.36,
+    "analyst_target": 354.06512,
+    "analyst_upside_pct": 12.712926016757109
+   },
+   "short_interest": {
+    "pct_of_float": 2.13,
+    "days_to_cover": 3.24
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 39.4,
+    "valuation": 15.0,
+    "technical": 3.7,
+    "catalyst": 1.3,
+    "sentiment": 19.4
+   },
+   "reasons": [
+    "No single obvious catalyst in the price action \u2014 likely broad market or sector weakness. Check the headlines below."
+   ],
+   "news": [
+    {
+     "title": "FedEx Conference: AI, Data and Network 2.0 Drive Cost Cuts and Supply-Chain Growth",
+     "link": "https://finance.yahoo.com/technology/ai/articles/fedex-conference-ai-data-network-160201449.html",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "JPMorgan starts FedEx Freight at Overweight on post-spin turnaround",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/jpmorgan-starts-fedex-freight-overweight-135904363.html",
+     "publisher": "Investing.com"
+    },
+    {
+     "title": "FedEx (FDX) Stock Still Looks Below Fair Value After 78% Rally",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/fedex-fdx-stock-still-looks-211022602.html",
+     "publisher": "Simply Wall St."
+    }
+   ],
+   "sentiment": {
+    "label": "Bullish",
+    "bullish_pct": 100.0,
+    "sample_size": 6
+   },
+   "earnings_surprise": {
+    "date": "2026-06-23",
+    "actual_eps": 6.31,
+    "estimate_eps": 5.92,
+    "surprise_pct": 6.587837837837833
+   }
+  },
+  {
+   "symbol": "PAYX",
+   "name": "Paychex, Inc.",
+   "close": 116.93000030517578,
+   "lower_band": 117.71942044783142,
+   "pct_below_band": 0.670594656049537,
+   "market_cap": 41624797184.0,
+   "chg_1d": -3.9273673611478044,
+   "chg_5d": -8.174961781129952,
+   "chg_1mo": -2.590803554341925,
+   "off_52w_high": -13.679318979979405,
+   "rsi": 40.931233010152916,
+   "rsi_divergence": false,
+   "macd_histogram": -1.1483640087965297,
+   "macd_turning_up": false,
+   "volume_ratio": 1.4699263123091044,
+   "valuation": {
+    "forward_pe": 18.302055,
+    "trailing_pe": 23.912066,
+    "peg_ratio": 2.14,
+    "analyst_target": 114.93333,
+    "analyst_upside_pct": -1.7075774394635035
+   },
+   "short_interest": {
+    "pct_of_float": 6.06,
+    "days_to_cover": 6.37
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 39.2,
+    "valuation": 8.9,
+    "technical": 3.7,
+    "catalyst": 8.7,
+    "sentiment": 17.9
+   },
+   "reasons": [
+    "Down -8.2% over 5 sessions without a single large gap \u2014 suggests sustained selling pressure (sector rotation, macro, or sentiment shift)."
+   ],
+   "news": [
+    {
+     "title": "ServiceTitan Inc. (TTAN) Q2 Earnings and Revenues Surpass Estimates",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/servicetitan-inc-ttan-q2-earnings-213002813.html",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "1 Growth Stock to Add to Your Roster and 2 We Turn Down",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/1-growth-stock-add-roster-161518441.html",
+     "publisher": "StockStory"
+    },
+    {
+     "title": "PAYX Stock Rises 30% in 6 Months: Here's What You Should Know",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/payx-stock-rises-30-6-142100492.html",
+     "publisher": "Zacks"
+    }
+   ],
+   "sentiment": {
+    "label": "Bullish",
+    "bullish_pct": 90.0,
+    "sample_size": 10
+   },
+   "earnings_surprise": {
+    "date": "2026-06-24",
+    "actual_eps": 1.32,
+    "estimate_eps": 1.31,
+    "surprise_pct": 0.7633587786259549
+   }
+  },
+  {
+   "symbol": "BLK",
+   "name": "BlackRock, Inc.",
+   "close": 1095.3699951171875,
+   "lower_band": 1103.7897602675318,
+   "pct_below_band": 0.7628051512548549,
+   "market_cap": 177971544064.0,
+   "chg_1d": -2.398670843394457,
+   "chg_5d": -5.212830539539571,
+   "chg_1mo": -3.6096779276910684,
+   "off_52w_high": -8.915754642105966,
+   "rsi": 40.79355441592189,
+   "rsi_divergence": false,
+   "macd_histogram": -10.85914210532747,
+   "macd_turning_up": false,
+   "volume_ratio": 0.9427902985411679,
+   "valuation": {
+    "forward_pe": 17.039446,
+    "trailing_pe": 26.236406,
+    "peg_ratio": 0.94,
+    "analyst_target": 1320.8125,
+    "analyst_upside_pct": 20.58140225565459
+   },
+   "short_interest": {
+    "pct_of_float": 1.19,
+    "days_to_cover": 2.49
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 38.7,
+    "valuation": 18.6,
+    "technical": 3.7,
+    "catalyst": 1.8,
+    "sentiment": 14.7
+   },
+   "reasons": [
+    "No single obvious catalyst in the price action \u2014 likely broad market or sector weakness. Check the headlines below."
+   ],
+   "news": [
+    {
+     "title": "BlackRock (BLK) Declines More Than Market: Some Information for Investors",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/blackrock-blk-declines-more-market-221503106.html",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "People Moves: RIA Beacon Pointe Hires Execs from BlackRock, Vanguard",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/people-moves-ria-beacon-pointe-163251856.html",
+     "publisher": "Wealth Management"
+    },
+    {
+     "title": "Vanguard VOO's hidden $40B trade affects your retirement fund",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/vanguard-voos-hidden-40b-trade-161834067.html",
+     "publisher": "TheStreet"
+    }
+   ],
+   "sentiment": {
+    "label": "Mixed",
+    "bullish_pct": 42.9,
+    "sample_size": 7
+   },
+   "earnings_surprise": {
+    "date": "2026-07-15",
+    "actual_eps": 13.91,
+    "estimate_eps": 12.69,
+    "surprise_pct": 9.61386918833728
+   }
+  },
+  {
    "symbol": "COST",
    "name": "Costco Wholesale Corporation",
-   "close": 915.739990234375,
-   "lower_band": 919.464420766015,
-   "pct_below_band": 0.40506521487118946,
-   "market_cap": 406111289344.0,
-   "chg_1d": -1.0449404254092687,
-   "chg_5d": -3.1444658624790067,
-   "chg_1mo": -3.519995081948446,
-   "off_52w_high": -16.318806639709727,
-   "rsi": 38.07391732771046,
+   "close": 910.1799926757812,
+   "lower_band": 913.1496830933395,
+   "pct_below_band": 0.3252139788844111,
+   "market_cap": 403645530112.0,
+   "chg_1d": -0.607158977208222,
+   "chg_5d": -3.571393006547685,
+   "chg_1mo": -3.971219678586302,
+   "off_52w_high": -16.826884517431708,
+   "rsi": 36.38215657534668,
    "rsi_divergence": false,
-   "macd_histogram": -3.923973414376456,
+   "macd_histogram": -4.568985321325023,
    "macd_turning_up": false,
-   "volume_ratio": 1.1909118546263846,
+   "volume_ratio": 1.2574345422616728,
    "valuation": {
-    "forward_pe": 40.46899,
-    "trailing_pe": 46.08656,
+    "forward_pe": 40.22328,
+    "trailing_pe": 45.80674,
     "peg_ratio": 4.44,
     "analyst_target": 1072.2,
-    "analyst_upside_pct": 17.085636909400527
+    "analyst_upside_pct": 17.800875500230042
    },
    "short_interest": {
     "pct_of_float": 1.66,
@@ -1020,10 +3122,10 @@
     "shares": null
    },
    "hot_score": {
-    "total": 36.5,
-    "valuation": 10.7,
-    "technical": 4.3,
-    "catalyst": 3.9,
+    "total": 37.8,
+    "valuation": 10.9,
+    "technical": 4.9,
+    "catalyst": 4.4,
     "sentiment": 17.5
    },
    "reasons": [
@@ -1031,24 +3133,24 @@
    ],
    "news": [
     {
-     "title": "Why Does Amazon Trade at a Discount to Walmart and Costco? Here's the Only Answer That Makes Sense.",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/why-does-amazon-trade-discount-164200207.html",
-     "publisher": "Motley Fool"
+     "title": "Walmart, Ulta and Other Retailers That Can Win With AI",
+     "link": "https://www.barrons.com/articles/walmart-ulta-retail-stocks-ai-89f56474?siteid=yhoof2&yptr=yahoo",
+     "publisher": "Barrons.com"
     },
     {
-     "title": "1 Stat That Makes Costco Hard to Ignore this September",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/1-stat-makes-costco-hard-153900337.html",
-     "publisher": "Motley Fool"
-    },
-    {
-     "title": "Loss of Costco deal helps push beverage brand into Chapter 11",
-     "link": "https://finance.yahoo.com/healthcare/articles/loss-costco-deal-helps-push-150700837.html",
+     "title": "Costco's famous return policy has a catch members don't know",
+     "link": "https://finance.yahoo.com/small-business/articles/costcos-famous-return-policy-catch-170700141.html",
      "publisher": "TheStreet"
+    },
+    {
+     "title": "SpaceX initiated, Intel upgraded: Wall Street's top analyst calls",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/intel-upgraded-reddit-initiated-wall-140337510.html",
+     "publisher": "The Fly"
     }
    ],
    "sentiment": {
     "label": "Bullish",
-    "bullish_pct": 87.5,
+    "bullish_pct": 100.0,
     "sample_size": 8
    },
    "earnings_surprise": {
@@ -1059,97 +3161,303 @@
    }
   },
   {
-   "symbol": "PM",
-   "name": "Philip Morris International Inc",
-   "close": 182.52999877929688,
-   "lower_band": 182.6631457590173,
-   "pct_below_band": 0.07289208732674167,
-   "market_cap": 284493709312.0,
-   "chg_1d": -1.9552019259006626,
-   "chg_5d": -4.877794903394273,
-   "chg_1mo": -2.935391748407279,
-   "off_52w_high": -8.812509142733827,
-   "rsi": 40.51107943408462,
+   "symbol": "HIG",
+   "name": "The Hartford Insurance Group, I",
+   "close": 135.66000366210938,
+   "lower_band": 135.67470093894266,
+   "pct_below_band": 0.010832732065429704,
+   "market_cap": 36746498048.0,
+   "chg_1d": -1.9585109132821743,
+   "chg_5d": -1.2520025910395916,
+   "chg_1mo": -5.318254593877447,
+   "off_52w_high": -6.8780817665003,
+   "rsi": 42.78320824521136,
    "rsi_divergence": false,
-   "macd_histogram": -0.8630007516793601,
+   "macd_histogram": -0.14741317433870832,
    "macd_turning_up": false,
-   "volume_ratio": 0.7548578092760384,
+   "volume_ratio": 0.8346036214975798,
    "valuation": {
-    "forward_pe": 19.907774,
-    "trailing_pe": 25.072802,
-    "peg_ratio": 2.19,
-    "analyst_target": 207.13333,
-    "analyst_upside_pct": 13.47906173519009
+    "forward_pe": 9.910219,
+    "trailing_pe": 9.375259,
+    "peg_ratio": 0.12,
+    "analyst_target": 149.85,
+    "analyst_upside_pct": 10.459970481228842
    },
    "short_interest": {
-    "pct_of_float": 0.83,
-    "days_to_cover": 2.57
+    "pct_of_float": 0.02,
+    "days_to_cover": 0.04
    },
    "insider": {
     "recent_buys": 0,
     "shares": null
    },
    "hot_score": {
-    "total": 36.2,
-    "valuation": 12.4,
+    "total": 37.8,
+    "valuation": 13.9,
     "technical": 3.7,
-    "catalyst": 0.5,
-    "sentiment": 19.6
+    "catalyst": 0.3,
+    "sentiment": 20.0
    },
    "reasons": [
     "No single obvious catalyst in the price action \u2014 likely broad market or sector weakness. Check the headlines below."
    ],
    "news": [
     {
-     "title": "No ETFs Required: How a 64-Year-Old Built a $5,700 Monthly Paycheck From Five Dividend Stocks",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/no-etfs-required-64-old-150526006.html",
-     "publisher": "24/7 Wall St."
+     "title": "Hartford Insurance Group (HIG) Backs Energy Startups Through New Research Lab Partnership",
+     "link": "https://finance.yahoo.com/energy/articles/hartford-insurance-group-hig-backs-090939251.html",
+     "publisher": "Simply Wall St."
     },
     {
-     "title": "I've Been Wrong About Philip Morris International Stock for 5 Years. Here's Why I'm Finally Changing My Mind.",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/ive-wrong-philip-morris-international-165500091.html",
-     "publisher": "Motley Fool"
+     "title": "Is Hartford Insurance Group (HIG) Still Cheap After A 123% Run?",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/hartford-insurance-group-hig-still-230628965.html",
+     "publisher": "Simply Wall St."
     },
     {
-     "title": "Is Altria's on! PLUS Shaping Up as Its Next Major Growth Engine?",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/altrias-plus-shaping-next-major-151600264.html",
-     "publisher": "Zacks"
+     "title": "3 Inflated  Stocks We Think Twice About",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/3-inflated-stocks-think-twice-131824459.html",
+     "publisher": "StockStory"
     }
    ],
    "sentiment": {
     "label": "Bullish",
-    "bullish_pct": 71.4,
+    "bullish_pct": 100.0,
+    "sample_size": 3
+   },
+   "earnings_surprise": {
+    "date": "2026-07-23",
+    "actual_eps": 3.42,
+    "estimate_eps": 3.14,
+    "surprise_pct": 8.917197452229294
+   }
+  },
+  {
+   "symbol": "MRSH",
+   "name": "Marsh",
+   "close": 180.52000427246094,
+   "lower_band": 182.5323647807517,
+   "pct_below_band": 1.1024677791841992,
+   "market_cap": 86146179072.0,
+   "chg_1d": -2.8103806753118854,
+   "chg_5d": -4.889356496356989,
+   "chg_1mo": -5.807456289320346,
+   "off_52w_high": -12.800695320787991,
+   "rsi": 37.71807042248002,
+   "rsi_divergence": false,
+   "macd_histogram": -1.4036877634223035,
+   "macd_turning_up": false,
+   "volume_ratio": 1.0713494849333902,
+   "valuation": {
+    "forward_pe": 15.820697,
+    "trailing_pe": 22.041515,
+    "peg_ratio": 1.64,
+    "analyst_target": 207.09525,
+    "analyst_upside_pct": 14.721496287707115
+   },
+   "short_interest": {
+    "pct_of_float": 1.55,
+    "days_to_cover": 2.98
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 35.7,
+    "valuation": 14.6,
+    "technical": 4.4,
+    "catalyst": 3.0,
+    "sentiment": 13.7
+   },
+   "reasons": [
+    "No single obvious catalyst in the price action \u2014 likely broad market or sector weakness. Check the headlines below."
+   ],
+   "news": [
+    {
+     "title": "Is Healthcare Services Group (HCSG) Stock Outpacing Its Business Services Peers This Year?",
+     "link": "https://finance.yahoo.com/healthcare/articles/healthcare-services-group-hcsg-stock-134003092.html",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "2 Services Stocks with Promising Prospects and 1 We Ignore",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/2-services-stocks-promising-prospects-143010346.html",
+     "publisher": "StockStory"
+    },
+    {
+     "title": "How Can Healthcare Inflation Fuel Growth for MRSH, UNH & CNC?",
+     "link": "https://finance.yahoo.com/healthcare/articles/healthcare-inflation-fuel-growth-mrsh-143400225.html",
+     "publisher": "Zacks"
+    }
+   ],
+   "sentiment": null,
+   "earnings_surprise": {
+    "date": "2026-07-21",
+    "actual_eps": 2.96,
+    "estimate_eps": 2.89,
+    "surprise_pct": 2.4221453287197177
+   }
+  },
+  {
+   "symbol": "APD",
+   "name": "Air Products and Chemicals, Inc",
+   "close": 297.7099914550781,
+   "lower_band": 298.5387381876961,
+   "pct_below_band": 0.27760107034984244,
+   "market_cap": 66295709696.0,
+   "chg_1d": -1.1816635205679882,
+   "chg_5d": -3.7969367040797786,
+   "chg_1mo": -1.888350560316976,
+   "off_52w_high": -5.245237231697564,
+   "rsi": 43.87408158897831,
+   "rsi_divergence": false,
+   "macd_histogram": -1.0498070166434612,
+   "macd_turning_up": false,
+   "volume_ratio": 1.0168601046414236,
+   "valuation": {
+    "forward_pe": 20.623762,
+    "trailing_pe": null,
+    "peg_ratio": 2.18,
+    "analyst_target": 343.6316,
+    "analyst_upside_pct": 15.424947050139926
+   },
+   "short_interest": {
+    "pct_of_float": 1.78,
+    "days_to_cover": 3.76
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 35.6,
+    "valuation": 10.5,
+    "technical": 3.7,
+    "catalyst": 2.7,
+    "sentiment": 18.7
+   },
+   "reasons": [
+    "No single obvious catalyst in the price action \u2014 likely broad market or sector weakness. Check the headlines below."
+   ],
+   "news": [
+    {
+     "title": "Is Air Products and Chemicals Stock Underperforming the S&P 500?",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/air-products-chemicals-stock-underperforming-141758560.html",
+     "publisher": "Barchart"
+    },
+    {
+     "title": "Why Is Tronox (TROX) Down 29.8% Since Last Earnings Report?",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/why-tronox-trox-down-29-153020887.html",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "US firms pledge $2bn for South Korea\u2019s chip, clean energy sectors",
+     "link": "https://finance.yahoo.com/technology/articles/us-firms-pledge-2bn-south-122910274.html",
+     "publisher": "Investment Monitor"
+    }
+   ],
+   "sentiment": {
+    "label": "Bullish",
+    "bullish_pct": 100.0,
     "sample_size": 7
    },
    "earnings_surprise": {
-    "date": "2026-07-22",
-    "actual_eps": 2.2,
-    "estimate_eps": 2.05,
-    "surprise_pct": 7.3170731707317245
+    "date": "2026-07-30",
+    "actual_eps": 3.47,
+    "estimate_eps": 3.34,
+    "surprise_pct": 3.892215568862286
+   }
+  },
+  {
+   "symbol": "ABNB",
+   "name": "Airbnb, Inc.",
+   "close": 174.5399932861328,
+   "lower_band": 176.96625474358237,
+   "pct_below_band": 1.3710305735774992,
+   "market_cap": 104512045056.0,
+   "chg_1d": -4.067279903250853,
+   "chg_5d": -4.73747837394376,
+   "chg_1mo": -1.9823742870177519,
+   "off_52w_high": -8.377956280245247,
+   "rsi": 47.55126472467553,
+   "rsi_divergence": false,
+   "macd_histogram": -2.403444584923828,
+   "macd_turning_up": false,
+   "volume_ratio": 1.3711839089189974,
+   "valuation": {
+    "forward_pe": 28.382517,
+    "trailing_pe": 39.84931,
+    "peg_ratio": 1.73,
+    "analyst_target": 179.4625,
+    "analyst_upside_pct": 2.8202743802089314
+   },
+   "short_interest": {
+    "pct_of_float": 3.11,
+    "days_to_cover": 2.69
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 35.5,
+    "valuation": 11.0,
+    "technical": 3.7,
+    "catalyst": 6.1,
+    "sentiment": 14.7
+   },
+   "reasons": [
+    "No single obvious catalyst in the price action \u2014 likely broad market or sector weakness. Check the headlines below."
+   ],
+   "news": [
+    {
+     "title": "SpaceX initiated, Intel upgraded: Wall Street's top analyst calls",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/intel-upgraded-reddit-initiated-wall-140337510.html",
+     "publisher": "The Fly"
+    },
+    {
+     "title": "Ross Gerber Recommends Tesla Owners Let TSLA \u2018Take The Risk\u2019 In Elon Musk\u2019s Airbnb-Like Robotaxi Program",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/ross-gerber-recommends-tesla-owners-053655422.html",
+     "publisher": "Benzinga"
+    },
+    {
+     "title": "Airbnb vs. Shopify: Which Consumer Stock Is a Better Buy in 2026?",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/airbnb-vs-shopify-consumer-stock-150001466.html",
+     "publisher": "Motley Fool"
+    }
+   ],
+   "sentiment": {
+    "label": "Mixed",
+    "bullish_pct": 50.0,
+    "sample_size": 8
+   },
+   "earnings_surprise": {
+    "date": "2026-08-06",
+    "actual_eps": 1.37,
+    "estimate_eps": 1.25,
+    "surprise_pct": 9.600000000000009
    }
   },
   {
    "symbol": "SYY",
    "name": "Sysco Corporation",
-   "close": 80.05000305175781,
-   "lower_band": 80.31020891056642,
-   "pct_below_band": 0.324000973647534,
-   "market_cap": 38351634432.0,
-   "chg_1d": -1.27034873709434,
-   "chg_5d": -2.306564966238489,
-   "chg_1mo": -5.097801422821058,
-   "off_52w_high": -12.187363058399514,
-   "rsi": 36.45659381413023,
+   "close": 79.83999633789062,
+   "lower_band": 79.87127554330449,
+   "pct_below_band": 0.03916202064020869,
+   "market_cap": 38251024384.0,
+   "chg_1d": -0.26234441706567413,
+   "chg_5d": -1.5293604651709813,
+   "chg_1mo": -5.279397946734354,
+   "off_52w_high": -12.417734608893948,
+   "rsi": 35.617802856462205,
    "rsi_divergence": false,
-   "macd_histogram": -0.344140570705749,
+   "macd_histogram": -0.3786483351892974,
    "macd_turning_up": false,
-   "volume_ratio": 0.8769673338391564,
+   "volume_ratio": 0.9364219275102699,
    "valuation": {
-    "forward_pe": 14.881811,
-    "trailing_pe": 21.871586,
+    "forward_pe": 14.84277,
+    "trailing_pe": 21.814207,
     "peg_ratio": 1.5,
     "analyst_target": 90.30769,
-    "analyst_upside_pct": 12.814099384368394
+    "analyst_upside_pct": 13.110839356516335
    },
    "short_interest": {
     "pct_of_float": 3.03,
@@ -1160,16 +3468,21 @@
     "shares": null
    },
    "hot_score": {
-    "total": 34.4,
+    "total": 35.2,
     "valuation": 14.6,
-    "technical": 4.8,
-    "catalyst": 2.5,
+    "technical": 5.1,
+    "catalyst": 2.9,
     "sentiment": 12.6
    },
    "reasons": [
     "No single obvious catalyst in the price action \u2014 likely broad market or sector weakness. Check the headlines below."
    ],
    "news": [
+    {
+     "title": "Sysco grants CEO, interim CFO stock awards ahead of JRD acquisition",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/sysco-grants-ceo-interim-cfo-144555412.html",
+     "publisher": "CFO Dive"
+    },
     {
      "title": "Billionaire Daniel Loeb Is Betting on These 2 Non-AI Stocks",
      "link": "https://finance.yahoo.com/markets/stocks/articles/billionaire-daniel-loeb-betting-2-134129813.html",
@@ -1178,11 +3491,6 @@
     {
      "title": "Sysco (SYY) Down 2.9% Since Last Earnings Report: Can It Rebound?",
      "link": "https://finance.yahoo.com/markets/stocks/articles/sysco-syy-down-2-9-153025023.html",
-     "publisher": "Zacks"
-    },
-    {
-     "title": "Mission Produce Q3 Earnings Coming Up: Here's What Lies Ahead",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/mission-produce-q3-earnings-coming-151800937.html",
      "publisher": "Zacks"
     }
    ],
@@ -1201,25 +3509,25 @@
   {
    "symbol": "MTD",
    "name": "Mettler-Toledo International, I",
-   "close": 1345.260009765625,
-   "lower_band": 1352.0230962040532,
-   "pct_below_band": 0.5002197416165666,
-   "market_cap": 26954383360.0,
-   "chg_1d": -0.8088577056328927,
-   "chg_5d": -3.8124346097076156,
-   "chg_1mo": -5.346034518506637,
-   "off_52w_high": -10.674493544625108,
-   "rsi": 38.72626777010479,
+   "close": 1325.52001953125,
+   "lower_band": 1338.3105618630277,
+   "pct_below_band": 0.9557230359127055,
+   "market_cap": 26558861312.0,
+   "chg_1d": -1.4673735999789494,
+   "chg_5d": -5.6663388905843775,
+   "chg_1mo": -7.271273365228215,
+   "off_52w_high": -11.985232444398763,
+   "rsi": 34.49413891393614,
    "rsi_divergence": false,
-   "macd_histogram": -11.52673745262511,
+   "macd_histogram": -12.854325172030647,
    "macd_turning_up": false,
-   "volume_ratio": 0.6010386882184746,
+   "volume_ratio": 0.8843631667009129,
    "valuation": {
-    "forward_pe": 26.019684,
-    "trailing_pe": 30.305475,
+    "forward_pe": 25.637877,
+    "trailing_pe": 29.86078,
     "peg_ratio": 2.5,
     "analyst_target": 1451.9231,
-    "analyst_upside_pct": 7.928808517318386
+    "analyst_upside_pct": 9.53611251480384
    },
    "short_interest": {
     "pct_of_float": 4.13,
@@ -1230,10 +3538,10 @@
     "shares": null
    },
    "hot_score": {
-    "total": 25.8,
-    "valuation": 9.9,
-    "technical": 4.1,
-    "catalyst": 2.6,
+    "total": 28.3,
+    "valuation": 10.3,
+    "technical": 5.5,
+    "catalyst": 3.2,
     "sentiment": 9.3
    },
    "reasons": [
@@ -1266,6 +3574,76 @@
     "actual_eps": 11.46,
     "estimate_eps": 10.8,
     "surprise_pct": 6.1111111111111125
+   }
+  },
+  {
+   "symbol": "KVUE",
+   "name": "Kenvue Inc.",
+   "close": 18.389999389648438,
+   "lower_band": 18.540252858804326,
+   "pct_below_band": 0.8104175832992307,
+   "market_cap": 35323023360.0,
+   "chg_1d": -1.8676648118701844,
+   "chg_5d": -2.595337886118143,
+   "chg_1mo": -4.368175624460802,
+   "off_52w_high": -7.261727380725547,
+   "rsi": 38.285458931912636,
+   "rsi_divergence": false,
+   "macd_histogram": -0.0698896688556471,
+   "macd_turning_up": false,
+   "volume_ratio": 0.8105105741404185,
+   "valuation": {
+    "forward_pe": 14.810818,
+    "trailing_pe": 21.635292,
+    "peg_ratio": 1.49,
+    "analyst_target": 19.5,
+    "analyst_upside_pct": 6.0358925894058
+   },
+   "short_interest": {
+    "pct_of_float": 3.19,
+    "days_to_cover": 2.7
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 26.0,
+    "valuation": 12.7,
+    "technical": 4.2,
+    "catalyst": 2.1,
+    "sentiment": 7.0
+   },
+   "reasons": [
+    "No single obvious catalyst in the price action \u2014 likely broad market or sector weakness. Check the headlines below."
+   ],
+   "news": [
+    {
+     "title": "Kenvue's Brand Strength and Innovation Strategy Support Growth",
+     "link": "https://finance.yahoo.com/healthcare/articles/kenvues-brand-strength-innovation-strategy-144700234.html",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Can Kimberly-Clark Turn its $40 Billion Kenvue Bet into $2.1 Billion in Savings?",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/kimberly-clark-turn-40-billion-010322656.html",
+     "publisher": "Insider Monkey"
+    },
+    {
+     "title": "Kenvue's Kimberly-Clark Deal Nears Closing With Key Risks Still Ahead",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/kenvues-kimberly-clark-deal-nears-192800397.html",
+     "publisher": "Zacks"
+    }
+   ],
+   "sentiment": {
+    "label": "Bearish",
+    "bullish_pct": 33.3,
+    "sample_size": 3
+   },
+   "earnings_surprise": {
+    "date": "2026-08-06",
+    "actual_eps": 0.31,
+    "estimate_eps": 0.32,
+    "surprise_pct": -3.1250000000000027
    }
   }
  ]
