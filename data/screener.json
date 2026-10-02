@@ -1,30 +1,30 @@
 {
- "updated": "Sep 30, 2026 08:52 PM ET",
+ "updated": "Oct 01, 2026 09:07 PM ET",
  "criteria": "close < lower BB(20,2), market cap > $20B",
  "universe_size": 503,
  "results": [
   {
    "symbol": "HSY",
    "name": "The Hershey Company",
-   "close": 161.41000366210938,
-   "lower_band": 162.58751138264023,
-   "pct_below_band": 0.7242301149192567,
-   "market_cap": 31667894272.0,
-   "chg_1d": -1.8247064857230377,
-   "chg_5d": -4.1849713705238045,
-   "chg_1mo": -9.851996140178375,
-   "off_52w_high": -31.68697964448597,
-   "rsi": 25.918082999648334,
+   "close": 157.61000061035156,
+   "lower_band": 160.26485105374786,
+   "pct_below_band": 1.6565394257945831,
+   "market_cap": 32007458816.0,
+   "chg_1d": -2.3542549814400737,
+   "chg_5d": -6.435141902211683,
+   "chg_1mo": -10.555590145183203,
+   "off_52w_high": -33.29524232917783,
+   "rsi": 22.08103433513614,
    "rsi_divergence": false,
-   "macd_histogram": -0.6852660188107609,
+   "macd_histogram": -0.9662469374279952,
    "macd_turning_up": false,
-   "volume_ratio": 1.2954347115963207,
+   "volume_ratio": 1.423939268871914,
    "valuation": {
-    "forward_pe": 15.986197,
-    "trailing_pe": 21.502047,
-    "peg_ratio": 0.81,
+    "forward_pe": 16.157612,
+    "trailing_pe": 21.792067,
+    "peg_ratio": 0.79,
     "analyst_target": 204.09525,
-    "analyst_upside_pct": 26.445229768562896
+    "analyst_upside_pct": 29.493845066704072
    },
    "short_interest": {
     "pct_of_float": 7.36,
@@ -35,36 +35,20 @@
     "shares": null
    },
    "hot_score": {
-    "total": 61.2,
-    "valuation": 20.6,
-    "technical": 8.4,
-    "catalyst": 8.2,
+    "total": 64.4,
+    "valuation": 21.6,
+    "technical": 9.6,
+    "catalyst": 9.2,
     "sentiment": 24.0
    },
    "reasons": [
     "No single obvious catalyst in the price action \u2014 likely broad market or sector weakness. Check the headlines below."
    ],
-   "news": [
-    {
-     "title": "Hershey (HSY) Suffers a Larger Drop Than the General Market: Key Insights",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/hershey-hsy-suffers-larger-drop-210003081.html",
-     "publisher": "Zacks"
-    },
-    {
-     "title": "Top Stock Reports for Visa, Intuitive Surgical & Williams Companies",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/top-stock-reports-visa-intuitive-193800600.html",
-     "publisher": "Zacks"
-    },
-    {
-     "title": "Can Hershey's Innovation & Brand Investments Strengthen Demand?",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/hersheys-innovation-brand-investments-strengthen-114700037.html",
-     "publisher": "Zacks"
-    }
-   ],
+   "news": [],
    "sentiment": {
     "label": "Bullish",
-    "bullish_pct": 88.9,
-    "sample_size": 9
+    "bullish_pct": 87.5,
+    "sample_size": 8
    },
    "earnings_surprise": {
     "date": "2026-07-30",
@@ -74,167 +58,136 @@
    }
   },
   {
-   "symbol": "TKO",
-   "name": "TKO Group Holdings, Inc.",
-   "close": 177.5800018310547,
-   "lower_band": 179.6216301388148,
-   "pct_below_band": 1.1366272014023588,
-   "market_cap": 34015553536.0,
-   "chg_1d": -2.2028857581583683,
-   "chg_5d": -5.977653188971466,
-   "chg_1mo": -3.8236555361414015,
-   "off_52w_high": -21.061523590313737,
-   "rsi": 35.10818831872602,
+   "symbol": "JBL",
+   "name": "Jabil Inc.",
+   "close": 286.8599853515625,
+   "lower_band": 288.6453278141665,
+   "pct_below_band": 0.6185246357957349,
+   "market_cap": 31414122496.0,
+   "chg_1d": -10.030112706574402,
+   "chg_5d": -7.089883286943321,
+   "chg_1mo": -6.0276563668427485,
+   "off_52w_high": -25.612638612305282,
+   "rsi": 36.87614230390703,
    "rsi_divergence": false,
-   "macd_histogram": -1.2685739676216437,
+   "macd_histogram": 0.9163472902494152,
    "macd_turning_up": false,
-   "volume_ratio": 0.9306025610009719,
+   "volume_ratio": 1.7537305190380905,
    "valuation": {
-    "forward_pe": 38.391373,
-    "trailing_pe": 63.281693,
-    "peg_ratio": 1.49,
-    "analyst_target": 231.42105,
-    "analyst_upside_pct": 30.31931952572475
+    "forward_pe": 13.523493,
+    "trailing_pe": 29.420021,
+    "peg_ratio": 0.82,
+    "analyst_target": 425.0,
+    "analyst_upside_pct": 48.1559024271508
    },
    "short_interest": {
-    "pct_of_float": 12.57,
-    "days_to_cover": 8.04
+    "pct_of_float": 3.24,
+    "days_to_cover": 3.23
    },
    "insider": {
     "recent_buys": 0,
     "shares": null
    },
    "hot_score": {
-    "total": 57.0,
-    "valuation": 19.4,
-    "technical": 5.3,
-    "catalyst": 8.8,
-    "sentiment": 23.5
+    "total": 55.1,
+    "valuation": 21.6,
+    "technical": 4.7,
+    "catalyst": 9.0,
+    "sentiment": 19.7
    },
    "reasons": [
-    "No single obvious catalyst in the price action \u2014 likely broad market or sector weakness. Check the headlines below."
+    "JBL reported earnings on Sep 30 \u2014 earnings reactions are the most common cause of a sharp break below the band.",
+    "Sharp one-day drop of -10.0% on Sep 30 \u2014 points to a specific catalyst (news, guidance, downgrade) rather than gradual selling."
    ],
-   "news": [
-    {
-     "title": "TKO Group Holdings (TKO) Stock Still Looks Pricey As Cash Flow Carries The Story",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/tko-group-holdings-tko-stock-170856587.html",
-     "publisher": "Simply Wall St."
-    },
-    {
-     "title": "TKO Group Holdings (TKO) Benefit from Strong Demand for Sports and Entertainment",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/tko-group-holdings-tko-benefit-133656357.html",
-     "publisher": "Insider Monkey"
-    },
-    {
-     "title": "Manchester United Quarterly Revenue Falls; Club Sees Stronger Fiscal 2027 Topline Growth",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/manchester-united-quarterly-revenue-falls-154633584.html",
-     "publisher": "MT Newswires"
-    }
-   ],
+   "news": [],
    "sentiment": {
     "label": "Bullish",
-    "bullish_pct": 94.7,
-    "sample_size": 19
+    "bullish_pct": 87.5,
+    "sample_size": 8
    },
    "earnings_surprise": {
-    "date": "2026-08-03",
-    "actual_eps": 1.34,
-    "estimate_eps": 1.09,
-    "surprise_pct": 22.93577981651376
+    "date": "2026-09-30",
+    "actual_eps": 4.4,
+    "estimate_eps": 4.08,
+    "surprise_pct": 7.843137254901968
    }
   },
   {
-   "symbol": "XYL",
-   "name": "Xylem Inc.",
-   "close": 100.93000030517578,
-   "lower_band": 101.52983627435326,
-   "pct_below_band": 0.5907977311778616,
-   "market_cap": 23645208576.0,
-   "chg_1d": 0.019816313884368775,
-   "chg_5d": -6.4163173545206735,
-   "chg_1mo": -9.325305436247023,
-   "off_52w_high": -34.01111322720053,
-   "rsi": 27.4360079860857,
+   "symbol": "APO",
+   "name": "Apollo Global Management, Inc. ",
+   "close": 116.05999755859375,
+   "lower_band": 116.21426853996132,
+   "pct_below_band": 0.1327470226382114,
+   "market_cap": 67522703360.0,
+   "chg_1d": -2.470590286896013,
+   "chg_5d": -6.674174180622295,
+   "chg_1mo": -15.024164590247668,
+   "off_52w_high": -23.994761049057256,
+   "rsi": 29.52778010402932,
    "rsi_divergence": false,
-   "macd_histogram": -0.35533000515180646,
+   "macd_histogram": -1.1373439436747859,
    "macd_turning_up": false,
-   "volume_ratio": 0.9663372696458771,
+   "volume_ratio": 1.524419922799868,
    "valuation": {
-    "forward_pe": 16.214848,
-    "trailing_pe": 24.111904,
-    "peg_ratio": 1.23,
-    "analyst_target": 153.875,
-    "analyst_upside_pct": 52.457148057800175
+    "forward_pe": 10.656938,
+    "trailing_pe": 40.69039,
+    "peg_ratio": 0.44,
+    "analyst_target": 153.47368,
+    "analyst_upside_pct": 32.23650114460641
    },
    "short_interest": {
-    "pct_of_float": 6.04,
-    "days_to_cover": 4.77
+    "pct_of_float": 4.34,
+    "days_to_cover": 9.28
    },
    "insider": {
     "recent_buys": 0,
     "shares": null
    },
    "hot_score": {
-    "total": 53.1,
-    "valuation": 20.2,
-    "technical": 7.9,
-    "catalyst": 5.0,
-    "sentiment": 20.0
+    "total": 55.0,
+    "valuation": 22.7,
+    "technical": 7.2,
+    "catalyst": 8.0,
+    "sentiment": 17.2
    },
    "reasons": [
-    "Sharp one-day drop of -5.5% on Sep 24 \u2014 points to a specific catalyst (news, guidance, downgrade) rather than gradual selling."
+    "Down -15.0% over the past month \u2014 an extended downtrend; the band break continues an existing move rather than starting one."
    ],
-   "news": [
-    {
-     "title": "Here's Why You Should Retain Xylem Stock in Your Portfolio Now",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/heres-why-retain-xylem-stock-164300448.html",
-     "publisher": "Zacks"
-    },
-    {
-     "title": "Xylem (XYL) Stock Could Be 35% Undervalued As Cash Flow Holds Up",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/xylem-xyl-stock-could-35-230741637.html",
-     "publisher": "Simply Wall St."
-    },
-    {
-     "title": "Xylem (XYL) Raises $1.5b As Undervalued Narrative Faces A Market Test",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/xylem-xyl-raises-1-5b-151427837.html",
-     "publisher": "Simply Wall St."
-    }
-   ],
+   "news": [],
    "sentiment": {
     "label": "Bullish",
-    "bullish_pct": 100.0,
-    "sample_size": 11
+    "bullish_pct": 77.8,
+    "sample_size": 9
    },
    "earnings_surprise": {
-    "date": "2026-07-28",
-    "actual_eps": 1.46,
-    "estimate_eps": 1.34,
-    "surprise_pct": 8.955223880597005
+    "date": "2026-08-04",
+    "actual_eps": 2.11,
+    "estimate_eps": 2.16,
+    "surprise_pct": -2.314814814814827
    }
   },
   {
    "symbol": "MDT",
    "name": "Medtronic plc.",
-   "close": 87.08999633789062,
-   "lower_band": 87.67402238353885,
-   "pct_below_band": 0.6661335134064558,
-   "market_cap": 110376812544.0,
-   "chg_1d": -2.692741521909914,
-   "chg_5d": -4.054203416627411,
-   "chg_1mo": -4.53798845413319,
-   "off_52w_high": -17.33270280086049,
-   "rsi": 37.09127126470439,
+   "close": 86.29000091552734,
+   "lower_band": 86.78292310439421,
+   "pct_below_band": 0.5679944524038644,
+   "market_cap": 110568685568.0,
+   "chg_1d": -0.9185847468169195,
+   "chg_5d": -3.3706629712945135,
+   "chg_1mo": -4.809708259196066,
+   "off_52w_high": -18.092071983537593,
+   "rsi": 34.938961384721054,
    "rsi_divergence": false,
-   "macd_histogram": -0.719240090152368,
+   "macd_histogram": -0.7895980200500967,
    "macd_turning_up": false,
-   "volume_ratio": 2.3972585366161234,
+   "volume_ratio": 2.488046483576447,
    "valuation": {
-    "forward_pe": 13.471888,
-    "trailing_pe": 21.253695,
-    "peg_ratio": 1.56,
+    "forward_pe": 13.495307,
+    "trailing_pe": 21.50249,
+    "peg_ratio": 1.55,
     "analyst_target": 104.83333,
-    "analyst_upside_pct": 20.373561153073226
+    "analyst_upside_pct": 21.489545587820125
    },
    "short_interest": {
     "pct_of_float": 1.35,
@@ -245,36 +198,20 @@
     "shares": null
    },
    "hot_score": {
-    "total": 52.5,
-    "valuation": 16.5,
-    "technical": 4.6,
-    "catalyst": 12.6,
+    "total": 54.2,
+    "valuation": 16.8,
+    "technical": 5.4,
+    "catalyst": 13.3,
     "sentiment": 18.8
    },
    "reasons": [
     "No single obvious catalyst in the price action \u2014 likely broad market or sector weakness. Check the headlines below."
    ],
-   "news": [
-    {
-     "title": "Was The Run In JNJ Stock Hiding In Plain Sight?",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/run-jnj-stock-hiding-plain-190120391.html",
-     "publisher": "Trefis"
-    },
-    {
-     "title": "Medtronic (MDT) Gets FDA Clearance For LigaSure RAS Device In The U.S.",
-     "link": "https://finance.yahoo.com/healthcare/articles/medtronic-mdt-gets-fda-clearance-161603684.html",
-     "publisher": "Simply Wall St."
-    },
-    {
-     "title": "Boston Scientific's MedSurg Diversification Bolsters Growth Prospects",
-     "link": "https://finance.yahoo.com/healthcare/articles/boston-scientifics-medsurg-diversification-bolsters-134400706.html",
-     "publisher": "Zacks"
-    }
-   ],
+   "news": [],
    "sentiment": {
     "label": "Bullish",
-    "bullish_pct": 75.0,
-    "sample_size": 8
+    "bullish_pct": 77.8,
+    "sample_size": 9
    },
    "earnings_surprise": {
     "date": "2026-09-01",
@@ -284,167 +221,243 @@
    }
   },
   {
-   "symbol": "MDLZ",
-   "name": "Mondelez International, Inc.",
-   "close": 59.31999969482422,
-   "lower_band": 59.61731996630639,
-   "pct_below_band": 0.4987145877241814,
-   "market_cap": 73796132864.0,
-   "chg_1d": -1.4290472017122857,
-   "chg_5d": -2.881470339667924,
-   "chg_1mo": -4.874921240816521,
-   "off_52w_high": -8.724416610738505,
-   "rsi": 34.78277830784913,
+   "symbol": "GM",
+   "name": "General Motors Company",
+   "close": 77.0,
+   "lower_band": 78.58866631347114,
+   "pct_below_band": 2.021495449654702,
+   "market_cap": 71732043776.0,
+   "chg_1d": -4.312167476158024,
+   "chg_5d": -8.0816484593076,
+   "chg_1mo": -10.797033975641979,
+   "off_52w_high": -14.728685052352175,
+   "rsi": 34.57459509934708,
    "rsi_divergence": false,
-   "macd_histogram": -0.23975989976404105,
+   "macd_histogram": -0.7450811207575863,
    "macd_turning_up": false,
-   "volume_ratio": 1.2423583804038296,
+   "volume_ratio": 1.0846694701073372,
    "valuation": {
-    "forward_pe": 17.194006,
-    "trailing_pe": 21.179487,
-    "peg_ratio": 0.88,
-    "analyst_target": 69.22727,
-    "analyst_upside_pct": 16.701399791207706
+    "forward_pe": 5.2698617,
+    "trailing_pe": 35.40625,
+    "peg_ratio": 0.27,
+    "analyst_target": 104.21739,
+    "analyst_upside_pct": 35.34725974025974
    },
    "short_interest": {
-    "pct_of_float": 2.44,
-    "days_to_cover": 3.87
+    "pct_of_float": 2.37,
+    "days_to_cover": 3.55
    },
    "insider": {
     "recent_buys": 0,
     "shares": null
    },
    "hot_score": {
-    "total": 47.5,
-    "valuation": 17.7,
-    "technical": 5.4,
-    "catalyst": 4.8,
-    "sentiment": 19.6
+    "total": 52.4,
+    "valuation": 22.7,
+    "technical": 5.5,
+    "catalyst": 3.6,
+    "sentiment": 20.7
    },
    "reasons": [
-    "No single obvious catalyst in the price action \u2014 likely broad market or sector weakness. Check the headlines below."
+    "Down -8.1% over 5 sessions without a single large gap \u2014 suggests sustained selling pressure (sector rotation, macro, or sentiment shift)."
    ],
-   "news": [
-    {
-     "title": "PepsiCo Walks a Tightrope: Dividend Growth Meets Operating Cash Flow Squeeze",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/pepsico-walks-tightrope-dividend-growth-111542263.html",
-     "publisher": "24/7 Wall St."
-    },
-    {
-     "title": "The Zacks Analyst Blog Highlights Coca-Cola, Philip Morris, Mondelez and Dole",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/zacks-analyst-blog-highlights-coca-064600172.html",
-     "publisher": "Zacks"
-    },
-    {
-     "title": "4 Low-Beta Defensive Stocks to Buy as Consumer Sentiment Hits 4-Month Low",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/4-low-beta-defensive-stocks-112200664.html",
-     "publisher": "Zacks"
-    }
-   ],
+   "news": [],
    "sentiment": {
     "label": "Bullish",
-    "bullish_pct": 91.7,
-    "sample_size": 12
+    "bullish_pct": 60.0,
+    "sample_size": 5
    },
    "earnings_surprise": {
-    "date": "2026-07-28",
-    "actual_eps": 0.73,
-    "estimate_eps": 0.68,
-    "surprise_pct": 7.352941176470577
+    "date": "2026-07-21",
+    "actual_eps": 3.57,
+    "estimate_eps": 3.19,
+    "surprise_pct": 11.912225705329151
    }
   },
   {
-   "symbol": "LMT",
-   "name": "Lockheed Martin Corporation",
-   "close": 512.2100219726562,
-   "lower_band": 513.4518208328615,
-   "pct_below_band": 0.24185304439877553,
-   "market_cap": 117530189824.0,
-   "chg_1d": -1.1368372690271022,
-   "chg_5d": -1.93935068384401,
-   "chg_1mo": -9.15845630029839,
-   "off_52w_high": -24.30766769131527,
-   "rsi": 33.74678606336599,
+   "symbol": "OTIS",
+   "name": "Otis Worldwide Corporation",
+   "close": 64.31999969482422,
+   "lower_band": 64.54339914072015,
+   "pct_below_band": 0.34612283962434526,
+   "market_cap": 24545560576.0,
+   "chg_1d": -1.996034760652876,
+   "chg_5d": -5.854800962920715,
+   "chg_1mo": -9.574016338467539,
+   "off_52w_high": -31.29673380919392,
+   "rsi": 31.387327971579623,
    "rsi_divergence": false,
-   "macd_histogram": -0.8376312180179806,
+   "macd_histogram": -0.31814421577968655,
    "macd_turning_up": false,
-   "volume_ratio": 0.9005357903839073,
+   "volume_ratio": 1.2636589735079613,
    "valuation": {
-    "forward_pe": 15.547657,
-    "trailing_pe": 18.791513,
-    "peg_ratio": 0.97,
-    "analyst_target": 636.7368,
-    "analyst_upside_pct": 24.311663709303886
+    "forward_pe": 14.220435,
+    "trailing_pe": 16.575836,
+    "peg_ratio": 1.46,
+    "analyst_target": 86.53846,
+    "analyst_upside_pct": 34.543626260252736
    },
    "short_interest": {
-    "pct_of_float": 1.25,
-    "days_to_cover": 2.26
+    "pct_of_float": 4.82,
+    "days_to_cover": 4.52
    },
    "insider": {
     "recent_buys": 0,
     "shares": null
    },
    "hot_score": {
-    "total": 47.1,
+    "total": 50.2,
     "valuation": 19.5,
-    "technical": 5.8,
-    "catalyst": 1.5,
-    "sentiment": 20.3
+    "technical": 6.5,
+    "catalyst": 6.4,
+    "sentiment": 17.8
    },
    "reasons": [
     "No single obvious catalyst in the price action \u2014 likely broad market or sector weakness. Check the headlines below."
    ],
-   "news": [
-    {
-     "title": "Lockheed Martin (LMT) Stock Could Be Cheap As Its 66% Run Rolls On",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/lockheed-martin-lmt-stock-could-000940550.html",
-     "publisher": "Simply Wall St."
-    },
-    {
-     "title": "Lockheed Martin Secures Over $1 Billion in Defense Deals",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/lockheed-martin-secures-over-1-180319980.html",
-     "publisher": "GuruFocus.com"
-    },
-    {
-     "title": "Can Kratos' New Rocket Motor Campus Expand Propulsion Capacity?",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/kratos-rocket-motor-campus-expand-133700007.html",
-     "publisher": "Zacks"
-    }
-   ],
+   "news": [],
    "sentiment": {
     "label": "Bullish",
-    "bullish_pct": 75.0,
-    "sample_size": 4
+    "bullish_pct": 90.0,
+    "sample_size": 10
    },
    "earnings_surprise": {
-    "date": "2026-07-23",
-    "actual_eps": 7.94,
-    "estimate_eps": 7.2,
-    "surprise_pct": 10.27777777777778
+    "date": "2026-07-22",
+    "actual_eps": 1.01,
+    "estimate_eps": 1.01,
+    "surprise_pct": 0.0
+   }
+  },
+  {
+   "symbol": "CBRE",
+   "name": "CBRE Group Inc",
+   "close": 128.47000122070312,
+   "lower_band": 128.8539351816772,
+   "pct_below_band": 0.29796060200470376,
+   "market_cap": 37798264832.0,
+   "chg_1d": -1.8113689877115702,
+   "chg_5d": -5.820689266363344,
+   "chg_1mo": -11.892186151997253,
+   "off_52w_high": -25.138394753345295,
+   "rsi": 31.00232692503961,
+   "rsi_divergence": false,
+   "macd_histogram": -1.144061576278371,
+   "macd_turning_up": false,
+   "volume_ratio": 0.9230678179877753,
+   "valuation": {
+    "forward_pe": 14.385547,
+    "trailing_pe": 29.869566,
+    "peg_ratio": 0.69,
+    "analyst_target": 182.16667,
+    "analyst_upside_pct": 41.79704854758233
+   },
+   "short_interest": {
+    "pct_of_float": 1.48,
+    "days_to_cover": 2.84
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 49.8,
+    "valuation": 22.0,
+    "technical": 6.7,
+    "catalyst": 1.8,
+    "sentiment": 19.3
+   },
+   "reasons": [
+    "No single obvious catalyst in the price action \u2014 likely broad market or sector weakness. Check the headlines below."
+   ],
+   "news": [],
+   "sentiment": {
+    "label": "Bullish",
+    "bullish_pct": 100.0,
+    "sample_size": 3
+   },
+   "earnings_surprise": {
+    "date": "2026-07-29",
+    "actual_eps": 1.56,
+    "estimate_eps": 1.47,
+    "surprise_pct": 6.122448979591842
+   }
+  },
+  {
+   "symbol": "IBKR",
+   "name": "Interactive Brokers Group, Inc.",
+   "close": 85.41999816894531,
+   "lower_band": 85.44993340513076,
+   "pct_below_band": 0.03503248626716221,
+   "market_cap": 146204409856.0,
+   "chg_1d": -0.881877620723126,
+   "chg_5d": -6.705984658550424,
+   "chg_1mo": -12.200639978293593,
+   "off_52w_high": -13.005401726190291,
+   "rsi": 38.49971636939944,
+   "rsi_divergence": false,
+   "macd_histogram": -0.5278628607497102,
+   "macd_turning_up": false,
+   "volume_ratio": 1.528563348491919,
+   "valuation": {
+    "forward_pe": 26.845743,
+    "trailing_pe": 33.916996,
+    "peg_ratio": 1.38,
+    "analyst_target": 105.66154,
+    "analyst_upside_pct": 23.696490593479737
+   },
+   "short_interest": {
+    "pct_of_float": 3.17,
+    "days_to_cover": 3.27
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 49.2,
+    "valuation": 18.0,
+    "technical": 4.2,
+    "catalyst": 7.3,
+    "sentiment": 19.7
+   },
+   "reasons": [
+    "IBKR reports earnings on Oct 15 \u2014 earnings reactions are the most common cause of a sharp break below the band."
+   ],
+   "news": [],
+   "sentiment": {
+    "label": "Bullish",
+    "bullish_pct": 81.8,
+    "sample_size": 11
+   },
+   "earnings_surprise": {
+    "date": "2026-07-21",
+    "actual_eps": 0.69,
+    "estimate_eps": 0.64,
+    "surprise_pct": 7.812499999999989
    }
   },
   {
    "symbol": "TRGP",
    "name": "Targa Resources, Inc.",
-   "close": 273.489990234375,
-   "lower_band": 274.96823334310403,
-   "pct_below_band": 0.5376050501384599,
-   "market_cap": 57962848256.0,
-   "chg_1d": -1.4201789804358822,
-   "chg_5d": -3.0692907494042188,
-   "chg_1mo": -4.9788120093060435,
-   "off_52w_high": -9.515305133374685,
-   "rsi": 37.29507553932036,
+   "close": 270.30999755859375,
+   "lower_band": 272.3588769088537,
+   "pct_below_band": 0.7522719191361646,
+   "market_cap": 59892727808.0,
+   "chg_1d": -1.1627455443821044,
+   "chg_5d": -4.48747809929012,
+   "chg_1mo": -7.948236616043758,
+   "off_52w_high": -10.567411891284117,
+   "rsi": 34.677232575515475,
    "rsi_divergence": false,
-   "macd_histogram": -2.1296114958673473,
+   "macd_histogram": -2.369936065721778,
    "macd_turning_up": false,
-   "volume_ratio": 1.0999909943174142,
+   "volume_ratio": 1.202582532574206,
    "valuation": {
-    "forward_pe": 22.377415,
-    "trailing_pe": 25.866985,
+    "forward_pe": 23.122473,
+    "trailing_pe": 26.702677,
     "peg_ratio": 1.25,
     "analyst_target": 325.14285,
-    "analyst_upside_pct": 18.88656316867745
+    "analyst_upside_pct": 20.285173666031508
    },
    "short_interest": {
     "pct_of_float": 3.09,
@@ -455,32 +468,16 @@
     "shares": null
    },
    "hot_score": {
-    "total": 47.1,
-    "valuation": 17.1,
-    "technical": 4.6,
-    "catalyst": 4.1,
+    "total": 49.2,
+    "valuation": 17.5,
+    "technical": 5.4,
+    "catalyst": 4.9,
     "sentiment": 21.4
    },
    "reasons": [
     "No single obvious catalyst in the price action \u2014 likely broad market or sector weakness. Check the headlines below."
    ],
-   "news": [
-    {
-     "title": "Is Targa Resources Stock a Smart Hold in Today's Market?",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/targa-resources-stock-smart-hold-144500710.html",
-     "publisher": "Zacks"
-    },
-    {
-     "title": "Analyst Rating Boosts May Signal More Upside for These 3 Stocks",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/analyst-rating-boosts-may-signal-131000152.html",
-     "publisher": "MarketBeat"
-    },
-    {
-     "title": "Truist Adds Fresh Fuel to Targa\u2019s (TRGP) Growth Story. Is There More Upside Ahead?",
-     "link": "https://finance.yahoo.com/energy/articles/truist-adds-fresh-fuel-targa-045801441.html",
-     "publisher": "Insider Monkey"
-    }
-   ],
+   "news": [],
    "sentiment": {
     "label": "Bullish",
     "bullish_pct": 100.0,
@@ -494,27 +491,351 @@
    }
   },
   {
+   "symbol": "KHC",
+   "name": "The Kraft Heinz Company",
+   "close": 22.719999313354492,
+   "lower_band": 22.868022991009084,
+   "pct_below_band": 0.6472954733025676,
+   "market_cap": 26633601024.0,
+   "chg_1d": -3.1130124769064405,
+   "chg_5d": -4.497694665805918,
+   "chg_1mo": -11.492016962102614,
+   "off_52w_high": -17.74077254522961,
+   "rsi": 27.513143328941865,
+   "rsi_divergence": false,
+   "macd_histogram": -0.14565030289993047,
+   "macd_turning_up": false,
+   "volume_ratio": 0.7955094777089876,
+   "valuation": {
+    "forward_pe": 10.758921,
+    "trailing_pe": null,
+    "peg_ratio": 0.99,
+    "analyst_target": 25.47222,
+    "analyst_upside_pct": 12.113647754504075
+   },
+   "short_interest": {
+    "pct_of_float": 10.98,
+    "days_to_cover": 4.23
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 49.0,
+    "valuation": 15.1,
+    "technical": 7.8,
+    "catalyst": 6.9,
+    "sentiment": 19.2
+   },
+   "reasons": [
+    "No single obvious catalyst in the price action \u2014 likely broad market or sector weakness. Check the headlines below."
+   ],
+   "news": [],
+   "sentiment": {
+    "label": "Bullish",
+    "bullish_pct": 100.0,
+    "sample_size": 9
+   },
+   "earnings_surprise": {
+    "date": "2026-08-05",
+    "actual_eps": 0.56,
+    "estimate_eps": 0.53,
+    "surprise_pct": 5.660377358490571
+   }
+  },
+  {
+   "symbol": "APP",
+   "name": "Applovin Corporation",
+   "close": 290.42999267578125,
+   "lower_band": 295.4901678634119,
+   "pct_below_band": 1.7124682097611028,
+   "market_cap": 94140538880.0,
+   "chg_1d": -4.982664007020066,
+   "chg_5d": -7.873118897452414,
+   "chg_1mo": -6.931360972901102,
+   "off_52w_high": -60.410305024368306,
+   "rsi": 34.87397388378682,
+   "rsi_divergence": false,
+   "macd_histogram": -0.4797137947671448,
+   "macd_turning_up": false,
+   "volume_ratio": 1.6384585014869677,
+   "valuation": {
+    "forward_pe": 13.40798,
+    "trailing_pe": 22.326189,
+    "peg_ratio": 0.63,
+    "analyst_target": 497.04547,
+    "analyst_upside_pct": 71.14123283915515
+   },
+   "short_interest": {
+    "pct_of_float": 3.76,
+    "days_to_cover": 2.36
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 48.5,
+    "valuation": 22.2,
+    "technical": 5.4,
+    "catalyst": 8.5,
+    "sentiment": 12.4
+   },
+   "reasons": [
+    "Trading 60% below its 52-week high \u2014 deep drawdown territory, often reflecting a broken growth story or re-rating."
+   ],
+   "news": [],
+   "sentiment": {
+    "label": "Mixed",
+    "bullish_pct": 53.8,
+    "sample_size": 13
+   },
+   "earnings_surprise": {
+    "date": "2026-08-05",
+    "actual_eps": 3.76,
+    "estimate_eps": 3.74,
+    "surprise_pct": 0.5347593582887586
+   }
+  },
+  {
+   "symbol": "MDLZ",
+   "name": "Mondelez International, Inc.",
+   "close": 57.81999969482422,
+   "lower_band": 58.843541694532284,
+   "pct_below_band": 1.739429630224267,
+   "market_cap": 74143612928.0,
+   "chg_1d": -2.5286581384302953,
+   "chg_5d": -5.891925476559323,
+   "chg_1mo": -6.847108137418589,
+   "off_52w_high": -11.032464078510806,
+   "rsi": 28.67124869374372,
+   "rsi_divergence": false,
+   "macd_histogram": -0.35050901394874967,
+   "macd_turning_up": false,
+   "volume_ratio": 0.9302740019987615,
+   "valuation": {
+    "forward_pe": 17.189556,
+    "trailing_pe": 21.157509,
+    "peg_ratio": 0.86,
+    "analyst_target": 69.22727,
+    "analyst_upside_pct": 19.728935256630443
+   },
+   "short_interest": {
+    "pct_of_float": 2.44,
+    "days_to_cover": 3.87
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 48.1,
+    "valuation": 18.6,
+    "technical": 7.4,
+    "catalyst": 2.5,
+    "sentiment": 19.6
+   },
+   "reasons": [
+    "No single obvious catalyst in the price action \u2014 likely broad market or sector weakness. Check the headlines below."
+   ],
+   "news": [],
+   "sentiment": {
+    "label": "Bullish",
+    "bullish_pct": 91.7,
+    "sample_size": 12
+   },
+   "earnings_surprise": {
+    "date": "2026-07-28",
+    "actual_eps": 0.73,
+    "estimate_eps": 0.68,
+    "surprise_pct": 7.352941176470577
+   }
+  },
+  {
+   "symbol": "AMT",
+   "name": "American Tower Corporation (REI",
+   "close": 163.69000244140625,
+   "lower_band": 165.15459242109998,
+   "pct_below_band": 0.8867994272659491,
+   "market_cap": 75047526400.0,
+   "chg_1d": -2.1870352725565145,
+   "chg_5d": -4.151537878304589,
+   "chg_1mo": -6.8355120748088805,
+   "off_52w_high": -15.67586721677543,
+   "rsi": 32.778322605760806,
+   "rsi_divergence": false,
+   "macd_histogram": -1.266525121884014,
+   "macd_turning_up": false,
+   "volume_ratio": 0.9860175424966887,
+   "valuation": {
+    "forward_pe": 22.975618,
+    "trailing_pe": 22.154057,
+    "peg_ratio": 1.55,
+    "analyst_target": 215.73914,
+    "analyst_upside_pct": 31.797383335750773
+   },
+   "short_interest": {
+    "pct_of_float": 1.5,
+    "days_to_cover": 2.96
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 47.1,
+    "valuation": 15.8,
+    "technical": 6.1,
+    "catalyst": 2.3,
+    "sentiment": 22.9
+   },
+   "reasons": [
+    "No single obvious catalyst in the price action \u2014 likely broad market or sector weakness. Check the headlines below."
+   ],
+   "news": [],
+   "sentiment": {
+    "label": "Bullish",
+    "bullish_pct": 100.0,
+    "sample_size": 6
+   },
+   "earnings_surprise": {
+    "date": "2026-07-28",
+    "actual_eps": 1.87,
+    "estimate_eps": 1.55,
+    "surprise_pct": 20.645161290322584
+   }
+  },
+  {
+   "symbol": "LMT",
+   "name": "Lockheed Martin Corporation",
+   "close": 509.25,
+   "lower_band": 511.2015987074916,
+   "pct_below_band": 0.38176694134485656,
+   "market_cap": 116664721408.0,
+   "chg_1d": -0.5778922406196596,
+   "chg_5d": -2.9408387762397514,
+   "chg_1mo": -9.261796817293211,
+   "off_52w_high": -24.74508780647121,
+   "rsi": 32.4639573268357,
+   "rsi_divergence": false,
+   "macd_histogram": -1.0943873142614269,
+   "macd_turning_up": false,
+   "volume_ratio": 0.7286091466674284,
+   "valuation": {
+    "forward_pe": 15.433167,
+    "trailing_pe": 18.625645,
+    "peg_ratio": 0.96,
+    "analyst_target": 636.7368,
+    "analyst_upside_pct": 25.034226804123705
+   },
+   "short_interest": {
+    "pct_of_float": 1.25,
+    "days_to_cover": 2.26
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 47.0,
+    "valuation": 19.8,
+    "technical": 6.2,
+    "catalyst": 0.8,
+    "sentiment": 20.3
+   },
+   "reasons": [
+    "No single obvious catalyst in the price action \u2014 likely broad market or sector weakness. Check the headlines below."
+   ],
+   "news": [],
+   "sentiment": {
+    "label": "Bullish",
+    "bullish_pct": 75.0,
+    "sample_size": 4
+   },
+   "earnings_surprise": {
+    "date": "2026-07-23",
+    "actual_eps": 7.94,
+    "estimate_eps": 7.2,
+    "surprise_pct": 10.27777777777778
+   }
+  },
+  {
+   "symbol": "PLD",
+   "name": "Prologis, Inc.",
+   "close": 129.83999633789062,
+   "lower_band": 130.8994155459633,
+   "pct_below_band": 0.8093383791317876,
+   "market_cap": 124602671104.0,
+   "chg_1d": -2.0888351253387394,
+   "chg_5d": -3.0755525302239906,
+   "chg_1mo": -7.204118040999163,
+   "off_52w_high": -13.474611188639962,
+   "rsi": 29.041805287542616,
+   "rsi_divergence": false,
+   "macd_histogram": -0.2762513705842353,
+   "macd_turning_up": false,
+   "volume_ratio": 1.5407969152037813,
+   "valuation": {
+    "forward_pe": 38.454037,
+    "trailing_pe": 28.547884,
+    "peg_ratio": 113.03,
+    "analyst_target": 158.23077,
+    "analyst_upside_pct": 21.86596924127009
+   },
+   "short_interest": {
+    "pct_of_float": 2.27,
+    "days_to_cover": 6.19
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 46.9,
+    "valuation": 8.7,
+    "technical": 7.3,
+    "catalyst": 6.9,
+    "sentiment": 24.0
+   },
+   "reasons": [
+    "PLD reports earnings on Oct 15 \u2014 earnings reactions are the most common cause of a sharp break below the band."
+   ],
+   "news": [],
+   "sentiment": {
+    "label": "Bullish",
+    "bullish_pct": 75.0,
+    "sample_size": 8
+   },
+   "earnings_surprise": {
+    "date": "2026-07-16",
+    "actual_eps": 1.11,
+    "estimate_eps": 0.75,
+    "surprise_pct": 48.000000000000014
+   }
+  },
+  {
    "symbol": "OKE",
    "name": "ONEOK, Inc.",
-   "close": 86.86000061035156,
-   "lower_band": 87.199545686914,
-   "pct_below_band": 0.3893885844102511,
-   "market_cap": 53754990592.0,
-   "chg_1d": -1.9860100222106492,
-   "chg_5d": -3.5852989886076547,
-   "chg_1mo": -8.336852414293505,
-   "off_52w_high": -10.921958047954783,
-   "rsi": 31.279941831418284,
+   "close": 85.2699966430664,
+   "lower_band": 85.84708882680641,
+   "pct_below_band": 0.6722326774577885,
+   "market_cap": 54946467840.0,
+   "chg_1d": -1.830536444983244,
+   "chg_5d": -5.820636424973957,
+   "chg_1mo": -11.186340229349078,
+   "off_52w_high": -12.552564070364436,
+   "rsi": 28.187077317229168,
    "rsi_divergence": false,
-   "macd_histogram": -0.9071049494129952,
+   "macd_histogram": -1.0040879426577274,
    "macd_turning_up": false,
-   "volume_ratio": 0.9847030138088784,
+   "volume_ratio": 0.8665999300600362,
    "valuation": {
-    "forward_pe": 13.672184,
-    "trailing_pe": 15.0388,
-    "peg_ratio": 1.64,
+    "forward_pe": 13.975227,
+    "trailing_pe": 15.053541,
+    "peg_ratio": 1.61,
     "analyst_target": 101.5,
-    "analyst_upside_pct": 16.854707905566958
+    "analyst_upside_pct": 19.03366247904421
    },
    "short_interest": {
     "pct_of_float": 4.88,
@@ -525,32 +846,16 @@
     "shares": null
    },
    "hot_score": {
-    "total": 45.3,
-    "valuation": 15.2,
-    "technical": 6.6,
-    "catalyst": 4.4,
+    "total": 46.2,
+    "valuation": 15.9,
+    "technical": 7.6,
+    "catalyst": 3.5,
     "sentiment": 19.1
    },
    "reasons": [
     "No single obvious catalyst in the price action \u2014 likely broad market or sector weakness. Check the headlines below."
    ],
-   "news": [
-    {
-     "title": "3 High Dividend US Stocks Facing The Treasury Yield Test",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/3-high-dividend-us-stocks-081146654.html",
-     "publisher": "Simply Wall St."
-    },
-    {
-     "title": "Oneok Inc. (OKE) Sees a More Significant Dip Than Broader Market: Some Facts to Know",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/oneok-inc-oke-sees-more-211504722.html",
-     "publisher": "Zacks"
-    },
-    {
-     "title": "Why ONEOK\u2019s Dividend Raise Matters More Than Its Eye-Catching Yield",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/why-oneok-dividend-raise-matters-143233868.html",
-     "publisher": "24/7 Wall St."
-    }
-   ],
+   "news": [],
    "sentiment": {
     "label": "Bullish",
     "bullish_pct": 81.8,
@@ -564,237 +869,297 @@
    }
   },
   {
-   "symbol": "IBKR",
-   "name": "Interactive Brokers Group, Inc.",
-   "close": 86.18000030517578,
-   "lower_band": 86.19042918253196,
-   "pct_below_band": 0.012099809056629988,
-   "market_cap": 145539923968.0,
-   "chg_1d": -1.0335341145548127,
-   "chg_5d": -6.203740877920138,
-   "chg_1mo": -10.079295077034278,
-   "off_52w_high": -12.231389996550101,
-   "rsi": 39.88823484652609,
+   "symbol": "NOC",
+   "name": "Northrop Grumman Corporation",
+   "close": 483.4800109863281,
+   "lower_band": 494.82539069632156,
+   "pct_below_band": 2.292804678844015,
+   "market_cap": 68474376192.0,
+   "chg_1d": -4.187387284956934,
+   "chg_5d": -6.014535389701569,
+   "chg_1mo": -10.416898267390973,
+   "off_52w_high": -37.04851453202832,
+   "rsi": 26.618899540571732,
    "rsi_divergence": false,
-   "macd_histogram": -0.40974301702860694,
+   "macd_histogram": -2.4013991785371402,
    "macd_turning_up": false,
-   "volume_ratio": 1.058744975023395,
+   "volume_ratio": 1.2039634941329858,
    "valuation": {
-    "forward_pe": 26.783558,
-    "trailing_pe": 33.896824,
-    "peg_ratio": 1.39,
-    "analyst_target": 105.81538,
-    "analyst_upside_pct": 22.7841490198335
+    "forward_pe": 15.828007,
+    "trailing_pe": 15.330789,
+    "peg_ratio": 3.2,
+    "analyst_target": 644.4545,
+    "analyst_upside_pct": 33.294962636671244
    },
    "short_interest": {
-    "pct_of_float": 3.17,
-    "days_to_cover": 3.27
+    "pct_of_float": 1.58,
+    "days_to_cover": 2.96
    },
    "insider": {
     "recent_buys": 0,
     "shares": null
    },
    "hot_score": {
-    "total": 45.0,
-    "valuation": 17.7,
-    "technical": 3.7,
-    "catalyst": 3.9,
-    "sentiment": 19.7
+    "total": 44.0,
+    "valuation": 11.0,
+    "technical": 8.1,
+    "catalyst": 4.0,
+    "sentiment": 20.9
    },
    "reasons": [
     "No single obvious catalyst in the price action \u2014 likely broad market or sector weakness. Check the headlines below."
    ],
-   "news": [
-    {
-     "title": "3 Financial Stocks Watching The Treasury Trade Stress Test",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/3-financial-stocks-watching-treasury-151137401.html",
-     "publisher": "Simply Wall St."
-    },
-    {
-     "title": "What to Expect From Interactive Brokers\u2019 Next Quarterly Earnings Report",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/expect-interactive-brokers-next-quarterly-124630783.html",
-     "publisher": "Barchart"
-    },
-    {
-     "title": "Interactive Brokers Group, Inc. (IBKR) Sees a More Significant Dip Than Broader Market: Some Facts to Know",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/interactive-brokers-group-inc-ibkr-210004806.html",
-     "publisher": "Zacks"
-    }
-   ],
+   "news": [],
    "sentiment": {
     "label": "Bullish",
-    "bullish_pct": 80.0,
-    "sample_size": 10
+    "bullish_pct": 85.7,
+    "sample_size": 7
    },
    "earnings_surprise": {
     "date": "2026-07-21",
-    "actual_eps": 0.69,
-    "estimate_eps": 0.64,
-    "surprise_pct": 7.812499999999989
+    "actual_eps": 7.68,
+    "estimate_eps": 6.82,
+    "surprise_pct": 12.609970674486796
    }
   },
   {
-   "symbol": "ADM",
-   "name": "Archer-Daniels-Midland Company",
-   "close": 79.4000015258789,
-   "lower_band": 79.603179876415,
-   "pct_below_band": 0.2552389877534153,
-   "market_cap": 38257950720.0,
-   "chg_1d": -1.219203484729392,
-   "chg_5d": -3.570554946282911,
-   "chg_1mo": -2.6244780054214156,
-   "off_52w_high": -9.86490540728272,
-   "rsi": 37.80768069291744,
+   "symbol": "MA",
+   "name": "Mastercard Incorporated",
+   "close": 551.469970703125,
+   "lower_band": 551.6515573638227,
+   "pct_below_band": 0.0329169125462888,
+   "market_cap": 481805467648.0,
+   "chg_1d": -2.148771428989149,
+   "chg_5d": -1.5091463896524493,
+   "chg_1mo": -6.421073291176671,
+   "off_52w_high": -8.066884911497695,
+   "rsi": 37.440239481494764,
    "rsi_divergence": false,
-   "macd_histogram": -0.8175591176628726,
+   "macd_histogram": -1.7344177213899037,
    "macd_turning_up": false,
-   "volume_ratio": 0.8080312515035042,
+   "volume_ratio": 1.0603093382094069,
    "valuation": {
-    "forward_pe": 13.999703,
-    "trailing_pe": 21.688524,
-    "peg_ratio": 0.98,
-    "analyst_target": 80.4,
-    "analyst_upside_pct": 1.259443897863366
+    "forward_pe": 23.887276,
+    "trailing_pe": 30.219778,
+    "peg_ratio": 1.44,
+    "analyst_target": 666.7138,
+    "analyst_upside_pct": 20.897571113425983
    },
    "short_interest": {
-    "pct_of_float": 3.97,
-    "days_to_cover": 4.01
+    "pct_of_float": 0.83,
+    "days_to_cover": 2.73
    },
    "insider": {
     "recent_buys": 0,
     "shares": null
    },
    "hot_score": {
-    "total": 44.0,
-    "valuation": 13.1,
-    "technical": 4.4,
-    "catalyst": 2.5,
-    "sentiment": 24.0
+    "total": 43.1,
+    "valuation": 17.0,
+    "technical": 4.5,
+    "catalyst": 2.4,
+    "sentiment": 19.1
    },
    "reasons": [
     "No single obvious catalyst in the price action \u2014 likely broad market or sector weakness. Check the headlines below."
    ],
-   "news": [
-    {
-     "title": "Archer Daniels Midland (ADM) Stock Looks Discounted As Cash Flow Stays Strong",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/archer-daniels-midland-adm-stock-070800634.html",
-     "publisher": "Simply Wall St."
-    },
-    {
-     "title": "Why Archer Daniels Midland (ADM) Dipped More Than Broader Market Today",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/why-archer-daniels-midland-adm-210002689.html",
-     "publisher": "Zacks"
-    },
-    {
-     "title": "Archer-Daniels-Midland (ADM) Gets A Fresh Look, Is It Fully Priced?",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/archer-daniels-midland-adm-gets-031211165.html",
-     "publisher": "Simply Wall St."
-    }
-   ],
-   "sentiment": {
-    "label": "Bullish",
-    "bullish_pct": 69.2,
-    "sample_size": 13
-   },
-   "earnings_surprise": {
-    "date": "2026-08-04",
-    "actual_eps": 1.84,
-    "estimate_eps": 1.44,
-    "surprise_pct": 27.77777777777779
-   }
-  },
-  {
-   "symbol": "MNST",
-   "name": "Monster Beverage Corporation",
-   "close": 41.7400016784668,
-   "lower_band": 41.88253509138896,
-   "pct_below_band": 0.3403170620191692,
-   "market_cap": 81535729664.0,
-   "chg_1d": -0.28666729607044195,
-   "chg_5d": -5.714928288086762,
-   "chg_1mo": -10.926160617150604,
-   "off_52w_high": -16.469880610742404,
-   "rsi": 31.37994745770665,
-   "rsi_divergence": false,
-   "macd_histogram": -0.15231523000788616,
-   "macd_turning_up": false,
-   "volume_ratio": 1.134524187978367,
-   "valuation": {
-    "forward_pe": 31.791376,
-    "trailing_pe": 38.537033,
-    "peg_ratio": 2.15,
-    "analyst_target": 50.23913,
-    "analyst_upside_pct": 20.362069908391533
-   },
-   "short_interest": {
-    "pct_of_float": 3.02,
-    "days_to_cover": 4.35
-   },
-   "insider": {
-    "recent_buys": 0,
-    "shares": null
-   },
-   "hot_score": {
-    "total": 44.0,
-    "valuation": 14.5,
-    "technical": 6.5,
-    "catalyst": 4.3,
-    "sentiment": 18.6
-   },
-   "reasons": [
-    "No single obvious catalyst in the price action \u2014 likely broad market or sector weakness. Check the headlines below."
-   ],
-   "news": [
-    {
-     "title": "Coca-Cola\u2019s Secret Weapon Isn\u2019t Its Soda",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/coca-cola-secret-weapon-isn-124544317.html",
-     "publisher": "24/7 Wall St."
-    },
-    {
-     "title": "Monster Beverage Is Lagging the S&P 500 in 2026. Here's Where the Stock Could Trade by September 2027.",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/monster-beverage-lagging-p-500-150500619.html",
-     "publisher": "Motley Fool"
-    },
-    {
-     "title": "KO vs. MNST: Which Beverage Stock Has the Stronger Growth Story?",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/ko-vs-mnst-beverage-stock-123700741.html",
-     "publisher": "Zacks"
-    }
-   ],
+   "news": [],
    "sentiment": {
     "label": "Bullish",
     "bullish_pct": 100.0,
-    "sample_size": 16
+    "sample_size": 12
    },
    "earnings_surprise": {
-    "date": "2026-08-06",
-    "actual_eps": 0.3,
-    "estimate_eps": 0.29,
-    "surprise_pct": 3.448275862068969
+    "date": "2026-07-30",
+    "actual_eps": 5.04,
+    "estimate_eps": 4.78,
+    "surprise_pct": 5.43933054393305
+   }
+  },
+  {
+   "symbol": "MET",
+   "name": "MetLife, Inc.",
+   "close": 94.16000366210938,
+   "lower_band": 94.52649487679393,
+   "pct_below_band": 0.3877126885559901,
+   "market_cap": 59957248000.0,
+   "chg_1d": -1.0924299574276541,
+   "chg_5d": -3.127565207385319,
+   "chg_1mo": -1.061253048511146,
+   "off_52w_high": -5.792889907871723,
+   "rsi": 40.55300786119723,
+   "rsi_divergence": false,
+   "macd_histogram": -0.35180984212415206,
+   "macd_turning_up": false,
+   "volume_ratio": 0.9096559439385403,
+   "valuation": {
+    "forward_pe": 8.639651,
+    "trailing_pe": 18.074713,
+    "peg_ratio": 0.5,
+    "analyst_target": 105.875,
+    "analyst_upside_pct": 12.441584411922468
+   },
+   "short_interest": {
+    "pct_of_float": 1.94,
+    "days_to_cover": 4.3
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 42.8,
+    "valuation": 17.8,
+    "technical": 3.7,
+    "catalyst": 2.0,
+    "sentiment": 19.3
+   },
+   "reasons": [
+    "No single obvious catalyst in the price action \u2014 likely broad market or sector weakness. Check the headlines below."
+   ],
+   "news": [],
+   "sentiment": {
+    "label": "Bullish",
+    "bullish_pct": 83.3,
+    "sample_size": 6
+   },
+   "earnings_surprise": {
+    "date": "2026-08-05",
+    "actual_eps": 2.43,
+    "estimate_eps": 2.29,
+    "surprise_pct": 6.1135371179039355
+   }
+  },
+  {
+   "symbol": "ACGL",
+   "name": "Arch Capital Group Ltd.",
+   "close": 92.36000061035156,
+   "lower_band": 93.01447496941353,
+   "pct_below_band": 0.7036263541531349,
+   "market_cap": 32142661632.0,
+   "chg_1d": -2.901600143540417,
+   "chg_5d": -2.9424158722187066,
+   "chg_1mo": -5.8223708598359565,
+   "off_52w_high": -13.260708397284803,
+   "rsi": 30.015239246138435,
+   "rsi_divergence": false,
+   "macd_histogram": -0.24828436034265144,
+   "macd_turning_up": false,
+   "volume_ratio": 0.8344115278530536,
+   "valuation": {
+    "forward_pe": 9.649571,
+    "trailing_pe": 7.375587,
+    "peg_ratio": 1.05,
+    "analyst_target": 111.39474,
+    "analyst_upside_pct": 20.60928893878229
+   },
+   "short_interest": {
+    "pct_of_float": 2.5,
+    "days_to_cover": 2.5
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 42.5,
+    "valuation": 14.9,
+    "technical": 7.0,
+    "catalyst": 1.8,
+    "sentiment": 18.8
+   },
+   "reasons": [
+    "No single obvious catalyst in the price action \u2014 likely broad market or sector weakness. Check the headlines below."
+   ],
+   "news": [],
+   "sentiment": {
+    "label": "Bullish",
+    "bullish_pct": 100.0,
+    "sample_size": 5
+   },
+   "earnings_surprise": {
+    "date": "2026-07-28",
+    "actual_eps": 2.56,
+    "estimate_eps": 2.46,
+    "surprise_pct": 4.065040650406507
+   }
+  },
+  {
+   "symbol": "ITW",
+   "name": "Illinois Tool Works Inc.",
+   "close": 257.2799987792969,
+   "lower_band": 261.2765871523782,
+   "pct_below_band": 1.5296389227368907,
+   "market_cap": 74287226880.0,
+   "chg_1d": -3.6657087192261795,
+   "chg_5d": -5.90301143142301,
+   "chg_1mo": -6.569341852293009,
+   "off_52w_high": -14.125502824454761,
+   "rsi": 30.865195248290178,
+   "rsi_divergence": false,
+   "macd_histogram": -0.16506362081506154,
+   "macd_turning_up": false,
+   "volume_ratio": 1.1263705737502197,
+   "valuation": {
+    "forward_pe": 21.055384,
+    "trailing_pe": 23.626812,
+    "peg_ratio": 2.39,
+    "analyst_target": 300.64285,
+    "analyst_upside_pct": 16.854342127815848
+   },
+   "short_interest": {
+    "pct_of_float": 3.09,
+    "days_to_cover": 8.21
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 41.9,
+    "valuation": 12.7,
+    "technical": 6.7,
+    "catalyst": 4.3,
+    "sentiment": 18.1
+   },
+   "reasons": [
+    "No single obvious catalyst in the price action \u2014 likely broad market or sector weakness. Check the headlines below."
+   ],
+   "news": [],
+   "sentiment": {
+    "label": "Bullish",
+    "bullish_pct": 100.0,
+    "sample_size": 7
+   },
+   "earnings_surprise": {
+    "date": "2026-07-28",
+    "actual_eps": 2.84,
+    "estimate_eps": 2.8,
+    "surprise_pct": 1.42857142857143
    }
   },
   {
    "symbol": "NUE",
    "name": "Nucor Corporation",
-   "close": 236.24000549316406,
-   "lower_band": 237.64526695391638,
-   "pct_below_band": 0.5913273505357963,
-   "market_cap": 53032189952.0,
-   "chg_1d": -3.374371064109072,
-   "chg_5d": -3.83456729973104,
-   "chg_1mo": -5.692612577579215,
-   "off_52w_high": -14.013243834058297,
-   "rsi": 35.910182546166936,
+   "close": 233.75,
+   "lower_band": 234.55860244485618,
+   "pct_below_band": 0.3447336556527602,
+   "market_cap": 53538123776.0,
+   "chg_1d": -1.0540151690083266,
+   "chg_5d": -5.356707408050165,
+   "chg_1mo": -6.365165609877554,
+   "off_52w_high": -14.919557287385532,
+   "rsi": 34.32706974147801,
    "rsi_divergence": false,
-   "macd_histogram": -1.8050658104096047,
+   "macd_histogram": -2.145480934105017,
    "macd_turning_up": false,
-   "volume_ratio": 1.1829551546911217,
+   "volume_ratio": 1.220184066263855,
    "valuation": {
-    "forward_pe": 11.755766,
-    "trailing_pe": 18.64035,
+    "forward_pe": 11.937233,
+    "trailing_pe": 18.848242,
     "peg_ratio": 5.21,
     "analyst_target": 283.3125,
-    "analyst_upside_pct": 19.925708352643113
+    "analyst_upside_pct": 21.203208556149722
    },
    "short_interest": {
     "pct_of_float": 2.51,
@@ -805,32 +1170,16 @@
     "shares": null
    },
    "hot_score": {
-    "total": 40.4,
-    "valuation": 11.5,
-    "technical": 5.0,
-    "catalyst": 4.4,
+    "total": 41.6,
+    "valuation": 11.9,
+    "technical": 5.6,
+    "catalyst": 4.7,
     "sentiment": 19.5
    },
    "reasons": [
     "No single obvious catalyst in the price action \u2014 likely broad market or sector weakness. Check the headlines below."
    ],
-   "news": [
-    {
-     "title": "\u201cCleveland-Cliffs Rises 3% as Steel-Stock Selloff Subsides; Nucor and Steel Dynamics Tick Higher",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/cleveland-cliffs-rises-3-steel-164249184.html",
-     "publisher": "24/7 Wall St."
-    },
-    {
-     "title": "A $15 Billion Iowa Steel Mill Is Coming. What It Means for Nucor and Cleveland-Cliffs",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/15-billion-iowa-steel-mill-145053909.html",
-     "publisher": "24/7 Wall St."
-    },
-    {
-     "title": "Nucor Stock: Estimates Bake In a 60% Earnings Rebound, But Q3 Guidance Just Missed",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/nucor-stock-estimates-bake-60-141658770.html",
-     "publisher": "TIKR"
-    }
-   ],
+   "news": [],
    "sentiment": {
     "label": "Bullish",
     "bullish_pct": 83.3,
@@ -844,97 +1193,27 @@
    }
   },
   {
-   "symbol": "STLD",
-   "name": "Steel Dynamics, Inc.",
-   "close": 221.89999389648438,
-   "lower_band": 225.16878266026796,
-   "pct_below_band": 1.4517060158892008,
-   "market_cap": 31762939904.0,
-   "chg_1d": -3.6850581690419992,
-   "chg_5d": -5.1668923085831935,
-   "chg_1mo": -5.441685930072515,
-   "off_52w_high": -21.52355841251613,
-   "rsi": 36.126237271938244,
-   "rsi_divergence": false,
-   "macd_histogram": -0.9834253326665001,
-   "macd_turning_up": false,
-   "volume_ratio": 1.2168786587948086,
-   "valuation": {
-    "forward_pe": 11.321952,
-    "trailing_pe": 20.09157,
-    "peg_ratio": 11.95,
-    "analyst_target": 271.7143,
-    "analyst_upside_pct": 22.448989397788722
-   },
-   "short_interest": {
-    "pct_of_float": 3.32,
-    "days_to_cover": 3.18
-   },
-   "insider": {
-    "recent_buys": 0,
-    "shares": null
-   },
-   "hot_score": {
-    "total": 40.2,
-    "valuation": 12.2,
-    "technical": 5.0,
-    "catalyst": 5.1,
-    "sentiment": 17.9
-   },
-   "reasons": [
-    "No single obvious catalyst in the price action \u2014 likely broad market or sector weakness. Check the headlines below."
-   ],
-   "news": [
-    {
-     "title": "\u201cCleveland-Cliffs Rises 3% as Steel-Stock Selloff Subsides; Nucor and Steel Dynamics Tick Higher",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/cleveland-cliffs-rises-3-steel-164249184.html",
-     "publisher": "24/7 Wall St."
-    },
-    {
-     "title": "Nucor (NUE) Moves To Join FERC Fight Over MISO Power Rules",
-     "link": "https://finance.yahoo.com/energy/articles/nucor-nue-moves-join-ferc-120843512.html",
-     "publisher": "Simply Wall St."
-    },
-    {
-     "title": "Steel Dynamics (STLD) Registers a Bigger Fall Than the Market: Important Facts to Note",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/steel-dynamics-stld-registers-bigger-211505772.html",
-     "publisher": "Zacks"
-    }
-   ],
-   "sentiment": {
-    "label": "Bullish",
-    "bullish_pct": 88.9,
-    "sample_size": 9
-   },
-   "earnings_surprise": {
-    "date": "2026-07-20",
-    "actual_eps": 3.69,
-    "estimate_eps": 3.67,
-    "surprise_pct": 0.5449591280653956
-   }
-  },
-  {
    "symbol": "DRI",
    "name": "Darden Restaurants, Inc.",
-   "close": 195.11000061035156,
-   "lower_band": 196.73269645068984,
-   "pct_below_band": 0.8248226500290979,
-   "market_cap": 21941944320.0,
-   "chg_1d": -0.969446564150922,
-   "chg_5d": -8.630698349365396,
-   "chg_1mo": -9.516302837173729,
-   "off_52w_high": -14.305162119277515,
-   "rsi": 34.02700740824746,
+   "close": 193.25,
+   "lower_band": 194.022013840539,
+   "pct_below_band": 0.39790012754608584,
+   "market_cap": 22414278656.0,
+   "chg_1d": -0.9533086999810481,
+   "chg_5d": -9.56525911735665,
+   "chg_1mo": -9.805841055487196,
+   "off_52w_high": -15.122098464229106,
+   "rsi": 32.668966420679055,
    "rsi_divergence": false,
-   "macd_histogram": -1.8197418087074413,
+   "macd_histogram": -2.0361087451023607,
    "macd_turning_up": false,
-   "volume_ratio": 1.1466818680983466,
+   "volume_ratio": 0.9927015715430172,
    "valuation": {
-    "forward_pe": 15.588134,
-    "trailing_pe": 19.001966,
-    "peg_ratio": 1.99,
-    "analyst_target": 234.41667,
-    "analyst_upside_pct": 20.145901935670963
+    "forward_pe": 15.923693,
+    "trailing_pe": 19.16602,
+    "peg_ratio": 1.98,
+    "analyst_target": 234.44,
+    "analyst_upside_pct": 21.314359637774906
    },
    "short_interest": {
     "pct_of_float": 7.23,
@@ -945,33 +1224,17 @@
     "shares": null
    },
    "hot_score": {
-    "total": 39.9,
-    "valuation": 15.0,
-    "technical": 5.7,
-    "catalyst": 7.1,
+    "total": 39.6,
+    "valuation": 15.3,
+    "technical": 6.1,
+    "catalyst": 5.9,
     "sentiment": 12.2
    },
    "reasons": [
     "DRI reported earnings on Sep 24 \u2014 earnings reactions are the most common cause of a sharp break below the band.",
-    "Down -8.6% over 5 sessions without a single large gap \u2014 suggests sustained selling pressure (sector rotation, macro, or sentiment shift)."
+    "Down -9.6% over 5 sessions without a single large gap \u2014 suggests sustained selling pressure (sector rotation, macro, or sentiment shift)."
    ],
-   "news": [
-    {
-     "title": "CAKE Bets on Menu Innovation: Can It Keep Consumers Coming Back?",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/cake-bets-menu-innovation-keep-123100348.html",
-     "publisher": "Zacks"
-    },
-    {
-     "title": "Darden\u2019s Sales Rise as Olive Garden Targets Lunch Comeback",
-     "link": "https://finance.yahoo.com/small-business/articles/darden-sales-rise-olive-garden-154500674.html",
-     "publisher": "FSR"
-    },
-    {
-     "title": "Darden (DRI): LongHorn Keeps Carrying the Portfolio While Olive Garden\u2019s Growth Fades",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/darden-dri-longhorn-keeps-carrying-003132989.html",
-     "publisher": "Insider Monkey"
-    }
-   ],
+   "news": [],
    "sentiment": {
     "label": "Mixed",
     "bullish_pct": 42.9,
@@ -985,97 +1248,405 @@
    }
   },
   {
-   "symbol": "T",
-   "name": "AT&T Inc.",
-   "close": 24.479999542236328,
-   "lower_band": 24.560544801098484,
-   "pct_below_band": 0.3279457337548683,
-   "market_cap": 167198212096.0,
-   "chg_1d": -1.6867473201942818,
-   "chg_5d": -2.4701228279307874,
-   "chg_1mo": -5.882355529342043,
-   "off_52w_high": -15.87629133563626,
-   "rsi": 39.927796598408584,
+   "symbol": "CB",
+   "name": "Chubb Limited",
+   "close": 325.25,
+   "lower_band": 327.96354870177316,
+   "pct_below_band": 0.8273933833545241,
+   "market_cap": 127815491584.0,
+   "chg_1d": -2.0567293569133227,
+   "chg_5d": -2.9712692667196006,
+   "chg_1mo": -3.9427069884441446,
+   "off_52w_high": -10.522696011004129,
+   "rsi": 29.174342273225747,
    "rsi_divergence": false,
-   "macd_histogram": -0.1988619187832068,
+   "macd_histogram": -1.048842418469392,
    "macd_turning_up": false,
-   "volume_ratio": 1.014168984853265,
+   "volume_ratio": 0.817247303988215,
    "valuation": {
-    "forward_pe": 9.48302,
-    "trailing_pe": 8.052805,
-    "peg_ratio": 1.49,
-    "analyst_target": 29.05208,
-    "analyst_upside_pct": 18.676799604817298
+    "forward_pe": 11.372396,
+    "trailing_pe": 11.735742,
+    "peg_ratio": 2.45,
+    "analyst_target": 365.82608,
+    "analyst_upside_pct": 12.475351268255185
    },
    "short_interest": {
-    "pct_of_float": 1.91,
-    "days_to_cover": 3.94
+    "pct_of_float": 0.93,
+    "days_to_cover": 2.27
    },
    "insider": {
     "recent_buys": 0,
     "shares": null
    },
    "hot_score": {
-    "total": 39.6,
-    "valuation": 12.9,
-    "technical": 3.7,
-    "catalyst": 2.8,
-    "sentiment": 20.3
+    "total": 38.9,
+    "valuation": 11.3,
+    "technical": 7.3,
+    "catalyst": 0.7,
+    "sentiment": 19.6
    },
    "reasons": [
     "No single obvious catalyst in the price action \u2014 likely broad market or sector weakness. Check the headlines below."
    ],
-   "news": [
-    {
-     "title": "Tutor Perini (TPC) Suffers a Larger Drop Than the General Market: Key Insights",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/tutor-perini-tpc-suffers-larger-210006831.html",
-     "publisher": "Zacks"
-    },
-    {
-     "title": "3 Reasons We\u2019re Fans of Tutor Perini (TPC)",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/3-reasons-fans-tutor-perini-161313596.html",
-     "publisher": "StockStory"
-    },
-    {
-     "title": "Does AT&T\u2019s US$3 Billion Fiber Deal Reshape the Bull Case for Corning (GLW)?",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/does-t-us-3-billion-101146578.html",
-     "publisher": "Simply Wall St."
-    }
-   ],
+   "news": [],
    "sentiment": {
     "label": "Bullish",
     "bullish_pct": 100.0,
     "sample_size": 6
    },
    "earnings_surprise": {
+    "date": "2026-07-21",
+    "actual_eps": 7.26,
+    "estimate_eps": 6.75,
+    "surprise_pct": 7.555555555555553
+   }
+  },
+  {
+   "symbol": "STLD",
+   "name": "Steel Dynamics, Inc.",
+   "close": 221.61000061035156,
+   "lower_band": 222.80860559493934,
+   "pct_below_band": 0.5379527336420791,
+   "market_cap": 32416516096.0,
+   "chg_1d": -0.13068647774190367,
+   "chg_5d": -5.412093149149344,
+   "chg_1mo": -4.733038749007545,
+   "off_52w_high": -21.626116509883996,
+   "rsi": 35.93275758704556,
+   "rsi_divergence": false,
+   "macd_histogram": -1.3151948477481126,
+   "macd_turning_up": false,
+   "volume_ratio": 1.0333317174380952,
+   "valuation": {
+    "forward_pe": 11.498887,
+    "trailing_pe": 20.542234,
+    "peg_ratio": 11.95,
+    "analyst_target": 270.60358,
+    "analyst_upside_pct": 22.108018254912597
+   },
+   "short_interest": {
+    "pct_of_float": 3.32,
+    "days_to_cover": 3.18
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 38.8,
+    "valuation": 12.1,
+    "technical": 5.0,
+    "catalyst": 3.8,
+    "sentiment": 17.9
+   },
+   "reasons": [
+    "No single obvious catalyst in the price action \u2014 likely broad market or sector weakness. Check the headlines below."
+   ],
+   "news": [],
+   "sentiment": {
+    "label": "Bullish",
+    "bullish_pct": 88.9,
+    "sample_size": 9
+   },
+   "earnings_surprise": {
+    "date": "2026-07-20",
+    "actual_eps": 3.69,
+    "estimate_eps": 3.67,
+    "surprise_pct": 0.5449591280653956
+   }
+  },
+  {
+   "symbol": "WMT",
+   "name": "Walmart Inc.",
+   "close": 103.91999816894531,
+   "lower_band": 104.35575158164085,
+   "pct_below_band": 0.4175653053053133,
+   "market_cap": 827172388864.0,
+   "chg_1d": -2.6966337083499714,
+   "chg_5d": -5.98027746616574,
+   "chg_1mo": -0.9058878161111505,
+   "off_52w_high": -22.563337904527046,
+   "rsi": 38.922650474471915,
+   "rsi_divergence": false,
+   "macd_histogram": -0.060922970377891406,
+   "macd_turning_up": false,
+   "volume_ratio": 0.8717781157744154,
+   "valuation": {
+    "forward_pe": 32.27914,
+    "trailing_pe": 37.63899,
+    "peg_ratio": 3.99,
+    "analyst_target": 126.775,
+    "analyst_upside_pct": 21.99288128729444
+   },
+   "short_interest": {
+    "pct_of_float": 1.83,
+    "days_to_cover": 2.9
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 37.9,
+    "valuation": 12.1,
+    "technical": 4.0,
+    "catalyst": 1.7,
+    "sentiment": 20.1
+   },
+   "reasons": [
+    "No single obvious catalyst in the price action \u2014 likely broad market or sector weakness. Check the headlines below."
+   ],
+   "news": [],
+   "sentiment": {
+    "label": "Bullish",
+    "bullish_pct": 86.7,
+    "sample_size": 15
+   },
+   "earnings_surprise": {
+    "date": "2026-08-20",
+    "actual_eps": 0.81,
+    "estimate_eps": 0.74,
+    "surprise_pct": 9.459459459459469
+   }
+  },
+  {
+   "symbol": "KMI",
+   "name": "Kinder Morgan, Inc.",
+   "close": 30.149999618530273,
+   "lower_band": 30.16971535963146,
+   "pct_below_band": 0.06534944352696098,
+   "market_cap": 67923935232.0,
+   "chg_1d": -0.9852254085139789,
+   "chg_5d": -3.889069773875531,
+   "chg_1mo": -6.482636324837543,
+   "off_52w_high": -12.12474960143587,
+   "rsi": 36.45413754965676,
+   "rsi_divergence": false,
+   "macd_histogram": -0.09634625336893263,
+   "macd_turning_up": false,
+   "volume_ratio": 0.8707566030297911,
+   "valuation": {
+    "forward_pe": 19.766403,
+    "trailing_pe": 19.696775,
+    "peg_ratio": 3.08,
+    "analyst_target": 36.09091,
+    "analyst_upside_pct": 19.704512293984997
+   },
+   "short_interest": {
+    "pct_of_float": 2.39,
+    "days_to_cover": 4.02
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 37.6,
+    "valuation": 8.1,
+    "technical": 4.8,
+    "catalyst": 2.0,
+    "sentiment": 22.6
+   },
+   "reasons": [
+    "No single obvious catalyst in the price action \u2014 likely broad market or sector weakness. Check the headlines below."
+   ],
+   "news": [],
+   "sentiment": {
+    "label": "Bullish",
+    "bullish_pct": 92.3,
+    "sample_size": 13
+   },
+   "earnings_surprise": {
     "date": "2026-07-22",
-    "actual_eps": 0.65,
-    "estimate_eps": 0.59,
-    "surprise_pct": 10.169491525423737
+    "actual_eps": 0.37,
+    "estimate_eps": 0.31,
+    "surprise_pct": 19.35483870967742
+   }
+  },
+  {
+   "symbol": "AFL",
+   "name": "AFLAC Incorporated",
+   "close": 111.77999877929688,
+   "lower_band": 112.15899381439125,
+   "pct_below_band": 0.3379087331342907,
+   "market_cap": 55739346944.0,
+   "chg_1d": -1.6540601990489234,
+   "chg_5d": -2.994015861433308,
+   "chg_1mo": -3.5131633564357667,
+   "off_52w_high": -13.716714669131624,
+   "rsi": 30.836570266099443,
+   "rsi_divergence": false,
+   "macd_histogram": -0.1709648828293986,
+   "macd_turning_up": false,
+   "volume_ratio": 0.6922312823263386,
+   "valuation": {
+    "forward_pe": 14.720466,
+    "trailing_pe": 11.993527,
+    "peg_ratio": 1.18,
+    "analyst_target": 118.53333,
+    "analyst_upside_pct": 6.041627567054464
+   },
+   "short_interest": {
+    "pct_of_float": 2.99,
+    "days_to_cover": 5.46
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 36.6,
+    "valuation": 10.4,
+    "technical": 6.7,
+    "catalyst": 1.9,
+    "sentiment": 17.6
+   },
+   "reasons": [
+    "No single obvious catalyst in the price action \u2014 likely broad market or sector weakness. Check the headlines below."
+   ],
+   "news": [],
+   "sentiment": {
+    "label": "Bullish",
+    "bullish_pct": 85.7,
+    "sample_size": 7
+   },
+   "earnings_surprise": {
+    "date": "2026-08-06",
+    "actual_eps": 1.75,
+    "estimate_eps": 1.76,
+    "surprise_pct": -0.5681818181818187
+   }
+  },
+  {
+   "symbol": "NEM",
+   "name": "Newmont Corporation",
+   "close": 115.33999633789062,
+   "lower_band": 115.715927456934,
+   "pct_below_band": 0.3248741355707341,
+   "market_cap": 120826896384.0,
+   "chg_1d": -1.494576867993036,
+   "chg_5d": -6.645088232355478,
+   "chg_1mo": -8.503888170964292,
+   "off_52w_high": -14.651474871380287,
+   "rsi": 40.542884645145,
+   "rsi_divergence": false,
+   "macd_histogram": -1.7043064746523728,
+   "macd_turning_up": false,
+   "volume_ratio": 0.8208638395500946,
+   "valuation": {
+    "forward_pe": 11.207501,
+    "trailing_pe": 14.442065,
+    "peg_ratio": 2.78,
+    "analyst_target": 137.7381,
+    "analyst_upside_pct": 19.419199213856153
+   },
+   "short_interest": {
+    "pct_of_float": 1.83,
+    "days_to_cover": 2.09
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 36.2,
+    "valuation": 12.1,
+    "technical": 3.7,
+    "catalyst": 1.3,
+    "sentiment": 19.1
+   },
+   "reasons": [
+    "No single obvious catalyst in the price action \u2014 likely broad market or sector weakness. Check the headlines below."
+   ],
+   "news": [],
+   "sentiment": {
+    "label": "Bullish",
+    "bullish_pct": 85.7,
+    "sample_size": 7
+   },
+   "earnings_surprise": {
+    "date": "2026-07-23",
+    "actual_eps": 2.1,
+    "estimate_eps": 1.99,
+    "surprise_pct": 5.527638190954779
+   }
+  },
+  {
+   "symbol": "PRU",
+   "name": "Prudential Financial, Inc.",
+   "close": 113.58000183105469,
+   "lower_band": 114.26536332395312,
+   "pct_below_band": 0.5997981128851552,
+   "market_cap": 39029850112.0,
+   "chg_1d": -1.2862817303514906,
+   "chg_5d": -3.4101493594007493,
+   "chg_1mo": -3.4183645367572346,
+   "off_52w_high": -9.23039692790194,
+   "rsi": 34.73801479010747,
+   "rsi_divergence": false,
+   "macd_histogram": -0.44561941667151417,
+   "macd_turning_up": false,
+   "volume_ratio": 0.9782543146072515,
+   "valuation": {
+    "forward_pe": 7.6131883,
+    "trailing_pe": 10.256573,
+    "peg_ratio": 0.66,
+    "analyst_target": 113.4,
+    "analyst_upside_pct": -0.15848021496110976
+   },
+   "short_interest": {
+    "pct_of_float": 5.0,
+    "days_to_cover": 9.83
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 35.4,
+    "valuation": 13.8,
+    "technical": 5.4,
+    "catalyst": 4.4,
+    "sentiment": 11.7
+   },
+   "reasons": [
+    "No single obvious catalyst in the price action \u2014 likely broad market or sector weakness. Check the headlines below."
+   ],
+   "news": [],
+   "sentiment": {
+    "label": "Bearish",
+    "bullish_pct": 30.8,
+    "sample_size": 13
+   },
+   "earnings_surprise": {
+    "date": "2026-08-04",
+    "actual_eps": 4.08,
+    "estimate_eps": 3.52,
+    "surprise_pct": 15.909090909090912
    }
   },
   {
    "symbol": "KO",
    "name": "Coca-Cola Company (The)",
-   "close": 86.83999633789062,
-   "lower_band": 86.8970848531986,
-   "pct_below_band": 0.06569669788626983,
-   "market_cap": 370363432960.0,
-   "chg_1d": -0.39000225521330645,
-   "chg_5d": -1.9975220181345565,
-   "chg_1mo": -3.1452232980562433,
-   "off_52w_high": -5.5984364012114485,
-   "rsi": 43.224859838136986,
+   "close": 86.08000183105469,
+   "lower_band": 86.51545739448783,
+   "pct_below_band": 0.5033268927280524,
+   "market_cap": 370449448960.0,
+   "chg_1d": -0.8751664427515959,
+   "chg_5d": -2.2817511526804,
+   "chg_1mo": -2.9209387519731678,
+   "off_52w_high": -6.424607207260857,
+   "rsi": 39.51192703165408,
    "rsi_divergence": false,
-   "macd_histogram": -0.22294207549168385,
+   "macd_histogram": -0.282052426845723,
    "macd_turning_up": false,
-   "volume_ratio": 1.02042558866927,
+   "volume_ratio": 1.0424677030555738,
    "valuation": {
-    "forward_pe": 24.410301,
-    "trailing_pe": 25.849852,
-    "peg_ratio": 3.94,
+    "forward_pe": 24.415972,
+    "trailing_pe": 25.855856,
+    "peg_ratio": 3.91,
     "analyst_target": 94.65217,
-    "analyst_upside_pct": 8.99605480372494
+    "analyst_upside_pct": 9.958373590383406
    },
    "short_interest": {
     "pct_of_float": 0.95,
@@ -1086,32 +1657,16 @@
     "shares": null
    },
    "hot_score": {
-    "total": 33.2,
-    "valuation": 8.5,
-    "technical": 3.7,
-    "catalyst": 2.2,
+    "total": 33.8,
+    "valuation": 8.8,
+    "technical": 3.8,
+    "catalyst": 2.4,
     "sentiment": 18.8
    },
    "reasons": [
     "No single obvious catalyst in the price action \u2014 likely broad market or sector weakness. Check the headlines below."
    ],
-   "news": [
-    {
-     "title": "2 Reasons to Watch KO and 1 to Stay Cautious",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/2-reasons-watch-ko-1-151713412.html",
-     "publisher": "StockStory"
-    },
-    {
-     "title": "Can Innovation Help PepsiCo Outpace Industry Headwinds?",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/innovation-help-pepsico-outpace-industry-140100943.html",
-     "publisher": "Zacks"
-    },
-    {
-     "title": "Coca-Cola\u2019s Secret Weapon Isn\u2019t Its Soda",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/coca-cola-secret-weapon-isn-124544317.html",
-     "publisher": "24/7 Wall St."
-    }
-   ],
+   "news": [],
    "sentiment": {
     "label": "Bullish",
     "bullish_pct": 71.4,
@@ -1122,6 +1677,60 @@
     "actual_eps": 0.97,
     "estimate_eps": 0.93,
     "surprise_pct": 4.301075268817196
+   }
+  },
+  {
+   "symbol": "MO",
+   "name": "Altria Group, Inc.",
+   "close": 67.33999633789062,
+   "lower_band": 67.5429402201377,
+   "pct_below_band": 0.3004664611662293,
+   "market_cap": 111789350912.0,
+   "chg_1d": -2.0081560801788023,
+   "chg_5d": -2.335026369268911,
+   "chg_1mo": -1.6647297943327866,
+   "off_52w_high": -10.11746131381599,
+   "rsi": 41.06448792318062,
+   "rsi_divergence": false,
+   "macd_histogram": -0.15449806327151316,
+   "macd_turning_up": false,
+   "volume_ratio": 0.7482717735728698,
+   "valuation": {
+    "forward_pe": 11.417063,
+    "trailing_pe": 14.184322,
+    "peg_ratio": 2.58,
+    "analyst_target": 70.0,
+    "analyst_upside_pct": 3.9501096031581584
+   },
+   "short_interest": {
+    "pct_of_float": 2.34,
+    "days_to_cover": 4.52
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 31.0,
+    "valuation": 8.5,
+    "technical": 3.7,
+    "catalyst": 1.5,
+    "sentiment": 17.4
+   },
+   "reasons": [
+    "No single obvious catalyst in the price action \u2014 likely broad market or sector weakness. Check the headlines below."
+   ],
+   "news": [],
+   "sentiment": {
+    "label": "Bullish",
+    "bullish_pct": 100.0,
+    "sample_size": 8
+   },
+   "earnings_surprise": {
+    "date": "2026-07-30",
+    "actual_eps": 1.48,
+    "estimate_eps": 1.5,
+    "surprise_pct": -1.3333333333333344
    }
   }
  ]
