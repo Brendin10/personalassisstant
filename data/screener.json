@@ -1,80 +1,26 @@
 {
- "updated": "Oct 05, 2026 09:57 PM ET",
+ "updated": "Oct 06, 2026 09:03 PM ET",
  "criteria": "close < lower BB(20,2), market cap > $20B",
  "universe_size": 503,
  "results": [
   {
-   "symbol": "VTR",
-   "name": "Ventas, Inc.",
-   "close": 81.36000061035156,
-   "lower_band": 82.64634067287852,
-   "pct_below_band": 1.5564392229032953,
-   "market_cap": 41733316608.0,
-   "chg_1d": -3.1543881186690936,
-   "chg_5d": -6.5257355760924725,
-   "chg_1mo": -11.670828280063962,
-   "off_52w_high": -19.06893305652081,
-   "rsi": 20.97683249997479,
-   "rsi_divergence": false,
-   "macd_histogram": -0.43806409907246247,
-   "macd_turning_up": false,
-   "volume_ratio": 1.9976301003644579,
-   "valuation": {
-    "forward_pe": 102.98734,
-    "trailing_pe": 150.66666,
-    "peg_ratio": 4.79,
-    "analyst_target": 101.81818,
-    "analyst_upside_pct": 25.145254715061437
-   },
-   "short_interest": {
-    "pct_of_float": 4.42,
-    "days_to_cover": 6.54
-   },
-   "insider": {
-    "recent_buys": 0,
-    "shares": null
-   },
-   "hot_score": {
-    "total": 58.6,
-    "valuation": 13.0,
-    "technical": 10.0,
-    "catalyst": 11.6,
-    "sentiment": 24.0
-   },
-   "reasons": [
-    "No single obvious catalyst in the price action \u2014 likely broad market or sector weakness. Check the headlines below."
-   ],
-   "news": [],
-   "sentiment": {
-    "label": "Bullish",
-    "bullish_pct": 100.0,
-    "sample_size": 3
-   },
-   "earnings_surprise": {
-    "date": "2026-07-29",
-    "actual_eps": 0.17,
-    "estimate_eps": 0.11,
-    "surprise_pct": 54.545454545454554
-   }
-  },
-  {
    "symbol": "KHC",
    "name": "The Kraft Heinz Company",
    "close": 21.84000015258789,
-   "lower_band": 22.076348343682056,
-   "pct_below_band": 1.0705945902588796,
-   "market_cap": 25898391552.0,
+   "lower_band": 22.076348343682074,
+   "pct_below_band": 1.0705945902589589,
+   "market_cap": 26123698176.0,
    "chg_1d": -1.5772887473911479,
    "chg_5d": -7.3005065888939065,
    "chg_1mo": -14.083398556102578,
    "off_52w_high": -20.926866441058134,
-   "rsi": 21.861122203276793,
+   "rsi": 21.861122175012724,
    "rsi_divergence": false,
-   "macd_histogram": -0.21881922160182254,
+   "macd_histogram": -0.21881922129079723,
    "macd_turning_up": false,
-   "volume_ratio": 0.7557770149572571,
+   "volume_ratio": 0.9313142808019861,
    "valuation": {
-    "forward_pe": 10.461925,
+    "forward_pe": 10.583359,
     "trailing_pe": null,
     "peg_ratio": 0.99,
     "analyst_target": 25.25,
@@ -84,12 +30,15 @@
     "pct_of_float": 10.98,
     "days_to_cover": 4.23
    },
-   "insider": null,
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
    "hot_score": {
-    "total": 52.3,
+    "total": 53.3,
     "valuation": 16.6,
     "technical": 9.7,
-    "catalyst": 6.9,
+    "catalyst": 7.8,
     "sentiment": 19.2
    },
    "reasons": [
@@ -109,190 +58,27 @@
    }
   },
   {
-   "symbol": "NKE",
-   "name": "Nike, Inc.",
-   "close": 33.959999084472656,
-   "lower_band": 34.07722842159997,
-   "pct_below_band": 0.3440107736373494,
-   "market_cap": 50379616256.0,
-   "chg_1d": 0.26572233665813627,
-   "chg_5d": -6.6776596480708434,
-   "chg_1mo": -12.406503266697321,
-   "off_52w_high": -52.28326547956701,
-   "rsi": 29.128385667680504,
-   "rsi_divergence": false,
-   "macd_histogram": -0.061481220149770976,
-   "macd_turning_up": false,
-   "volume_ratio": 1.5788250332807188,
-   "valuation": {
-    "forward_pe": 19.331371,
-    "trailing_pe": 16.171429,
-    "peg_ratio": 1.36,
-    "analyst_target": 39.98889,
-    "analyst_upside_pct": 17.75291836884618
-   },
-   "short_interest": {
-    "pct_of_float": 8.98,
-    "days_to_cover": 2.93
-   },
-   "insider": {
-    "recent_buys": 0,
-    "shares": null
-   },
-   "hot_score": {
-    "total": 51.7,
-    "valuation": 13.1,
-    "technical": 7.3,
-    "catalyst": 11.3,
-    "sentiment": 20.0
-   },
-   "reasons": [
-    "NKE reported earnings on Oct 01 \u2014 earnings reactions are the most common cause of a sharp break below the band.",
-    "Trading 52% below its 52-week high \u2014 deep drawdown territory, often reflecting a broken growth story or re-rating."
-   ],
-   "news": [],
-   "sentiment": {
-    "label": "Bullish",
-    "bullish_pct": 79.2,
-    "sample_size": 24
-   },
-   "earnings_surprise": {
-    "date": "2026-10-01",
-    "actual_eps": 0.48,
-    "estimate_eps": 0.44,
-    "surprise_pct": 9.090909090909086
-   }
-  },
-  {
-   "symbol": "DHI",
-   "name": "D.R. Horton, Inc.",
-   "close": 133.22999572753906,
-   "lower_band": 133.96535546264911,
-   "pct_below_band": 0.5489178396686877,
-   "market_cap": 37264601088.0,
-   "chg_1d": -1.3111142758969963,
-   "chg_5d": -4.439823929638398,
-   "chg_1mo": -7.741851430687108,
-   "off_52w_high": -22.328457601773444,
-   "rsi": 36.62765571555251,
-   "rsi_divergence": false,
-   "macd_histogram": -0.35997810663423513,
-   "macd_turning_up": false,
-   "volume_ratio": 1.6419716820398331,
-   "valuation": {
-    "forward_pe": 11.533577,
-    "trailing_pe": 12.700667,
-    "peg_ratio": 1.13,
-    "analyst_target": 158.3077,
-    "analyst_upside_pct": 18.82286652905545
-   },
-   "short_interest": {
-    "pct_of_float": 4.66,
-    "days_to_cover": 4.93
-   },
-   "insider": {
-    "recent_buys": 0,
-    "shares": null
-   },
-   "hot_score": {
-    "total": 50.9,
-    "valuation": 17.5,
-    "technical": 4.8,
-    "catalyst": 9.1,
-    "sentiment": 19.5
-   },
-   "reasons": [
-    "No single obvious catalyst in the price action \u2014 likely broad market or sector weakness. Check the headlines below."
-   ],
-   "news": [],
-   "sentiment": {
-    "label": "Bullish",
-    "bullish_pct": 84.6,
-    "sample_size": 13
-   },
-   "earnings_surprise": {
-    "date": "2026-07-21",
-    "actual_eps": 3.2,
-    "estimate_eps": 2.99,
-    "surprise_pct": 7.023411371237456
-   }
-  },
-  {
-   "symbol": "REGN",
-   "name": "Regeneron Pharmaceuticals, Inc.",
-   "close": 726.469970703125,
-   "lower_band": 727.0506081106288,
-   "pct_below_band": 0.07986203450302817,
-   "market_cap": 74793713664.0,
-   "chg_1d": -1.187437616832887,
-   "chg_5d": -3.4270560713692277,
-   "chg_1mo": -13.871270355062858,
-   "off_52w_high": -14.736576678801628,
-   "rsi": 32.8723167280026,
-   "rsi_divergence": false,
-   "macd_histogram": -8.335958341429013,
-   "macd_turning_up": false,
-   "volume_ratio": 0.9199192240209223,
-   "valuation": {
-    "forward_pe": 11.849245,
-    "trailing_pe": 17.964144,
-    "peg_ratio": 1.25,
-    "analyst_target": 853.1923,
-    "analyst_upside_pct": 17.44357432616588
-   },
-   "short_interest": {
-    "pct_of_float": 2.6,
-    "days_to_cover": 4.04
-   },
-   "insider": {
-    "recent_buys": 0,
-    "shares": null
-   },
-   "hot_score": {
-    "total": 49.2,
-    "valuation": 16.7,
-    "technical": 6.0,
-    "catalyst": 2.5,
-    "sentiment": 24.0
-   },
-   "reasons": [
-    "No single obvious catalyst in the price action \u2014 likely broad market or sector weakness. Check the headlines below."
-   ],
-   "news": [],
-   "sentiment": {
-    "label": "Bullish",
-    "bullish_pct": 77.8,
-    "sample_size": 9
-   },
-   "earnings_surprise": {
-    "date": "2026-07-30",
-    "actual_eps": 14.29,
-    "estimate_eps": 10.21,
-    "surprise_pct": 39.960822722820744
-   }
-  },
-  {
    "symbol": "INCY",
    "name": "Incyte Corporation",
-   "close": 114.12999725341797,
-   "lower_band": 115.83228361718098,
-   "pct_below_band": 1.4696130565714878,
-   "market_cap": 23133892608.0,
-   "chg_1d": -1.0147491477642268,
-   "chg_5d": -8.564334615880886,
-   "chg_1mo": -10.835939645767212,
-   "off_52w_high": -12.160391220670308,
-   "rsi": 31.971352046884945,
+   "close": 112.7300033569336,
+   "lower_band": 114.0252809294633,
+   "pct_below_band": 1.1359564843615506,
+   "market_cap": 22850117632.0,
+   "chg_1d": -1.2266660213578917,
+   "chg_5d": -8.498371632027856,
+   "chg_1mo": -11.06114133575259,
+   "off_52w_high": -13.237889854860052,
+   "rsi": 30.121591953756436,
    "rsi_divergence": false,
-   "macd_histogram": -1.3048636571312942,
+   "macd_histogram": -1.4471142349948418,
    "macd_turning_up": false,
-   "volume_ratio": 1.2027884843865242,
+   "volume_ratio": 1.4761197389151475,
    "valuation": {
-    "forward_pe": 13.049469,
-    "trailing_pe": 14.538854,
+    "forward_pe": 12.88658,
+    "trailing_pe": 14.527061,
     "peg_ratio": 10.82,
     "analyst_target": 128.91667,
-    "analyst_upside_pct": 12.955991503048248
+    "analyst_upside_pct": 14.35879194628875
    },
    "short_interest": {
     "pct_of_float": 8.39,
@@ -303,20 +89,20 @@
     "shares": null
    },
    "hot_score": {
-    "total": 48.1,
-    "valuation": 9.6,
-    "technical": 6.3,
-    "catalyst": 8.2,
+    "total": 51.2,
+    "valuation": 10.0,
+    "technical": 7.0,
+    "catalyst": 10.2,
     "sentiment": 24.0
    },
    "reasons": [
-    "Down -8.6% over 5 sessions without a single large gap \u2014 suggests sustained selling pressure (sector rotation, macro, or sentiment shift)."
+    "Down -8.5% over 5 sessions without a single large gap \u2014 suggests sustained selling pressure (sector rotation, macro, or sentiment shift)."
    ],
    "news": [],
    "sentiment": {
     "label": "Bullish",
     "bullish_pct": 100.0,
-    "sample_size": 4
+    "sample_size": 5
    },
    "earnings_surprise": {
     "date": "2026-07-28",
@@ -326,95 +112,41 @@
    }
   },
   {
-   "symbol": "PHM",
-   "name": "PulteGroup, Inc.",
-   "close": 113.9800033569336,
-   "lower_band": 114.58874099044226,
-   "pct_below_band": 0.531236863453663,
-   "market_cap": 21711634432.0,
-   "chg_1d": -1.512140282760266,
-   "chg_5d": -4.323003454393692,
-   "chg_1mo": -8.309865983861108,
-   "off_52w_high": -20.047695490394112,
-   "rsi": 35.56602077863879,
+   "symbol": "VTR",
+   "name": "Ventas, Inc.",
+   "close": 81.86000061035156,
+   "lower_band": 81.88839999714918,
+   "pct_below_band": 0.034680597982870744,
+   "market_cap": 41989791744.0,
+   "chg_1d": 0.6145526010927549,
+   "chg_5d": -5.81061194220095,
+   "chg_1mo": -9.316490911114716,
+   "off_52w_high": -18.57156907952754,
+   "rsi": 24.510574963829725,
    "rsi_divergence": false,
-   "macd_histogram": -0.1528656785250342,
+   "macd_histogram": -0.46592883245226213,
    "macd_turning_up": false,
-   "volume_ratio": 0.9148082336734082,
+   "volume_ratio": 1.0092873673769949,
    "valuation": {
-    "forward_pe": 10.389682,
-    "trailing_pe": 11.630612,
-    "peg_ratio": 0.97,
-    "analyst_target": 140.0,
-    "analyst_upside_pct": 22.82856279761951
+    "forward_pe": 103.620255,
+    "trailing_pe": 151.59259,
+    "peg_ratio": 4.64,
+    "analyst_target": 101.81818,
+    "analyst_upside_pct": 24.380868850280258
    },
    "short_interest": {
-    "pct_of_float": 6.17,
-    "days_to_cover": 6.73
+    "pct_of_float": 4.42,
+    "days_to_cover": 6.54
    },
    "insider": {
     "recent_buys": 0,
     "shares": null
    },
    "hot_score": {
-    "total": 48.0,
-    "valuation": 19.1,
-    "technical": 5.1,
-    "catalyst": 4.7,
-    "sentiment": 19.0
-   },
-   "reasons": [
-    "No single obvious catalyst in the price action \u2014 likely broad market or sector weakness. Check the headlines below."
-   ],
-   "news": [],
-   "sentiment": {
-    "label": "Bullish",
-    "bullish_pct": 100.0,
-    "sample_size": 5
-   },
-   "earnings_surprise": {
-    "date": "2026-07-22",
-    "actual_eps": 2.48,
-    "estimate_eps": 2.36,
-    "surprise_pct": 5.084745762711869
-   }
-  },
-  {
-   "symbol": "BMY",
-   "name": "Bristol-Myers Squibb Company",
-   "close": 58.810001373291016,
-   "lower_band": 60.00016493026735,
-   "pct_below_band": 1.983600475697949,
-   "market_cap": 120132050944.0,
-   "chg_1d": -3.8266559185572424,
-   "chg_5d": -7.936755807843642,
-   "chg_1mo": -13.629013751959175,
-   "off_52w_high": -13.629013751959175,
-   "rsi": 30.060770791364533,
-   "rsi_divergence": false,
-   "macd_histogram": -0.3374693892989207,
-   "macd_turning_up": false,
-   "volume_ratio": 1.6045402436181495,
-   "valuation": {
-    "forward_pe": 8.930633,
-    "trailing_pe": 12.953745,
-    "peg_ratio": 17.03,
-    "analyst_target": 66.125,
-    "analyst_upside_pct": 12.43835819740542
-   },
-   "short_interest": {
-    "pct_of_float": 2.06,
-    "days_to_cover": 5.36
-   },
-   "insider": {
-    "recent_buys": 0,
-    "shares": null
-   },
-   "hot_score": {
-    "total": 47.6,
-    "valuation": 9.5,
-    "technical": 7.0,
-    "catalyst": 7.2,
+    "total": 49.9,
+    "valuation": 12.8,
+    "technical": 8.8,
+    "catalyst": 4.3,
     "sentiment": 24.0
    },
    "reasons": [
@@ -423,92 +155,92 @@
    "news": [],
    "sentiment": {
     "label": "Bullish",
-    "bullish_pct": 94.1,
-    "sample_size": 17
+    "bullish_pct": 100.0,
+    "sample_size": 3
    },
    "earnings_surprise": {
-    "date": "2026-07-30",
-    "actual_eps": 2.04,
-    "estimate_eps": 1.6,
-    "surprise_pct": 27.499999999999996
+    "date": "2026-07-29",
+    "actual_eps": 0.17,
+    "estimate_eps": 0.11,
+    "surprise_pct": 54.545454545454554
    }
   },
   {
-   "symbol": "NOC",
-   "name": "Northrop Grumman Corporation",
-   "close": 476.1099853515625,
-   "lower_band": 476.1827054646644,
-   "pct_below_band": 0.015271472959304923,
-   "market_cap": 67637624832.0,
-   "chg_1d": -0.3954005540664274,
-   "chg_5d": -5.869909679309604,
-   "chg_1mo": -9.868621430892222,
-   "off_52w_high": -38.008128272209696,
-   "rsi": 24.30064854594994,
+   "symbol": "PFG",
+   "name": "Principal Financial Group Inc",
+   "close": 109.69999694824219,
+   "lower_band": 109.99794679389423,
+   "pct_below_band": 0.27086855194698994,
+   "market_cap": 23487279104.0,
+   "chg_1d": -1.1978761106702707,
+   "chg_5d": -3.7466036910818845,
+   "chg_1mo": -5.9821763272861155,
+   "off_52w_high": -7.433976060401159,
+   "rsi": 36.456252383865056,
    "rsi_divergence": false,
-   "macd_histogram": -3.604565021503122,
+   "macd_histogram": -0.677490181850592,
    "macd_turning_up": false,
-   "volume_ratio": 1.2408974153569454,
+   "volume_ratio": 1.1720556760561358,
    "valuation": {
-    "forward_pe": 15.634148,
-    "trailing_pe": 15.133821,
-    "peg_ratio": 3.6,
-    "analyst_target": 639.2273,
-    "analyst_upside_pct": 34.26042714226853
+    "forward_pe": 10.623596,
+    "trailing_pe": 15.806916,
+    "peg_ratio": 1.06,
+    "analyst_target": 111.58333,
+    "analyst_upside_pct": 1.716803194303096
    },
    "short_interest": {
-    "pct_of_float": 1.58,
-    "days_to_cover": 2.96
+    "pct_of_float": 5.12,
+    "days_to_cover": 7.87
    },
    "insider": {
     "recent_buys": 0,
     "shares": null
    },
    "hot_score": {
-    "total": 45.0,
-    "valuation": 11.0,
-    "technical": 8.9,
-    "catalyst": 4.2,
-    "sentiment": 20.9
+    "total": 39.9,
+    "valuation": 12.9,
+    "technical": 4.8,
+    "catalyst": 5.9,
+    "sentiment": 16.1
    },
    "reasons": [
     "No single obvious catalyst in the price action \u2014 likely broad market or sector weakness. Check the headlines below."
    ],
    "news": [],
    "sentiment": {
-    "label": "Bullish",
-    "bullish_pct": 75.0,
-    "sample_size": 8
+    "label": "No sentiment data",
+    "bullish_pct": null,
+    "sample_size": 30
    },
    "earnings_surprise": {
-    "date": "2026-07-21",
-    "actual_eps": 7.68,
-    "estimate_eps": 6.82,
-    "surprise_pct": 12.609970674486796
+    "date": "2026-07-27",
+    "actual_eps": 2.5,
+    "estimate_eps": 2.33,
+    "surprise_pct": 7.29613733905579
    }
   },
   {
    "symbol": "JNJ",
    "name": "Johnson & Johnson",
-   "close": 252.92999267578125,
-   "lower_band": 256.66527327459136,
-   "pct_below_band": 1.4553120300049107,
-   "market_cap": 609535590400.0,
-   "chg_1d": -1.2107979995687468,
-   "chg_5d": -6.9939395762079855,
-   "chg_1mo": -9.158496092658218,
-   "off_52w_high": -9.158496092658218,
-   "rsi": 29.23373698627327,
+   "close": 254.77999877929688,
+   "lower_band": 254.78789322223395,
+   "pct_below_band": 0.003098437228407246,
+   "market_cap": 613993938944.0,
+   "chg_1d": 0.7314301020389768,
+   "chg_5d": -4.780060617714909,
+   "chg_1mo": -7.430153468273881,
+   "off_52w_high": -8.494053987935013,
+   "rsi": 33.283623636666974,
    "rsi_divergence": false,
-   "macd_histogram": -2.0587713046422875,
+   "macd_histogram": -2.089926703702563,
    "macd_turning_up": false,
-   "volume_ratio": 1.5232464162661108,
+   "volume_ratio": 0.824274828166873,
    "valuation": {
-    "forward_pe": 20.837864,
-    "trailing_pe": 29.308226,
-    "peg_ratio": 2.68,
-    "analyst_target": 279.27274,
-    "analyst_upside_pct": 10.415035024330322
+    "forward_pe": 21.053291,
+    "trailing_pe": 29.522594,
+    "peg_ratio": 2.65,
+    "analyst_target": 279.63635,
+    "analyst_upside_pct": 9.756005706803904
    },
    "short_interest": {
     "pct_of_float": 0.98,
@@ -519,10 +251,10 @@
     "shares": null
    },
    "hot_score": {
-    "total": 41.3,
-    "valuation": 10.0,
-    "technical": 7.3,
-    "catalyst": 5.9,
+    "total": 34.8,
+    "valuation": 9.9,
+    "technical": 5.9,
+    "catalyst": 0.8,
     "sentiment": 18.2
    },
    "reasons": [
@@ -539,114 +271,6 @@
     "actual_eps": 2.9,
     "estimate_eps": 2.85,
     "surprise_pct": 1.7543859649122744
-   }
-  },
-  {
-   "symbol": "MRK",
-   "name": "Merck & Company, Inc.",
-   "close": 139.5399932861328,
-   "lower_band": 141.1175632316194,
-   "pct_below_band": 1.1179118384416125,
-   "market_cap": 344269094912.0,
-   "chg_1d": -3.2986899965051775,
-   "chg_5d": -6.153748742373688,
-   "chg_1mo": -8.402260312103039,
-   "off_52w_high": -10.808567588341756,
-   "rsi": 37.66350260018049,
-   "rsi_divergence": false,
-   "macd_histogram": -1.198413974159168,
-   "macd_turning_up": false,
-   "volume_ratio": 0.9642256780641634,
-   "valuation": {
-    "forward_pe": 14.736103,
-    "trailing_pe": 110.746025,
-    "peg_ratio": 2.64,
-    "analyst_target": 156.36,
-    "analyst_upside_pct": 12.053896748709914
-   },
-   "short_interest": {
-    "pct_of_float": 1.4,
-    "days_to_cover": 3.14
-   },
-   "insider": {
-    "recent_buys": 0,
-    "shares": null
-   },
-   "hot_score": {
-    "total": 41.1,
-    "valuation": 10.5,
-    "technical": 4.4,
-    "catalyst": 2.1,
-    "sentiment": 24.0
-   },
-   "reasons": [
-    "No single obvious catalyst in the price action \u2014 likely broad market or sector weakness. Check the headlines below."
-   ],
-   "news": [],
-   "sentiment": {
-    "label": "Bullish",
-    "bullish_pct": 88.9,
-    "sample_size": 9
-   },
-   "earnings_surprise": {
-    "date": "2026-08-04",
-    "actual_eps": -0.13,
-    "estimate_eps": -0.26,
-    "surprise_pct": 50.0
-   }
-  },
-  {
-   "symbol": "WELL",
-   "name": "Welltower Inc.",
-   "close": 224.16000366210938,
-   "lower_band": 225.4846675683257,
-   "pct_below_band": 0.5874740489017658,
-   "market_cap": 161523433472.0,
-   "chg_1d": -1.559001777299418,
-   "chg_5d": -3.7774737285985793,
-   "chg_1mo": -7.033838668931358,
-   "off_52w_high": -11.072322311718274,
-   "rsi": 35.264720136798886,
-   "rsi_divergence": false,
-   "macd_histogram": -0.7082871809250031,
-   "macd_turning_up": false,
-   "volume_ratio": 0.9249303686918756,
-   "valuation": {
-    "forward_pe": 70.49056,
-    "trailing_pe": 100.52018,
-    "peg_ratio": 3.66,
-    "analyst_target": 262.04544,
-    "analyst_upside_pct": 16.901068753994906
-   },
-   "short_interest": {
-    "pct_of_float": 2.77,
-    "days_to_cover": 7.24
-   },
-   "insider": {
-    "recent_buys": 0,
-    "shares": null
-   },
-   "hot_score": {
-    "total": 32.1,
-    "valuation": 10.7,
-    "technical": 5.2,
-    "catalyst": 2.6,
-    "sentiment": 13.5
-   },
-   "reasons": [
-    "No single obvious catalyst in the price action \u2014 likely broad market or sector weakness. Check the headlines below."
-   ],
-   "news": [],
-   "sentiment": {
-    "label": "Bullish",
-    "bullish_pct": 75.0,
-    "sample_size": 4
-   },
-   "earnings_surprise": {
-    "date": "2026-07-27",
-    "actual_eps": 0.54,
-    "estimate_eps": 0.65,
-    "surprise_pct": -16.92307692307692
    }
   }
  ]
