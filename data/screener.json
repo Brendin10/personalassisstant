@@ -1,45 +1,102 @@
 {
- "updated": "Oct 07, 2026 09:21 PM ET",
+ "updated": "Oct 08, 2026 09:29 PM ET",
  "criteria": "close < lower BB(20,2), market cap > $20B",
  "universe_size": 503,
  "results": [
   {
-   "symbol": "VTR",
-   "name": "Ventas, Inc.",
-   "close": 81.86000061035156,
-   "lower_band": 81.88839999714904,
-   "pct_below_band": 0.034680597982697264,
-   "market_cap": 41056227328.0,
-   "chg_1d": 0.6145526010927549,
-   "chg_5d": -5.81061194220095,
-   "chg_1mo": -9.316490911114716,
-   "off_52w_high": -18.57156907952754,
-   "rsi": 24.510574981872196,
+   "symbol": "WDC",
+   "name": "Western Digital Corporation",
+   "close": 393.30999755859375,
+   "lower_band": 393.3759982157219,
+   "pct_below_band": 0.016778008172209077,
+   "market_cap": 147225083904.0,
+   "chg_1d": -2.987029615719561,
+   "chg_5d": -14.97103086421301,
+   "chg_1mo": -18.44778996555857,
+   "off_52w_high": -47.293728762876405,
+   "rsi": 37.16814880213985,
    "rsi_divergence": false,
-   "macd_histogram": -0.4659288342147234,
+   "macd_histogram": -4.498779516796425,
    "macd_turning_up": false,
-   "volume_ratio": 1.0402565495382805,
+   "volume_ratio": 1.0921812404625255,
    "valuation": {
-    "forward_pe": 101.31645,
-    "trailing_pe": 148.22221,
-    "peg_ratio": 4.67,
-    "analyst_target": 101.81818,
-    "analyst_upside_pct": 24.380868850280258
+    "forward_pe": 12.2742405,
+    "trailing_pe": 14.610327,
+    "peg_ratio": 0.78,
+    "analyst_target": 673.5,
+    "analyst_upside_pct": 71.23897286634944
    },
    "short_interest": {
-    "pct_of_float": 4.42,
-    "days_to_cover": 6.54
+    "pct_of_float": 5.38,
+    "days_to_cover": 2.86
    },
    "insider": {
     "recent_buys": 0,
     "shares": null
    },
    "hot_score": {
-    "total": 50.1,
-    "valuation": 12.8,
-    "technical": 8.8,
-    "catalyst": 4.5,
-    "sentiment": 24.0
+    "total": 51.6,
+    "valuation": 21.7,
+    "technical": 4.6,
+    "catalyst": 5.5,
+    "sentiment": 19.7
+   },
+   "reasons": [
+    "WDC reports earnings on Oct 22 \u2014 earnings reactions are the most common cause of a sharp break below the band.",
+    "Sharp one-day drop of -10.2% on Oct 02 \u2014 points to a specific catalyst (news, guidance, downgrade) rather than gradual selling.",
+    "Down -18.4% over the past month \u2014 an extended downtrend; the band break continues an existing move rather than starting one.",
+    "Trading 47% below its 52-week high \u2014 deep drawdown territory, often reflecting a broken growth story or re-rating."
+   ],
+   "news": [],
+   "sentiment": {
+    "label": "Bullish",
+    "bullish_pct": 100.0,
+    "sample_size": 13
+   },
+   "earnings_surprise": {
+    "date": "2026-08-05",
+    "actual_eps": 3.56,
+    "estimate_eps": 3.3,
+    "surprise_pct": 7.878787878787887
+   }
+  },
+  {
+   "symbol": "GRMN",
+   "name": "Garmin Ltd.",
+   "close": 268.44000244140625,
+   "lower_band": 268.7861411747821,
+   "pct_below_band": 0.1287784897922777,
+   "market_cap": 51770322944.0,
+   "chg_1d": -2.795481285606005,
+   "chg_5d": -4.963530920414117,
+   "chg_1mo": -1.3740871243354214,
+   "off_52w_high": -14.280240355647312,
+   "rsi": 35.65653137953281,
+   "rsi_divergence": false,
+   "macd_histogram": -1.6405046469331666,
+   "macd_turning_up": false,
+   "volume_ratio": 1.156789143145889,
+   "valuation": {
+    "forward_pe": 24.109198,
+    "trailing_pe": 27.702787,
+    "peg_ratio": 2.97,
+    "analyst_target": 302.0,
+    "analyst_upside_pct": 12.50186159043829
+   },
+   "short_interest": {
+    "pct_of_float": 1.88,
+    "days_to_cover": 3.71
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 41.9,
+    "valuation": 9.6,
+    "technical": 5.1,
+    "catalyst": 3.8,
+    "sentiment": 23.4
    },
    "reasons": [
     "No single obvious catalyst in the price action \u2014 likely broad market or sector weakness. Check the headlines below."
@@ -47,176 +104,68 @@
    "news": [],
    "sentiment": {
     "label": "Bullish",
-    "bullish_pct": 100.0,
-    "sample_size": 3
+    "bullish_pct": 94.7,
+    "sample_size": 19
    },
    "earnings_surprise": {
     "date": "2026-07-29",
-    "actual_eps": 0.17,
-    "estimate_eps": 0.11,
-    "surprise_pct": 54.545454545454554
+    "actual_eps": 2.81,
+    "estimate_eps": 2.29,
+    "surprise_pct": 22.707423580786028
    }
   },
   {
-   "symbol": "INCY",
-   "name": "Incyte Corporation",
-   "close": 112.7300033569336,
-   "lower_band": 114.02528092946329,
-   "pct_below_band": 1.1359564843615384,
-   "market_cap": 22994032640.0,
-   "chg_1d": -1.2266660213578917,
-   "chg_5d": -8.498371632027856,
-   "chg_1mo": -11.06114133575259,
-   "off_52w_high": -13.237889854860052,
-   "rsi": 30.12159197533255,
+   "symbol": "DE",
+   "name": "Deere & Company",
+   "close": 652.5800170898438,
+   "lower_band": 654.9405441938584,
+   "pct_below_band": 0.36041853339834384,
+   "market_cap": 175952150528.0,
+   "chg_1d": -0.6530939240996125,
+   "chg_5d": -2.200040832798833,
+   "chg_1mo": -3.636981746233958,
+   "off_52w_high": -8.019953338403251,
+   "rsi": 42.09657391890403,
    "rsi_divergence": false,
-   "macd_histogram": -1.4471142387063924,
+   "macd_histogram": -5.843642417419009,
    "macd_turning_up": false,
-   "volume_ratio": 0.738863026325706,
+   "volume_ratio": 1.112762540793191,
    "valuation": {
-    "forward_pe": 12.967743,
-    "trailing_pe": 14.450956,
-    "peg_ratio": 10.82,
-    "analyst_target": 128.91667,
-    "analyst_upside_pct": 14.35879194628875
+    "forward_pe": 28.621038,
+    "trailing_pe": 36.274597,
+    "peg_ratio": 1.58,
+    "analyst_target": 691.8339,
+    "analyst_upside_pct": 6.01518310125515
    },
    "short_interest": {
-    "pct_of_float": 8.39,
-    "days_to_cover": 7.62
+    "pct_of_float": 2.08,
+    "days_to_cover": 3.9
    },
    "insider": {
     "recent_buys": 0,
     "shares": null
    },
    "hot_score": {
-    "total": 46.2,
-    "valuation": 10.0,
-    "technical": 7.0,
-    "catalyst": 5.2,
-    "sentiment": 24.0
-   },
-   "reasons": [
-    "Down -8.5% over 5 sessions without a single large gap \u2014 suggests sustained selling pressure (sector rotation, macro, or sentiment shift)."
-   ],
-   "news": [],
-   "sentiment": {
-    "label": "Bullish",
-    "bullish_pct": 100.0,
-    "sample_size": 5
-   },
-   "earnings_surprise": {
-    "date": "2026-07-28",
-    "actual_eps": 3.09,
-    "estimate_eps": 2.15,
-    "surprise_pct": 43.72093023255814
-   }
-  },
-  {
-   "symbol": "PFG",
-   "name": "Principal Financial Group Inc",
-   "close": 109.69999694824219,
-   "lower_band": 109.99794679389423,
-   "pct_below_band": 0.27086855194698994,
-   "market_cap": 23279597568.0,
-   "chg_1d": -1.1978761106702707,
-   "chg_5d": -3.7466036910818845,
-   "chg_1mo": -5.9821763272861155,
-   "off_52w_high": -7.433976060401159,
-   "rsi": 36.45625242626494,
-   "rsi_divergence": false,
-   "macd_histogram": -0.6774901855828749,
-   "macd_turning_up": false,
-   "volume_ratio": 0.8975697121962141,
-   "valuation": {
-    "forward_pe": 10.52966,
-    "trailing_pe": 15.488605,
-    "peg_ratio": 1.06,
-    "analyst_target": 111.58333,
-    "analyst_upside_pct": 1.716803194303096
-   },
-   "short_interest": {
-    "pct_of_float": 5.12,
-    "days_to_cover": 7.87
-   },
-   "insider": {
-    "recent_buys": 0,
-    "shares": null
-   },
-   "hot_score": {
-    "total": 37.9,
-    "valuation": 12.9,
-    "technical": 4.8,
-    "catalyst": 3.9,
-    "sentiment": 16.1
+    "total": 34.0,
+    "valuation": 12.4,
+    "technical": 3.7,
+    "catalyst": 3.6,
+    "sentiment": 14.3
    },
    "reasons": [
     "No single obvious catalyst in the price action \u2014 likely broad market or sector weakness. Check the headlines below."
    ],
    "news": [],
    "sentiment": {
-    "label": "No sentiment data",
-    "bullish_pct": null,
-    "sample_size": 30
+    "label": "Mixed",
+    "bullish_pct": 57.1,
+    "sample_size": 7
    },
    "earnings_surprise": {
-    "date": "2026-07-27",
-    "actual_eps": 2.5,
-    "estimate_eps": 2.33,
-    "surprise_pct": 7.29613733905579
-   }
-  },
-  {
-   "symbol": "JNJ",
-   "name": "Johnson & Johnson",
-   "close": 254.77999877929688,
-   "lower_band": 254.7878932222341,
-   "pct_below_band": 0.0030984372284630192,
-   "market_cap": 622838284288.0,
-   "chg_1d": 0.7314301020389768,
-   "chg_5d": -4.780060617714909,
-   "chg_1mo": -7.430153468273881,
-   "off_52w_high": -8.494053987935013,
-   "rsi": 33.28362362067945,
-   "rsi_divergence": false,
-   "macd_histogram": -2.089926702043757,
-   "macd_turning_up": false,
-   "volume_ratio": 0.782226787437358,
-   "valuation": {
-    "forward_pe": 21.356558,
-    "trailing_pe": 29.947857,
-    "peg_ratio": 2.67,
-    "analyst_target": 279.63635,
-    "analyst_upside_pct": 9.756005706803904
-   },
-   "short_interest": {
-    "pct_of_float": 0.98,
-    "days_to_cover": 3.42
-   },
-   "insider": {
-    "recent_buys": 0,
-    "shares": null
-   },
-   "hot_score": {
-    "total": 34.5,
-    "valuation": 9.8,
-    "technical": 5.9,
-    "catalyst": 0.6,
-    "sentiment": 18.2
-   },
-   "reasons": [
-    "JNJ reports earnings on Oct 13 \u2014 earnings reactions are the most common cause of a sharp break below the band."
-   ],
-   "news": [],
-   "sentiment": {
-    "label": "Bullish",
-    "bullish_pct": 81.8,
-    "sample_size": 11
-   },
-   "earnings_surprise": {
-    "date": "2026-07-15",
-    "actual_eps": 2.9,
-    "estimate_eps": 2.85,
-    "surprise_pct": 1.7543859649122744
+    "date": "2026-08-20",
+    "actual_eps": 5.1,
+    "estimate_eps": 4.71,
+    "surprise_pct": 8.280254777070056
    }
   }
  ]
