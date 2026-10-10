@@ -1,5 +1,5 @@
 {
- "updated": "Oct 08, 2026 09:29 PM ET",
+ "updated": "Oct 09, 2026 09:18 PM ET",
  "criteria": "close < lower BB(20,2), market cap > $20B",
  "universe_size": 503,
  "results": [
@@ -7,24 +7,24 @@
    "symbol": "WDC",
    "name": "Western Digital Corporation",
    "close": 393.30999755859375,
-   "lower_band": 393.3759982157219,
-   "pct_below_band": 0.016778008172209077,
-   "market_cap": 147225083904.0,
+   "lower_band": 393.37599821572235,
+   "pct_below_band": 0.01677800817232466,
+   "market_cap": 148711145472.0,
    "chg_1d": -2.987029615719561,
    "chg_5d": -14.97103086421301,
    "chg_1mo": -18.44778996555857,
    "off_52w_high": -47.293728762876405,
-   "rsi": 37.16814880213985,
+   "rsi": 37.16814880944269,
    "rsi_divergence": false,
-   "macd_histogram": -4.498779516796425,
+   "macd_histogram": -4.4987795256710115,
    "macd_turning_up": false,
-   "volume_ratio": 1.0921812404625255,
+   "volume_ratio": 0.7968825184983431,
    "valuation": {
-    "forward_pe": 12.2742405,
-    "trailing_pe": 14.610327,
-    "peg_ratio": 0.78,
-    "analyst_target": 673.5,
-    "analyst_upside_pct": 71.23897286634944
+    "forward_pe": 12.398135,
+    "trailing_pe": 14.757801,
+    "peg_ratio": 0.75,
+    "analyst_target": 670.7917,
+    "analyst_upside_pct": 70.55038116595756
    },
    "short_interest": {
     "pct_of_float": 5.38,
@@ -35,10 +35,10 @@
     "shares": null
    },
    "hot_score": {
-    "total": 51.6,
-    "valuation": 21.7,
+    "total": 49.5,
+    "valuation": 21.8,
     "technical": 4.6,
-    "catalyst": 5.5,
+    "catalyst": 3.4,
     "sentiment": 19.7
    },
    "reasons": [
@@ -50,8 +50,8 @@
    "news": [],
    "sentiment": {
     "label": "Bullish",
-    "bullish_pct": 100.0,
-    "sample_size": 13
+    "bullish_pct": 90.9,
+    "sample_size": 11
    },
    "earnings_surprise": {
     "date": "2026-08-05",
@@ -64,22 +64,22 @@
    "symbol": "GRMN",
    "name": "Garmin Ltd.",
    "close": 268.44000244140625,
-   "lower_band": 268.7861411747821,
-   "pct_below_band": 0.1287784897922777,
-   "market_cap": 51770322944.0,
+   "lower_band": 268.78614117478236,
+   "pct_below_band": 0.12877848979238332,
+   "market_cap": 51753906176.0,
    "chg_1d": -2.795481285606005,
    "chg_5d": -4.963530920414117,
    "chg_1mo": -1.3740871243354214,
    "off_52w_high": -14.280240355647312,
-   "rsi": 35.65653137953281,
+   "rsi": 35.65653143579037,
    "rsi_divergence": false,
-   "macd_histogram": -1.6405046469331666,
+   "macd_histogram": -1.6405046644956374,
    "macd_turning_up": false,
-   "volume_ratio": 1.156789143145889,
+   "volume_ratio": 0.6866383068362015,
    "valuation": {
-    "forward_pe": 24.109198,
-    "trailing_pe": 27.702787,
-    "peg_ratio": 2.97,
+    "forward_pe": 24.10201,
+    "trailing_pe": 27.69453,
+    "peg_ratio": 2.85,
     "analyst_target": 302.0,
     "analyst_upside_pct": 12.50186159043829
    },
@@ -92,10 +92,10 @@
     "shares": null
    },
    "hot_score": {
-    "total": 41.9,
-    "valuation": 9.6,
+    "total": 39.7,
+    "valuation": 10.0,
     "technical": 5.1,
-    "catalyst": 3.8,
+    "catalyst": 1.2,
     "sentiment": 23.4
    },
    "reasons": [
@@ -120,22 +120,22 @@
    "close": 652.5800170898438,
    "lower_band": 654.9405441938584,
    "pct_below_band": 0.36041853339834384,
-   "market_cap": 175952150528.0,
+   "market_cap": 167418494976.0,
    "chg_1d": -0.6530939240996125,
    "chg_5d": -2.200040832798833,
    "chg_1mo": -3.636981746233958,
    "off_52w_high": -8.019953338403251,
-   "rsi": 42.09657391890403,
+   "rsi": 42.09657395023241,
    "rsi_divergence": false,
-   "macd_histogram": -5.843642417419009,
+   "macd_histogram": -5.843642437884352,
    "macd_turning_up": false,
-   "volume_ratio": 1.112762540793191,
+   "volume_ratio": 1.4777698339027907,
    "valuation": {
-    "forward_pe": 28.621038,
-    "trailing_pe": 36.274597,
-    "peg_ratio": 1.58,
-    "analyst_target": 691.8339,
-    "analyst_upside_pct": 6.01518310125515
+    "forward_pe": 27.265808,
+    "trailing_pe": 36.26927,
+    "peg_ratio": 1.51,
+    "analyst_target": 693.57306,
+    "analyst_upside_pct": 6.281688350336445
    },
    "short_interest": {
     "pct_of_float": 2.08,
@@ -146,20 +146,20 @@
     "shares": null
    },
    "hot_score": {
-    "total": 34.0,
-    "valuation": 12.4,
+    "total": 32.5,
+    "valuation": 12.7,
     "technical": 3.7,
-    "catalyst": 3.6,
-    "sentiment": 14.3
+    "catalyst": 6.3,
+    "sentiment": 9.8
    },
    "reasons": [
     "No single obvious catalyst in the price action \u2014 likely broad market or sector weakness. Check the headlines below."
    ],
    "news": [],
    "sentiment": {
-    "label": "Mixed",
-    "bullish_pct": 57.1,
-    "sample_size": 7
+    "label": "Bearish",
+    "bullish_pct": 0.0,
+    "sample_size": 4
    },
    "earnings_surprise": {
     "date": "2026-08-20",
