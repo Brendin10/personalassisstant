@@ -1,102 +1,45 @@
 {
- "updated": "Oct 09, 2026 09:18 PM ET",
+ "updated": "Oct 12, 2026 10:44 PM ET",
  "criteria": "close < lower BB(20,2), market cap > $20B",
  "universe_size": 503,
  "results": [
   {
-   "symbol": "WDC",
-   "name": "Western Digital Corporation",
-   "close": 393.30999755859375,
-   "lower_band": 393.37599821572235,
-   "pct_below_band": 0.01677800817232466,
-   "market_cap": 148711145472.0,
-   "chg_1d": -2.987029615719561,
-   "chg_5d": -14.97103086421301,
-   "chg_1mo": -18.44778996555857,
-   "off_52w_high": -47.293728762876405,
-   "rsi": 37.16814880944269,
+   "symbol": "BMY",
+   "name": "Bristol-Myers Squibb Company",
+   "close": 57.58000183105469,
+   "lower_band": 57.890135270238076,
+   "pct_below_band": 0.5357276118558866,
+   "market_cap": 117619515392.0,
+   "chg_1d": -2.604866591091093,
+   "chg_5d": -2.091480213423258,
+   "chg_1mo": -9.522309265734307,
+   "off_52w_high": -15.43544583947547,
+   "rsi": 28.593615365521316,
    "rsi_divergence": false,
-   "macd_histogram": -4.4987795256710115,
+   "macd_histogram": -0.36013967924540036,
    "macd_turning_up": false,
-   "volume_ratio": 0.7968825184983431,
+   "volume_ratio": 1.684812961995072,
    "valuation": {
-    "forward_pe": 12.398135,
-    "trailing_pe": 14.757801,
-    "peg_ratio": 0.75,
-    "analyst_target": 670.7917,
-    "analyst_upside_pct": 70.55038116595756
+    "forward_pe": 8.723344,
+    "trailing_pe": 12.68282,
+    "peg_ratio": 16.46,
+    "analyst_target": 65.83333,
+    "analyst_upside_pct": 14.333671251281622
    },
    "short_interest": {
-    "pct_of_float": 5.38,
-    "days_to_cover": 2.86
+    "pct_of_float": 2.25,
+    "days_to_cover": 3.99
    },
    "insider": {
     "recent_buys": 0,
     "shares": null
    },
    "hot_score": {
-    "total": 49.5,
-    "valuation": 21.8,
-    "technical": 4.6,
-    "catalyst": 3.4,
-    "sentiment": 19.7
-   },
-   "reasons": [
-    "WDC reports earnings on Oct 22 \u2014 earnings reactions are the most common cause of a sharp break below the band.",
-    "Sharp one-day drop of -10.2% on Oct 02 \u2014 points to a specific catalyst (news, guidance, downgrade) rather than gradual selling.",
-    "Down -18.4% over the past month \u2014 an extended downtrend; the band break continues an existing move rather than starting one.",
-    "Trading 47% below its 52-week high \u2014 deep drawdown territory, often reflecting a broken growth story or re-rating."
-   ],
-   "news": [],
-   "sentiment": {
-    "label": "Bullish",
-    "bullish_pct": 90.9,
-    "sample_size": 11
-   },
-   "earnings_surprise": {
-    "date": "2026-08-05",
-    "actual_eps": 3.56,
-    "estimate_eps": 3.3,
-    "surprise_pct": 7.878787878787887
-   }
-  },
-  {
-   "symbol": "GRMN",
-   "name": "Garmin Ltd.",
-   "close": 268.44000244140625,
-   "lower_band": 268.78614117478236,
-   "pct_below_band": 0.12877848979238332,
-   "market_cap": 51753906176.0,
-   "chg_1d": -2.795481285606005,
-   "chg_5d": -4.963530920414117,
-   "chg_1mo": -1.3740871243354214,
-   "off_52w_high": -14.280240355647312,
-   "rsi": 35.65653143579037,
-   "rsi_divergence": false,
-   "macd_histogram": -1.6405046644956374,
-   "macd_turning_up": false,
-   "volume_ratio": 0.6866383068362015,
-   "valuation": {
-    "forward_pe": 24.10201,
-    "trailing_pe": 27.69453,
-    "peg_ratio": 2.85,
-    "analyst_target": 302.0,
-    "analyst_upside_pct": 12.50186159043829
-   },
-   "short_interest": {
-    "pct_of_float": 1.88,
-    "days_to_cover": 3.71
-   },
-   "insider": {
-    "recent_buys": 0,
-    "shares": null
-   },
-   "hot_score": {
-    "total": 39.7,
+    "total": 49.4,
     "valuation": 10.0,
-    "technical": 5.1,
-    "catalyst": 1.2,
-    "sentiment": 23.4
+    "technical": 7.5,
+    "catalyst": 7.9,
+    "sentiment": 24.0
    },
    "reasons": [
     "No single obvious catalyst in the price action \u2014 likely broad market or sector weakness. Check the headlines below."
@@ -104,52 +47,269 @@
    "news": [],
    "sentiment": {
     "label": "Bullish",
-    "bullish_pct": 94.7,
-    "sample_size": 19
+    "bullish_pct": 92.3,
+    "sample_size": 13
    },
    "earnings_surprise": {
-    "date": "2026-07-29",
-    "actual_eps": 2.81,
-    "estimate_eps": 2.29,
-    "surprise_pct": 22.707423580786028
+    "date": "2026-07-30",
+    "actual_eps": 2.04,
+    "estimate_eps": 1.6,
+    "surprise_pct": 27.499999999999996
    }
   },
   {
-   "symbol": "DE",
-   "name": "Deere & Company",
-   "close": 652.5800170898438,
-   "lower_band": 654.9405441938584,
-   "pct_below_band": 0.36041853339834384,
-   "market_cap": 167418494976.0,
-   "chg_1d": -0.6530939240996125,
-   "chg_5d": -2.200040832798833,
-   "chg_1mo": -3.636981746233958,
-   "off_52w_high": -8.019953338403251,
-   "rsi": 42.09657395023241,
+   "symbol": "CVNA",
+   "name": "Carvana Co.",
+   "close": 59.5099983215332,
+   "lower_band": 60.318661288757696,
+   "pct_below_band": 1.340651383745502,
+   "market_cap": 65964675072.0,
+   "chg_1d": -6.621687197575399,
+   "chg_5d": -6.607035182858811,
+   "chg_1mo": -13.953159094268685,
+   "off_52w_high": -37.80959681971699,
+   "rsi": 35.190993699460805,
    "rsi_divergence": false,
-   "macd_histogram": -5.843642437884352,
+   "macd_histogram": -0.09501599780407322,
    "macd_turning_up": false,
-   "volume_ratio": 1.4777698339027907,
+   "volume_ratio": 1.1458210524017602,
    "valuation": {
-    "forward_pe": 27.265808,
-    "trailing_pe": 36.26927,
-    "peg_ratio": 1.51,
-    "analyst_target": 693.57306,
-    "analyst_upside_pct": 6.281688350336445
+    "forward_pe": 26.461708,
+    "trailing_pe": 31.486773,
+    "peg_ratio": null,
+    "analyst_target": 82.28571,
+    "analyst_upside_pct": 38.27207582061987
    },
    "short_interest": {
-    "pct_of_float": 2.08,
-    "days_to_cover": 3.9
+    "pct_of_float": 12.59,
+    "days_to_cover": 9.24
    },
    "insider": {
     "recent_buys": 0,
     "shares": null
    },
    "hot_score": {
-    "total": 32.5,
-    "valuation": 12.7,
-    "technical": 3.7,
-    "catalyst": 6.3,
+    "total": 47.6,
+    "valuation": 21.5,
+    "technical": 5.3,
+    "catalyst": 10.4,
+    "sentiment": 10.4
+   },
+   "reasons": [
+    "Sharp one-day drop of -6.6% on Oct 12 \u2014 points to a specific catalyst (news, guidance, downgrade) rather than gradual selling."
+   ],
+   "news": [],
+   "sentiment": {
+    "label": "Bearish",
+    "bullish_pct": 0.0,
+    "sample_size": 10
+   },
+   "earnings_surprise": {
+    "date": "2026-07-29",
+    "actual_eps": 0.42,
+    "estimate_eps": 0.38,
+    "surprise_pct": 10.52631578947368
+   }
+  },
+  {
+   "symbol": "HWM",
+   "name": "Howmet Aerospace Inc.",
+   "close": 220.80999755859375,
+   "lower_band": 221.15914439596895,
+   "pct_below_band": 0.157871309517313,
+   "market_cap": 88059338752.0,
+   "chg_1d": -1.9754936769774023,
+   "chg_5d": -3.8158337265953746,
+   "chg_1mo": -3.832587007693722,
+   "off_52w_high": -24.548094254634336,
+   "rsi": 36.315055161429136,
+   "rsi_divergence": false,
+   "macd_histogram": 0.8680131596465541,
+   "macd_turning_up": false,
+   "volume_ratio": 0.7556552535720099,
+   "valuation": {
+    "forward_pe": 33.962463,
+    "trailing_pe": 47.588364,
+    "peg_ratio": 0.8,
+    "analyst_target": 328.7,
+    "analyst_upside_pct": 48.861013375436826
+   },
+   "short_interest": {
+    "pct_of_float": 2.57,
+    "days_to_cover": 2.58
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 47.5,
+    "valuation": 21.7,
+    "technical": 4.9,
+    "catalyst": 1.6,
+    "sentiment": 19.4
+   },
+   "reasons": [
+    "No single obvious catalyst in the price action \u2014 likely broad market or sector weakness. Check the headlines below."
+   ],
+   "news": [],
+   "sentiment": {
+    "label": "Bullish",
+    "bullish_pct": 76.5,
+    "sample_size": 17
+   },
+   "earnings_surprise": {
+    "date": "2026-08-06",
+    "actual_eps": 1.33,
+    "estimate_eps": 1.25,
+    "surprise_pct": 6.400000000000006
+   }
+  },
+  {
+   "symbol": "T",
+   "name": "AT&T Inc.",
+   "close": 22.489999771118164,
+   "lower_band": 22.728823014169894,
+   "pct_below_band": 1.05075059497291,
+   "market_cap": 154110148608.0,
+   "chg_1d": 1.3976531184719754,
+   "chg_5d": -7.219472015363282,
+   "chg_1mo": -13.699154904012278,
+   "off_52w_high": -22.71477843196412,
+   "rsi": 30.02511417756658,
+   "rsi_divergence": false,
+   "macd_histogram": -0.2725755569202225,
+   "macd_turning_up": false,
+   "volume_ratio": 1.1779104935069888,
+   "valuation": {
+    "forward_pe": 8.755913,
+    "trailing_pe": 7.4224424,
+    "peg_ratio": 1.35,
+    "analyst_target": 28.80435,
+    "analyst_upside_pct": 28.07625741726674
+   },
+   "short_interest": {
+    "pct_of_float": 1.82,
+    "days_to_cover": 3.25
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 47.2,
+    "valuation": 16.0,
+    "technical": 7.0,
+    "catalyst": 3.9,
+    "sentiment": 20.3
+   },
+   "reasons": [
+    "T reports earnings on Oct 21 \u2014 earnings reactions are the most common cause of a sharp break below the band.",
+    "Sharp one-day drop of -10.8% on Oct 09 \u2014 points to a specific catalyst (news, guidance, downgrade) rather than gradual selling."
+   ],
+   "news": [],
+   "sentiment": {
+    "label": "Bullish",
+    "bullish_pct": 100.0,
+    "sample_size": 9
+   },
+   "earnings_surprise": {
+    "date": "2026-07-22",
+    "actual_eps": 0.65,
+    "estimate_eps": 0.59,
+    "surprise_pct": 10.169491525423737
+   }
+  },
+  {
+   "symbol": "UAL",
+   "name": "United Airlines Holdings, Inc.",
+   "close": 104.44000244140625,
+   "lower_band": 104.63409185823937,
+   "pct_below_band": 0.1854934786418172,
+   "market_cap": 33899530240.0,
+   "chg_1d": -2.8103449365306954,
+   "chg_5d": -5.054543235085229,
+   "chg_1mo": -4.898923027106439,
+   "off_52w_high": -23.26794359483436,
+   "rsi": 37.62506346109844,
+   "rsi_divergence": false,
+   "macd_histogram": -0.4175840032066642,
+   "macd_turning_up": false,
+   "volume_ratio": 0.7322880178053892,
+   "valuation": {
+    "forward_pe": 8.140601,
+    "trailing_pe": 9.779026,
+    "peg_ratio": 6.5,
+    "analyst_target": 152.78261,
+    "analyst_upside_pct": 46.287443918545776
+   },
+   "short_interest": {
+    "pct_of_float": 5.21,
+    "days_to_cover": 4.3
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 41.7,
+    "valuation": 14.3,
+    "technical": 4.5,
+    "catalyst": 3.3,
+    "sentiment": 19.6
+   },
+   "reasons": [
+    "UAL reports earnings on Oct 20 \u2014 earnings reactions are the most common cause of a sharp break below the band."
+   ],
+   "news": [],
+   "sentiment": {
+    "label": "Bullish",
+    "bullish_pct": 77.8,
+    "sample_size": 18
+   },
+   "earnings_surprise": {
+    "date": "2026-07-15",
+    "actual_eps": 1.99,
+    "estimate_eps": 1.85,
+    "surprise_pct": 7.567567567567562
+   }
+  },
+  {
+   "symbol": "DE",
+   "name": "Deere & Company",
+   "close": 632.6099853515625,
+   "lower_band": 633.8347457442742,
+   "pct_below_band": 0.1932302387862193,
+   "market_cap": 170567729152.0,
+   "chg_1d": 1.8810482362832115,
+   "chg_5d": -7.26913309412539,
+   "chg_1mo": -6.382633188225729,
+   "off_52w_high": -10.834695443612075,
+   "rsi": 38.40174080977747,
+   "rsi_divergence": false,
+   "macd_histogram": -8.639678362599412,
+   "macd_turning_up": false,
+   "volume_ratio": 0.7999969126988415,
+   "valuation": {
+    "forward_pe": 27.778692,
+    "trailing_pe": 35.164536,
+    "peg_ratio": 1.44,
+    "analyst_target": 693.57306,
+    "analyst_upside_pct": 9.636755040241486
+   },
+   "short_interest": {
+    "pct_of_float": 2.13,
+    "days_to_cover": 4.14
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 29.2,
+    "valuation": 13.9,
+    "technical": 4.2,
+    "catalyst": 1.3,
     "sentiment": 9.8
    },
    "reasons": [
@@ -158,8 +318,8 @@
    "news": [],
    "sentiment": {
     "label": "Bearish",
-    "bullish_pct": 0.0,
-    "sample_size": 4
+    "bullish_pct": 33.3,
+    "sample_size": 6
    },
    "earnings_surprise": {
     "date": "2026-08-20",
