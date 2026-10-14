@@ -1,138 +1,30 @@
 {
- "updated": "Oct 12, 2026 10:44 PM ET",
+ "updated": "Oct 13, 2026 08:38 PM ET",
  "criteria": "close < lower BB(20,2), market cap > $20B",
  "universe_size": 503,
  "results": [
   {
-   "symbol": "BMY",
-   "name": "Bristol-Myers Squibb Company",
-   "close": 57.58000183105469,
-   "lower_band": 57.890135270238076,
-   "pct_below_band": 0.5357276118558866,
-   "market_cap": 117619515392.0,
-   "chg_1d": -2.604866591091093,
-   "chg_5d": -2.091480213423258,
-   "chg_1mo": -9.522309265734307,
-   "off_52w_high": -15.43544583947547,
-   "rsi": 28.593615365521316,
-   "rsi_divergence": false,
-   "macd_histogram": -0.36013967924540036,
-   "macd_turning_up": false,
-   "volume_ratio": 1.684812961995072,
-   "valuation": {
-    "forward_pe": 8.723344,
-    "trailing_pe": 12.68282,
-    "peg_ratio": 16.46,
-    "analyst_target": 65.83333,
-    "analyst_upside_pct": 14.333671251281622
-   },
-   "short_interest": {
-    "pct_of_float": 2.25,
-    "days_to_cover": 3.99
-   },
-   "insider": {
-    "recent_buys": 0,
-    "shares": null
-   },
-   "hot_score": {
-    "total": 49.4,
-    "valuation": 10.0,
-    "technical": 7.5,
-    "catalyst": 7.9,
-    "sentiment": 24.0
-   },
-   "reasons": [
-    "No single obvious catalyst in the price action \u2014 likely broad market or sector weakness. Check the headlines below."
-   ],
-   "news": [],
-   "sentiment": {
-    "label": "Bullish",
-    "bullish_pct": 92.3,
-    "sample_size": 13
-   },
-   "earnings_surprise": {
-    "date": "2026-07-30",
-    "actual_eps": 2.04,
-    "estimate_eps": 1.6,
-    "surprise_pct": 27.499999999999996
-   }
-  },
-  {
-   "symbol": "CVNA",
-   "name": "Carvana Co.",
-   "close": 59.5099983215332,
-   "lower_band": 60.318661288757696,
-   "pct_below_band": 1.340651383745502,
-   "market_cap": 65964675072.0,
-   "chg_1d": -6.621687197575399,
-   "chg_5d": -6.607035182858811,
-   "chg_1mo": -13.953159094268685,
-   "off_52w_high": -37.80959681971699,
-   "rsi": 35.190993699460805,
-   "rsi_divergence": false,
-   "macd_histogram": -0.09501599780407322,
-   "macd_turning_up": false,
-   "volume_ratio": 1.1458210524017602,
-   "valuation": {
-    "forward_pe": 26.461708,
-    "trailing_pe": 31.486773,
-    "peg_ratio": null,
-    "analyst_target": 82.28571,
-    "analyst_upside_pct": 38.27207582061987
-   },
-   "short_interest": {
-    "pct_of_float": 12.59,
-    "days_to_cover": 9.24
-   },
-   "insider": {
-    "recent_buys": 0,
-    "shares": null
-   },
-   "hot_score": {
-    "total": 47.6,
-    "valuation": 21.5,
-    "technical": 5.3,
-    "catalyst": 10.4,
-    "sentiment": 10.4
-   },
-   "reasons": [
-    "Sharp one-day drop of -6.6% on Oct 12 \u2014 points to a specific catalyst (news, guidance, downgrade) rather than gradual selling."
-   ],
-   "news": [],
-   "sentiment": {
-    "label": "Bearish",
-    "bullish_pct": 0.0,
-    "sample_size": 10
-   },
-   "earnings_surprise": {
-    "date": "2026-07-29",
-    "actual_eps": 0.42,
-    "estimate_eps": 0.38,
-    "surprise_pct": 10.52631578947368
-   }
-  },
-  {
    "symbol": "HWM",
    "name": "Howmet Aerospace Inc.",
    "close": 220.80999755859375,
-   "lower_band": 221.15914439596895,
-   "pct_below_band": 0.157871309517313,
-   "market_cap": 88059338752.0,
+   "lower_band": 221.15914439596887,
+   "pct_below_band": 0.15787130951727452,
+   "market_cap": 86476095488.0,
    "chg_1d": -1.9754936769774023,
    "chg_5d": -3.8158337265953746,
    "chg_1mo": -3.832587007693722,
    "off_52w_high": -24.548094254634336,
-   "rsi": 36.315055161429136,
+   "rsi": 36.315055124921166,
    "rsi_divergence": false,
-   "macd_histogram": 0.8680131596465541,
+   "macd_histogram": 0.8680131659499803,
    "macd_turning_up": false,
-   "volume_ratio": 0.7556552535720099,
+   "volume_ratio": 1.352763310955165,
    "valuation": {
-    "forward_pe": 33.962463,
-    "trailing_pe": 47.588364,
+    "forward_pe": 33.35184,
+    "trailing_pe": 46.732758,
     "peg_ratio": 0.8,
-    "analyst_target": 328.7,
-    "analyst_upside_pct": 48.861013375436826
+    "analyst_target": 327.05,
+    "analyst_upside_pct": 48.113764601267484
    },
    "short_interest": {
     "pct_of_float": 2.57,
@@ -143,10 +35,10 @@
     "shares": null
    },
    "hot_score": {
-    "total": 47.5,
+    "total": 51.6,
     "valuation": 21.7,
     "technical": 4.9,
-    "catalyst": 1.6,
+    "catalyst": 5.7,
     "sentiment": 19.4
    },
    "reasons": [
@@ -166,27 +58,81 @@
    }
   },
   {
+   "symbol": "CVNA",
+   "name": "Carvana Co.",
+   "close": 59.5099983215332,
+   "lower_band": 60.31866128875699,
+   "pct_below_band": 1.3406513837443514,
+   "market_cap": 66940125184.0,
+   "chg_1d": -6.621687197575399,
+   "chg_5d": -6.607035182858811,
+   "chg_1mo": -13.953159094268685,
+   "off_52w_high": -37.80959681971699,
+   "rsi": 35.19099365370424,
+   "rsi_divergence": false,
+   "macd_histogram": -0.09501599463993005,
+   "macd_turning_up": false,
+   "volume_ratio": 1.1397383795233547,
+   "valuation": {
+    "forward_pe": 26.853008,
+    "trailing_pe": 31.952381,
+    "peg_ratio": null,
+    "analyst_target": 82.28571,
+    "analyst_upside_pct": 38.27207582061987
+   },
+   "short_interest": {
+    "pct_of_float": 12.59,
+    "days_to_cover": 9.24
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 47.5,
+    "valuation": 21.5,
+    "technical": 5.3,
+    "catalyst": 10.4,
+    "sentiment": 10.4
+   },
+   "reasons": [
+    "Sharp one-day drop of -6.6% on Oct 12 \u2014 points to a specific catalyst (news, guidance, downgrade) rather than gradual selling."
+   ],
+   "news": [],
+   "sentiment": {
+    "label": "Bearish",
+    "bullish_pct": 14.3,
+    "sample_size": 14
+   },
+   "earnings_surprise": {
+    "date": "2026-07-29",
+    "actual_eps": 0.42,
+    "estimate_eps": 0.38,
+    "surprise_pct": 10.52631578947368
+   }
+  },
+  {
    "symbol": "T",
    "name": "AT&T Inc.",
    "close": 22.489999771118164,
-   "lower_band": 22.728823014169894,
-   "pct_below_band": 1.05075059497291,
-   "market_cap": 154110148608.0,
+   "lower_band": 22.728823014169897,
+   "pct_below_band": 1.0507505949729257,
+   "market_cap": 156577021952.0,
    "chg_1d": 1.3976531184719754,
    "chg_5d": -7.219472015363282,
    "chg_1mo": -13.699154904012278,
    "off_52w_high": -22.71477843196412,
-   "rsi": 30.02511417756658,
+   "rsi": 30.025114112609216,
    "rsi_divergence": false,
-   "macd_histogram": -0.2725755569202225,
+   "macd_histogram": -0.2725755558005357,
    "macd_turning_up": false,
-   "volume_ratio": 1.1779104935069888,
+   "volume_ratio": 1.1031464824680417,
    "valuation": {
-    "forward_pe": 8.755913,
-    "trailing_pe": 7.4224424,
-    "peg_ratio": 1.35,
-    "analyst_target": 28.80435,
-    "analyst_upside_pct": 28.07625741726674
+    "forward_pe": 8.89607,
+    "trailing_pe": 7.5412545,
+    "peg_ratio": 1.36,
+    "analyst_target": 28.76087,
+    "analyst_upside_pct": 27.882927046246287
    },
    "short_interest": {
     "pct_of_float": 1.82,
@@ -197,10 +143,10 @@
     "shares": null
    },
    "hot_score": {
-    "total": 47.2,
-    "valuation": 16.0,
+    "total": 46.5,
+    "valuation": 15.9,
     "technical": 7.0,
-    "catalyst": 3.9,
+    "catalyst": 3.4,
     "sentiment": 20.3
    },
    "reasons": [
@@ -210,7 +156,7 @@
    "news": [],
    "sentiment": {
     "label": "Bullish",
-    "bullish_pct": 100.0,
+    "bullish_pct": 88.9,
     "sample_size": 9
    },
    "earnings_surprise": {
@@ -221,24 +167,78 @@
    }
   },
   {
+   "symbol": "BMY",
+   "name": "Bristol-Myers Squibb Company",
+   "close": 57.58000183105469,
+   "lower_band": 57.89013527023809,
+   "pct_below_band": 0.5357276118559111,
+   "market_cap": 115760635904.0,
+   "chg_1d": -2.604866591091093,
+   "chg_5d": -2.091480213423258,
+   "chg_1mo": -9.522309265734307,
+   "off_52w_high": -15.43544583947547,
+   "rsi": 28.59361534853403,
+   "rsi_divergence": false,
+   "macd_histogram": -0.3601396787062936,
+   "macd_turning_up": false,
+   "volume_ratio": 1.1963240870001348,
+   "valuation": {
+    "forward_pe": 8.534857,
+    "trailing_pe": 12.482379,
+    "peg_ratio": 16.03,
+    "analyst_target": 65.625,
+    "analyst_upside_pct": 13.97186160665662
+   },
+   "short_interest": {
+    "pct_of_float": 2.25,
+    "days_to_cover": 3.99
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 45.7,
+    "valuation": 9.9,
+    "technical": 7.5,
+    "catalyst": 4.3,
+    "sentiment": 24.0
+   },
+   "reasons": [
+    "No single obvious catalyst in the price action \u2014 likely broad market or sector weakness. Check the headlines below."
+   ],
+   "news": [],
+   "sentiment": {
+    "label": "Bullish",
+    "bullish_pct": 86.7,
+    "sample_size": 15
+   },
+   "earnings_surprise": {
+    "date": "2026-07-30",
+    "actual_eps": 2.04,
+    "estimate_eps": 1.6,
+    "surprise_pct": 27.499999999999996
+   }
+  },
+  {
    "symbol": "UAL",
    "name": "United Airlines Holdings, Inc.",
    "close": 104.44000244140625,
-   "lower_band": 104.63409185823937,
-   "pct_below_band": 0.1854934786418172,
-   "market_cap": 33899530240.0,
+   "lower_band": 104.63409185823943,
+   "pct_below_band": 0.18549347864187143,
+   "market_cap": 33506785280.0,
    "chg_1d": -2.8103449365306954,
    "chg_5d": -5.054543235085229,
    "chg_1mo": -4.898923027106439,
    "off_52w_high": -23.26794359483436,
-   "rsi": 37.62506346109844,
+   "rsi": 37.6250633754773,
    "rsi_divergence": false,
-   "macd_histogram": -0.4175840032066642,
+   "macd_histogram": -0.41758399512005373,
    "macd_turning_up": false,
-   "volume_ratio": 0.7322880178053892,
+   "volume_ratio": 1.1669859957935234,
    "valuation": {
-    "forward_pe": 8.140601,
-    "trailing_pe": 9.779026,
+    "forward_pe": 8.046288,
+    "trailing_pe": 9.66573,
     "peg_ratio": 6.5,
     "analyst_target": 152.78261,
     "analyst_upside_pct": 46.287443918545776
@@ -252,10 +252,10 @@
     "shares": null
    },
    "hot_score": {
-    "total": 41.7,
+    "total": 44.4,
     "valuation": 14.3,
     "technical": 4.5,
-    "catalyst": 3.3,
+    "catalyst": 6.0,
     "sentiment": 19.6
    },
    "reasons": [
@@ -264,8 +264,8 @@
    "news": [],
    "sentiment": {
     "label": "Bullish",
-    "bullish_pct": 77.8,
-    "sample_size": 18
+    "bullish_pct": 82.4,
+    "sample_size": 17
    },
    "earnings_surprise": {
     "date": "2026-07-15",
@@ -278,24 +278,24 @@
    "symbol": "DE",
    "name": "Deere & Company",
    "close": 632.6099853515625,
-   "lower_band": 633.8347457442742,
-   "pct_below_band": 0.1932302387862193,
-   "market_cap": 170567729152.0,
+   "lower_band": 633.8347457442907,
+   "pct_below_band": 0.19323023878881504,
+   "market_cap": 175256518656.0,
    "chg_1d": 1.8810482362832115,
    "chg_5d": -7.26913309412539,
    "chg_1mo": -6.382633188225729,
    "off_52w_high": -10.834695443612075,
-   "rsi": 38.40174080977747,
+   "rsi": 38.401740775042846,
    "rsi_divergence": false,
-   "macd_histogram": -8.639678362599412,
+   "macd_histogram": -8.639678344269715,
    "macd_turning_up": false,
-   "volume_ratio": 0.7999969126988415,
+   "volume_ratio": 1.0252428682762718,
    "valuation": {
-    "forward_pe": 27.778692,
-    "trailing_pe": 35.164536,
-    "peg_ratio": 1.44,
-    "analyst_target": 693.57306,
-    "analyst_upside_pct": 9.636755040241486
+    "forward_pe": 28.542309,
+    "trailing_pe": 36.131184,
+    "peg_ratio": 1.47,
+    "analyst_target": 694.0078,
+    "analyst_upside_pct": 9.705476687080218
    },
    "short_interest": {
     "pct_of_float": 2.13,
@@ -306,10 +306,10 @@
     "shares": null
    },
    "hot_score": {
-    "total": 29.2,
-    "valuation": 13.9,
+    "total": 30.8,
+    "valuation": 13.8,
     "technical": 4.2,
-    "catalyst": 1.3,
+    "catalyst": 3.0,
     "sentiment": 9.8
    },
    "reasons": [
