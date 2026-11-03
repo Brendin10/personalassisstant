@@ -1,471 +1,87 @@
 {
- "updated": "Oct 30, 2026 09:05 PM ET",
+ "updated": "Nov 02, 2026 10:06 PM ET",
  "criteria": "close < lower BB(20,2), market cap > $20B",
  "universe_size": 503,
  "results": [
   {
-   "symbol": "GOOG",
-   "name": "Alphabet Inc.",
-   "close": 282.32000732421875,
-   "lower_band": 300.71329217807255,
-   "pct_below_band": 6.116551988982881,
-   "market_cap": 3420436561920.0,
-   "chg_1d": -12.293021070391507,
-   "chg_5d": -11.98403830623831,
-   "chg_1mo": -17.145032747689104,
-   "off_52w_high": -29.250200160709795,
-   "rsi": 22.081616338125798,
+   "symbol": "INTC",
+   "name": "Intel Corporation",
+   "close": 59.970001220703125,
+   "lower_band": 68.0286547772923,
+   "pct_below_band": 11.845969294808288,
+   "market_cap": 318740529152.0,
+   "chg_1d": -8.8047456317483,
+   "chg_5d": -33.71283252842533,
+   "chg_1mo": -49.744406016512436,
+   "off_52w_high": -57.4499785852957,
+   "rsi": 22.952320379171994,
    "rsi_divergence": false,
-   "macd_histogram": -4.749024707379903,
+   "macd_histogram": -3.0820017996081033,
    "macd_turning_up": false,
-   "volume_ratio": 2.2260829369598714,
+   "volume_ratio": 1.9716949822102814,
    "valuation": {
-    "forward_pe": 18.378113,
-    "trailing_pe": 14.52846,
-    "peg_ratio": 0.99,
-    "analyst_target": 403.86667,
-    "analyst_upside_pct": 43.05279807399409
-   },
-   "short_interest": {
-    "pct_of_float": null,
-    "days_to_cover": 2.9
-   },
-   "insider": {
-    "recent_buys": 0,
-    "shares": null
-   },
-   "hot_score": {
-    "total": 63.0,
-    "valuation": 17.7,
-    "technical": 9.6,
-    "catalyst": 21.0,
-    "sentiment": 14.7
-   },
-   "reasons": [
-    "GOOG reported earnings on Oct 28 \u2014 earnings reactions are the most common cause of a sharp break below the band.",
-    "Sharp one-day drop of -12.3% on Oct 29 \u2014 points to a specific catalyst (news, guidance, downgrade) rather than gradual selling.",
-    "Down -17.1% over the past month \u2014 an extended downtrend; the band break continues an existing move rather than starting one."
-   ],
-   "news": [],
-   "sentiment": {
-    "label": "Bullish",
-    "bullish_pct": 75.0,
-    "sample_size": 12
-   },
-   "earnings_surprise": {
-    "date": "2026-10-28",
-    "actual_eps": 2.67,
-    "estimate_eps": 3.04,
-    "surprise_pct": -12.17105263157895
-   }
-  },
-  {
-   "symbol": "NOW",
-   "name": "ServiceNow, Inc.",
-   "close": 109.66999816894531,
-   "lower_band": 121.83558395615147,
-   "pct_below_band": 9.985248473536714,
-   "market_cap": 109105840128.0,
-   "chg_1d": -26.94998028238872,
-   "chg_5d": -30.146497981563492,
-   "chg_1mo": -18.162821681668696,
-   "off_52w_high": -40.35005847282477,
-   "rsi": 28.47118619623234,
-   "rsi_divergence": false,
-   "macd_histogram": -2.278758827575019,
-   "macd_turning_up": false,
-   "volume_ratio": 2.2020266136143727,
-   "valuation": {
-    "forward_pe": 21.017023,
-    "trailing_pe": 75.6259,
-    "peg_ratio": 0.79,
-    "analyst_target": 155.16652,
-    "analyst_upside_pct": 41.484929872040155
-   },
-   "short_interest": {
-    "pct_of_float": 2.69,
-    "days_to_cover": 2.52
-   },
-   "insider": {
-    "recent_buys": 0,
-    "shares": null
-   },
-   "hot_score": {
-    "total": 58.5,
-    "valuation": 21.7,
-    "technical": 7.5,
-    "catalyst": 12.0,
-    "sentiment": 17.3
-   },
-   "reasons": [
-    "NOW reported earnings on Oct 28 \u2014 earnings reactions are the most common cause of a sharp break below the band.",
-    "Sharp one-day drop of -26.9% on Oct 29 \u2014 points to a specific catalyst (news, guidance, downgrade) rather than gradual selling.",
-    "Down -18.2% over the past month \u2014 an extended downtrend; the band break continues an existing move rather than starting one.",
-    "Trading 40% below its 52-week high \u2014 deep drawdown territory, often reflecting a broken growth story or re-rating."
-   ],
-   "news": [],
-   "sentiment": {
-    "label": "Bullish",
-    "bullish_pct": 93.3,
-    "sample_size": 15
-   },
-   "earnings_surprise": {
-    "date": "2026-10-28",
-    "actual_eps": 1.0,
-    "estimate_eps": 1.02,
-    "surprise_pct": -1.960784313725492
-   }
-  },
-  {
-   "symbol": "PCAR",
-   "name": "PACCAR Inc.",
-   "close": 102.29000091552734,
-   "lower_band": 102.6792701918259,
-   "pct_below_band": 0.37911184562505024,
-   "market_cap": 53656162304.0,
-   "chg_1d": -0.12692565489361707,
-   "chg_5d": -6.661187760108822,
-   "chg_1mo": -6.848189427427853,
-   "off_52w_high": -25.989439297766737,
-   "rsi": 25.754635626243257,
-   "rsi_divergence": false,
-   "macd_histogram": -0.27271114536730545,
-   "macd_turning_up": false,
-   "volume_ratio": 1.275645222342095,
-   "valuation": {
-    "forward_pe": 14.8037,
-    "trailing_pe": 19.448475,
-    "peg_ratio": 0.73,
-    "analyst_target": 128.4375,
-    "analyst_upside_pct": 25.562126161349497
-   },
-   "short_interest": {
-    "pct_of_float": 2.75,
-    "days_to_cover": 3.24
-   },
-   "insider": {
-    "recent_buys": 0,
-    "shares": null
-   },
-   "hot_score": {
-    "total": 52.2,
-    "valuation": 20.7,
-    "technical": 8.4,
-    "catalyst": 5.2,
-    "sentiment": 17.9
-   },
-   "reasons": [
-    "PCAR reported earnings on Oct 27 \u2014 earnings reactions are the most common cause of a sharp break below the band."
-   ],
-   "news": [],
-   "sentiment": {
-    "label": "Bullish",
-    "bullish_pct": 62.5,
-    "sample_size": 8
-   },
-   "earnings_surprise": {
-    "date": "2026-10-27",
-    "actual_eps": 1.61,
-    "estimate_eps": 1.6,
-    "surprise_pct": 0.6250000000000006
-   }
-  },
-  {
-   "symbol": "ADM",
-   "name": "Archer-Daniels-Midland Company",
-   "close": 76.19999694824219,
-   "lower_band": 76.69270981926095,
-   "pct_below_band": 0.6424507259945915,
-   "market_cap": 37067276288.0,
-   "chg_1d": -1.3336868625151155,
-   "chg_5d": -4.559117681122638,
-   "chg_1mo": -4.0060473862498895,
-   "off_52w_high": -13.497559182590324,
-   "rsi": 32.62280092300186,
-   "rsi_divergence": false,
-   "macd_histogram": -0.4803064717055626,
-   "macd_turning_up": false,
-   "volume_ratio": 1.4723897492958213,
-   "valuation": {
-    "forward_pe": 13.547505,
-    "trailing_pe": 21.071234,
-    "peg_ratio": 0.91,
-    "analyst_target": 80.3,
-    "analyst_upside_pct": 5.380581648241645
-   },
-   "short_interest": {
-    "pct_of_float": 3.31,
-    "days_to_cover": 3.6
-   },
-   "insider": {
-    "recent_buys": 0,
-    "shares": null
-   },
-   "hot_score": {
-    "total": 51.6,
-    "valuation": 14.5,
-    "technical": 6.1,
-    "catalyst": 7.0,
-    "sentiment": 24.0
-   },
-   "reasons": [
-    "ADM reports earnings on Nov 03 \u2014 earnings reactions are the most common cause of a sharp break below the band."
-   ],
-   "news": [],
-   "sentiment": {
-    "label": "Bullish",
-    "bullish_pct": 91.7,
-    "sample_size": 12
-   },
-   "earnings_surprise": {
-    "date": "2026-08-04",
-    "actual_eps": 1.84,
-    "estimate_eps": 1.44,
-    "surprise_pct": 27.77777777777779
-   }
-  },
-  {
-   "symbol": "XYL",
-   "name": "Xylem Inc.",
-   "close": 90.76000213623047,
-   "lower_band": 91.3999981085777,
-   "pct_below_band": 0.7002144262486304,
-   "market_cap": 21190516736.0,
-   "chg_1d": 2.8675038910083606,
-   "chg_5d": -16.93208826495659,
-   "chg_1mo": -10.378191819122096,
-   "off_52w_high": -40.017180886488156,
-   "rsi": 29.696350929515503,
-   "rsi_divergence": false,
-   "macd_histogram": -1.333474404433862,
-   "macd_turning_up": false,
-   "volume_ratio": 1.0303128812001965,
-   "valuation": {
-    "forward_pe": 15.605999,
-    "trailing_pe": 20.487804,
-    "peg_ratio": 1.1,
-    "analyst_target": 127.6875,
-    "analyst_upside_pct": 40.68697333032394
-   },
-   "short_interest": {
-    "pct_of_float": 5.82,
-    "days_to_cover": 4.28
-   },
-   "insider": {
-    "recent_buys": 0,
-    "shares": null
-   },
-   "hot_score": {
-    "total": 50.7,
-    "valuation": 20.7,
-    "technical": 7.1,
-    "catalyst": 5.3,
-    "sentiment": 17.6
-   },
-   "reasons": [
-    "XYL reported earnings on Oct 27 \u2014 earnings reactions are the most common cause of a sharp break below the band.",
-    "Sharp one-day drop of -14.2% on Oct 27 \u2014 points to a specific catalyst (news, guidance, downgrade) rather than gradual selling.",
-    "Trading 40% below its 52-week high \u2014 deep drawdown territory, often reflecting a broken growth story or re-rating."
-   ],
-   "news": [],
-   "sentiment": {
-    "label": "Bullish",
-    "bullish_pct": 86.7,
-    "sample_size": 15
-   },
-   "earnings_surprise": {
-    "date": "2026-10-27",
-    "actual_eps": 1.44,
-    "estimate_eps": 1.45,
-    "surprise_pct": -0.6896551724137937
-   }
-  },
-  {
-   "symbol": "TTWO",
-   "name": "Take-Two Interactive Software, ",
-   "close": 193.38999938964844,
-   "lower_band": 194.9904627403013,
-   "pct_below_band": 0.8207905802985049,
-   "market_cap": 35558072320.0,
-   "chg_1d": -0.9729089875591179,
-   "chg_5d": -6.939030045885774,
-   "chg_1mo": -6.800000294145336,
-   "off_52w_high": -25.161566251699576,
-   "rsi": 34.24113965500676,
-   "rsi_divergence": false,
-   "macd_histogram": -0.6075472354433122,
-   "macd_turning_up": false,
-   "volume_ratio": 1.574368990318302,
-   "valuation": {
-    "forward_pe": 18.50106,
+    "forward_pe": 33.20175,
     "trailing_pe": null,
-    "peg_ratio": 2.65,
-    "analyst_target": 285.13138,
-    "analyst_upside_pct": 47.43853399860043
+    "peg_ratio": 1.36,
+    "analyst_target": 93.88372,
+    "analyst_upside_pct": 56.55113905115117
    },
    "short_interest": {
-    "pct_of_float": 5.18,
-    "days_to_cover": 3.67
+    "pct_of_float": 2.8,
+    "days_to_cover": 1.36
    },
    "insider": {
     "recent_buys": 0,
     "shares": null
    },
    "hot_score": {
-    "total": 50.1,
-    "valuation": 14.2,
-    "technical": 5.6,
-    "catalyst": 8.9,
-    "sentiment": 21.3
+    "total": 58.9,
+    "valuation": 20.7,
+    "technical": 9.3,
+    "catalyst": 10.4,
+    "sentiment": 18.5
    },
    "reasons": [
-    "TTWO reports earnings on Nov 09 \u2014 earnings reactions are the most common cause of a sharp break below the band."
+    "INTC reported earnings on Oct 29 \u2014 earnings reactions are the most common cause of a sharp break below the band.",
+    "Sharp one-day drop of -28.6% on Oct 30 \u2014 points to a specific catalyst (news, guidance, downgrade) rather than gradual selling.",
+    "Down -49.7% over the past month \u2014 an extended downtrend; the band break continues an existing move rather than starting one.",
+    "Trading 57% below its 52-week high \u2014 deep drawdown territory, often reflecting a broken growth story or re-rating."
    ],
    "news": [],
    "sentiment": {
-    "label": "Bullish",
-    "bullish_pct": 84.6,
-    "sample_size": 13
-   },
-   "earnings_surprise": {
-    "date": "2026-08-07",
-    "actual_eps": -0.18,
-    "estimate_eps": -0.21,
-    "surprise_pct": 14.285714285714285
-   }
-  },
-  {
-   "symbol": "AMZN",
-   "name": "Amazon.com, Inc.",
-   "close": 243.7899932861328,
-   "lower_band": 244.28164996574276,
-   "pct_below_band": 0.20126631684323987,
-   "market_cap": 2598423756800.0,
-   "chg_1d": -4.245880816274472,
-   "chg_5d": -2.6320039412748075,
-   "chg_1mo": -2.151314766870316,
-   "off_52w_high": -14.164494501688928,
-   "rsi": 40.71893851682678,
-   "rsi_divergence": false,
-   "macd_histogram": -1.017216350102058,
-   "macd_turning_up": false,
-   "volume_ratio": 2.746048914336215,
-   "valuation": {
-    "forward_pe": 22.766712,
-    "trailing_pe": 19.336283,
-    "peg_ratio": 1.41,
-    "analyst_target": 332.4093,
-    "analyst_upside_pct": 36.350674414210246
-   },
-   "short_interest": {
-    "pct_of_float": 0.95,
-    "days_to_cover": 2.6
-   },
-   "insider": {
-    "recent_buys": 0,
-    "shares": null
-   },
-   "hot_score": {
-    "total": 49.9,
-    "valuation": 16.3,
-    "technical": 3.7,
-    "catalyst": 13.1,
-    "sentiment": 16.9
-   },
-   "reasons": [
-    "AMZN reported earnings on Oct 29 \u2014 earnings reactions are the most common cause of a sharp break below the band."
-   ],
-   "news": [],
-   "sentiment": {
-    "label": "Bullish",
-    "bullish_pct": 80.0,
-    "sample_size": 15
+    "label": "Mixed",
+    "bullish_pct": 50.0,
+    "sample_size": 16
    },
    "earnings_surprise": {
     "date": "2026-10-29",
-    "actual_eps": 1.89,
-    "estimate_eps": 1.96,
-    "surprise_pct": -3.5714285714285747
-   }
-  },
-  {
-   "symbol": "GOOGL",
-   "name": "Alphabet Inc.",
-   "close": 283.82000732421875,
-   "lower_band": 303.2086566588835,
-   "pct_below_band": 6.39449069439908,
-   "market_cap": 3440352690176.0,
-   "chg_1d": -12.641203321887406,
-   "chg_5d": -12.46067292097235,
-   "chg_1mo": -17.51336363627495,
-   "off_52w_high": -29.50672823846976,
-   "rsi": 22.32003606914668,
-   "rsi_divergence": false,
-   "macd_histogram": -4.955154267669776,
-   "macd_turning_up": false,
-   "volume_ratio": 2.113527705225601,
-   "valuation": {
-    "forward_pe": 18.485123,
-    "trailing_pe": 14.613055,
-    "peg_ratio": 1.0,
-    "analyst_target": 408.08655,
-    "analyst_upside_pct": 43.7835739091595
-   },
-   "short_interest": {
-    "pct_of_float": 1.33,
-    "days_to_cover": 3.1
-   },
-   "insider": {
-    "recent_buys": 0,
-    "shares": null
-   },
-   "hot_score": {
-    "total": 49.2,
-    "valuation": 17.7,
-    "technical": 9.6,
-    "catalyst": 10.5,
-    "sentiment": 11.5
-   },
-   "reasons": [
-    "GOOGL reported earnings on Oct 28 \u2014 earnings reactions are the most common cause of a sharp break below the band.",
-    "Sharp one-day drop of -12.6% on Oct 29 \u2014 points to a specific catalyst (news, guidance, downgrade) rather than gradual selling.",
-    "Down -17.5% over the past month \u2014 an extended downtrend; the band break continues an existing move rather than starting one."
-   ],
-   "news": [],
-   "sentiment": {
-    "label": "Bullish",
-    "bullish_pct": 88.9,
-    "sample_size": 9
-   },
-   "earnings_surprise": {
-    "date": "2026-10-28",
-    "actual_eps": 2.12,
-    "estimate_eps": 3.01,
-    "surprise_pct": -29.568106312292354
+    "actual_eps": 0.52,
+    "estimate_eps": 0.4,
+    "surprise_pct": 30.0
    }
   },
   {
    "symbol": "FTNT",
    "name": "Fortinet, Inc.",
-   "close": 139.10000610351562,
-   "lower_band": 155.72926987774437,
-   "pct_below_band": 10.678316149098746,
-   "market_cap": 99843760128.0,
-   "chg_1d": -20.094206893154375,
-   "chg_5d": -19.586073800919635,
-   "chg_1mo": -22.18616559747303,
-   "off_52w_high": -28.575093143252573,
-   "rsi": 27.6314835469435,
+   "close": 126.20999908447266,
+   "lower_band": 136.8636756187645,
+   "pct_below_band": 7.7841519936727295,
+   "market_cap": 92727721984.0,
+   "chg_1d": -7.253088340515889,
+   "chg_5d": -31.156931312977466,
+   "chg_1mo": -30.25145000661538,
+   "off_52w_high": -35.19383872427591,
+   "rsi": 23.616229504499756,
    "rsi_divergence": false,
-   "macd_histogram": -3.415044147647617,
+   "macd_histogram": -6.272987584685442,
    "macd_turning_up": false,
-   "volume_ratio": 1.833359560067682,
+   "volume_ratio": 2.387932606286954,
    "valuation": {
-    "forward_pe": 35.148262,
-    "trailing_pe": 44.47059,
-    "peg_ratio": 1.53,
-    "analyst_target": 149.59721,
-    "analyst_upside_pct": 7.546515769864559
+    "forward_pe": 32.401917,
+    "trailing_pe": 41.2451,
+    "peg_ratio": 1.5,
+    "analyst_target": 145.95946,
+    "analyst_upside_pct": 15.648095284676277
    },
    "short_interest": {
     "pct_of_float": 1.99,
@@ -476,22 +92,22 @@
     "shares": null
    },
    "hot_score": {
-    "total": 48.8,
-    "valuation": 13.0,
-    "technical": 7.8,
-    "catalyst": 8.8,
+    "total": 56.6,
+    "valuation": 15.3,
+    "technical": 9.1,
+    "catalyst": 12.9,
     "sentiment": 19.2
    },
    "reasons": [
     "FTNT reported earnings on Oct 28 \u2014 earnings reactions are the most common cause of a sharp break below the band.",
     "Sharp one-day drop of -20.1% on Oct 29 \u2014 points to a specific catalyst (news, guidance, downgrade) rather than gradual selling.",
-    "Down -22.2% over the past month \u2014 an extended downtrend; the band break continues an existing move rather than starting one."
+    "Down -30.3% over the past month \u2014 an extended downtrend; the band break continues an existing move rather than starting one."
    ],
    "news": [],
    "sentiment": {
     "label": "Bullish",
-    "bullish_pct": 63.6,
-    "sample_size": 11
+    "bullish_pct": 71.4,
+    "sample_size": 14
    },
    "earnings_surprise": {
     "date": "2026-10-28",
@@ -501,137 +117,587 @@
    }
   },
   {
-   "symbol": "VLO",
-   "name": "Valero Energy Corporation",
-   "close": 384.57000732421875,
-   "lower_band": 384.731020921745,
-   "pct_below_band": 0.04185095268390856,
-   "market_cap": 111458942976.0,
-   "chg_1d": -1.0064877346409928,
-   "chg_5d": -9.784646611269498,
-   "chg_1mo": -0.7842878517658636,
-   "off_52w_high": -16.357821491747913,
-   "rsi": 38.072418689047744,
+   "symbol": "APP",
+   "name": "Applovin Corporation",
+   "close": 228.85000610351562,
+   "lower_band": 236.525386167812,
+   "pct_below_band": 3.2450555048880814,
+   "market_cap": 76584771584.0,
+   "chg_1d": 0.1531755376436017,
+   "chg_5d": -12.23056889056181,
+   "chg_1mo": -14.678247311166082,
+   "off_52w_high": -68.80452375687041,
+   "rsi": 25.321443766786913,
    "rsi_divergence": false,
-   "macd_histogram": -8.72960743641539,
+   "macd_histogram": -2.095037729454722,
    "macd_turning_up": false,
-   "volume_ratio": 1.6360938952587543,
+   "volume_ratio": 1.3502081226905,
    "valuation": {
-    "forward_pe": 7.4547815,
-    "trailing_pe": 9.089379,
-    "peg_ratio": 1.44,
-    "analyst_target": 426.42105,
-    "analyst_upside_pct": 10.882555029960495
+    "forward_pe": 11.434828,
+    "trailing_pe": 17.563316,
+    "peg_ratio": 0.5,
+    "analyst_target": 448.4326,
+    "analyst_upside_pct": 95.95044266556
    },
    "short_interest": {
-    "pct_of_float": 3.35,
-    "days_to_cover": 2.28
+    "pct_of_float": 3.84,
+    "days_to_cover": 2.12
    },
    "insider": {
     "recent_buys": 0,
     "shares": null
    },
    "hot_score": {
-    "total": 47.7,
-    "valuation": 14.2,
-    "technical": 4.3,
-    "catalyst": 8.2,
-    "sentiment": 20.9
+    "total": 55.6,
+    "valuation": 22.7,
+    "technical": 8.6,
+    "catalyst": 6.4,
+    "sentiment": 17.9
    },
    "reasons": [
-    "VLO reported earnings on Oct 22 \u2014 earnings reactions are the most common cause of a sharp break below the band.",
-    "Sharp one-day drop of -9.2% on Oct 27 \u2014 points to a specific catalyst (news, guidance, downgrade) rather than gradual selling."
+    "APP reports earnings on Nov 04 \u2014 earnings reactions are the most common cause of a sharp break below the band.",
+    "Sharp one-day drop of -10.4% on Oct 30 \u2014 points to a specific catalyst (news, guidance, downgrade) rather than gradual selling.",
+    "Trading 69% below its 52-week high \u2014 deep drawdown territory, often reflecting a broken growth story or re-rating."
    ],
    "news": [],
    "sentiment": {
     "label": "Bullish",
-    "bullish_pct": 85.7,
-    "sample_size": 14
+    "bullish_pct": 88.9,
+    "sample_size": 9
    },
    "earnings_surprise": {
-    "date": "2026-10-22",
-    "actual_eps": 23.9,
-    "estimate_eps": 21.23,
-    "surprise_pct": 12.57654262835609
+    "date": "2026-08-05",
+    "actual_eps": 3.76,
+    "estimate_eps": 3.74,
+    "surprise_pct": 0.5347593582887586
    }
   },
   {
-   "symbol": "ODFL",
-   "name": "Old Dominion Freight Line, Inc.",
-   "close": 172.35000610351562,
-   "lower_band": 172.65232374786865,
-   "pct_below_band": 0.17510198402803523,
-   "market_cap": 35781459968.0,
-   "chg_1d": -0.5596591159199527,
-   "chg_5d": -9.236923135768349,
-   "chg_1mo": -0.8571043866561823,
-   "off_52w_high": -30.707992978736154,
-   "rsi": 36.26510581417269,
+   "symbol": "DDOG",
+   "name": "Datadog, Inc.",
+   "close": 216.10000610351562,
+   "lower_band": 231.58299563917697,
+   "pct_below_band": 6.68571951620531,
+   "market_cap": 77596114944.0,
+   "chg_1d": -8.148084252485056,
+   "chg_5d": -22.887520113463022,
+   "chg_1mo": -22.047469463982882,
+   "off_52w_high": -26.311123607946428,
+   "rsi": 33.59602925211426,
    "rsi_divergence": false,
-   "macd_histogram": -0.8862400991899109,
+   "macd_histogram": -5.754073486377425,
    "macd_turning_up": false,
-   "volume_ratio": 1.340403489920464,
+   "volume_ratio": 1.5974973572711568,
    "valuation": {
-    "forward_pe": 25.628534,
-    "trailing_pe": 30.98025,
-    "peg_ratio": 2.07,
-    "analyst_target": 214.5238,
-    "analyst_upside_pct": 24.469853439491175
+    "forward_pe": 72.42904,
+    "trailing_pe": 432.2,
+    "peg_ratio": 1.22,
+    "analyst_target": 295.54935,
+    "analyst_upside_pct": 36.7650817457297
    },
    "short_interest": {
-    "pct_of_float": 5.31,
-    "days_to_cover": 4.76
+    "pct_of_float": 3.42,
+    "days_to_cover": 3.3
    },
    "insider": {
     "recent_buys": 0,
     "shares": null
    },
    "hot_score": {
-    "total": 46.5,
-    "valuation": 15.9,
-    "technical": 4.9,
-    "catalyst": 7.3,
-    "sentiment": 18.4
+    "total": 54.8,
+    "valuation": 20.3,
+    "technical": 5.8,
+    "catalyst": 8.0,
+    "sentiment": 20.8
    },
    "reasons": [
-    "ODFL reported earnings on Oct 28 \u2014 earnings reactions are the most common cause of a sharp break below the band.",
-    "Sharp one-day drop of -7.3% on Oct 28 \u2014 points to a specific catalyst (news, guidance, downgrade) rather than gradual selling."
+    "DDOG reports earnings on Nov 04 \u2014 earnings reactions are the most common cause of a sharp break below the band.",
+    "Sharp one-day drop of -11.5% on Oct 30 \u2014 points to a specific catalyst (news, guidance, downgrade) rather than gradual selling.",
+    "Down -22.0% over the past month \u2014 an extended downtrend; the band break continues an existing move rather than starting one."
    ],
    "news": [],
    "sentiment": {
     "label": "Bullish",
-    "bullish_pct": 60.0,
-    "sample_size": 5
+    "bullish_pct": 72.7,
+    "sample_size": 11
+   },
+   "earnings_surprise": {
+    "date": "2026-08-06",
+    "actual_eps": 0.65,
+    "estimate_eps": 0.58,
+    "surprise_pct": 12.068965517241391
+   }
+  },
+  {
+   "symbol": "IBKR",
+   "name": "Interactive Brokers Group, Inc.",
+   "close": 74.83000183105469,
+   "lower_band": 76.02834194980312,
+   "pct_below_band": 1.576175526147373,
+   "market_cap": 127496519680.0,
+   "chg_1d": -2.691807092003251,
+   "chg_5d": -7.147282254097565,
+   "chg_1mo": -15.254813992257244,
+   "off_52w_high": -23.79061007182618,
+   "rsi": 31.725924681539624,
+   "rsi_divergence": false,
+   "macd_histogram": -0.6158335126388064,
+   "macd_turning_up": false,
+   "volume_ratio": 1.7852001691355697,
+   "valuation": {
+    "forward_pe": 22.549618,
+    "trailing_pe": 28.561071,
+    "peg_ratio": 1.09,
+    "analyst_target": 104.1625,
+    "analyst_upside_pct": 39.19884732218759
+   },
+   "short_interest": {
+    "pct_of_float": 3.34,
+    "days_to_cover": 3.32
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 54.2,
+    "valuation": 20.7,
+    "technical": 6.4,
+    "catalyst": 9.3,
+    "sentiment": 17.8
+   },
+   "reasons": [
+    "Sharp one-day drop of -6.0% on Oct 30 \u2014 points to a specific catalyst (news, guidance, downgrade) rather than gradual selling.",
+    "Down -15.3% over the past month \u2014 an extended downtrend; the band break continues an existing move rather than starting one."
+   ],
+   "news": [],
+   "sentiment": {
+    "label": "Bullish",
+    "bullish_pct": 66.7,
+    "sample_size": 3
+   },
+   "earnings_surprise": {
+    "date": "2026-10-15",
+    "actual_eps": 0.67,
+    "estimate_eps": 0.67,
+    "surprise_pct": 0.0
+   }
+  },
+  {
+   "symbol": "AMD",
+   "name": "Advanced Micro Devices, Inc.",
+   "close": 466.8399963378906,
+   "lower_band": 468.0733792149048,
+   "pct_below_band": 0.2635020344636759,
+   "market_cap": 762104643584.0,
+   "chg_1d": -7.519808314782783,
+   "chg_5d": -12.129202944870299,
+   "chg_1mo": -26.355473787213747,
+   "off_52w_high": -28.114316063096044,
+   "rsi": 34.60865412073355,
+   "rsi_divergence": false,
+   "macd_histogram": -8.751701963458062,
+   "macd_turning_up": false,
+   "volume_ratio": 1.559861415215802,
+   "valuation": {
+    "forward_pe": 29.158802,
+    "trailing_pe": 119.091835,
+    "peg_ratio": 0.5,
+    "analyst_target": 646.74286,
+    "analyst_upside_pct": 38.536300461261
+   },
+   "short_interest": {
+    "pct_of_float": 2.34,
+    "days_to_cover": 1.74
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 53.7,
+    "valuation": 22.7,
+    "technical": 5.5,
+    "catalyst": 7.0,
+    "sentiment": 18.5
+   },
+   "reasons": [
+    "AMD reports earnings on Nov 03 \u2014 earnings reactions are the most common cause of a sharp break below the band.",
+    "Sharp one-day drop of -10.9% on Oct 30 \u2014 points to a specific catalyst (news, guidance, downgrade) rather than gradual selling.",
+    "Down -26.4% over the past month \u2014 an extended downtrend; the band break continues an existing move rather than starting one."
+   ],
+   "news": [],
+   "sentiment": {
+    "label": "Bullish",
+    "bullish_pct": 68.8,
+    "sample_size": 16
+   },
+   "earnings_surprise": {
+    "date": "2026-08-04",
+    "actual_eps": 1.66,
+    "estimate_eps": 1.61,
+    "surprise_pct": 3.1055900621117902
+   }
+  },
+  {
+   "symbol": "NOW",
+   "name": "ServiceNow, Inc.",
+   "close": 106.01000213623047,
+   "lower_band": 109.18257069167544,
+   "pct_below_band": 2.90574634334641,
+   "market_cap": 110029586432.0,
+   "chg_1d": 0.8466508432215303,
+   "chg_5d": -32.98140912579425,
+   "chg_1mo": -21.111773861983707,
+   "off_52w_high": -41.99750556943113,
+   "rsi": 27.720022971968007,
+   "rsi_divergence": false,
+   "macd_histogram": -5.473042391953456,
+   "macd_turning_up": false,
+   "volume_ratio": 1.422325877980285,
+   "valuation": {
+    "forward_pe": 22.077782,
+    "trailing_pe": 76.26619,
+    "peg_ratio": 0.76,
+    "analyst_target": 154.68826,
+    "analyst_upside_pct": 45.918551912879394
+   },
+   "short_interest": {
+    "pct_of_float": 2.69,
+    "days_to_cover": 2.52
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 53.1,
+    "valuation": 21.8,
+    "technical": 7.8,
+    "catalyst": 6.3,
+    "sentiment": 17.3
+   },
+   "reasons": [
+    "NOW reported earnings on Oct 28 \u2014 earnings reactions are the most common cause of a sharp break below the band.",
+    "Sharp one-day drop of -26.9% on Oct 29 \u2014 points to a specific catalyst (news, guidance, downgrade) rather than gradual selling.",
+    "Down -21.1% over the past month \u2014 an extended downtrend; the band break continues an existing move rather than starting one.",
+    "Trading 42% below its 52-week high \u2014 deep drawdown territory, often reflecting a broken growth story or re-rating."
+   ],
+   "news": [],
+   "sentiment": {
+    "label": "Bullish",
+    "bullish_pct": 80.0,
+    "sample_size": 10
    },
    "earnings_surprise": {
     "date": "2026-10-28",
+    "actual_eps": 1.0,
+    "estimate_eps": 1.02,
+    "surprise_pct": -1.960784313725492
+   }
+  },
+  {
+   "symbol": "BKR",
+   "name": "Baker Hughes Company",
+   "close": 53.04999923706055,
+   "lower_band": 53.15325898075174,
+   "pct_below_band": 0.19426794456494786,
+   "market_cap": 52682813440.0,
+   "chg_1d": -3.9471307681410717,
+   "chg_5d": -5.284769100474474,
+   "chg_1mo": -5.267858505249023,
+   "off_52w_high": -23.85531702122673,
+   "rsi": 40.32977664674082,
+   "rsi_divergence": true,
+   "macd_histogram": -0.04230643724079708,
+   "macd_turning_up": false,
+   "volume_ratio": 1.2877344741796943,
+   "valuation": {
+    "forward_pe": 18.331472,
+    "trailing_pe": 18.23024,
+    "peg_ratio": 1.57,
+    "analyst_target": 70.04167,
+    "analyst_upside_pct": 32.0295400703213
+   },
+   "short_interest": {
+    "pct_of_float": 2.87,
+    "days_to_cover": 3.38
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 52.9,
+    "valuation": 15.8,
+    "technical": 10.3,
+    "catalyst": 5.4,
+    "sentiment": 21.4
+   },
+   "reasons": [
+    "BKR reported earnings on Oct 27 \u2014 earnings reactions are the most common cause of a sharp break below the band.",
+    "Sharp one-day drop of -7.4% on Oct 28 \u2014 points to a specific catalyst (news, guidance, downgrade) rather than gradual selling."
+   ],
+   "news": [],
+   "sentiment": {
+    "label": "Bullish",
+    "bullish_pct": 100.0,
+    "sample_size": 7
+   },
+   "earnings_surprise": {
+    "date": "2026-10-27",
+    "actual_eps": 0.7,
+    "estimate_eps": 0.61,
+    "surprise_pct": 14.754098360655732
+   }
+  },
+  {
+   "symbol": "COIN",
+   "name": "Coinbase Global, Inc.",
+   "close": 137.8300018310547,
+   "lower_band": 144.60188500406676,
+   "pct_below_band": 4.683122334692677,
+   "market_cap": 36492341248.0,
+   "chg_1d": -3.9779794636717214,
+   "chg_5d": -13.640353032531237,
+   "chg_1mo": -24.68305910871329,
+   "off_52w_high": -58.286424481004005,
+   "rsi": 29.70156323126001,
+   "rsi_divergence": false,
+   "macd_histogram": -3.4128990607866623,
+   "macd_turning_up": false,
+   "volume_ratio": 1.2889564073361108,
+   "valuation": {
+    "forward_pe": 55.76527,
+    "trailing_pe": null,
+    "peg_ratio": 2.1,
+    "analyst_target": 198.44412,
+    "analyst_upside_pct": 43.97744856975563
+   },
+   "short_interest": {
+    "pct_of_float": 10.76,
+    "days_to_cover": 2.48
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 52.9,
+    "valuation": 17.0,
+    "technical": 7.1,
+    "catalyst": 10.3,
+    "sentiment": 18.5
+   },
+   "reasons": [
+    "COIN reported earnings on Oct 29 \u2014 earnings reactions are the most common cause of a sharp break below the band.",
+    "Sharp one-day drop of -10.6% on Oct 30 \u2014 points to a specific catalyst (news, guidance, downgrade) rather than gradual selling.",
+    "Down -24.7% over the past month \u2014 an extended downtrend; the band break continues an existing move rather than starting one.",
+    "Trading 58% below its 52-week high \u2014 deep drawdown territory, often reflecting a broken growth story or re-rating."
+   ],
+   "news": [],
+   "sentiment": {
+    "label": "Mixed",
+    "bullish_pct": 41.7,
+    "sample_size": 12
+   },
+   "earnings_surprise": {
+    "date": "2026-10-29",
+    "actual_eps": 2.51,
+    "estimate_eps": 0.08,
+    "surprise_pct": 3037.4999999999995
+   }
+  },
+  {
+   "symbol": "MRVL",
+   "name": "Marvell Technology, Inc.",
+   "close": 171.41000366210938,
+   "lower_band": 186.70903853050197,
+   "pct_below_band": 8.194051551442834,
+   "market_cap": 154046971904.0,
+   "chg_1d": -12.724028009668043,
+   "chg_5d": -26.67892695819061,
+   "chg_1mo": -37.04873543539131,
+   "off_52w_high": -45.830038988200926,
+   "rsi": 28.810378064972383,
+   "rsi_divergence": false,
+   "macd_histogram": -7.358532876368444,
+   "macd_turning_up": false,
+   "volume_ratio": 2.663240500638765,
+   "valuation": {
+    "forward_pe": 23.38989,
+    "trailing_pe": 56.38487,
+    "peg_ratio": 0.48,
+    "analyst_target": 333.09097,
+    "analyst_upside_pct": 94.32411346108071
+   },
+   "short_interest": {
+    "pct_of_float": 3.28,
+    "days_to_cover": 1.24
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 52.6,
+    "valuation": 22.7,
+    "technical": 7.4,
+    "catalyst": 14.6,
+    "sentiment": 8.0
+   },
+   "reasons": [
+    "Sharp one-day drop of -13.2% on Oct 29 \u2014 points to a specific catalyst (news, guidance, downgrade) rather than gradual selling.",
+    "Down -37.0% over the past month \u2014 an extended downtrend; the band break continues an existing move rather than starting one.",
+    "Trading 46% below its 52-week high \u2014 deep drawdown territory, often reflecting a broken growth story or re-rating."
+   ],
+   "news": [],
+   "sentiment": {
+    "label": "Bearish",
+    "bullish_pct": 14.3,
+    "sample_size": 7
+   },
+   "earnings_surprise": {
+    "date": "2026-08-27",
+    "actual_eps": 0.94,
+    "estimate_eps": 0.93,
+    "surprise_pct": 1.0752688172042901
+   }
+  },
+  {
+   "symbol": "TWLO",
+   "name": "Twilio Inc.",
+   "close": 207.60000610351562,
+   "lower_band": 216.2220628879644,
+   "pct_below_band": 3.987593434864368,
+   "market_cap": 32122785792.0,
+   "chg_1d": 1.2534786809345055,
+   "chg_5d": -21.259241073593728,
+   "chg_1mo": -29.526778611422156,
+   "off_52w_high": -31.091707214788467,
+   "rsi": 31.525483665927638,
+   "rsi_divergence": false,
+   "macd_histogram": -7.398145077917545,
+   "macd_turning_up": false,
+   "volume_ratio": 0.9978846079722845,
+   "valuation": {
+    "forward_pe": 30.336996,
+    "trailing_pe": 26.080402,
+    "peg_ratio": 0.32,
+    "analyst_target": 267.6093,
+    "analyst_upside_pct": 28.906210082942852
+   },
+   "short_interest": {
+    "pct_of_float": 5.09,
+    "days_to_cover": 1.39
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 51.0,
+    "valuation": 19.0,
+    "technical": 6.5,
+    "catalyst": 4.6,
+    "sentiment": 20.8
+   },
+   "reasons": [
+    "TWLO reported earnings on Oct 29 \u2014 earnings reactions are the most common cause of a sharp break below the band.",
+    "Sharp one-day drop of -15.2% on Oct 30 \u2014 points to a specific catalyst (news, guidance, downgrade) rather than gradual selling.",
+    "Down -29.5% over the past month \u2014 an extended downtrend; the band break continues an existing move rather than starting one."
+   ],
+   "news": [],
+   "sentiment": {
+    "label": "Bullish",
+    "bullish_pct": 66.7,
+    "sample_size": 3
+   },
+   "earnings_surprise": {
+    "date": "2026-10-29",
     "actual_eps": 1.65,
-    "estimate_eps": 1.61,
-    "surprise_pct": 2.4844720496894293
+    "estimate_eps": 1.47,
+    "surprise_pct": 12.24489795918367
+   }
+  },
+  {
+   "symbol": "GOOG",
+   "name": "Alphabet Inc.",
+   "close": 278.0400085449219,
+   "lower_band": 281.15385501696136,
+   "pct_below_band": 1.1075240180689083,
+   "market_cap": 3418223804416.0,
+   "chg_1d": -0.06469436956060282,
+   "chg_5d": -11.505774727261109,
+   "chg_1mo": -18.30762345855299,
+   "off_52w_high": -30.322774009859323,
+   "rsi": 21.03430259211902,
+   "rsi_divergence": false,
+   "macd_histogram": -6.38061684642205,
+   "macd_turning_up": false,
+   "volume_ratio": 1.3510118249817251,
+   "valuation": {
+    "forward_pe": 18.314602,
+    "trailing_pe": 14.519061,
+    "peg_ratio": 0.98,
+    "analyst_target": 407.0,
+    "analyst_upside_pct": 46.38181106739627
+   },
+   "short_interest": {
+    "pct_of_float": null,
+    "days_to_cover": 2.9
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 50.5,
+    "valuation": 17.7,
+    "technical": 10.0,
+    "catalyst": 8.1,
+    "sentiment": 14.7
+   },
+   "reasons": [
+    "GOOG reported earnings on Oct 28 \u2014 earnings reactions are the most common cause of a sharp break below the band.",
+    "Sharp one-day drop of -12.3% on Oct 29 \u2014 points to a specific catalyst (news, guidance, downgrade) rather than gradual selling.",
+    "Down -18.3% over the past month \u2014 an extended downtrend; the band break continues an existing move rather than starting one."
+   ],
+   "news": [],
+   "sentiment": {
+    "label": "Bullish",
+    "bullish_pct": 90.0,
+    "sample_size": 10
+   },
+   "earnings_surprise": {
+    "date": "2026-10-28",
+    "actual_eps": 2.67,
+    "estimate_eps": 3.04,
+    "surprise_pct": -12.17105263157895
    }
   },
   {
    "symbol": "TT",
    "name": "Trane Technologies plc",
-   "close": 431.1000061035156,
-   "lower_band": 438.4554581228449,
-   "pct_below_band": 1.6775824962517523,
-   "market_cap": 89747087360.0,
-   "chg_1d": -3.873167674517275,
-   "chg_5d": -3.94384629475929,
-   "chg_1mo": -4.6196744049028515,
-   "off_52w_high": -14.372539343678692,
-   "rsi": 37.80733499939439,
+   "close": 413.3299865722656,
+   "lower_band": 418.4711307722944,
+   "pct_below_band": 1.2285540917818378,
+   "market_cap": 90476011520.0,
+   "chg_1d": 0.8121918468940503,
+   "chg_5d": -9.164233637100704,
+   "chg_1mo": -10.902980468315981,
+   "off_52w_high": -17.902118621645123,
+   "rsi": 33.27662459538186,
    "rsi_divergence": false,
-   "macd_histogram": -3.567853789039569,
+   "macd_histogram": -6.232817329992662,
    "macd_turning_up": false,
-   "volume_ratio": 1.5552617234891777,
+   "volume_ratio": 1.3834718806389663,
    "valuation": {
-    "forward_pe": 23.188143,
-    "trailing_pe": 30.551416,
-    "peg_ratio": 1.52,
-    "analyst_target": 528.42694,
-    "analyst_upside_pct": 22.576416728955962
+    "forward_pe": 23.374544,
+    "trailing_pe": 28.723417,
+    "peg_ratio": 1.44,
+    "analyst_target": 518.42694,
+    "analyst_upside_pct": 25.426888162482598
    },
    "short_interest": {
     "pct_of_float": 1.61,
@@ -642,14 +708,15 @@
     "shares": null
    },
    "hot_score": {
-    "total": 46.5,
-    "valuation": 17.2,
-    "technical": 4.4,
-    "catalyst": 6.6,
+    "total": 47.9,
+    "valuation": 18.3,
+    "technical": 5.9,
+    "catalyst": 5.3,
     "sentiment": 18.4
    },
    "reasons": [
-    "TT reported earnings on Oct 29 \u2014 earnings reactions are the most common cause of a sharp break below the band."
+    "TT reported earnings on Oct 29 \u2014 earnings reactions are the most common cause of a sharp break below the band.",
+    "Down -9.2% over 5 sessions without a single large gap \u2014 suggests sustained selling pressure (sector rotation, macro, or sentiment shift)."
    ],
    "news": [],
    "sentiment": {
@@ -662,6 +729,391 @@
     "actual_eps": 4.86,
     "estimate_eps": 4.74,
     "surprise_pct": 2.531645569620255
+   }
+  },
+  {
+   "symbol": "CMI",
+   "name": "Cummins Inc.",
+   "close": 500.6000061035156,
+   "lower_band": 503.3810582626688,
+   "pct_below_band": 0.5524745346500444,
+   "market_cap": 69077327872.0,
+   "chg_1d": 0.10198359682451752,
+   "chg_5d": -4.123493876612027,
+   "chg_1mo": -5.246820267340723,
+   "off_52w_high": -31.197516784688318,
+   "rsi": 36.49348184299264,
+   "rsi_divergence": false,
+   "macd_histogram": -1.3633778985462337,
+   "macd_turning_up": false,
+   "volume_ratio": 1.1796113659013938,
+   "valuation": {
+    "forward_pe": 14.3800125,
+    "trailing_pe": 25.57997,
+    "peg_ratio": 1.0,
+    "analyst_target": 708.66315,
+    "analyst_upside_pct": 41.56275296837699
+   },
+   "short_interest": {
+    "pct_of_float": 3.75,
+    "days_to_cover": 3.88
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 47.2,
+    "valuation": 21.0,
+    "technical": 4.8,
+    "catalyst": 5.1,
+    "sentiment": 16.2
+   },
+   "reasons": [
+    "CMI reports earnings on Nov 05 \u2014 earnings reactions are the most common cause of a sharp break below the band."
+   ],
+   "news": [],
+   "sentiment": {
+    "label": "Bullish",
+    "bullish_pct": 100.0,
+    "sample_size": 6
+   },
+   "earnings_surprise": {
+    "date": "2026-08-04",
+    "actual_eps": 6.73,
+    "estimate_eps": 7.17,
+    "surprise_pct": -6.136680613668054
+   }
+  },
+  {
+   "symbol": "NTAP",
+   "name": "NetApp, Inc.",
+   "close": 185.25999450683594,
+   "lower_band": 191.86666412090983,
+   "pct_below_band": 3.4433650287006228,
+   "market_cap": 36388585472.0,
+   "chg_1d": -6.988652816954277,
+   "chg_5d": -16.57961411231851,
+   "chg_1mo": -18.124368670733382,
+   "off_52w_high": -22.54369086884127,
+   "rsi": 34.54769506052672,
+   "rsi_divergence": false,
+   "macd_histogram": -3.892179825998326,
+   "macd_turning_up": false,
+   "volume_ratio": 1.091275714486022,
+   "valuation": {
+    "forward_pe": 16.58269,
+    "trailing_pe": 26.129759,
+    "peg_ratio": 2.21,
+    "analyst_target": 211.6875,
+    "analyst_upside_pct": 14.265090292976822
+   },
+   "short_interest": {
+    "pct_of_float": 4.93,
+    "days_to_cover": 3.65
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 46.5,
+    "valuation": 12.6,
+    "technical": 5.5,
+    "catalyst": 5.2,
+    "sentiment": 23.2
+   },
+   "reasons": [
+    "Sharp one-day drop of -8.8% on Oct 30 \u2014 points to a specific catalyst (news, guidance, downgrade) rather than gradual selling.",
+    "Down -18.1% over the past month \u2014 an extended downtrend; the band break continues an existing move rather than starting one."
+   ],
+   "news": [],
+   "sentiment": {
+    "label": "Bullish",
+    "bullish_pct": 100.0,
+    "sample_size": 10
+   },
+   "earnings_surprise": {
+    "date": "2026-09-02",
+    "actual_eps": 2.58,
+    "estimate_eps": 2.12,
+    "surprise_pct": 21.698113207547166
+   }
+  },
+  {
+   "symbol": "MSFT",
+   "name": "Microsoft Corporation",
+   "close": 507.1199951171875,
+   "lower_band": 514.4420881589737,
+   "pct_below_band": 1.4233075423493493,
+   "market_cap": 3765971714048.0,
+   "chg_1d": -2.833817859090426,
+   "chg_5d": -4.784074659545057,
+   "chg_1mo": -2.011484086021198,
+   "off_52w_high": -6.685070618050437,
+   "rsi": 40.1286610251781,
+   "rsi_divergence": false,
+   "macd_histogram": -3.4522811636376005,
+   "macd_turning_up": false,
+   "volume_ratio": 1.5727443250843682,
+   "valuation": {
+    "forward_pe": 20.980913,
+    "trailing_pe": 26.46764,
+    "peg_ratio": 1.69,
+    "analyst_target": 633.1266,
+    "analyst_upside_pct": 24.847492920032543
+   },
+   "short_interest": {
+    "pct_of_float": 0.88,
+    "days_to_cover": 2.94
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 45.8,
+    "valuation": 17.3,
+    "technical": 3.7,
+    "catalyst": 6.2,
+    "sentiment": 18.7
+   },
+   "reasons": [
+    "MSFT reported earnings on Oct 28 \u2014 earnings reactions are the most common cause of a sharp break below the band."
+   ],
+   "news": [],
+   "sentiment": {
+    "label": "Bullish",
+    "bullish_pct": 72.7,
+    "sample_size": 11
+   },
+   "earnings_surprise": {
+    "date": "2026-10-28",
+    "actual_eps": 4.89,
+    "estimate_eps": 4.72,
+    "surprise_pct": 3.601694915254236
+   }
+  },
+  {
+   "symbol": "QCOM",
+   "name": "QUALCOMM Incorporated",
+   "close": 162.0800018310547,
+   "lower_band": 164.82875791797218,
+   "pct_below_band": 1.667643511750193,
+   "market_cap": 173075431424.0,
+   "chg_1d": -1.6445121460576972,
+   "chg_5d": -9.755013183219475,
+   "chg_1mo": -12.327578237715874,
+   "off_52w_high": -35.43144009545527,
+   "rsi": 37.152272373570206,
+   "rsi_divergence": false,
+   "macd_histogram": -1.1159416675136802,
+   "macd_turning_up": false,
+   "volume_ratio": 1.042941933672361,
+   "valuation": {
+    "forward_pe": 15.935816,
+    "trailing_pe": 18.759258,
+    "peg_ratio": 0.74,
+    "analyst_target": 195.96667,
+    "analyst_upside_pct": 20.907371536352358
+   },
+   "short_interest": {
+    "pct_of_float": 3.12,
+    "days_to_cover": 2.29
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 45.2,
+    "valuation": 19.3,
+    "technical": 4.6,
+    "catalyst": 3.7,
+    "sentiment": 17.5
+   },
+   "reasons": [
+    "QCOM reports earnings on Nov 04 \u2014 earnings reactions are the most common cause of a sharp break below the band.",
+    "Sharp one-day drop of -11.1% on Oct 30 \u2014 points to a specific catalyst (news, guidance, downgrade) rather than gradual selling."
+   ],
+   "news": [],
+   "sentiment": {
+    "label": "Bullish",
+    "bullish_pct": 100.0,
+    "sample_size": 3
+   },
+   "earnings_surprise": {
+    "date": "2026-07-29",
+    "actual_eps": 2.21,
+    "estimate_eps": 2.23,
+    "surprise_pct": -0.896860986547086
+   }
+  },
+  {
+   "symbol": "GOOGL",
+   "name": "Alphabet Inc.",
+   "close": 278.989990234375,
+   "lower_band": 282.7755249091409,
+   "pct_below_band": 1.3387066210847856,
+   "market_cap": 3429902843904.0,
+   "chg_1d": -0.3037471821895288,
+   "chg_5d": -11.9349744367108,
+   "chg_1mo": -18.7802066275473,
+   "off_52w_high": -30.70637484033263,
+   "rsi": 21.171139574934557,
+   "rsi_divergence": false,
+   "macd_histogram": -6.689917249286875,
+   "macd_turning_up": false,
+   "volume_ratio": 1.4648839635648427,
+   "valuation": {
+    "forward_pe": 18.377178,
+    "trailing_pe": 14.568668,
+    "peg_ratio": 0.98,
+    "analyst_target": 402.7264,
+    "analyst_upside_pct": 44.35155887194233
+   },
+   "short_interest": {
+    "pct_of_float": 1.33,
+    "days_to_cover": 3.1
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 44.9,
+    "valuation": 17.7,
+    "technical": 9.9,
+    "catalyst": 5.7,
+    "sentiment": 11.5
+   },
+   "reasons": [
+    "GOOGL reported earnings on Oct 28 \u2014 earnings reactions are the most common cause of a sharp break below the band.",
+    "Sharp one-day drop of -12.6% on Oct 29 \u2014 points to a specific catalyst (news, guidance, downgrade) rather than gradual selling.",
+    "Down -18.8% over the past month \u2014 an extended downtrend; the band break continues an existing move rather than starting one."
+   ],
+   "news": [],
+   "sentiment": {
+    "label": "Bullish",
+    "bullish_pct": 66.7,
+    "sample_size": 9
+   },
+   "earnings_surprise": {
+    "date": "2026-10-28",
+    "actual_eps": 2.12,
+    "estimate_eps": 3.01,
+    "surprise_pct": -29.568106312292354
+   }
+  },
+  {
+   "symbol": "ILMN",
+   "name": "Illumina, Inc.",
+   "close": 226.5800018310547,
+   "lower_band": 239.5505808709325,
+   "pct_below_band": 5.4145471042987054,
+   "market_cap": 34258896896.0,
+   "chg_1d": -3.9874585546301633,
+   "chg_5d": -16.40348484068854,
+   "chg_1mo": -17.015823784016384,
+   "off_52w_high": -22.850624826338994,
+   "rsi": 35.888200858355404,
+   "rsi_divergence": false,
+   "macd_histogram": -5.58241791165472,
+   "macd_turning_up": false,
+   "volume_ratio": 1.1755698499490586,
+   "valuation": {
+    "forward_pe": 36.975266,
+    "trailing_pe": 42.27239,
+    "peg_ratio": 2.91,
+    "analyst_target": 261.6,
+    "analyst_upside_pct": 15.455908679468266
+   },
+   "short_interest": {
+    "pct_of_float": 8.55,
+    "days_to_cover": 1.86
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 43.0,
+    "valuation": 10.6,
+    "technical": 5.0,
+    "catalyst": 8.1,
+    "sentiment": 19.2
+   },
+   "reasons": [
+    "ILMN reported earnings on Oct 29 \u2014 earnings reactions are the most common cause of a sharp break below the band.",
+    "Sharp one-day drop of -18.6% on Oct 30 \u2014 points to a specific catalyst (news, guidance, downgrade) rather than gradual selling.",
+    "Down -17.0% over the past month \u2014 an extended downtrend; the band break continues an existing move rather than starting one."
+   ],
+   "news": [],
+   "sentiment": {
+    "label": "Bullish",
+    "bullish_pct": 85.7,
+    "sample_size": 7
+   },
+   "earnings_surprise": {
+    "date": "2026-10-29",
+    "actual_eps": 1.44,
+    "estimate_eps": 1.36,
+    "surprise_pct": 5.8823529411764595
+   }
+  },
+  {
+   "symbol": "PLTR",
+   "name": "Palantir Technologies Inc.",
+   "close": 178.33999633789062,
+   "lower_band": 181.33542903649047,
+   "pct_below_band": 1.6518739413008285,
+   "market_cap": 428561432576.0,
+   "chg_1d": -3.133998290876394,
+   "chg_5d": -10.309797011444399,
+   "chg_1mo": -5.515233728269864,
+   "off_52w_high": -14.690268483882218,
+   "rsi": 37.729812156484776,
+   "rsi_divergence": false,
+   "macd_histogram": -2.6892459117769096,
+   "macd_turning_up": false,
+   "volume_ratio": 1.582033914109844,
+   "valuation": {
+    "forward_pe": 76.320984,
+    "trailing_pe": 153.74138,
+    "peg_ratio": 1.67,
+    "analyst_target": 212.50357,
+    "analyst_upside_pct": 19.15642837481144
+   },
+   "short_interest": {
+    "pct_of_float": 2.61,
+    "days_to_cover": 2.37
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 37.1,
+    "valuation": 15.8,
+    "technical": 4.4,
+    "catalyst": 7.4,
+    "sentiment": 9.6
+   },
+   "reasons": [
+    "PLTR reported earnings on Nov 02 \u2014 earnings reactions are the most common cause of a sharp break below the band.",
+    "Sharp one-day drop of -6.3% on Oct 30 \u2014 points to a specific catalyst (news, guidance, downgrade) rather than gradual selling."
+   ],
+   "news": [],
+   "sentiment": {
+    "label": "Bearish",
+    "bullish_pct": 23.5,
+    "sample_size": 17
+   },
+   "earnings_surprise": {
+    "date": "2026-11-02",
+    "actual_eps": 0.44,
+    "estimate_eps": 0.41,
+    "surprise_pct": 7.317073170731714
    }
   }
  ]
