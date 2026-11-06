@@ -1,30 +1,30 @@
 {
- "updated": "Nov 04, 2026 08:50 PM ET",
+ "updated": "Nov 05, 2026 08:50 PM ET",
  "criteria": "close < lower BB(20,2), market cap > $20B",
  "universe_size": 503,
  "results": [
   {
    "symbol": "INTC",
    "name": "Intel Corporation",
-   "close": 60.54999923706055,
-   "lower_band": 63.18930507034878,
-   "pct_below_band": 4.176823641832884,
-   "market_cap": 309705048064.0,
-   "chg_1d": 0.9671469143762268,
-   "chg_5d": -35.406442695831245,
-   "chg_1mo": -47.887083256069765,
-   "off_52w_high": -57.03845736611696,
-   "rsi": 23.656560141799687,
+   "close": 58.27000045776367,
+   "lower_band": 58.94229043401499,
+   "pct_below_band": 1.1405901794806215,
+   "market_cap": 277708734464.0,
+   "chg_1d": -3.765481103262125,
+   "chg_5d": -39.00345315361622,
+   "chg_1mo": -48.204444037543404,
+   "off_52w_high": -58.656166135665735,
+   "rsi": 22.775273139577394,
    "rsi_divergence": false,
-   "macd_histogram": -3.5502824987754806,
+   "macd_histogram": -3.7471043680531393,
    "macd_turning_up": false,
-   "volume_ratio": 1.4904139667550091,
+   "volume_ratio": 2.0200350386129924,
    "valuation": {
-    "forward_pe": 32.39526,
+    "forward_pe": 29.048435,
     "trailing_pe": null,
     "peg_ratio": 1.36,
     "analyst_target": 92.72093,
-    "analyst_upside_pct": 53.1311827717559
+    "analyst_upside_pct": 59.122926500073866
    },
    "short_interest": {
     "pct_of_float": 2.8,
@@ -35,39 +35,39 @@
     "shares": null
    },
    "hot_score": {
-    "total": 60.6,
+    "total": 64.8,
     "valuation": 20.7,
-    "technical": 9.1,
-    "catalyst": 6.8,
+    "technical": 9.4,
+    "catalyst": 10.7,
     "sentiment": 24.0
    },
    "reasons": [
     "INTC reported earnings on Oct 29 \u2014 earnings reactions are the most common cause of a sharp break below the band.",
     "Sharp one-day drop of -28.6% on Oct 30 \u2014 points to a specific catalyst (news, guidance, downgrade) rather than gradual selling.",
-    "Down -47.9% over the past month \u2014 an extended downtrend; the band break continues an existing move rather than starting one.",
-    "Trading 57% below its 52-week high \u2014 deep drawdown territory, often reflecting a broken growth story or re-rating."
+    "Down -48.2% over the past month \u2014 an extended downtrend; the band break continues an existing move rather than starting one.",
+    "Trading 59% below its 52-week high \u2014 deep drawdown territory, often reflecting a broken growth story or re-rating."
    ],
    "news": [
     {
-     "title": "What sets AMD data centers apart as Intel stock keeps sliding?",
-     "link": "https://finance.yahoo.com/video/what-sets-amd-data-centers-apart-as-intel-stock-keeps-sliding-141848435.html",
-     "publisher": "Yahoo Finance Video"
+     "title": "Intel's stock crash shares an uncanny resemblance to its 2000 bust",
+     "link": "https://finance.yahoo.com/markets/stocks/article/intels-stock-crash-shares-an-uncanny-resemblance-to-its-2000-bust-215941388.html",
+     "publisher": "Yahoo Finance"
     },
     {
-     "title": "5-star analyst resets Nvidia stock target after Intel crash",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/5-star-analyst-resets-nvidia-003700610.html",
-     "publisher": "TheStreet"
+     "title": "Chip Stocks Fall on AI Regulation Fears",
+     "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-05-2026/card/chip-stocks-hit-by-data-center-ai-regulation-fears-TjThbzZVLKxkZW5tt26b?siteid=yhoof2&yptr=yahoo",
+     "publisher": "The Wall Street Journal"
     },
     {
-     "title": "S&P 500, Nasdaq Surge Ahead After Democratic Sweep, Dow Jumps To One-Year High On Lower Oil \u2014 AAPL, SNAP, INTC, CRWV, QCOM In Focus",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/p-500-nasdaq-surge-ahead-233233121.html",
-     "publisher": "Stocktwits"
+     "title": "Stock Market Today, Nov. 5: Intel Falls on Weak Fourth-Quarter Sales Outlook Amid Chip Selloff",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-nov-5-222216828.html",
+     "publisher": "Motley Fool"
     }
    ],
    "sentiment": {
     "label": "Bullish",
-    "bullish_pct": 100.0,
-    "sample_size": 6
+    "bullish_pct": 90.0,
+    "sample_size": 10
    },
    "earnings_surprise": {
     "date": "2026-10-29",
@@ -77,27 +77,241 @@
    }
   },
   {
+   "symbol": "MRVL",
+   "name": "Marvell Technology, Inc.",
+   "close": 159.8000030517578,
+   "lower_band": 165.79956377411418,
+   "pct_below_band": 3.61856242910879,
+   "market_cap": 120163737600.0,
+   "chg_1d": -7.076814608686643,
+   "chg_5d": -36.49910314820386,
+   "chg_1mo": -44.3224983051107,
+   "off_52w_high": -49.49909719351692,
+   "rsi": 26.78284461758183,
+   "rsi_divergence": false,
+   "macd_histogram": -9.414574431686734,
+   "macd_turning_up": false,
+   "volume_ratio": 2.52839048110389,
+   "valuation": {
+    "forward_pe": 18.18796,
+    "trailing_pe": 43.930923,
+    "peg_ratio": 0.39,
+    "analyst_target": 313.72513,
+    "analyst_upside_pct": 96.32360701419209
+   },
+   "short_interest": {
+    "pct_of_float": 3.28,
+    "days_to_cover": 1.24
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 63.3,
+    "valuation": 22.7,
+    "technical": 8.1,
+    "catalyst": 14.6,
+    "sentiment": 18.0
+   },
+   "reasons": [
+    "Sharp one-day drop of -13.2% on Oct 29 \u2014 points to a specific catalyst (news, guidance, downgrade) rather than gradual selling.",
+    "Down -44.3% over the past month \u2014 an extended downtrend; the band break continues an existing move rather than starting one.",
+    "Trading 49% below its 52-week high \u2014 deep drawdown territory, often reflecting a broken growth story or re-rating."
+   ],
+   "news": [
+    {
+     "title": "nLight (LASR) Beats Q3 Earnings and Revenue Estimates",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/nlight-lasr-beats-q3-earnings-000014173.html",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Chip Stocks Fall on AI Regulation Fears",
+     "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-05-2026/card/chip-stocks-hit-by-data-center-ai-regulation-fears-TjThbzZVLKxkZW5tt26b?siteid=yhoof2&yptr=yahoo",
+     "publisher": "The Wall Street Journal"
+    },
+    {
+     "title": "What Insight Enterprises (NSIT) Said on Its Q3 Earnings Call",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/insight-enterprises-nsit-said-q3-221435091.html",
+     "publisher": "MarketBeat"
+    }
+   ],
+   "sentiment": {
+    "label": "Bullish",
+    "bullish_pct": 88.9,
+    "sample_size": 9
+   },
+   "earnings_surprise": {
+    "date": "2026-08-27",
+    "actual_eps": 0.94,
+    "estimate_eps": 0.93,
+    "surprise_pct": 1.0752688172042901
+   }
+  },
+  {
+   "symbol": "CMI",
+   "name": "Cummins Inc.",
+   "close": 471.8399963378906,
+   "lower_band": 488.6677464368299,
+   "pct_below_band": 3.4435974589361553,
+   "market_cap": 61899137024.0,
+   "chg_1d": -5.762049564169558,
+   "chg_5d": -11.206461670143463,
+   "chg_1mo": -11.856681457505536,
+   "off_52w_high": -35.15029358262236,
+   "rsi": 27.70071475188894,
+   "rsi_divergence": false,
+   "macd_histogram": -3.773793493170807,
+   "macd_turning_up": false,
+   "volume_ratio": 2.6720211625193175,
+   "valuation": {
+    "forward_pe": 12.885709,
+    "trailing_pe": 22.92182,
+    "peg_ratio": 0.94,
+    "analyst_target": 708.66315,
+    "analyst_upside_pct": 50.19141138949088
+   },
+   "short_interest": {
+    "pct_of_float": 3.75,
+    "days_to_cover": 3.88
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 61.5,
+    "valuation": 21.2,
+    "technical": 7.8,
+    "catalyst": 14.8,
+    "sentiment": 17.7
+   },
+   "reasons": [
+    "CMI reported earnings on Nov 05 \u2014 earnings reactions are the most common cause of a sharp break below the band.",
+    "Sharp one-day drop of -5.8% on Nov 04 \u2014 points to a specific catalyst (news, guidance, downgrade) rather than gradual selling."
+   ],
+   "news": [
+    {
+     "title": "Industrial Stocks Drop Amid Fears of AI Data Center Slowdown",
+     "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-05-2026/card/industrial-stocks-drop-amid-fears-of-ai-data-center-slowdown-M2ehv9f5DVkImxtpdJ5i?siteid=yhoof2&yptr=yahoo",
+     "publisher": "The Wall Street Journal"
+    },
+    {
+     "title": "Cummins Inc (CMI) (Q3 2026) Earnings Call Highlights: Record EBITDA of $1. ...",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/cummins-inc-cmi-q3-2026-231049016.html",
+     "publisher": "GuruFocus.com"
+    },
+    {
+     "title": "Cummins Inc. Q3 2026 Earnings Call Summary",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/cummins-inc-q3-2026-earnings-220637890.html",
+     "publisher": "Moby"
+    }
+   ],
+   "sentiment": {
+    "label": "Bullish",
+    "bullish_pct": 80.0,
+    "sample_size": 5
+   },
+   "earnings_surprise": {
+    "date": "2026-11-05",
+    "actual_eps": 8.25,
+    "estimate_eps": 8.28,
+    "surprise_pct": -0.36231884057970243
+   }
+  },
+  {
+   "symbol": "CVS",
+   "name": "CVS Health Corporation",
+   "close": 79.95999908447266,
+   "lower_band": 83.63758507240603,
+   "pct_below_band": 4.397049466157639,
+   "market_cap": 104059633664.0,
+   "chg_1d": -12.525986346046825,
+   "chg_5d": -11.106168096390089,
+   "chg_1mo": -7.485828066479449,
+   "off_52w_high": -27.70343563505363,
+   "rsi": 30.268615773545065,
+   "rsi_divergence": false,
+   "macd_histogram": -0.7893990263317141,
+   "macd_turning_up": false,
+   "volume_ratio": 1.9982370028747898,
+   "valuation": {
+    "forward_pe": 9.528787,
+    "trailing_pe": 9.445993,
+    "peg_ratio": 0.19,
+    "analyst_target": 115.52,
+    "analyst_upside_pct": 44.47223777223967
+   },
+   "short_interest": {
+    "pct_of_float": 1.27,
+    "days_to_cover": 1.63
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 59.8,
+    "valuation": 19.3,
+    "technical": 6.9,
+    "catalyst": 9.6,
+    "sentiment": 24.0
+   },
+   "reasons": [
+    "CVS reported earnings on Nov 04 \u2014 earnings reactions are the most common cause of a sharp break below the band.",
+    "Sharp one-day drop of -12.5% on Nov 04 \u2014 points to a specific catalyst (news, guidance, downgrade) rather than gradual selling."
+   ],
+   "news": [
+    {
+     "title": "Mark Cuban says CVS breakup may not make prescriptions more affordable",
+     "link": "https://finance.yahoo.com/healthcare/articles/mark-cuban-says-cvs-breakup-003700822.html",
+     "publisher": "TheStreet"
+    },
+    {
+     "title": "Did The Market Read Molina Healthcare Stock Right?",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/did-market-read-molina-healthcare-235013094.html",
+     "publisher": "Trefis"
+    },
+    {
+     "title": "CVS to split into two companies, in major breakup of its $117 billion healthcare empire",
+     "link": "https://finance.yahoo.com/healthcare/articles/cvs-split-two-companies-major-134013060.html",
+     "publisher": "CNN Business"
+    }
+   ],
+   "sentiment": {
+    "label": "Bullish",
+    "bullish_pct": 91.7,
+    "sample_size": 12
+   },
+   "earnings_surprise": {
+    "date": "2026-11-04",
+    "actual_eps": 2.09,
+    "estimate_eps": 1.65,
+    "surprise_pct": 26.666666666666668
+   }
+  },
+  {
    "symbol": "DDOG",
    "name": "Datadog, Inc.",
-   "close": 220.52000427246094,
-   "lower_band": 223.7353059791465,
-   "pct_below_band": 1.4371007260629831,
-   "market_cap": 67764637696.0,
-   "chg_1d": 2.0453484702022795,
-   "chg_5d": -21.47283009722981,
-   "chg_1mo": -20.22140713946692,
-   "off_52w_high": -24.80392930195231,
-   "rsi": 35.703838436500064,
+   "close": 188.72000122070312,
+   "lower_band": 208.11240293405638,
+   "pct_below_band": 9.318234492491076,
+   "market_cap": 62694498304.0,
+   "chg_1d": -14.420461833688202,
+   "chg_5d": -32.21507893454072,
+   "chg_1mo": -32.17366020544525,
+   "off_52w_high": -35.647549977397475,
+   "rsi": 28.65617406524808,
    "rsi_divergence": false,
-   "macd_histogram": -6.812843146045376,
+   "macd_histogram": -9.160626620967799,
    "macd_turning_up": false,
-   "volume_ratio": 4.014395525476544,
+   "volume_ratio": 2.6038633263294004,
    "valuation": {
-    "forward_pe": 63.252235,
-    "trailing_pe": 377.44,
-    "peg_ratio": 1.15,
+    "forward_pe": 58.51972,
+    "trailing_pe": 242.5,
+    "peg_ratio": 0.98,
     "analyst_target": 295.54935,
-    "analyst_upside_pct": 34.02382744144945
+    "analyst_upside_pct": 56.60732730409572
    },
    "short_interest": {
     "pct_of_float": 3.42,
@@ -108,38 +322,38 @@
     "shares": null
    },
    "hot_score": {
-    "total": 58.7,
-    "valuation": 20.5,
-    "technical": 5.1,
+    "total": 57.2,
+    "valuation": 21.1,
+    "technical": 7.4,
     "catalyst": 14.6,
-    "sentiment": 18.5
+    "sentiment": 14.0
    },
    "reasons": [
     "DDOG reported earnings on Nov 04 \u2014 earnings reactions are the most common cause of a sharp break below the band.",
-    "Sharp one-day drop of -11.5% on Oct 30 \u2014 points to a specific catalyst (news, guidance, downgrade) rather than gradual selling.",
-    "Down -20.2% over the past month \u2014 an extended downtrend; the band break continues an existing move rather than starting one."
+    "Sharp one-day drop of -14.4% on Nov 04 \u2014 points to a specific catalyst (news, guidance, downgrade) rather than gradual selling.",
+    "Down -32.2% over the past month \u2014 an extended downtrend; the band break continues an existing move rather than starting one."
    ],
    "news": [
     {
-     "title": "Datadog Inc (DDOG) Q3 2026 Earnings Call Highlights: Revenue Surges 35% to $1. ...",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/datadog-inc-ddog-q3-2026-210636650.html",
-     "publisher": "GuruFocus.com"
+     "title": "Datadog Just Dropped 34% in a Week. Is It Time to Sell, or Load Up?",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/datadog-just-dropped-34-week-221733913.html",
+     "publisher": "TIKR"
     },
     {
-     "title": "Sector Update: Tech Stocks Mixed Late Afternoon",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-mixed-afternoon-204528692.html",
-     "publisher": "MT Newswires"
+     "title": "56% Upside for Datadog? Canaccord Genuity Thinks So, and Here\u2019s How",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/56-upside-datadog-canaccord-genuity-180505243.html",
+     "publisher": "TIKR"
     },
     {
-     "title": "Datadog Stock Crashes 14% Despite an Earnings Beat. Is It a Buy?",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/datadog-stock-crashes-14-despite-194755400.html",
-     "publisher": "24/7 Wall St."
+     "title": "Datadog Q3 Earnings & Revenues Surpass Estimates, Both Rise Y/Y",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/datadog-q3-earnings-revenues-surpass-162000674.html",
+     "publisher": "Zacks"
     }
    ],
    "sentiment": {
-    "label": "Mixed",
-    "bullish_pct": 45.5,
-    "sample_size": 11
+    "label": "Bearish",
+    "bullish_pct": 22.2,
+    "sample_size": 9
    },
    "earnings_surprise": {
     "date": "2026-11-04",
@@ -149,30 +363,101 @@
    }
   },
   {
-   "symbol": "ADM",
-   "name": "Archer-Daniels-Midland Company",
-   "close": 70.5999984741211,
-   "lower_band": 73.4425773607447,
-   "pct_below_band": 3.8704781187907775,
-   "market_cap": 34142015488.0,
-   "chg_1d": -6.823278867623406,
-   "chg_5d": -9.718668504745931,
-   "chg_1mo": -14.39311576438077,
-   "off_52w_high": -19.85469246324224,
-   "rsi": 23.40085988880574,
+   "symbol": "BKR",
+   "name": "Baker Hughes Company",
+   "close": 49.869998931884766,
+   "lower_band": 51.532607923105545,
+   "pct_below_band": 3.2263241823539053,
+   "market_cap": 45880225792.0,
+   "chg_1d": -5.5313542962711075,
+   "chg_5d": -8.76326551207286,
+   "chg_1mo": -12.707862769990985,
+   "off_52w_high": -28.41969248950862,
+   "rsi": 33.195395259602876,
    "rsi_divergence": false,
-   "macd_histogram": -0.8034861829863416,
+   "macd_histogram": -0.3798151852848526,
    "macd_turning_up": false,
-   "volume_ratio": 1.8287502931069677,
+   "volume_ratio": 2.193070270351502,
    "valuation": {
-    "forward_pe": 12.484601,
-    "trailing_pe": 13.8359375,
-    "peg_ratio": 0.84,
-    "analyst_target": 80.3,
-    "analyst_upside_pct": 13.739379228789229
+    "forward_pe": 16.166225,
+    "trailing_pe": 15.876288,
+    "peg_ratio": 1.42,
+    "analyst_target": 70.125,
+    "analyst_upside_pct": 40.61560357316358
    },
    "short_interest": {
-    "pct_of_float": 3.31,
+    "pct_of_float": 2.87,
+    "days_to_cover": 3.38
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 55.7,
+    "valuation": 16.3,
+    "technical": 5.9,
+    "catalyst": 12.0,
+    "sentiment": 21.4
+   },
+   "reasons": [
+    "BKR reported earnings on Oct 27 \u2014 earnings reactions are the most common cause of a sharp break below the band.",
+    "Sharp one-day drop of -5.5% on Nov 04 \u2014 points to a specific catalyst (news, guidance, downgrade) rather than gradual selling."
+   ],
+   "news": [
+    {
+     "title": "North America Enters Rig Addition Streak, BH Shows",
+     "link": "https://finance.yahoo.com/energy/articles/north-america-enters-rig-addition-162956503.html",
+     "publisher": "Rigzone.com"
+    },
+    {
+     "title": "Venture Global Opens Commercial Operations at Plaquemines LNG Phase 1",
+     "link": "https://finance.yahoo.com/energy/articles/venture-global-opens-commercial-operations-141600184.html",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "How Investors Are Reacting To Baker Hughes (BKR) Earnings Beat",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/investors-reacting-baker-hughes-bkr-131154099.html",
+     "publisher": "Simply Wall St."
+    }
+   ],
+   "sentiment": {
+    "label": "Bullish",
+    "bullish_pct": 100.0,
+    "sample_size": 9
+   },
+   "earnings_surprise": {
+    "date": "2026-10-27",
+    "actual_eps": 0.7,
+    "estimate_eps": 0.61,
+    "surprise_pct": 14.754098360655732
+   }
+  },
+  {
+   "symbol": "ADM",
+   "name": "Archer-Daniels-Midland Company",
+   "close": 70.83999633789062,
+   "lower_band": 71.90470518798539,
+   "pct_below_band": 1.480722085308909,
+   "market_cap": 33538027520.0,
+   "chg_1d": 0.33994032430113563,
+   "chg_5d": -8.273995521546595,
+   "chg_1mo": -13.8304377486966,
+   "off_52w_high": -19.582246244889635,
+   "rsi": 24.511886901907843,
+   "rsi_divergence": false,
+   "macd_histogram": -0.9317415544090171,
+   "macd_turning_up": false,
+   "volume_ratio": 1.6856011167949392,
+   "valuation": {
+    "forward_pe": 12.419394,
+    "trailing_pe": 13.763673,
+    "peg_ratio": 0.84,
+    "analyst_target": 80.3,
+    "analyst_upside_pct": 13.354043126974924
+   },
+   "short_interest": {
+    "pct_of_float": 3.35,
     "days_to_cover": 3.6
    },
    "insider": {
@@ -180,10 +465,10 @@
     "shares": null
    },
    "hot_score": {
-    "total": 56.3,
-    "valuation": 17.0,
-    "technical": 9.2,
-    "catalyst": 9.6,
+    "total": 54.8,
+    "valuation": 16.9,
+    "technical": 8.8,
+    "catalyst": 8.6,
     "sentiment": 20.4
    },
    "reasons": [
@@ -192,19 +477,19 @@
    ],
    "news": [
     {
-     "title": "Stock Market Today: Dow Eyes 2% Jump as AMD Earnings Ease AI Spending Fears",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-dow-eyes-142048591.html",
-     "publisher": "24/7 Wall St."
-    },
-    {
-     "title": "ADM Q3 Earnings Call Highlights Biofuels Strength and 2027 Outlook",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/adm-q3-earnings-call-highlights-140000496.html",
+     "title": "After Plunging 12.9% in 4 Weeks, Here's Why the Trend Might Reverse for ADM (ADM)",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/plunging-12-9-4-weeks-133501398.html",
      "publisher": "Zacks"
     },
     {
-     "title": "Is Archer-Daniels-Midland (ADM) Undervalued Following Strong Q3 Earnings And Higher Guidance?",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/archer-daniels-midland-adm-undervalued-071134821.html",
-     "publisher": "Simply Wall St."
+     "title": "Democratic Sweep May Turn the Tide in Favor of Cyclical Stocks: 5 Picks",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/democratic-sweep-may-turn-tide-132900592.html",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "These 12 stocks are good bets to beat the 10-year Treasury over the next decade",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/12-stocks-good-bets-beat-180300957.html",
+     "publisher": "MarketWatch"
     }
    ],
    "sentiment": {
@@ -220,170 +505,98 @@
    }
   },
   {
-   "symbol": "SYY",
-   "name": "Sysco Corporation",
-   "close": 74.11000061035156,
-   "lower_band": 75.95630274755342,
-   "pct_below_band": 2.430742506435821,
-   "market_cap": 37848895488.0,
-   "chg_1d": -9.33447204896477,
-   "chg_5d": -9.951399924317894,
-   "chg_1mo": -2.9719779061196827,
-   "off_52w_high": -18.703381271193,
-   "rsi": 30.77325797314265,
+   "symbol": "OXY",
+   "name": "Occidental Petroleum Corporatio",
+   "close": 57.33000183105469,
+   "lower_band": 58.64202514725885,
+   "pct_below_band": 2.2373431219496185,
+   "market_cap": 56339562496.0,
+   "chg_1d": -5.1298998154325375,
+   "chg_5d": -8.797325366850561,
+   "chg_1mo": -1.7143836252506373,
+   "off_52w_high": -13.451081401058184,
+   "rsi": 35.851195386404996,
    "rsi_divergence": false,
-   "macd_histogram": -0.4503906386368216,
+   "macd_histogram": -0.5613076754853741,
    "macd_turning_up": false,
-   "volume_ratio": 2.0453645086861236,
+   "volume_ratio": 1.4838193953477428,
    "valuation": {
-    "forward_pe": 14.368471,
-    "trailing_pe": 20.462767,
-    "peg_ratio": 1.04,
-    "analyst_target": 91.75,
-    "analyst_upside_pct": 23.80245478932639
+    "forward_pe": 11.237724,
+    "trailing_pe": 16.011364,
+    "peg_ratio": 0.86,
+    "analyst_target": 70.74074,
+    "analyst_upside_pct": 23.39218165118031
    },
    "short_interest": {
-    "pct_of_float": 2.86,
-    "days_to_cover": 2.65
+    "pct_of_float": 0.02,
+    "days_to_cover": 0.01
    },
    "insider": {
     "recent_buys": 0,
     "shares": null
    },
    "hot_score": {
-    "total": 54.6,
-    "valuation": 19.1,
-    "technical": 6.7,
-    "catalyst": 10.9,
-    "sentiment": 17.8
+    "total": 53.7,
+    "valuation": 19.6,
+    "technical": 5.0,
+    "catalyst": 5.0,
+    "sentiment": 24.0
    },
    "reasons": [
-    "SYY reported earnings on Nov 03 \u2014 earnings reactions are the most common cause of a sharp break below the band.",
-    "Sharp one-day drop of -9.3% on Nov 03 \u2014 points to a specific catalyst (news, guidance, downgrade) rather than gradual selling."
+    "OXY reports earnings on Nov 09 \u2014 earnings reactions are the most common cause of a sharp break below the band.",
+    "Sharp one-day drop of -5.1% on Nov 04 \u2014 points to a specific catalyst (news, guidance, downgrade) rather than gradual selling."
    ],
    "news": [
     {
-     "title": "Sysco's Execution Remains on Track Amid Fiscal Q1 Challenges, UBS Says",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/sysco-apos-execution-remains-track-200956185.html",
-     "publisher": "MT Newswires"
+     "title": "Occidental Petroleum (OXY) Stock Moves -1.69%: What You Should Know",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/occidental-petroleum-oxy-stock-moves-215002287.html",
+     "publisher": "Zacks"
     },
     {
-     "title": "US Stock Market Today: S&P 500 Futures Edge Higher On Strong Factory And Freight Data",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/us-stock-market-today-p-130949203.html",
-     "publisher": "Simply Wall St."
+     "title": "What Analyst Projections for Key Metrics Reveal About Occidental (OXY) Q3 Earnings",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/analyst-projections-key-metrics-reveal-131511988.html",
+     "publisher": "Zacks"
     },
     {
-     "title": "What Is Behind The Move In Sysco Stock?",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/behind-move-sysco-stock-125558837.html",
-     "publisher": "Trefis"
+     "title": "Clearway Energy Set to Report Q3 Earnings: What's in the Cards?",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/clearway-energy-set-report-q3-124000446.html",
+     "publisher": "Zacks"
     }
    ],
    "sentiment": {
     "label": "Bullish",
     "bullish_pct": 100.0,
-    "sample_size": 5
+    "sample_size": 10
    },
    "earnings_surprise": {
-    "date": "2026-11-03",
-    "actual_eps": 1.19,
-    "estimate_eps": 1.19,
-    "surprise_pct": 0.0
-   }
-  },
-  {
-   "symbol": "MRVL",
-   "name": "Marvell Technology, Inc.",
-   "close": 171.97000122070312,
-   "lower_band": 176.76701263836205,
-   "pct_below_band": 2.713748083457667,
-   "market_cap": 143782592512.0,
-   "chg_1d": 0.3267006281019835,
-   "chg_5d": -29.396068461010493,
-   "chg_1mo": -36.600921208957374,
-   "off_52w_high": -45.653065385332766,
-   "rsi": 29.07015189768694,
-   "rsi_divergence": false,
-   "macd_histogram": -8.45677633176916,
-   "macd_turning_up": false,
-   "volume_ratio": 1.85969904547012,
-   "valuation": {
-    "forward_pe": 21.762905,
-    "trailing_pe": 52.565792,
-    "peg_ratio": 0.42,
-    "analyst_target": 313.72513,
-    "analyst_upside_pct": 82.4301493127112
-   },
-   "short_interest": {
-    "pct_of_float": 3.28,
-    "days_to_cover": 1.24
-   },
-   "insider": {
-    "recent_buys": 0,
-    "shares": null
-   },
-   "hot_score": {
-    "total": 52.3,
-    "valuation": 22.7,
-    "technical": 7.3,
-    "catalyst": 9.8,
-    "sentiment": 12.5
-   },
-   "reasons": [
-    "Sharp one-day drop of -13.2% on Oct 29 \u2014 points to a specific catalyst (news, guidance, downgrade) rather than gradual selling.",
-    "Down -36.6% over the past month \u2014 an extended downtrend; the band break continues an existing move rather than starting one.",
-    "Trading 46% below its 52-week high \u2014 deep drawdown territory, often reflecting a broken growth story or re-rating."
-   ],
-   "news": [
-    {
-     "title": "5 Best Performing AI Stocks in 2026",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/5-best-performing-ai-stocks-233151565.html",
-     "publisher": "Insider Monkey"
-    },
-    {
-     "title": "Marvell Sinks 7% as Democratic Sweep Hits AI Data-Center Stocks",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/marvell-sinks-7-democratic-sweep-222424583.html",
-     "publisher": "TIKR"
-    },
-    {
-     "title": "Chip Stocks Feeling Blue After Democratic Party Victories",
-     "link": "https://www.investors.com/news/technology/chip-stocks-feeling-blue-after-democratic-party-victories/?src=A00220&yptr=yahoo",
-     "publisher": "Investor's Business Daily"
-    }
-   ],
-   "sentiment": {
-    "label": "Mixed",
-    "bullish_pct": 50.0,
-    "sample_size": 6
-   },
-   "earnings_surprise": {
-    "date": "2026-08-27",
-    "actual_eps": 0.94,
-    "estimate_eps": 0.93,
-    "surprise_pct": 1.0752688172042901
+    "date": "2026-08-05",
+    "actual_eps": 2.4,
+    "estimate_eps": 1.86,
+    "surprise_pct": 29.03225806451612
    }
   },
   {
    "symbol": "PLTR",
    "name": "Palantir Technologies Inc.",
-   "close": 175.39999389648438,
-   "lower_band": 177.98551589982827,
-   "pct_below_band": 1.452658656111686,
-   "market_cap": 413710745600.0,
-   "chg_1d": -1.6485379061217387,
-   "chg_5d": -11.739547291612872,
-   "chg_1mo": -7.39176370177268,
-   "off_52w_high": -16.096631745536104,
-   "rsi": 35.793524413227914,
+   "close": 171.6999969482422,
+   "lower_band": 173.98802358158096,
+   "pct_below_band": 1.315048350018152,
+   "market_cap": 373448048640.0,
+   "chg_1d": -2.1094624156177577,
+   "chg_5d": -12.758498512188577,
+   "chg_1mo": -10.605513406156897,
+   "off_52w_high": -17.86654176430138,
+   "rsi": 33.46583371225137,
    "rsi_divergence": false,
-   "macd_histogram": -3.2718986510746437,
+   "macd_histogram": -3.7238042469660293,
    "macd_turning_up": false,
-   "volume_ratio": 1.3522772632958329,
+   "volume_ratio": 1.8501820445137176,
    "valuation": {
-    "forward_pe": 69.22159,
-    "trailing_pe": 120.9155,
-    "peg_ratio": 1.59,
+    "forward_pe": 62.26024,
+    "trailing_pe": 109.147896,
+    "peg_ratio": 1.56,
     "analyst_target": 217.96786,
-    "analyst_upside_pct": 24.26902370854007
+    "analyst_upside_pct": 26.946921301172154
    },
    "short_interest": {
     "pct_of_float": 2.61,
@@ -394,10 +607,10 @@
     "shares": null
    },
    "hot_score": {
-    "total": 47.8,
-    "valuation": 17.4,
-    "technical": 5.1,
-    "catalyst": 5.7,
+    "total": 53.1,
+    "valuation": 18.3,
+    "technical": 5.8,
+    "catalyst": 9.4,
     "sentiment": 19.6
    },
    "reasons": [
@@ -406,161 +619,19 @@
    ],
    "news": [
     {
-     "title": "Earnings live updates: Cava stock falls after cyclospora outbreak dented Q3 results",
-     "link": "https://finance.yahoo.com/markets/live/earnings-live-updates-apple-palantir-roku-and-more-212856249.html",
+     "title": "Palantir and CrowdStrike stocks tumble as Wall Street dumps software's AI winners",
+     "link": "https://finance.yahoo.com/markets/article/palantir-and-crowdstrike-stocks-tumble-as-wall-street-dumps-softwares-ai-winners-173540737.html",
      "publisher": "Yahoo Finance"
     },
     {
-     "title": "Bank Stock Looks To Finance Breakout As Market Perks Up",
-     "link": "https://www.investors.com/research/breakout-stocks-technical-analysis/esquire-financial-esq-bank-stocks-to-watch-in-troubled-market/?src=A00220&yptr=yahoo",
-     "publisher": "Investor's Business Daily"
+     "title": "Palantir Is Down 16% From Its High. History Suggests This Is What Happens Next.",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/palantir-down-16-high-history-000500674.html",
+     "publisher": "Motley Fool"
     },
     {
-     "title": "Cathie Wood buys $10.9 million of tumbling tech stock",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/cathie-wood-buys-10-9-204026953.html",
-     "publisher": "TheStreet"
-    }
-   ],
-   "sentiment": {
-    "label": "Bullish",
-    "bullish_pct": 63.6,
-    "sample_size": 11
-   },
-   "earnings_surprise": {
-    "date": "2026-11-02",
-    "actual_eps": 0.44,
-    "estimate_eps": 0.41,
-    "surprise_pct": 7.317073170731714
-   }
-  },
-  {
-   "symbol": "FTNT",
-   "name": "Fortinet, Inc.",
-   "close": 128.11000061035156,
-   "lower_band": 129.43560464407415,
-   "pct_below_band": 1.0241417246574227,
-   "market_cap": 95064096768.0,
-   "chg_1d": 1.505428682086607,
-   "chg_5d": -30.75135102143158,
-   "chg_1mo": -30.42415835926049,
-   "off_52w_high": -34.21822818467185,
-   "rsi": 25.367100105820114,
-   "rsi_divergence": false,
-   "macd_histogram": -6.640823553398795,
-   "macd_turning_up": false,
-   "volume_ratio": 1.0464432645119917,
-   "valuation": {
-    "forward_pe": 33.186623,
-    "trailing_pe": 42.284313,
-    "peg_ratio": 1.5,
-    "analyst_target": 145.55405,
-    "analyst_upside_pct": 13.61646187381167
-   },
-   "short_interest": {
-    "pct_of_float": 1.99,
-    "days_to_cover": 3.12
-   },
-   "insider": {
-    "recent_buys": 0,
-    "shares": null
-   },
-   "hot_score": {
-    "total": 40.1,
-    "valuation": 14.8,
-    "technical": 8.5,
-    "catalyst": 3.1,
-    "sentiment": 13.7
-   },
-   "reasons": [
-    "FTNT reported earnings on Oct 28 \u2014 earnings reactions are the most common cause of a sharp break below the band.",
-    "Sharp one-day drop of -20.1% on Oct 29 \u2014 points to a specific catalyst (news, guidance, downgrade) rather than gradual selling.",
-    "Down -30.4% over the past month \u2014 an extended downtrend; the band break continues an existing move rather than starting one."
-   ],
-   "news": [
-    {
-     "title": "Should You Pick Synopsys Stock Over Its Peers?",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/pick-synopsys-stock-over-peers-003119261.html",
-     "publisher": "Trefis"
-    },
-    {
-     "title": "Should Twilio Stock Holders Look At Fortinet Instead?",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/twilio-stock-holders-look-fortinet-200018317.html",
-     "publisher": "Trefis"
-    },
-    {
-     "title": "5 Large Cap Tech Stocks to Buy According to Billionaires",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/5-large-cap-tech-stocks-175941681.html",
-     "publisher": "Insider Monkey"
-    }
-   ],
-   "sentiment": {
-    "label": "Mixed",
-    "bullish_pct": 57.1,
-    "sample_size": 7
-   },
-   "earnings_surprise": {
-    "date": "2026-10-28",
-    "actual_eps": 0.91,
-    "estimate_eps": 0.86,
-    "surprise_pct": 5.813953488372099
-   }
-  },
-  {
-   "symbol": "AAPL",
-   "name": "Apple Inc.",
-   "close": 331.8999938964844,
-   "lower_band": 333.91770071662825,
-   "pct_below_band": 0.6042527292843792,
-   "market_cap": 5079143284736.0,
-   "chg_1d": -1.8976156564048385,
-   "chg_5d": -4.3791448976518215,
-   "chg_1mo": -0.29740175685314396,
-   "off_52w_high": -4.875185459600006,
-   "rsi": 41.70189458205049,
-   "rsi_divergence": false,
-   "macd_histogram": -1.545793932823952,
-   "macd_turning_up": false,
-   "volume_ratio": 2.042007217642698,
-   "valuation": {
-    "forward_pe": 32.823452,
-    "trailing_pe": 38.920937,
-    "peg_ratio": 2.66,
-    "analyst_target": 333.28052,
-    "analyst_upside_pct": 0.4159464082262643
-   },
-   "short_interest": {
-    "pct_of_float": 0.91,
-    "days_to_cover": 3.48
-   },
-   "insider": {
-    "recent_buys": 0,
-    "shares": null
-   },
-   "hot_score": {
-    "total": 39.7,
-    "valuation": 7.2,
-    "technical": 3.7,
-    "catalyst": 9.7,
-    "sentiment": 19.1
-   },
-   "reasons": [
-    "AAPL reported earnings on Nov 02 \u2014 earnings reactions are the most common cause of a sharp break below the band."
-   ],
-   "news": [
-    {
-     "title": "Apple, Microsoft hit all-time highs as Nasdaq surges 2% in post-election rally: AlphaCheck",
-     "link": "https://finance.yahoo.com/markets/article/apple-microsoft-hit-all-time-highs-as-nasdaq-surges-2-in-post-election-rally-alphacheck-152548814.html",
-     "publisher": "Yahoo Finance"
-    },
-    {
-     "title": "Post-election gridlock might be a bullish sign for Apple,",
-     "link": "https://finance.yahoo.com/video/post-election-gridlock-might-be-a-bullish-sign-for-apple-150824062.html",
-     "publisher": "Yahoo Finance Video"
-    },
-    {
-     "title": "Why the Democrat blue wave could be a good thing for Apple stock",
-     "link": "https://finance.yahoo.com/markets/stocks/article/why-the-democrat-blue-wave-could-be-a-good-thing-for-apple-stock-100051134.html",
-     "publisher": "Yahoo Finance"
+     "title": "Nvidia, Micron, Intel, Sandisk, Palantir, AppLovin, Qualcomm, and More Stocks That Explain Today\u2019s Market",
+     "link": "https://www.barrons.com/articles/stock-movers-8b39c82b?siteid=yhoof2&yptr=yahoo",
+     "publisher": "Barrons.com"
     }
    ],
    "sentiment": {
@@ -570,9 +641,720 @@
    },
    "earnings_surprise": {
     "date": "2026-11-02",
-    "actual_eps": 2.1,
-    "estimate_eps": 1.99,
-    "surprise_pct": 5.527638190954779
+    "actual_eps": 0.44,
+    "estimate_eps": 0.41,
+    "surprise_pct": 7.317073170731714
+   }
+  },
+  {
+   "symbol": "VST",
+   "name": "Vistra Corp.",
+   "close": 120.29000091552734,
+   "lower_band": 126.81701796408991,
+   "pct_below_band": 5.146799028511134,
+   "market_cap": 37889855488.0,
+   "chg_1d": -13.82620239894974,
+   "chg_5d": -15.716087523352728,
+   "chg_1mo": -25.052958931135617,
+   "off_52w_high": -37.020941929043275,
+   "rsi": 32.500474814808015,
+   "rsi_divergence": false,
+   "macd_histogram": -2.6251656765043796,
+   "macd_turning_up": false,
+   "volume_ratio": 2.2207142966320235,
+   "valuation": {
+    "forward_pe": 11.843315,
+    "trailing_pe": 19.0371,
+    "peg_ratio": 0.34,
+    "analyst_target": 204.31818,
+    "analyst_upside_pct": 69.85466659317822
+   },
+   "short_interest": {
+    "pct_of_float": 3.43,
+    "days_to_cover": 1.42
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 52.9,
+    "valuation": 22.7,
+    "technical": 6.2,
+    "catalyst": 12.6,
+    "sentiment": 11.5
+   },
+   "reasons": [
+    "VST reports earnings on Nov 06 \u2014 earnings reactions are the most common cause of a sharp break below the band.",
+    "Sharp one-day drop of -13.8% on Nov 04 \u2014 points to a specific catalyst (news, guidance, downgrade) rather than gradual selling.",
+    "Down -25.1% over the past month \u2014 an extended downtrend; the band break continues an existing move rather than starting one."
+   ],
+   "news": [
+    {
+     "title": "Ahead of Vistra Earnings, Here's What Barchart Data Says Comes Next for VST Stock",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/ahead-vistra-earnings-heres-barchart-175614537.html",
+     "publisher": "Barchart"
+    },
+    {
+     "title": "FuelCell Energy Plunges 17%, Bloom Energy Sinks 14% Despite NTT Data Deal, Plug Power Drops 7%",
+     "link": "https://finance.yahoo.com/energy/articles/fuelcell-energy-plunges-17-bloom-170728747.html",
+     "publisher": "24/7 Wall St."
+    },
+    {
+     "title": "Vertiv Sinks Another 16% as Data Center Selloff Deepens: \u201cForced Control on CapEx\u201d",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/vertiv-sinks-another-16-data-155630724.html",
+     "publisher": "TIKR"
+    }
+   ],
+   "sentiment": {
+    "label": "Bullish",
+    "bullish_pct": 93.3,
+    "sample_size": 15
+   },
+   "earnings_surprise": {
+    "date": "2026-08-10",
+    "actual_eps": 0.76,
+    "estimate_eps": 1.66,
+    "surprise_pct": -54.21686746987952
+   }
+  },
+  {
+   "symbol": "PSX",
+   "name": "Phillips 66",
+   "close": 259.6300048828125,
+   "lower_band": 263.4786110421295,
+   "pct_below_band": 1.4606901653590467,
+   "market_cap": 96363470848.0,
+   "chg_1d": -4.526732899933005,
+   "chg_5d": -5.161456888794557,
+   "chg_1mo": -3.765893228183681,
+   "off_52w_high": -12.667766349241028,
+   "rsi": 39.788888028690444,
+   "rsi_divergence": false,
+   "macd_histogram": -3.5763656768089005,
+   "macd_turning_up": false,
+   "volume_ratio": 1.829024268727641,
+   "valuation": {
+    "forward_pe": 7.8616443,
+    "trailing_pe": 7.9230275,
+    "peg_ratio": 0.83,
+    "analyst_target": 292.3684,
+    "analyst_upside_pct": 12.609634672989522
+   },
+   "short_interest": {
+    "pct_of_float": 2.01,
+    "days_to_cover": 2.23
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 51.9,
+    "valuation": 16.7,
+    "technical": 3.7,
+    "catalyst": 8.8,
+    "sentiment": 22.6
+   },
+   "reasons": [
+    "PSX reported earnings on Oct 28 \u2014 earnings reactions are the most common cause of a sharp break below the band."
+   ],
+   "news": [
+    {
+     "title": "Can MPC's Gulf Coast Focus Fuel Stronger Future Refining Returns?",
+     "link": "https://finance.yahoo.com/energy/articles/mpcs-gulf-coast-focus-fuel-163900782.html",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Par Pacific makes EVP shift",
+     "link": "https://finance.yahoo.com/energy/articles/par-pacific-makes-evp-shift-134840910.html",
+     "publisher": "C-Store Dive"
+    },
+    {
+     "title": "\ud83c\udfa7 Listen: Global Conflicts Have Meant Huge Profits for U.S. Oil Refiners",
+     "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-04-2026/card/-listen-global-conflicts-have-meant-huge-profits-for-u-s-oil-refiners-MEZtjrrq74K4g0Tpw9N4?siteid=yhoof2&yptr=yahoo",
+     "publisher": "The Wall Street Journal"
+    }
+   ],
+   "sentiment": {
+    "label": "Bullish",
+    "bullish_pct": 90.9,
+    "sample_size": 11
+   },
+   "earnings_surprise": {
+    "date": "2026-10-28",
+    "actual_eps": 14.08,
+    "estimate_eps": 11.79,
+    "surprise_pct": 19.423240033927065
+   }
+  },
+  {
+   "symbol": "STX",
+   "name": "Seagate Technology Holdings PLC",
+   "close": 557.0599975585938,
+   "lower_band": 559.3169261715532,
+   "pct_below_band": 0.4035151641856775,
+   "market_cap": 107097145344.0,
+   "chg_1d": -8.133514780677874,
+   "chg_5d": -20.188543785426837,
+   "chg_1mo": -30.854114893644745,
+   "off_52w_high": -49.08230250549631,
+   "rsi": 30.69687709182145,
+   "rsi_divergence": false,
+   "macd_histogram": -5.910481565730379,
+   "macd_turning_up": false,
+   "volume_ratio": 1.7077734674453162,
+   "valuation": {
+    "forward_pe": 7.1398654,
+    "trailing_pe": 24.46408,
+    "peg_ratio": 0.32,
+    "analyst_target": 1044.8334,
+    "analyst_upside_pct": 87.56209467187604
+   },
+   "short_interest": {
+    "pct_of_float": 3.43,
+    "days_to_cover": 1.63
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 51.3,
+    "valuation": 22.7,
+    "technical": 6.8,
+    "catalyst": 8.8,
+    "sentiment": 13.1
+   },
+   "reasons": [
+    "STX reported earnings on Oct 27 \u2014 earnings reactions are the most common cause of a sharp break below the band.",
+    "Sharp one-day drop of -8.1% on Nov 04 \u2014 points to a specific catalyst (news, guidance, downgrade) rather than gradual selling.",
+    "Down -30.9% over the past month \u2014 an extended downtrend; the band break continues an existing move rather than starting one.",
+    "Trading 49% below its 52-week high \u2014 deep drawdown territory, often reflecting a broken growth story or re-rating."
+   ],
+   "news": [
+    {
+     "title": "Should You Buy SanDisk Stock For Its Cash?",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/buy-sandisk-stock-cash-000136353.html",
+     "publisher": "Trefis"
+    },
+    {
+     "title": "Stock Market Today: Nasdaq Slammed By Big Tech Sell-Off; Nvidia Hits Bear Territory",
+     "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-election-rally-cava-dutch-bros/?src=A00220&yptr=yahoo",
+     "publisher": "Investor's Business Daily"
+    },
+    {
+     "title": "Micron stock sinks 17% as chip sector crashes",
+     "link": "https://finance.yahoo.com/markets/article/micron-declines-12-as-chip-sell-off-deepens-163137019.html",
+     "publisher": "Yahoo Finance"
+    }
+   ],
+   "sentiment": {
+    "label": "Mixed",
+    "bullish_pct": 50.0,
+    "sample_size": 6
+   },
+   "earnings_surprise": {
+    "date": "2026-10-27",
+    "actual_eps": 7.68,
+    "estimate_eps": 7.43,
+    "surprise_pct": 3.3647375504710633
+   }
+  },
+  {
+   "symbol": "AME",
+   "name": "AMETEK, Inc.",
+   "close": 237.08999633789062,
+   "lower_band": 237.82765311443015,
+   "pct_below_band": 0.3101644265835656,
+   "market_cap": 51135623168.0,
+   "chg_1d": -4.622256580790096,
+   "chg_5d": -4.449283975203189,
+   "chg_1mo": -6.554471386883909,
+   "off_52w_high": -8.289491562158435,
+   "rsi": 41.87451831469145,
+   "rsi_divergence": true,
+   "macd_histogram": -0.7683671008937508,
+   "macd_turning_up": false,
+   "volume_ratio": 1.6713997843086168,
+   "valuation": {
+    "forward_pe": 23.232676,
+    "trailing_pe": 31.45134,
+    "peg_ratio": 2.69,
+    "analyst_target": 285.1111,
+    "analyst_upside_pct": 20.254377832825867
+   },
+   "short_interest": {
+    "pct_of_float": 1.81,
+    "days_to_cover": 2.65
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 49.5,
+    "valuation": 12.7,
+    "technical": 10.3,
+    "catalyst": 7.5,
+    "sentiment": 18.9
+   },
+   "reasons": [
+    "AME reported earnings on Nov 03 \u2014 earnings reactions are the most common cause of a sharp break below the band."
+   ],
+   "news": [
+    {
+     "title": "Paycom Q3 Earnings Beat Estimates on Revenue Growth, Margin Gains",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/paycom-q3-earnings-beat-estimates-135600567.html",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Avnet Q1 Earnings Beat Estimates on Record Sales & Strong Demand",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/avnet-q1-earnings-beat-estimates-134600899.html",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Qnity's Q3 Earnings Beat Estimates on AI Demand, Outlook Raised",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/qnitys-q3-earnings-beat-estimates-134400422.html",
+     "publisher": "Zacks"
+    }
+   ],
+   "sentiment": {
+    "label": "Bullish",
+    "bullish_pct": 100.0,
+    "sample_size": 9
+   },
+   "earnings_surprise": {
+    "date": "2026-11-03",
+    "actual_eps": 2.21,
+    "estimate_eps": 2.11,
+    "surprise_pct": 4.739336492891
+   }
+  },
+  {
+   "symbol": "MPC",
+   "name": "Marathon Petroleum Corporation",
+   "close": 392.67999267578125,
+   "lower_band": 410.1890967777539,
+   "pct_below_band": 4.268544493141248,
+   "market_cap": 102737551360.0,
+   "chg_1d": -8.110638826023742,
+   "chg_5d": -10.910451604362514,
+   "chg_1mo": -9.177535854414575,
+   "off_52w_high": -19.021698052827276,
+   "rsi": 34.50699818335002,
+   "rsi_divergence": false,
+   "macd_histogram": -9.39817383648259,
+   "macd_turning_up": false,
+   "volume_ratio": 1.445982293980895,
+   "valuation": {
+    "forward_pe": 6.1022215,
+    "trailing_pe": 7.4761243,
+    "peg_ratio": 0.91,
+    "analyst_target": 457.29413,
+    "analyst_upside_pct": 16.45465481547155
+   },
+   "short_interest": {
+    "pct_of_float": 3.03,
+    "days_to_cover": 2.59
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 48.3,
+    "valuation": 17.5,
+    "technical": 5.5,
+    "catalyst": 6.6,
+    "sentiment": 18.6
+   },
+   "reasons": [
+    "MPC reported earnings on Nov 03 \u2014 earnings reactions are the most common cause of a sharp break below the band.",
+    "Sharp one-day drop of -8.1% on Nov 04 \u2014 points to a specific catalyst (news, guidance, downgrade) rather than gradual selling."
+   ],
+   "news": [
+    {
+     "title": "St. Paul Park refinery sold as part of $4.2B deal",
+     "link": "https://finance.yahoo.com/energy/articles/st-paul-park-refinery-sold-193900072.html",
+     "publisher": "Pioneer Press, St. Paul, Minn."
+    },
+    {
+     "title": "Can MPC's Gulf Coast Focus Fuel Stronger Future Refining Returns?",
+     "link": "https://finance.yahoo.com/energy/articles/mpcs-gulf-coast-focus-fuel-163900782.html",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "CRGY Q3 Earnings Beat on Higher Oil Prices and Production",
+     "link": "https://finance.yahoo.com/energy/articles/crgy-q3-earnings-beat-higher-163600754.html",
+     "publisher": "Zacks"
+    }
+   ],
+   "sentiment": {
+    "label": "Bullish",
+    "bullish_pct": 90.9,
+    "sample_size": 11
+   },
+   "earnings_surprise": {
+    "date": "2026-11-03",
+    "actual_eps": 26.93,
+    "estimate_eps": 26.0,
+    "surprise_pct": 3.576923076923076
+   }
+  },
+  {
+   "symbol": "WMB",
+   "name": "Williams Companies, Inc. (The)",
+   "close": 67.86000061035156,
+   "lower_band": 68.45925241750082,
+   "pct_below_band": 0.8753408574997328,
+   "market_cap": 80325509120.0,
+   "chg_1d": -6.361253667309974,
+   "chg_5d": -8.630666921288,
+   "chg_1mo": -6.257768776752681,
+   "off_52w_high": -14.5340059115315,
+   "rsi": 39.27876598571735,
+   "rsi_divergence": false,
+   "macd_histogram": -0.24690231520016243,
+   "macd_turning_up": false,
+   "volume_ratio": 1.8765909023863399,
+   "valuation": {
+    "forward_pe": 24.558708,
+    "trailing_pe": 25.295277,
+    "peg_ratio": 1.95,
+    "analyst_target": 85.375,
+    "analyst_upside_pct": 25.81049105822826
+   },
+   "short_interest": {
+    "pct_of_float": 2.39,
+    "days_to_cover": 3.44
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 47.7,
+    "valuation": 16.7,
+    "technical": 3.9,
+    "catalyst": 9.4,
+    "sentiment": 17.8
+   },
+   "reasons": [
+    "WMB reported earnings on Nov 02 \u2014 earnings reactions are the most common cause of a sharp break below the band.",
+    "Sharp one-day drop of -6.4% on Nov 04 \u2014 points to a specific catalyst (news, guidance, downgrade) rather than gradual selling."
+   ],
+   "news": [
+    {
+     "title": "A $750,000 Dividend Portfolio Could Cost You $9,000 a Year in Taxes. Here\u2019s How",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/750-000-dividend-portfolio-could-174836690.html",
+     "publisher": "24/7 Wall St."
+    },
+    {
+     "title": "Murphy Oil Q3 Earnings Beat Estimates on Strong Prices & Lower Costs",
+     "link": "https://finance.yahoo.com/energy/articles/murphy-oil-q3-earnings-beat-164800166.html",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Williams Companies Inc (WMB) (Q3 2026) Earnings Call Highlights: Record EBITDA, Momentum ...",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/williams-companies-inc-wmb-q3-090324010.html",
+     "publisher": "GuruFocus.com"
+    }
+   ],
+   "sentiment": {
+    "label": "Bullish",
+    "bullish_pct": 94.1,
+    "sample_size": 17
+   },
+   "earnings_surprise": {
+    "date": "2026-11-02",
+    "actual_eps": 0.54,
+    "estimate_eps": 0.54,
+    "surprise_pct": 0.0
+   }
+  },
+  {
+   "symbol": "ILMN",
+   "name": "Illumina, Inc.",
+   "close": 226.5399932861328,
+   "lower_band": 228.38833447773055,
+   "pct_below_band": 0.8092975483290132,
+   "market_cap": 31449600000.0,
+   "chg_1d": -4.899044162217814,
+   "chg_5d": -21.555460167212104,
+   "chg_1mo": -17.182135625717997,
+   "off_52w_high": -22.864247538923443,
+   "rsi": 37.856786498892326,
+   "rsi_divergence": false,
+   "macd_histogram": -6.986945197131056,
+   "macd_turning_up": false,
+   "volume_ratio": 1.824091026635635,
+   "valuation": {
+    "forward_pe": 33.640408,
+    "trailing_pe": 35.800346,
+    "peg_ratio": 2.79,
+    "analyst_target": 262.35,
+    "analyst_upside_pct": 15.80736637024489
+   },
+   "short_interest": {
+    "pct_of_float": 8.45,
+    "days_to_cover": 1.86
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 47.5,
+    "valuation": 11.1,
+    "technical": 4.4,
+    "catalyst": 12.8,
+    "sentiment": 19.2
+   },
+   "reasons": [
+    "ILMN reported earnings on Oct 29 \u2014 earnings reactions are the most common cause of a sharp break below the band.",
+    "Sharp one-day drop of -18.6% on Oct 30 \u2014 points to a specific catalyst (news, guidance, downgrade) rather than gradual selling.",
+    "Down -17.2% over the past month \u2014 an extended downtrend; the band break continues an existing move rather than starting one."
+   ],
+   "news": [
+    {
+     "title": "A Bloody Bad Time: Grail Gutted On Light Blood Test Sales",
+     "link": "https://www.investors.com/news/technology/grail-stock-grail-earnings-q3-2026/?src=A00220&yptr=yahoo",
+     "publisher": "Investor's Business Daily"
+    },
+    {
+     "title": "REGN vs. ILMN: Which Stock Is the Better Value Option?",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/regn-vs-ilmn-stock-better-154001705.html",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Illumina (ILMN) Selected For Singapore Genome Sequencing Program Covering 450,000 People",
+     "link": "https://finance.yahoo.com/healthcare/articles/illumina-ilmn-selected-singapore-genome-211630754.html",
+     "publisher": "Simply Wall St."
+    }
+   ],
+   "sentiment": {
+    "label": "Bullish",
+    "bullish_pct": 87.5,
+    "sample_size": 8
+   },
+   "earnings_surprise": {
+    "date": "2026-10-29",
+    "actual_eps": 1.44,
+    "estimate_eps": 1.36,
+    "surprise_pct": 5.8823529411764595
+   }
+  },
+  {
+   "symbol": "DVN",
+   "name": "Devon Energy Corporation",
+   "close": 44.119998931884766,
+   "lower_band": 46.238218265402324,
+   "pct_below_band": 4.581100684631078,
+   "market_cap": 47168000000.0,
+   "chg_1d": -7.3498531677969385,
+   "chg_5d": -13.945780109304062,
+   "chg_1mo": -8.121619093504961,
+   "off_52w_high": -15.39789522347249,
+   "rsi": 31.704845432346545,
+   "rsi_divergence": false,
+   "macd_histogram": -0.6196112572264889,
+   "macd_turning_up": false,
+   "volume_ratio": 1.4782541033126995,
+   "valuation": {
+    "forward_pe": 7.960096,
+    "trailing_pe": 9.342048,
+    "peg_ratio": 2.92,
+    "analyst_target": 61.69231,
+    "analyst_upside_pct": 39.828448534743785
+   },
+   "short_interest": {
+    "pct_of_float": 2.52,
+    "days_to_cover": 2.31
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 47.4,
+    "valuation": 14.6,
+    "technical": 6.4,
+    "catalyst": 6.6,
+    "sentiment": 19.8
+   },
+   "reasons": [
+    "DVN reported earnings on Nov 05 \u2014 earnings reactions are the most common cause of a sharp break below the band.",
+    "Sharp one-day drop of -7.3% on Nov 04 \u2014 points to a specific catalyst (news, guidance, downgrade) rather than gradual selling."
+   ],
+   "news": [
+    {
+     "title": "Devon Energy (DVN) Q3 Earnings: Taking a Look at Key Metrics Versus Estimates",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/devon-energy-dvn-q3-earnings-003002462.html",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Why Is Everyone Ignoring Expand Energy Stock's High Cash Yield?",
+     "link": "https://finance.yahoo.com/energy/articles/why-everyone-ignoring-expand-energy-000859092.html",
+     "publisher": "Trefis"
+    },
+    {
+     "title": "Devon Energy (NYSE:DVN) misses Q3 2026 sales expectations",
+     "link": "https://finance.yahoo.com/energy/articles/devon-energy-nyse-dvn-misses-224139154.html",
+     "publisher": "StockStory"
+    }
+   ],
+   "sentiment": {
+    "label": "Bullish",
+    "bullish_pct": 71.4,
+    "sample_size": 7
+   },
+   "earnings_surprise": {
+    "date": "2026-11-05",
+    "actual_eps": 1.42,
+    "estimate_eps": 1.31,
+    "surprise_pct": 8.396946564885486
+   }
+  },
+  {
+   "symbol": "FANG",
+   "name": "Diamondback Energy, Inc.",
+   "close": 182.8800048828125,
+   "lower_band": 186.2902961344402,
+   "pct_below_band": 1.8306327932221467,
+   "market_cap": 50146234368.0,
+   "chg_1d": -4.918369364247788,
+   "chg_5d": -11.31800804952543,
+   "chg_1mo": -1.1352529426045033,
+   "off_52w_high": -14.418080961481506,
+   "rsi": 36.14674376386906,
+   "rsi_divergence": false,
+   "macd_histogram": -1.6387337913040323,
+   "macd_turning_up": false,
+   "volume_ratio": 1.738301805395218,
+   "valuation": {
+    "forward_pe": 8.309949,
+    "trailing_pe": 24.169584,
+    "peg_ratio": 8.93,
+    "analyst_target": 238.9,
+    "analyst_upside_pct": 30.632104998621635
+   },
+   "short_interest": {
+    "pct_of_float": 3.56,
+    "days_to_cover": 2.07
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 47.3,
+    "valuation": 14.3,
+    "technical": 5.0,
+    "catalyst": 9.1,
+    "sentiment": 18.9
+   },
+   "reasons": [
+    "FANG reported earnings on Nov 02 \u2014 earnings reactions are the most common cause of a sharp break below the band.",
+    "Sharp one-day drop of -5.8% on Nov 02 \u2014 points to a specific catalyst (news, guidance, downgrade) rather than gradual selling."
+   ],
+   "news": [
+    {
+     "title": "U.S. Shale Giants Hold Back on Drilling Despite Higher Oil Prices",
+     "link": "https://finance.yahoo.com/energy/articles/u-shale-giants-hold-back-000000183.html",
+     "publisher": "Oilprice.com"
+    },
+    {
+     "title": "Diamondback Energy Inc (FANG) Q3 2026 Earnings Call Highlights: Low Reinvestment Rates, Barnett ...",
+     "link": "https://finance.yahoo.com/energy/articles/diamondback-energy-inc-fang-q3-210243495.html",
+     "publisher": "GuruFocus.com"
+    },
+    {
+     "title": "EOG Resources Earnings Ahead: What Past Reactions Say About The Stock",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/eog-resources-earnings-ahead-past-203738155.html",
+     "publisher": "Trefis"
+    }
+   ],
+   "sentiment": {
+    "label": "Bullish",
+    "bullish_pct": 87.5,
+    "sample_size": 8
+   },
+   "earnings_surprise": {
+    "date": "2026-11-02",
+    "actual_eps": 5.86,
+    "estimate_eps": 5.6,
+    "surprise_pct": 4.642857142857156
+   }
+  },
+  {
+   "symbol": "KMI",
+   "name": "Kinder Morgan, Inc.",
+   "close": 31.520000457763672,
+   "lower_band": 31.931339723212858,
+   "pct_below_band": 1.288199208096985,
+   "market_cap": 67254726656.0,
+   "chg_1d": -4.107084021872476,
+   "chg_5d": -6.078667556762662,
+   "chg_1mo": -1.9900478628265272,
+   "off_52w_high": -8.45193093702835,
+   "rsi": 39.520910590282874,
+   "rsi_divergence": false,
+   "macd_histogram": -0.25744290934063163,
+   "macd_turning_up": false,
+   "volume_ratio": 1.2627419991065,
+   "valuation": {
+    "forward_pe": 19.549944,
+    "trailing_pe": 18.635803,
+    "peg_ratio": 2.74,
+    "analyst_target": 37.5,
+    "analyst_upside_pct": 18.972079490447456
+   },
+   "short_interest": {
+    "pct_of_float": 2.26,
+    "days_to_cover": 3.46
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 36.7,
+    "valuation": 8.8,
+    "technical": 3.8,
+    "catalyst": 4.8,
+    "sentiment": 19.3
+   },
+   "reasons": [
+    "No single obvious catalyst in the price action \u2014 likely broad market or sector weakness. Check the headlines below."
+   ],
+   "news": [
+    {
+     "title": "If You Invested $25,000 in These 4 Dividend Stocks, Here\u2019s What They\u2019d Pay You",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/invested-25-000-4-dividend-164724788.html",
+     "publisher": "24/7 Wall St."
+    },
+    {
+     "title": "CRGY Q3 Earnings Beat on Higher Oil Prices and Production",
+     "link": "https://finance.yahoo.com/energy/articles/crgy-q3-earnings-beat-higher-163600754.html",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "ETFs Are Net Sellers of Kinder Morgan (KMI) on Nov. 2",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-kinder-morgan-110234073.html",
+     "publisher": "GuruFocus.com"
+    }
+   ],
+   "sentiment": {
+    "label": "Bullish",
+    "bullish_pct": 100.0,
+    "sample_size": 9
+   },
+   "earnings_surprise": {
+    "date": "2026-10-21",
+    "actual_eps": 0.35,
+    "estimate_eps": 0.33,
+    "surprise_pct": 6.060606060606049
    }
   }
  ]
