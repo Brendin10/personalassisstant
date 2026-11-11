@@ -1,176 +1,30 @@
 {
- "updated": "Nov 09, 2026 10:51 PM ET",
+ "updated": "Nov 10, 2026 08:29 PM ET",
  "criteria": "close < lower BB(20,2), market cap > $20B",
  "universe_size": 503,
  "results": [
   {
-   "symbol": "AXON",
-   "name": "Axon Enterprise, Inc.",
-   "close": 303.17999267578125,
-   "lower_band": 332.6487954117333,
-   "pct_below_band": 8.858833443084409,
-   "market_cap": 24688769024.0,
-   "chg_1d": -3.1373825316992843,
-   "chg_5d": -28.73563267862177,
-   "chg_1mo": -28.307601935736216,
-   "off_52w_high": -53.04775964329424,
-   "rsi": 22.73662957135548,
-   "rsi_divergence": false,
-   "macd_histogram": -8.906394781983945,
-   "macd_turning_up": false,
-   "volume_ratio": 2.7065175564221478,
-   "valuation": {
-    "forward_pe": 32.04192,
-    "trailing_pe": 100.72425,
-    "peg_ratio": 1.13,
-    "analyst_target": 541.3158,
-    "analyst_upside_pct": 78.54601658325113
-   },
-   "short_interest": {
-    "pct_of_float": 5.91,
-    "days_to_cover": 3.59
-   },
-   "insider": {
-    "recent_buys": 0,
-    "shares": null
-   },
-   "hot_score": {
-    "total": 61.7,
-    "valuation": 20.6,
-    "technical": 9.4,
-    "catalyst": 16.2,
-    "sentiment": 15.5
-   },
-   "reasons": [
-    "AXON reported earnings on Nov 05 \u2014 earnings reactions are the most common cause of a sharp break below the band.",
-    "Sharp one-day drop of -18.2% on Nov 06 \u2014 points to a specific catalyst (news, guidance, downgrade) rather than gradual selling.",
-    "Down -28.3% over the past month \u2014 an extended downtrend; the band break continues an existing move rather than starting one.",
-    "Trading 53% below its 52-week high \u2014 deep drawdown territory, often reflecting a broken growth story or re-rating."
-   ],
-   "news": [
-    {
-     "title": "Axon Enterprise: 3 Key Takeaways for Long-Term Investors",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/axon-enterprise-3-key-takeaways-005035277.html",
-     "publisher": "Motley Fool"
-    },
-    {
-     "title": "Axon's Connected Devices Unit Gains Momentum: Can It Sustain?",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/axons-connected-devices-unit-gains-142500634.html",
-     "publisher": "Zacks"
-    },
-    {
-     "title": "US Stock Market Today: S&P 500 Futures Nudge Higher On Jobs Strength Fed Uncertainty",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/us-stock-market-today-p-130935908.html",
-     "publisher": "Simply Wall St."
-    }
-   ],
-   "sentiment": {
-    "label": "Bullish",
-    "bullish_pct": 90.0,
-    "sample_size": 10
-   },
-   "earnings_surprise": {
-    "date": "2026-11-05",
-    "actual_eps": 1.72,
-    "estimate_eps": 1.89,
-    "surprise_pct": -8.994708994708992
-   }
-  },
-  {
-   "symbol": "MCHP",
-   "name": "Microchip Technology Incorporat",
-   "close": 61.5,
-   "lower_band": 62.37301286810434,
-   "pct_below_band": 1.3996644188896827,
-   "market_cap": 33467031552.0,
-   "chg_1d": 5.398460339764988,
-   "chg_5d": -19.19590131807789,
-   "chg_1mo": -18.596958946689167,
-   "off_52w_high": -40.24484930611204,
-   "rsi": 32.970694637871304,
-   "rsi_divergence": false,
-   "macd_histogram": -1.9129939217808614,
-   "macd_turning_up": false,
-   "volume_ratio": 1.5721175937728231,
-   "valuation": {
-    "forward_pe": 13.8377285,
-    "trailing_pe": 43.925,
-    "peg_ratio": 0.17,
-    "analyst_target": 86.48,
-    "analyst_upside_pct": 40.617886178861795
-   },
-   "short_interest": {
-    "pct_of_float": 7.68,
-    "days_to_cover": 3.58
-   },
-   "insider": {
-    "recent_buys": 0,
-    "shares": null
-   },
-   "hot_score": {
-    "total": 57.7,
-    "valuation": 22.7,
-    "technical": 6.0,
-    "catalyst": 10.5,
-    "sentiment": 18.5
-   },
-   "reasons": [
-    "MCHP reported earnings on Nov 05 \u2014 earnings reactions are the most common cause of a sharp break below the band.",
-    "Sharp one-day drop of -13.9% on Nov 05 \u2014 points to a specific catalyst (news, guidance, downgrade) rather than gradual selling.",
-    "Down -18.6% over the past month \u2014 an extended downtrend; the band break continues an existing move rather than starting one.",
-    "Trading 40% below its 52-week high \u2014 deep drawdown territory, often reflecting a broken growth story or re-rating."
-   ],
-   "news": [
-    {
-     "title": "Microchip: 3 Key Takeaways for Long-Term Investors",
-     "link": "https://finance.yahoo.com/news/microchip-3-key-takeaways-long-144005187.html",
-     "publisher": "Motley Fool"
-    },
-    {
-     "title": "What Could Send Texas Instruments Stock Soaring?",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/could-send-texas-instruments-stock-124606787.html",
-     "publisher": "Trefis"
-    },
-    {
-     "title": "Can Applied Materials Stock Jump 50%?",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/applied-materials-stock-jump-50-124559223.html",
-     "publisher": "Trefis"
-    }
-   ],
-   "sentiment": {
-    "label": "Bullish",
-    "bullish_pct": 80.0,
-    "sample_size": 10
-   },
-   "earnings_surprise": {
-    "date": "2026-11-05",
-    "actual_eps": 0.97,
-    "estimate_eps": 0.94,
-    "surprise_pct": 3.1914893617021307
-   }
-  },
-  {
    "symbol": "NVDA",
    "name": "NVIDIA Corporation",
    "close": 178.6699981689453,
-   "lower_band": 182.9247875905296,
-   "pct_below_band": 2.3259775111006173,
-   "market_cap": 4314344194048.0,
+   "lower_band": 182.92478759053017,
+   "pct_below_band": 2.3259775111009207,
+   "market_cap": 4078186790912.0,
    "chg_1d": -4.270253561276616,
    "chg_5d": -11.575769411194692,
    "chg_1mo": -22.073447697052874,
    "off_52w_high": -25.317675110130967,
-   "rsi": 27.40303545006188,
+   "rsi": 27.403035471474908,
    "rsi_divergence": false,
-   "macd_histogram": -3.6277236031176816,
+   "macd_histogram": -3.6277236153305346,
    "macd_turning_up": false,
-   "volume_ratio": 3.900772535062254,
+   "volume_ratio": 3.110677182350237,
    "valuation": {
-    "forward_pe": 11.217311,
-    "trailing_pe": 23.602377,
-    "peg_ratio": 0.23,
-    "analyst_target": 326.91754,
-    "analyst_upside_pct": 82.97282327773685
+    "forward_pe": 10.6033,
+    "trailing_pe": 21.351454,
+    "peg_ratio": 0.22,
+    "analyst_target": 325.7772,
+    "analyst_upside_pct": 82.33458517862313
    },
    "short_interest": {
     "pct_of_float": 1.3,
@@ -181,11 +35,11 @@
     "shares": null
    },
    "hot_score": {
-    "total": 57.6,
+    "total": 63.1,
     "valuation": 22.7,
     "technical": 7.9,
     "catalyst": 13.3,
-    "sentiment": 13.8
+    "sentiment": 19.3
    },
    "reasons": [
     "NVDA reports earnings on Nov 17 \u2014 earnings reactions are the most common cause of a sharp break below the band.",
@@ -194,24 +48,24 @@
    ],
    "news": [
     {
-     "title": "Nvidia scandal could help China long-term, and risks in the AI trade",
-     "link": "https://finance.yahoo.com/video/nvidia-scandal-could-help-china-long-term-and-risks-in-the-ai-trade-221407013.html",
+     "title": "OpenAI's Q3 results and Nvidia's scandal impact on the AI ecosystem",
+     "link": "https://finance.yahoo.com/video/openais-q3-results-and-nvidias-scandal-impact-on-the-ai-ecosystem-222332740.html",
      "publisher": "Yahoo Finance Video"
     },
     {
-     "title": "AI infrastructure spending is still accelerating\u2014but can it last?",
-     "link": "https://finance.yahoo.com/video/ai-infrastructure-spending-is-still-acceleratingbut-can-it-last-221359947.html",
-     "publisher": "Yahoo Finance Video"
+     "title": "Chip stocks' slide nears $5 trillion as Nvidia hits most extreme selling level since 2019",
+     "link": "https://finance.yahoo.com/markets/article/chip-stocks-slide-nears-5-trillion-as-nvidia-hits-most-extreme-selling-level-since-2019-191532559.html",
+     "publisher": "Yahoo Finance"
     },
     {
-     "title": "Why the Jensen Huang scandal is a 'net loss for China'",
-     "link": "https://finance.yahoo.com/video/why-the-jensen-huang-scandal-is-a-net-loss-for-china-221329322.html",
+     "title": "Nvidia in the hot seat, Anthropic to test the IPO market, hotter-than-expected US inflation",
+     "link": "https://finance.yahoo.com/video/nvidia-in-the-hot-seat-anthropic-to-test-the-ipo-market-hotter-than-expected-us-inflation-184626512.html",
      "publisher": "Yahoo Finance Video"
     }
    ],
    "sentiment": {
-    "label": "Mixed",
-    "bullish_pct": 58.8,
+    "label": "Bullish",
+    "bullish_pct": 76.5,
     "sample_size": 17
    },
    "earnings_surprise": {
@@ -227,19 +81,19 @@
    "close": 55.7599983215332,
    "lower_band": 56.015067653254874,
    "pct_below_band": 0.45535842837967166,
-   "market_cap": 55739777024.0,
+   "market_cap": 56879370240.0,
    "chg_1d": -1.0996855885706314,
    "chg_5d": -8.168647561684761,
    "chg_1mo": -7.236736391031151,
    "off_52w_high": -15.821255857812222,
-   "rsi": 31.82210112305917,
+   "rsi": 31.822101120452558,
    "rsi_divergence": false,
-   "macd_histogram": -0.9543228157255502,
+   "macd_histogram": -0.9543228156218797,
    "macd_turning_up": false,
-   "volume_ratio": 1.2272092301040625,
+   "volume_ratio": 1.7842009539603467,
    "valuation": {
-    "forward_pe": 11.118089,
-    "trailing_pe": 16.022987,
+    "forward_pe": 11.163605,
+    "trailing_pe": 16.164774,
     "peg_ratio": 0.85,
     "analyst_target": 70.74074,
     "analyst_upside_pct": 26.866467233521398
@@ -253,10 +107,10 @@
     "shares": null
    },
    "hot_score": {
-    "total": 54.2,
+    "total": 58.3,
     "valuation": 20.6,
     "technical": 6.4,
-    "catalyst": 3.2,
+    "catalyst": 7.2,
     "sentiment": 24.0
    },
    "reasons": [
@@ -265,19 +119,19 @@
    ],
    "news": [
     {
-     "title": "Occidental Cuts Debt to $10 Billion as Q3 Cash Flow Hits $4.1 Billion",
-     "link": "https://finance.yahoo.com/energy/articles/occidental-cuts-debt-10-billion-025000403.html",
-     "publisher": "Oilprice.com"
+     "title": "What Occidental Petroleum (OXY) Said on Its Q3 Earnings Call",
+     "link": "https://finance.yahoo.com/energy/articles/occidental-petroleum-oxy-said-q3-221444681.html",
+     "publisher": "MarketBeat"
     },
     {
-     "title": "Dow Jones Soars 1,132 Points As Amazon, Tesla Rally, But Nvidia Dives; CPI Inflation Report Next",
-     "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-amazon-tesla-nvidia-cpi-inflation-report/?src=A00220&yptr=yahoo",
-     "publisher": "Investor's Business Daily"
+     "title": "Enbridge vs. Occidental Petroleum: Does a Midstream or Upstream Energy Focus Make for a Better Stock Buy for 2027?",
+     "link": "https://finance.yahoo.com/energy/articles/enbridge-vs-occidental-petroleum-does-213202397.html",
+     "publisher": "Motley Fool"
     },
     {
-     "title": "Occidental (OXY) Reports Q3 Earnings: What Key Metrics Have to Say",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/occidental-oxy-reports-q3-earnings-233001301.html",
-     "publisher": "Zacks"
+     "title": "Occidental's Debt Reduction, Carbon Strategy Support Outlook, UBS Says",
+     "link": "https://finance.yahoo.com/energy/articles/occidental-apos-debt-reduction-carbon-203207354.html",
+     "publisher": "MT Newswires"
     }
    ],
    "sentiment": {
@@ -293,74 +147,146 @@
    }
   },
   {
-   "symbol": "DVN",
-   "name": "Devon Energy Corporation",
-   "close": 42.400001525878906,
-   "lower_band": 42.50582074179863,
-   "pct_below_band": 0.24895229423405693,
-   "market_cap": 48323887104.0,
-   "chg_1d": 0.4501360945922128,
-   "chg_5d": -12.811020780176563,
-   "chg_1mo": -12.142554909786673,
-   "off_52w_high": -18.696068484603323,
-   "rsi": 28.75866867769129,
+   "symbol": "AXON",
+   "name": "Axon Enterprise, Inc.",
+   "close": 303.17999267578125,
+   "lower_band": 332.6487954117333,
+   "pct_below_band": 8.858833443084409,
+   "market_cap": 24636653568.0,
+   "chg_1d": -3.1373825316992843,
+   "chg_5d": -28.73563267862177,
+   "chg_1mo": -28.307601935736216,
+   "off_52w_high": -53.04775964329424,
+   "rsi": 22.73662958460416,
    "rsi_divergence": false,
-   "macd_histogram": -1.0919659152338503,
+   "macd_histogram": -8.906394807923306,
    "macd_turning_up": false,
-   "volume_ratio": 1.5330772921794966,
+   "volume_ratio": 1.6714201124332961,
    "valuation": {
-    "forward_pe": 7.9481125,
-    "trailing_pe": 9.906542,
-    "peg_ratio": 2.92,
-    "analyst_target": 61.51852,
-    "analyst_upside_pct": 45.090843835116566
+    "forward_pe": 32.033527,
+    "trailing_pe": 97.27975,
+    "peg_ratio": 1.13,
+    "analyst_target": 541.3158,
+    "analyst_upside_pct": 78.54601658325113
    },
    "short_interest": {
-    "pct_of_float": null,
-    "days_to_cover": 2.31
+    "pct_of_float": 5.91,
+    "days_to_cover": 3.59
    },
    "insider": {
     "recent_buys": 0,
     "shares": null
    },
    "hot_score": {
-    "total": 52.6,
-    "valuation": 14.6,
-    "technical": 7.4,
-    "catalyst": 10.8,
-    "sentiment": 19.8
+    "total": 55.6,
+    "valuation": 20.6,
+    "technical": 9.4,
+    "catalyst": 10.1,
+    "sentiment": 15.5
    },
    "reasons": [
-    "DVN reported earnings on Nov 05 \u2014 earnings reactions are the most common cause of a sharp break below the band.",
-    "Sharp one-day drop of -7.3% on Nov 04 \u2014 points to a specific catalyst (news, guidance, downgrade) rather than gradual selling."
+    "AXON reported earnings on Nov 05 \u2014 earnings reactions are the most common cause of a sharp break below the band.",
+    "Sharp one-day drop of -18.2% on Nov 06 \u2014 points to a specific catalyst (news, guidance, downgrade) rather than gradual selling.",
+    "Down -28.3% over the past month \u2014 an extended downtrend; the band break continues an existing move rather than starting one.",
+    "Trading 53% below its 52-week high \u2014 deep drawdown territory, often reflecting a broken growth story or re-rating."
    ],
    "news": [
     {
-     "title": "Devon Energy Corp (DVN) (Q3 2026) Earnings Call Highlights: Record Production, $2 Billion Free ...",
-     "link": "https://finance.yahoo.com/energy/articles/devon-energy-corp-dvn-q3-170403468.html",
-     "publisher": "GuruFocus.com"
+     "title": "Axon Sinks 27% in a Week to a New 52-Week Low. Is the Selling Overdone?",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/axon-sinks-27-week-52-232851710.html",
+     "publisher": "TIKR"
     },
     {
-     "title": "CEG Q3 Earnings Beat on Calpine, Strong Commercial Performance",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/ceg-q3-earnings-beat-calpine-143100106.html",
-     "publisher": "Zacks"
+     "title": "Axon Is Down 52% From Its August High. Northland Still Sees $540",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/axon-down-52-august-high-112153671.html",
+     "publisher": "TIKR"
     },
     {
-     "title": "Devon Energy Corporation (DVN) Is a Trending Stock: Facts to Know Before Betting on It",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/devon-energy-corporation-dvn-trending-130004805.html",
-     "publisher": "Zacks"
+     "title": "Axon Enterprise: 3 Key Takeaways for Long-Term Investors",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/axon-enterprise-3-key-takeaways-005035277.html",
+     "publisher": "Motley Fool"
     }
    ],
    "sentiment": {
     "label": "Bullish",
-    "bullish_pct": 77.8,
-    "sample_size": 9
+    "bullish_pct": 87.5,
+    "sample_size": 8
    },
    "earnings_surprise": {
     "date": "2026-11-05",
-    "actual_eps": 1.42,
-    "estimate_eps": 1.31,
-    "surprise_pct": 8.396946564885486
+    "actual_eps": 1.72,
+    "estimate_eps": 1.89,
+    "surprise_pct": -8.994708994708992
+   }
+  },
+  {
+   "symbol": "MCHP",
+   "name": "Microchip Technology Incorporat",
+   "close": 61.5,
+   "lower_band": 62.37301286810447,
+   "pct_below_band": 1.3996644188898848,
+   "market_cap": 32833011712.0,
+   "chg_1d": 5.398460339764988,
+   "chg_5d": -19.19590131807789,
+   "chg_1mo": -18.596958946689167,
+   "off_52w_high": -40.24484930611204,
+   "rsi": 32.97069464373806,
+   "rsi_divergence": false,
+   "macd_histogram": -1.9129939232323223,
+   "macd_turning_up": false,
+   "volume_ratio": 0.9297914812150943,
+   "valuation": {
+    "forward_pe": 13.60865,
+    "trailing_pe": 45.3609,
+    "peg_ratio": 0.17,
+    "analyst_target": 86.48,
+    "analyst_upside_pct": 40.617886178861795
+   },
+   "short_interest": {
+    "pct_of_float": 7.68,
+    "days_to_cover": 3.58
+   },
+   "insider": null,
+   "hot_score": {
+    "total": 53.0,
+    "valuation": 22.7,
+    "technical": 6.0,
+    "catalyst": 5.8,
+    "sentiment": 18.5
+   },
+   "reasons": [
+    "MCHP reported earnings on Nov 05 \u2014 earnings reactions are the most common cause of a sharp break below the band.",
+    "Sharp one-day drop of -13.9% on Nov 05 \u2014 points to a specific catalyst (news, guidance, downgrade) rather than gradual selling.",
+    "Down -18.6% over the past month \u2014 an extended downtrend; the band break continues an existing move rather than starting one.",
+    "Trading 40% below its 52-week high \u2014 deep drawdown territory, often reflecting a broken growth story or re-rating."
+   ],
+   "news": [
+    {
+     "title": "Why Is Monolithic Power Systems Stock Going Up?",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/why-monolithic-power-systems-stock-145638959.html",
+     "publisher": "Trefis"
+    },
+    {
+     "title": "What Is The True Hidden Price Of Applied Materials Stock?",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/true-hidden-price-applied-materials-141828247.html",
+     "publisher": "Trefis"
+    },
+    {
+     "title": "What Did Texas Instruments Say Before Its Stock Took Off?",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/did-texas-instruments-stock-took-134853658.html",
+     "publisher": "Trefis"
+    }
+   ],
+   "sentiment": {
+    "label": "Bullish",
+    "bullish_pct": 83.3,
+    "sample_size": 12
+   },
+   "earnings_surprise": {
+    "date": "2026-11-05",
+    "actual_eps": 0.97,
+    "estimate_eps": 0.94,
+    "surprise_pct": 3.1914893617021307
    }
   },
   {
@@ -369,19 +295,19 @@
    "close": 49.90999984741211,
    "lower_band": 50.00123223127205,
    "pct_below_band": 0.1824602710548403,
-   "market_cap": 31221172224.0,
+   "market_cap": 32528570368.0,
    "chg_1d": 1.03238523437299,
    "chg_5d": -8.989789007035832,
    "chg_1mo": -5.527166160206598,
    "off_52w_high": -26.527308077151112,
-   "rsi": 36.60787832925478,
+   "rsi": 36.60787824415632,
    "rsi_divergence": false,
-   "macd_histogram": -0.6947724771656343,
+   "macd_histogram": -0.6947724735370238,
    "macd_turning_up": false,
-   "volume_ratio": 1.0305184363620705,
+   "volume_ratio": 0.7989102393161869,
    "valuation": {
-    "forward_pe": 14.467589,
-    "trailing_pe": 11.715961,
+    "forward_pe": 15.073425,
+    "trailing_pe": 12.322275,
     "peg_ratio": 1.23,
     "analyst_target": 67.0,
     "analyst_upside_pct": 34.24163535330891
@@ -395,10 +321,10 @@
     "shares": null
    },
    "hot_score": {
-    "total": 47.8,
+    "total": 46.1,
     "valuation": 16.9,
     "technical": 4.8,
-    "catalyst": 4.2,
+    "catalyst": 2.5,
     "sentiment": 21.9
    },
    "reasons": [
@@ -424,8 +350,8 @@
    ],
    "sentiment": {
     "label": "Bullish",
-    "bullish_pct": 87.5,
-    "sample_size": 8
+    "bullish_pct": 88.9,
+    "sample_size": 9
    },
    "earnings_surprise": {
     "date": "2026-10-27",
@@ -435,24 +361,95 @@
    }
   },
   {
+   "symbol": "DVN",
+   "name": "Devon Energy Corporation",
+   "close": 42.400001525878906,
+   "lower_band": 42.50582074179863,
+   "pct_below_band": 0.24895229423405693,
+   "market_cap": 49474998272.0,
+   "chg_1d": 0.4501360945922128,
+   "chg_5d": -12.811020780176563,
+   "chg_1mo": -12.142554909786673,
+   "off_52w_high": -18.696068484603323,
+   "rsi": 28.75866861569034,
+   "rsi_divergence": false,
+   "macd_histogram": -1.0919659126627186,
+   "macd_turning_up": false,
+   "volume_ratio": 1.012296375463519,
+   "valuation": {
+    "forward_pe": 8.21055,
+    "trailing_pe": 10.190141,
+    "peg_ratio": 2.92,
+    "analyst_target": 61.51852,
+    "analyst_upside_pct": 45.090843835116566
+   },
+   "short_interest": {
+    "pct_of_float": 2.42,
+    "days_to_cover": 2.31
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 44.9,
+    "valuation": 14.6,
+    "technical": 7.4,
+    "catalyst": 3.1,
+    "sentiment": 19.8
+   },
+   "reasons": [
+    "DVN reported earnings on Nov 05 \u2014 earnings reactions are the most common cause of a sharp break below the band.",
+    "Sharp one-day drop of -7.3% on Nov 04 \u2014 points to a specific catalyst (news, guidance, downgrade) rather than gradual selling."
+   ],
+   "news": [
+    {
+     "title": "Devon Energy Q3 Earnings Call Highlights Permian Focus and Buybacks",
+     "link": "https://finance.yahoo.com/energy/articles/devon-energy-q3-earnings-call-194500617.html",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Is Crescent Energy's Royalty Business Its Next Big Growth Engine?",
+     "link": "https://finance.yahoo.com/energy/articles/crescent-energys-royalty-business-next-181300051.html",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Devon Energy (DVN) Loses 13.4% in 4 Weeks, Here's Why a Trend Reversal May be Around the Corner",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/devon-energy-dvn-loses-13-133501348.html",
+     "publisher": "Zacks"
+    }
+   ],
+   "sentiment": {
+    "label": "Bullish",
+    "bullish_pct": 80.0,
+    "sample_size": 10
+   },
+   "earnings_surprise": {
+    "date": "2026-11-05",
+    "actual_eps": 1.42,
+    "estimate_eps": 1.31,
+    "surprise_pct": 8.396946564885486
+   }
+  },
+  {
    "symbol": "PM",
    "name": "Philip Morris International Inc",
    "close": 193.1199951171875,
    "lower_band": 193.71066031210594,
    "pct_below_band": 0.30492136775888634,
-   "market_cap": 300999409664.0,
+   "market_cap": 302760656896.0,
    "chg_1d": -2.4055031575544783,
    "chg_5d": -7.283114243566146,
    "chg_1mo": -4.011137345936966,
    "off_52w_high": -8.595230862851011,
-   "rsi": 40.76417921812418,
+   "rsi": 40.764179194811625,
    "rsi_divergence": false,
-   "macd_histogram": -1.3380371739350592,
+   "macd_histogram": -1.3380371703479308,
    "macd_turning_up": false,
-   "volume_ratio": 1.4922401517056194,
+   "volume_ratio": 1.1031697594016792,
    "valuation": {
-    "forward_pe": 21.35761,
-    "trailing_pe": 28.866964,
+    "forward_pe": 21.480633,
+    "trailing_pe": 28.357664,
     "peg_ratio": 2.61,
     "analyst_target": 213.26666,
     "analyst_upside_pct": 10.432200389497348
@@ -466,10 +463,10 @@
     "shares": null
    },
    "hot_score": {
-    "total": 37.8,
+    "total": 35.0,
     "valuation": 10.2,
     "technical": 3.7,
-    "catalyst": 5.8,
+    "catalyst": 2.9,
     "sentiment": 18.2
    },
    "reasons": [
@@ -477,19 +474,19 @@
    ],
    "news": [
     {
-     "title": "Can Altria's 64.5% Smokeable Margin Sustain Profit Growth Ahead?",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/altrias-64-5-smokeable-margin-125600647.html",
-     "publisher": "Zacks"
+     "title": "$300,000 in Duke Energy, Philip Morris and Johnson & Johnson: Here\u2019s What It Pays",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/300-000-duke-energy-philip-151738998.html",
+     "publisher": "24/7 Wall St."
     },
     {
-     "title": "State Street Consumer Staples SPDR (XLP) Sells $44.1 Million of Walmart on Nov. 5",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/state-street-consumer-staples-spdr-110530593.html",
-     "publisher": "GuruFocus.com"
+     "title": "DraftKings downgraded, Sarepta upgraded: Wall Street's top analyst calls",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/draftkings-downgraded-sarepta-upgraded-wall-144658393.html",
+     "publisher": "The Fly"
     },
     {
-     "title": "Philip Morris International (PM) Stock Looks Reasonably Priced On Earnings",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/philip-morris-international-pm-stock-191534918.html",
-     "publisher": "Simply Wall St."
+     "title": "Altria vs. Philip Morris: Higher Income Now or Faster Dividend Growth?",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/altria-vs-philip-morris-higher-131727372.html",
+     "publisher": "24/7 Wall St."
     }
    ],
    "sentiment": {
