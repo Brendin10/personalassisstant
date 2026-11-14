@@ -1,5 +1,5 @@
 {
- "updated": "Nov 12, 2026 09:10 PM ET",
+ "updated": "Nov 13, 2026 08:51 PM ET",
  "criteria": "close < lower BB(20,2), market cap > $20B",
  "universe_size": 503,
  "results": []
