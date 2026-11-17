@@ -1,6 +1,360 @@
 {
- "updated": "Nov 13, 2026 08:51 PM ET",
+ "updated": "Nov 16, 2026 11:12 PM ET",
  "criteria": "close < lower BB(20,2), market cap > $20B",
  "universe_size": 503,
- "results": []
+ "results": [
+  {
+   "symbol": "TJX",
+   "name": "TJX Companies, Inc. (The)",
+   "close": 131.08999633789062,
+   "lower_band": 131.1943067015826,
+   "pct_below_band": 0.07950830056158317,
+   "market_cap": 144815685632.0,
+   "chg_1d": -2.4410202414879234,
+   "chg_5d": -5.0966540911183795,
+   "chg_1mo": -11.022877412155808,
+   "off_52w_high": -22.160208130566883,
+   "rsi": 37.23342712953978,
+   "rsi_divergence": false,
+   "macd_histogram": -1.1548352526388772,
+   "macd_turning_up": false,
+   "volume_ratio": 1.974316500746232,
+   "valuation": {
+    "forward_pe": 22.891218,
+    "trailing_pe": 24.874762,
+    "peg_ratio": 2.38,
+    "analyst_target": 165.4,
+    "analyst_upside_pct": 26.172861866342355
+   },
+   "short_interest": {
+    "pct_of_float": 1.43,
+    "days_to_cover": 2.45
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 50.8,
+    "valuation": 15.3,
+    "technical": 4.6,
+    "catalyst": 9.5,
+    "sentiment": 21.3
+   },
+   "reasons": [
+    "TJX reports earnings on Nov 18 \u2014 earnings reactions are the most common cause of a sharp break below the band."
+   ],
+   "news": [
+    {
+     "title": "TJ Maxx, Marshalls Among Companies Retaining Tariff Refunds for Executive Bonuses",
+     "link": "https://finance.yahoo.com/economy/policy/articles/tj-maxx-marshalls-among-companies-225443059.html",
+     "publisher": "Sourcing Journal"
+    },
+    {
+     "title": "Earnings to watch: NVIDIA, Walmart, Home Depot and more report this week",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/earnings-watch-nvidia-walmart-home-205309775.html",
+     "publisher": "Investing.com"
+    },
+    {
+     "title": "Nvidia Fallout, Anthropic IPO and Other Can't Miss Items this Week",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/nvidia-fallout-anthropic-ipo-other-180002499.html",
+     "publisher": "Barchart"
+    }
+   ],
+   "sentiment": {
+    "label": "Bullish",
+    "bullish_pct": 100.0,
+    "sample_size": 2
+   },
+   "earnings_surprise": {
+    "date": "2026-08-19",
+    "actual_eps": 1.36,
+    "estimate_eps": 1.19,
+    "surprise_pct": 14.285714285714299
+   }
+  },
+  {
+   "symbol": "FCX",
+   "name": "Freeport-McMoRan, Inc.",
+   "close": 55.189998626708984,
+   "lower_band": 55.930285129389034,
+   "pct_below_band": 1.323587929093285,
+   "market_cap": 79194120192.0,
+   "chg_1d": -6.83660185180236,
+   "chg_5d": -11.455162834261845,
+   "chg_1mo": -20.635608426651885,
+   "off_52w_high": -30.934806535519886,
+   "rsi": 30.6111719218636,
+   "rsi_divergence": true,
+   "macd_histogram": -0.3908114908520206,
+   "macd_turning_up": false,
+   "volume_ratio": 1.6241895972909914,
+   "valuation": {
+    "forward_pe": 13.0708885,
+    "trailing_pe": 24.86036,
+    "peg_ratio": 3.43,
+    "analyst_target": 78.22273,
+    "analyst_upside_pct": 41.73352409207058
+   },
+   "short_interest": {
+    "pct_of_float": 2.08,
+    "days_to_cover": 2.58
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 48.9,
+    "valuation": 14.3,
+    "technical": 13.5,
+    "catalyst": 7.4,
+    "sentiment": 13.8
+   },
+   "reasons": [
+    "Sharp one-day drop of -6.8% on Nov 16 \u2014 points to a specific catalyst (news, guidance, downgrade) rather than gradual selling.",
+    "Down -20.6% over the past month \u2014 an extended downtrend; the band break continues an existing move rather than starting one."
+   ],
+   "news": [
+    {
+     "title": "What Does Freeport McMoRan (FCX) Gain From Its British Columbia Copper Push?",
+     "link": "https://finance.yahoo.com/markets/commodities/articles/does-freeport-mcmoran-fcx-gain-031514020.html",
+     "publisher": "Simply Wall St."
+    },
+    {
+     "title": "How Much Higher Can Newmont Stock Go From Here?",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/much-higher-newmont-stock-220944064.html",
+     "publisher": "Trefis"
+    },
+    {
+     "title": "HSBC Says Buy the Dip in These 11 Stocks -- Alphabet and Oracle Top the List",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/hsbc-says-buy-dip-11-185515397.html",
+     "publisher": "GuruFocus.com"
+    }
+   ],
+   "sentiment": {
+    "label": "Mixed",
+    "bullish_pct": 57.1,
+    "sample_size": 7
+   },
+   "earnings_surprise": {
+    "date": "2026-10-27",
+    "actual_eps": 0.88,
+    "estimate_eps": 0.83,
+    "surprise_pct": 6.024096385542174
+   }
+  },
+  {
+   "symbol": "CARR",
+   "name": "Carrier Global Corporation",
+   "close": 51.66999816894531,
+   "lower_band": 51.718334622669886,
+   "pct_below_band": 0.09346096326811325,
+   "market_cap": 42274336768.0,
+   "chg_1d": -4.667901399226714,
+   "chg_5d": -3.1127013034204287,
+   "chg_1mo": -6.054548783735791,
+   "off_52w_high": -32.01316030401933,
+   "rsi": 36.69341471312779,
+   "rsi_divergence": false,
+   "macd_histogram": -0.16734949381421405,
+   "macd_turning_up": false,
+   "volume_ratio": 0.9888682493039818,
+   "valuation": {
+    "forward_pe": 16.235409,
+    "trailing_pe": null,
+    "peg_ratio": 1.07,
+    "analyst_target": 68.70087,
+    "analyst_upside_pct": 32.96085239904376
+   },
+   "short_interest": {
+    "pct_of_float": 2.82,
+    "days_to_cover": 3.35
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 45.6,
+    "valuation": 22.1,
+    "technical": 4.8,
+    "catalyst": 3.2,
+    "sentiment": 15.5
+   },
+   "reasons": [
+    "No single obvious catalyst in the price action \u2014 likely broad market or sector weakness. Check the headlines below."
+   ],
+   "news": [
+    {
+     "title": "3 US Stocks Riding The AI Data Center Power And Cooling Buildout",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/3-us-stocks-riding-ai-130750054.html",
+     "publisher": "Simply Wall St."
+    },
+    {
+     "title": "Carrier Global Sees $3 Billion in Data Center Sales as Cooling Orders Surge 350%",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/carrier-global-sees-3-billion-171505025.html",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Keeping AI Cool: AAON Rides the AI Heatwave to Record Growth",
+     "link": "https://finance.yahoo.com/technology/ai/articles/keeping-ai-cool-aaon-rides-204000591.html",
+     "publisher": "MarketBeat"
+    }
+   ],
+   "sentiment": {
+    "label": "Mixed",
+    "bullish_pct": 50.0,
+    "sample_size": 6
+   },
+   "earnings_surprise": {
+    "date": "2026-10-29",
+    "actual_eps": 0.87,
+    "estimate_eps": 0.77,
+    "surprise_pct": 12.987012987012983
+   }
+  },
+  {
+   "symbol": "ROST",
+   "name": "Ross Stores, Inc.",
+   "close": 222.99000549316406,
+   "lower_band": 223.54282095749224,
+   "pct_below_band": 0.24729734641458118,
+   "market_cap": 71234854912.0,
+   "chg_1d": -3.7508578458814834,
+   "chg_5d": -5.91139008727255,
+   "chg_1mo": -5.867699747687949,
+   "off_52w_high": -12.631740302496242,
+   "rsi": 41.20553008947278,
+   "rsi_divergence": false,
+   "macd_histogram": -0.7436826363901686,
+   "macd_turning_up": false,
+   "volume_ratio": 1.0194798231923081,
+   "valuation": {
+    "forward_pe": 24.682053,
+    "trailing_pe": 28.013819,
+    "peg_ratio": 2.13,
+    "analyst_target": 273.21054,
+    "analyst_upside_pct": 22.52142843611682
+   },
+   "short_interest": {
+    "pct_of_float": 3.27,
+    "days_to_cover": 4.42
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 41.0,
+    "valuation": 15.2,
+    "technical": 3.7,
+    "catalyst": 3.7,
+    "sentiment": 18.5
+   },
+   "reasons": [
+    "ROST reports earnings on Nov 19 \u2014 earnings reactions are the most common cause of a sharp break below the band."
+   ],
+   "news": [
+    {
+     "title": "Curious about Ross Stores (ROST) Q3 Performance? Explore Wall Street Estimates for Key Metrics",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/curious-ross-stores-rost-q3-131505255.html",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Dow Jones Futures: Techs Fall As Jensen Huang Mulls Nvidia Return; Anthropic IPO Looms",
+     "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-market-rally-nvidia-earnings-anthropic-ipo-spacex-starship-flight-15/?src=A00220&yptr=yahoo",
+     "publisher": "Investor's Business Daily"
+    },
+    {
+     "title": "Costco: An AI Shelter?",
+     "link": "https://www.barrons.com/articles/costco-an-ai-shelter-182f8c30?siteid=yhoof2&yptr=yahoo",
+     "publisher": "Barrons.com"
+    }
+   ],
+   "sentiment": {
+    "label": "Mixed",
+    "bullish_pct": 57.1,
+    "sample_size": 7
+   },
+   "earnings_surprise": {
+    "date": "2026-08-20",
+    "actual_eps": 2.66,
+    "estimate_eps": 1.95,
+    "surprise_pct": 36.41025641025642
+   }
+  },
+  {
+   "symbol": "SKYD",
+   "name": "Skydance Corporation",
+   "close": 7.039999961853027,
+   "lower_band": 7.091287531293535,
+   "pct_below_band": 0.7232476361193613,
+   "market_cap": 35511324672.0,
+   "chg_1d": -6.382978993230626,
+   "chg_5d": -19.08045843454248,
+   "chg_1mo": 1.881333101470406,
+   "off_52w_high": -56.246116251771916,
+   "rsi": 35.80252466502533,
+   "rsi_divergence": false,
+   "macd_histogram": -0.009567243215889365,
+   "macd_turning_up": false,
+   "volume_ratio": 0.7822568609255747,
+   "valuation": {
+    "forward_pe": 509.03833,
+    "trailing_pe": null,
+    "peg_ratio": 2.42,
+    "analyst_target": 9.05833,
+    "analyst_upside_pct": 28.669460924481594
+   },
+   "short_interest": {
+    "pct_of_float": 3.28,
+    "days_to_cover": 4.32
+   },
+   "insider": {
+    "recent_buys": 0,
+    "shares": null
+   },
+   "hot_score": {
+    "total": 36.0,
+    "valuation": 14.8,
+    "technical": 5.1,
+    "catalyst": 2.0,
+    "sentiment": 14.0
+   },
+   "reasons": [
+    "SKYD reported earnings on Nov 09 \u2014 earnings reactions are the most common cause of a sharp break below the band.",
+    "Sharp one-day drop of -7.6% on Nov 10 \u2014 points to a specific catalyst (news, guidance, downgrade) rather than gradual selling.",
+    "Trading 56% below its 52-week high \u2014 deep drawdown territory, often reflecting a broken growth story or re-rating."
+   ],
+   "news": [
+    {
+     "title": "Nancy Pelosi Is Not Alone \u2014 These Other Congress Members Cashed Out of WBD Stock After Merger",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/nancy-pelosi-not-alone-other-023018480.html",
+     "publisher": "Benzinga"
+    },
+    {
+     "title": "Cravath Employee Is Charged With Insider Trading Using Confidential Deal Information",
+     "link": "https://www.wsj.com/finance/regulation/cravath-employee-is-charged-with-insider-trading-using-confidential-deal-information-a5cdd0a9?siteid=yhoof2&yptr=yahoo",
+     "publisher": "The Wall Street Journal"
+    },
+    {
+     "title": "Contested M&A, 6th Palm Beach CorpGov Forum",
+     "link": "https://finance.yahoo.com/news/contested-m-6th-palm-beach-160453976.html",
+     "publisher": "CorpGov.com"
+    }
+   ],
+   "sentiment": {
+    "label": "Bearish",
+    "bullish_pct": 18.2,
+    "sample_size": 22
+   },
+   "earnings_surprise": {
+    "date": "2026-11-09",
+    "actual_eps": 0.45,
+    "estimate_eps": 0.2,
+    "surprise_pct": 125.0
+   }
+  }
+ ]
 }
