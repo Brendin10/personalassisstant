@@ -1,104 +1,105 @@
 {
- "updated": "Nov 24, 2026 12:35 AM ET",
+ "updated": "Nov 24, 2026 11:37 PM ET",
  "criteria": "close < lower BB(20,2), market cap > $20B",
  "universe_size": 503,
  "results": [
   {
-   "symbol": "UNH",
-   "name": "UnitedHealth Group Incorporated",
-   "close": 336.0799865722656,
-   "lower_band": 337.480892863375,
-   "pct_below_band": 0.41510684626418803,
-   "market_cap": 301135265792.0,
-   "chg_1d": -1.1093186592739612,
-   "chg_5d": -18.431145203221288,
-   "chg_1mo": -19.615396322313916,
-   "off_52w_high": -22.979263923159632,
-   "rsi": 28.781582631544566,
+   "symbol": "ADI",
+   "name": "Analog Devices, Inc.",
+   "close": 312.95001220703125,
+   "lower_band": 333.19507822577737,
+   "pct_below_band": 6.076039936288553,
+   "market_cap": 151644766208.0,
+   "chg_1d": -17.372934070750823,
+   "chg_5d": -18.432506775519343,
+   "chg_1mo": -23.28340209694735,
+   "off_52w_high": -29.749931649203496,
+   "rsi": 32.71007146199631,
    "rsi_divergence": false,
-   "macd_histogram": -8.852421707284385,
+   "macd_histogram": -7.061429999378266,
    "macd_turning_up": false,
-   "volume_ratio": 1.9016893986246841,
+   "volume_ratio": 2.3826719398651623,
    "valuation": {
-    "forward_pe": 14.317324,
-    "trailing_pe": 19.39296,
-    "peg_ratio": 0.86,
-    "analyst_target": 478.48,
-    "analyst_upside_pct": 42.370869768264185
+    "forward_pe": 15.753324,
+    "trailing_pe": 44.96408,
+    "peg_ratio": 3.16,
+    "analyst_target": 458.5625,
+    "analyst_upside_pct": 46.52899252697238
    },
    "short_interest": {
-    "pct_of_float": 1.74,
-    "days_to_cover": 2.41
+    "pct_of_float": 2.23,
+    "days_to_cover": 2.73
    },
    "insider": {
     "recent_buys": 0,
     "shares": null
    },
    "hot_score": {
-    "total": 59.1,
-    "valuation": 21.5,
-    "technical": 7.4,
-    "catalyst": 9.2,
-    "sentiment": 21.1
+    "total": 52.4,
+    "valuation": 14.3,
+    "technical": 6.1,
+    "catalyst": 13.0,
+    "sentiment": 18.9
    },
    "reasons": [
-    "Sharp one-day drop of -10.2% on Nov 18 \u2014 points to a specific catalyst (news, guidance, downgrade) rather than gradual selling.",
-    "Down -19.6% over the past month \u2014 an extended downtrend; the band break continues an existing move rather than starting one."
+    "ADI reported earnings on Nov 24 \u2014 earnings reactions are the most common cause of a sharp break below the band.",
+    "Sharp one-day drop of -17.4% on Nov 24 \u2014 points to a specific catalyst (news, guidance, downgrade) rather than gradual selling.",
+    "Down -23.3% over the past month \u2014 an extended downtrend; the band break continues an existing move rather than starting one."
    ],
    "news": [
     {
-     "title": "Not Good: Medicare Proposes $107 Billion in Bonus Cuts. That\u2019s a Big Risk for UnitedHealth and Humana",
-     "link": "https://finance.yahoo.com/healthcare/articles/not-good-medicare-proposes-107-213540392.html",
-     "publisher": "TIKR"
+     "title": "3 AI Investment Stocks We\u2019re Buying Today And Why We\u2019re Selling On Micron",
+     "link": "https://finance.yahoo.com/video/3-ai-investment-stocks-buying-231904427.html",
+     "publisher": "24/7 Wall St."
     },
     {
-     "title": "Nvidia, Dell, Micron, Anthropic, CrowdStrike, UnitedHealth, and More Stocks That Explain Today\u2019s Market",
-     "link": "https://www.barrons.com/articles/stock-movers-901d6342?siteid=yhoof2&yptr=yahoo",
-     "publisher": "Barrons.com"
+     "title": "Earnings Calendar and Analysis for This Week",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/earnings-calendar-analysis-week-june-162434561.html",
+     "publisher": "Kiplinger"
     },
     {
-     "title": "Why Walmart and Other Defensive Stocks Are Losing Their Luster",
-     "link": "https://www.barrons.com/articles/defensive-stocks-ai-tyson-walmart-55bd8545?siteid=yhoof2&yptr=yahoo",
-     "publisher": "Barrons.com"
+     "title": "Stock Market Today, Nov. 24: Tech Sell-Off Drags Nasdaq as Dow Gains on Value Rotation",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-nov-24-221148355.html",
+     "publisher": "Motley Fool"
     }
    ],
    "sentiment": {
     "label": "Bullish",
-    "bullish_pct": 86.7,
-    "sample_size": 15
+    "bullish_pct": 77.8,
+    "sample_size": 9
    },
    "earnings_surprise": {
-    "date": "2026-10-13",
-    "actual_eps": 4.69,
-    "estimate_eps": 4.14,
-    "surprise_pct": 13.28502415458939
+    "date": "2026-11-24",
+    "actual_eps": 4.06,
+    "estimate_eps": 3.88,
+    "surprise_pct": 4.639175257731951
    }
   },
   {
-   "symbol": "INTU",
-   "name": "Intuit Inc.",
-   "close": 275.4599914550781,
-   "lower_band": 285.2967390724606,
-   "pct_below_band": 3.447900473508072,
-   "market_cap": 73612828672.0,
-   "chg_1d": 1.8562302057216984,
-   "chg_5d": -20.285914630969216,
-   "chg_1mo": -19.782177784903297,
-   "off_52w_high": -59.28460624858193,
-   "rsi": 29.702674808262188,
+   "symbol": "TXN",
+   "name": "Texas Instruments Incorporated",
+   "close": 258.44000244140625,
+   "lower_band": 264.3150501114515,
+   "pct_below_band": 2.222744284734441,
+   "market_cap": 236154798080.0,
+   "chg_1d": -11.24695206752162,
+   "chg_5d": -12.64786884434239,
+   "chg_1mo": -13.31007424046935,
+   "off_52w_high": -22.222221201744908,
+   "rsi": 39.0483332605379,
    "rsi_divergence": false,
-   "macd_histogram": -8.917308787705121,
+   "macd_histogram": -4.477207535422668,
    "macd_turning_up": false,
-   "volume_ratio": 1.3781857427652633,
+   "volume_ratio": 1.4927773940126086,
    "valuation": {
-    "forward_pe": 10.23305,
-    "trailing_pe": 16.735115,
-    "peg_ratio": 0.86,
-    "analyst_target": 362.7916,
-    "analyst_upside_pct": 31.703917539387525
+    "forward_pe": 21.974491,
+    "trailing_pe": 37.783627,
+    "peg_ratio": 45.92,
+    "analyst_target": 339.65518,
+    "analyst_upside_pct": 31.425157402638114
    },
    "short_interest": {
-    "pct_of_float": 3.82,
+    "pct_of_float": 2.23,
     "days_to_cover": 2.7
    },
    "insider": {
@@ -106,281 +107,66 @@
     "shares": null
    },
    "hot_score": {
-    "total": 57.5,
-    "valuation": 21.5,
-    "technical": 7.1,
-    "catalyst": 6.6,
-    "sentiment": 22.3
-   },
-   "reasons": [
-    "INTU reported earnings on Nov 19 \u2014 earnings reactions are the most common cause of a sharp break below the band.",
-    "Sharp one-day drop of -12.8% on Nov 20 \u2014 points to a specific catalyst (news, guidance, downgrade) rather than gradual selling.",
-    "Down -19.8% over the past month \u2014 an extended downtrend; the band break continues an existing move rather than starting one.",
-    "Trading 59% below its 52-week high \u2014 deep drawdown territory, often reflecting a broken growth story or re-rating."
-   ],
-   "news": [
-    {
-     "title": "Upstart Is the Real Loser in Intuit\u2019s Credit Karma Guidance Cut",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/upstart-real-loser-intuit-credit-005022155.html",
-     "publisher": "TIKR"
-    },
-    {
-     "title": "Coworking with Sophie Ozoux",
-     "link": "https://finance.yahoo.com/news/coworking-sophie-ozoux-203117969.html",
-     "publisher": "Marketing Brew"
-    },
-    {
-     "title": "Intuit offloads Mailchimp to Bending Spoons to deepen bets on AI",
-     "link": "https://finance.yahoo.com/technology/ai/articles/intuit-offloads-mailchimp-bending-spoons-160852103.html",
-     "publisher": "Marketing Dive"
-    }
-   ],
-   "sentiment": {
-    "label": "Bullish",
-    "bullish_pct": 69.2,
-    "sample_size": 13
-   },
-   "earnings_surprise": {
-    "date": "2026-11-19",
-    "actual_eps": 2.91,
-    "estimate_eps": 2.46,
-    "surprise_pct": 18.292682926829276
-   }
-  },
-  {
-   "symbol": "CI",
-   "name": "The Cigna Group",
-   "close": 270.4599914550781,
-   "lower_band": 273.249898210058,
-   "pct_below_band": 1.02100925682145,
-   "market_cap": 71266902016.0,
-   "chg_1d": -0.16242246265032456,
-   "chg_5d": -9.894726760619509,
-   "chg_1mo": -11.887935918159009,
-   "off_52w_high": -14.378882083588874,
-   "rsi": 33.258678527324946,
-   "rsi_divergence": false,
-   "macd_histogram": -4.032909163416834,
-   "macd_turning_up": false,
-   "volume_ratio": 1.3333685810587534,
-   "valuation": {
-    "forward_pe": 8.126068,
-    "trailing_pe": 11.946113,
-    "peg_ratio": 0.69,
-    "analyst_target": 344.4016,
-    "analyst_upside_pct": 27.339203904841924
-   },
-   "short_interest": {
-    "pct_of_float": 2.64,
-    "days_to_cover": 4.0
-   },
-   "insider": {
-    "recent_buys": 0,
-    "shares": null
-   },
-   "hot_score": {
-    "total": 52.1,
-    "valuation": 21.3,
-    "technical": 5.9,
-    "catalyst": 5.6,
-    "sentiment": 19.3
-   },
-   "reasons": [
-    "Down -9.9% over 5 sessions without a single large gap \u2014 suggests sustained selling pressure (sector rotation, macro, or sentiment shift)."
-   ],
-   "news": [
-    {
-     "title": "Can Sales Abroad Lift Hims & Hers Stock?",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/sales-abroad-lift-hims-hers-050642120.html",
-     "publisher": "Trefis"
-    },
-    {
-     "title": "Abbott Has Raised Its Dividend for 54 Years. These 3 Healthcare Stocks Keep Paying More",
-     "link": "https://finance.yahoo.com/healthcare/articles/abbott-raised-dividend-54-years-130750322.html",
-     "publisher": "24/7 Wall St."
-    },
-    {
-     "title": "Is Cigna Group (CI) Undervalued Following Its UBS Healthcare Conference Update?",
-     "link": "https://finance.yahoo.com/healthcare/articles/cigna-group-ci-undervalued-following-161119127.html",
-     "publisher": "Simply Wall St."
-    }
-   ],
-   "sentiment": {
-    "label": "Bullish",
-    "bullish_pct": 70.0,
-    "sample_size": 10
-   },
-   "earnings_surprise": {
-    "date": "2026-11-05",
-    "actual_eps": 7.98,
-    "estimate_eps": 7.51,
-    "surprise_pct": 6.258322237017319
-   }
-  },
-  {
-   "symbol": "ELV",
-   "name": "Elevance Health, Inc.",
-   "close": 379.54998779296875,
-   "lower_band": 386.4696214092338,
-   "pct_below_band": 1.7904728426087182,
-   "market_cap": 82004008960.0,
-   "chg_1d": -3.784735037912179,
-   "chg_5d": -14.952498693388394,
-   "chg_1mo": -13.72883799026684,
-   "off_52w_high": -14.952498693388394,
-   "rsi": 33.9351087928748,
-   "rsi_divergence": false,
-   "macd_histogram": -5.850585660976723,
-   "macd_turning_up": false,
-   "volume_ratio": 1.7452368540535086,
-   "valuation": {
-    "forward_pe": 12.53197,
-    "trailing_pe": 16.749779,
-    "peg_ratio": 1.2,
-    "analyst_target": 482.38095,
-    "analyst_upside_pct": 27.0928640532909
-   },
-   "short_interest": {
-    "pct_of_float": 2.36,
-    "days_to_cover": 3.4
-   },
-   "insider": {
-    "recent_buys": 0,
-    "shares": null
-   },
-   "hot_score": {
-    "total": 47.6,
-    "valuation": 19.5,
-    "technical": 5.7,
-    "catalyst": 8.4,
-    "sentiment": 14.0
-   },
-   "reasons": [
-    "Sharp one-day drop of -7.6% on Nov 18 \u2014 points to a specific catalyst (news, guidance, downgrade) rather than gradual selling."
-   ],
-   "news": [
-    {
-     "title": "Not Good: Medicare Proposes $107 Billion in Bonus Cuts. That\u2019s a Big Risk for UnitedHealth and Humana",
-     "link": "https://finance.yahoo.com/healthcare/articles/not-good-medicare-proposes-107-213540392.html",
-     "publisher": "TIKR"
-    },
-    {
-     "title": "UnitedHealth and Humana Stocks Keep Sliding. Why They\u2019re Not Taking Part in Today\u2019s Rally.",
-     "link": "https://www.barrons.com/articles/unitedhealth-humana-stocks-medicare-trump-fde1da3e?siteid=yhoof2&yptr=yahoo",
-     "publisher": "Barrons.com"
-    },
-    {
-     "title": "UnitedHealth, Humana and CVS Shares Fall as Medicare Advantage Rating Changes Threaten $107 Billion in Payments",
-     "link": "https://finance.yahoo.com/healthcare/articles/unitedhealth-humana-cvs-shares-fall-135537293.html",
-     "publisher": "InvestorsHub"
-    }
-   ],
-   "sentiment": {
-    "label": "Bearish",
-    "bullish_pct": 40.0,
-    "sample_size": 5
-   },
-   "earnings_surprise": {
-    "date": "2026-10-21",
-    "actual_eps": 6.99,
-    "estimate_eps": 4.69,
-    "surprise_pct": 49.040511727078886
-   }
-  },
-  {
-   "symbol": "WSM",
-   "name": "Williams-Sonoma, Inc.",
-   "close": 212.1300048828125,
-   "lower_band": 218.35192558766556,
-   "pct_below_band": 2.8494920244497863,
-   "market_cap": 24833423360.0,
-   "chg_1d": 0.6786938563276612,
-   "chg_5d": -15.838126437454491,
-   "chg_1mo": -15.978134488392692,
-   "off_52w_high": -21.45659973733277,
-   "rsi": 32.789467908826296,
-   "rsi_divergence": false,
-   "macd_histogram": -6.016150318609128,
-   "macd_turning_up": false,
-   "volume_ratio": 1.4824948848689552,
-   "valuation": {
-    "forward_pe": 20.352379,
-    "trailing_pe": 20.71582,
-    "peg_ratio": 2.1,
-    "analyst_target": 247.7619,
-    "analyst_upside_pct": 16.79719714185257
-   },
-   "short_interest": {
-    "pct_of_float": 5.1,
-    "days_to_cover": 5.31
-   },
-   "insider": {
-    "recent_buys": 0,
-    "shares": null
-   },
-   "hot_score": {
-    "total": 47.6,
-    "valuation": 13.7,
-    "technical": 6.1,
-    "catalyst": 8.2,
+    "total": 44.5,
+    "valuation": 14.3,
+    "technical": 4.0,
+    "catalyst": 6.5,
     "sentiment": 19.7
    },
    "reasons": [
-    "WSM reported earnings on Nov 19 \u2014 earnings reactions are the most common cause of a sharp break below the band.",
-    "Sharp one-day drop of -15.2% on Nov 19 \u2014 points to a specific catalyst (news, guidance, downgrade) rather than gradual selling.",
-    "Down -16.0% over the past month \u2014 an extended downtrend; the band break continues an existing move rather than starting one."
+    "Sharp one-day drop of -11.2% on Nov 24 \u2014 points to a specific catalyst (news, guidance, downgrade) rather than gradual selling."
    ],
    "news": [
     {
-     "title": "Williams-Sonoma seeks efficiencies, personalization through AI",
-     "link": "https://finance.yahoo.com/technology/ai/articles/williams-sonoma-seeks-efficiencies-personalization-211344371.html",
-     "publisher": "CIO Dive"
-    },
-    {
-     "title": "Can Home Depot Reignite Growth Amid Weak Big-Ticket Demand?",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/home-depot-reignite-growth-amid-151500743.html",
-     "publisher": "Zacks"
-    },
-    {
-     "title": "Top 3 Quality Stocks To Watch In November 2026",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/top-3-quality-stocks-watch-110821301.html",
+     "title": "Texas Instruments (TXN) Remains A Preferred Pick Despite Chip Oversupply Risk",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/texas-instruments-txn-remains-preferred-222318529.html",
      "publisher": "Simply Wall St."
+    },
+    {
+     "title": "What Is The True Hidden Price Of Texas Instruments Stock?",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/true-hidden-price-texas-instruments-210353713.html",
+     "publisher": "Trefis"
+    },
+    {
+     "title": "Why Is CEVA (CEVA) Stock Down Today? AI Chip Selloff Drags Shares",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/why-ceva-ceva-stock-down-204653822.html",
+     "publisher": "GuruFocus.com"
     }
    ],
    "sentiment": {
     "label": "Bullish",
-    "bullish_pct": 66.7,
-    "sample_size": 3
+    "bullish_pct": 100.0,
+    "sample_size": 4
    },
    "earnings_surprise": {
-    "date": "2026-11-19",
-    "actual_eps": 2.38,
-    "estimate_eps": 2.21,
-    "surprise_pct": 7.692307692307689
+    "date": "2026-10-21",
+    "actual_eps": 2.62,
+    "estimate_eps": 2.43,
+    "surprise_pct": 7.818930041152261
    }
   },
   {
    "symbol": "MNST",
    "name": "Monster Beverage Corporation",
-   "close": 42.43000030517578,
-   "lower_band": 42.78613058131914,
-   "pct_below_band": 0.8323498089328297,
-   "market_cap": 83057229824.0,
-   "chg_1d": -2.8839513873615163,
-   "chg_5d": -7.358076393062085,
-   "chg_1mo": -8.140286714273714,
-   "off_52w_high": -15.089054895606925,
-   "rsi": 34.99713079845944,
+   "close": 42.16999816894531,
+   "lower_band": 42.23303666113293,
+   "pct_below_band": 0.1492634609569291,
+   "market_cap": 82548277248.0,
+   "chg_1d": -0.6127790109837772,
+   "chg_5d": -5.108011988999872,
+   "chg_1mo": -9.194661033663065,
+   "off_52w_high": -15.609371345234601,
+   "rsi": 34.050769070055836,
    "rsi_divergence": false,
-   "macd_histogram": -0.46672374071364714,
+   "macd_histogram": -0.5103847695906765,
    "macd_turning_up": false,
-   "volume_ratio": 1.882113038299651,
+   "volume_ratio": 1.0636175491027842,
    "valuation": {
-    "forward_pe": 32.64022,
-    "trailing_pe": 38.572727,
-    "peg_ratio": 28.01,
+    "forward_pe": 32.44021,
+    "trailing_pe": 38.33636,
+    "peg_ratio": 4.41,
     "analyst_target": 50.25,
-    "analyst_upside_pct": 18.430355028468636
+    "analyst_upside_pct": 19.16054584276681
    },
    "short_interest": {
     "pct_of_float": 3.34,
@@ -391,16 +177,21 @@
     "shares": null
    },
    "hot_score": {
-    "total": 43.4,
-    "valuation": 11.1,
-    "technical": 5.3,
-    "catalyst": 10.0,
+    "total": 37.9,
+    "valuation": 11.3,
+    "technical": 5.6,
+    "catalyst": 4.0,
     "sentiment": 16.9
    },
    "reasons": [
     "No single obvious catalyst in the price action \u2014 likely broad market or sector weakness. Check the headlines below."
    ],
    "news": [
+    {
+     "title": "Is PepsiCo Sacrificing Pricing Power to Regain Snack Volumes?",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/pepsico-sacrificing-pricing-power-regain-163200430.html",
+     "publisher": "Zacks"
+    },
     {
      "title": "Coca-Cola vs. PepsiCo: Which Consumer Goods Stock Is a Better Buy for 2027?",
      "link": "https://finance.yahoo.com/markets/stocks/articles/coca-cola-vs-pepsico-consumer-175002407.html",
@@ -410,11 +201,6 @@
      "title": "Coca-Cola Stock Returned 40%. How Much Is Left?",
      "link": "https://finance.yahoo.com/markets/stocks/articles/coca-cola-stock-returned-40-135343050.html",
      "publisher": "Trefis"
-    },
-    {
-     "title": "e.l.f. Beauty vs. Monster Beverage: Which Consumer Goods Stock Is a Better Buy for 2027?",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/e-l-f-beauty-vs-194320608.html",
-     "publisher": "Motley Fool"
     }
    ],
    "sentiment": {
@@ -430,213 +216,143 @@
    }
   },
   {
-   "symbol": "DOW",
-   "name": "Dow Inc.",
-   "close": 28.600000381469727,
-   "lower_band": 28.789534757002382,
-   "pct_below_band": 0.6583446975868754,
-   "market_cap": 20703023104.0,
-   "chg_1d": -1.4812273338098536,
-   "chg_5d": -10.513137669754634,
-   "chg_1mo": -12.296841931394875,
-   "off_52w_high": -31.69333386419003,
-   "rsi": 34.28983309678841,
+   "symbol": "DLR",
+   "name": "Digital Realty Trust, Inc.",
+   "close": 165.32000732421875,
+   "lower_band": 165.34337966305475,
+   "pct_below_band": 0.014135636324615482,
+   "market_cap": 63646695424.0,
+   "chg_1d": -1.2484297784909892,
+   "chg_5d": -6.350190637622555,
+   "chg_1mo": -5.277024877955039,
+   "off_52w_high": -18.925013802577574,
+   "rsi": 38.40587772405624,
    "rsi_divergence": false,
-   "macd_histogram": -0.5565290786748207,
+   "macd_histogram": -1.6013094807485238,
    "macd_turning_up": false,
-   "volume_ratio": 1.2681417384870408,
+   "volume_ratio": 0.6801133013939054,
    "valuation": {
-    "forward_pe": 15.66085,
-    "trailing_pe": null,
-    "peg_ratio": 38.89,
-    "analyst_target": 34.38889,
-    "analyst_upside_pct": 20.24087252208908
+    "forward_pe": 57.152935,
+    "trailing_pe": 70.64958,
+    "peg_ratio": 810.27,
+    "analyst_target": 224.0,
+    "analyst_upside_pct": 35.494791964713926
    },
    "short_interest": {
-    "pct_of_float": 4.29,
-    "days_to_cover": 3.14
+    "pct_of_float": 0.01,
+    "days_to_cover": 0.01
    },
    "insider": {
     "recent_buys": 0,
     "shares": null
    },
    "hot_score": {
-    "total": 40.6,
-    "valuation": 8.4,
-    "technical": 5.6,
-    "catalyst": 6.1,
-    "sentiment": 20.5
+    "total": 34.5,
+    "valuation": 14.3,
+    "technical": 4.2,
+    "catalyst": 0.0,
+    "sentiment": 16.0
    },
    "reasons": [
-    "Down -10.5% over 5 sessions without a single large gap \u2014 suggests sustained selling pressure (sector rotation, macro, or sentiment shift)."
+    "Sharp one-day drop of -6.6% on Nov 20 \u2014 points to a specific catalyst (news, guidance, downgrade) rather than gradual selling."
    ],
    "news": [
     {
-     "title": "$400,000 in These 4 Dividend Stocks Could Pay $21,000 a Year, but 2 Already Cut Payouts",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/400-000-4-dividend-stocks-161740926.html",
-     "publisher": "24/7 Wall St."
+     "title": "Why Digital Realty Trust Stock Moved Over 3% Higher on Monday",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/why-digital-realty-trust-stock-230649330.html",
+     "publisher": "Motley Fool"
     },
     {
-     "title": "4 Chemical and Materials Stocks Yielding Over 4% for Retirees Who Want Income",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/4-chemical-materials-stocks-yielding-120056855.html",
-     "publisher": "24/7 Wall St."
+     "title": "Should You Buy Cipher Digital Stock Now Or Wait For February?",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/buy-cipher-digital-stock-now-210226305.html",
+     "publisher": "Trefis"
     },
     {
-     "title": "4 S&P 500 Dividend Stocks Paying Shareholders More Than Their Free Cash Flow",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/4-p-500-dividend-stocks-121716562.html",
+     "title": "AI Boom at Risk as Trump Threatens \u201cTremendous Tax\u201d on Overseas Data Centers While Restrictions Mount at Home",
+     "link": "https://finance.yahoo.com/technology/ai/articles/ai-boom-risk-trump-threatens-171900615.html",
      "publisher": "24/7 Wall St."
     }
    ],
    "sentiment": {
-    "label": "Bullish",
-    "bullish_pct": 71.4,
-    "sample_size": 14
+    "label": "No sentiment data",
+    "bullish_pct": null,
+    "sample_size": 30
    },
    "earnings_surprise": {
-    "date": "2026-10-21",
-    "actual_eps": 0.71,
-    "estimate_eps": 0.64,
-    "surprise_pct": 10.937499999999991
+    "date": "2026-10-29",
+    "actual_eps": 0.61,
+    "estimate_eps": 0.57,
+    "surprise_pct": 7.0175438596491295
    }
   },
   {
-   "symbol": "CCI",
-   "name": "Crown Castle Inc.",
-   "close": 81.23999786376953,
-   "lower_band": 81.33440055450377,
-   "pct_below_band": 0.11606735906411557,
-   "market_cap": 34566090752.0,
-   "chg_1d": -1.4077714085297233,
-   "chg_5d": -9.086842760877733,
-   "chg_1mo": -5.50192310081592,
-   "off_52w_high": -14.022648216272716,
-   "rsi": 41.89725993346692,
+   "symbol": "EBAY",
+   "name": "eBay Inc.",
+   "close": 113.7699966430664,
+   "lower_band": 114.74752993984062,
+   "pct_below_band": 0.851899206271986,
+   "market_cap": 49945026560.0,
+   "chg_1d": -3.289699733645668,
+   "chg_5d": -4.064423512663673,
+   "chg_1mo": -4.088691612895257,
+   "off_52w_high": -9.093092084748644,
+   "rsi": 41.19893243928388,
    "rsi_divergence": false,
-   "macd_histogram": -1.4497946497117056,
+   "macd_histogram": -1.1575575987418956,
    "macd_turning_up": false,
-   "volume_ratio": 0.6703124116499207,
+   "volume_ratio": 1.1954032431988333,
    "valuation": {
-    "forward_pe": 27.735575,
-    "trailing_pe": 33.159184,
-    "peg_ratio": 0.65,
-    "analyst_target": 93.60909,
-    "analyst_upside_pct": 15.225372306104767
+    "forward_pe": 16.534462,
+    "trailing_pe": 25.681715,
+    "peg_ratio": 2.44,
+    "analyst_target": 127.11111,
+    "analyst_upside_pct": 11.726389866028587
    },
    "short_interest": {
-    "pct_of_float": 2.68,
-    "days_to_cover": 1.65
+    "pct_of_float": 3.08,
+    "days_to_cover": 3.41
    },
    "insider": {
     "recent_buys": 0,
     "shares": null
    },
    "hot_score": {
-    "total": 40.4,
-    "valuation": 18.1,
+    "total": 29.0,
+    "valuation": 11.1,
     "technical": 3.7,
-    "catalyst": 1.7,
-    "sentiment": 17.0
-   },
-   "reasons": [
-    "Sharp one-day drop of -5.8% on Nov 17 \u2014 points to a specific catalyst (news, guidance, downgrade) rather than gradual selling."
-   ],
-   "news": [
-    {
-     "title": "Forget AT&T and Verizon: Crown Castle Has More to Lose From Starlink\u2019s 40x Upgrade",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/forget-t-verizon-crown-castle-232841057.html",
-     "publisher": "TIKR"
-    },
-    {
-     "title": "Crown Castle (CCI) Up 3.9% Since Last Earnings Report: Can It Continue?",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/crown-castle-cci-3-9-153004375.html",
-     "publisher": "Zacks"
-    },
-    {
-     "title": "Crown Castle vs. American Tower: Higher Yield or Better Dividend Growth",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/crown-castle-vs-american-tower-124710645.html",
-     "publisher": "24/7 Wall St."
-    }
-   ],
-   "sentiment": {
-    "label": "Bullish",
-    "bullish_pct": 87.5,
-    "sample_size": 8
-   },
-   "earnings_surprise": {
-    "date": "2026-10-21",
-    "actual_eps": 0.67,
-    "estimate_eps": 0.69,
-    "surprise_pct": -2.898550724637668
-   }
-  },
-  {
-   "symbol": "AMT",
-   "name": "American Tower Corporation (REI",
-   "close": 179.30999755859375,
-   "lower_band": 179.39917171661625,
-   "pct_below_band": 0.049707118025808676,
-   "market_cap": 83157442560.0,
-   "chg_1d": -2.660012473092521,
-   "chg_5d": -5.992454443428208,
-   "chg_1mo": -5.111924432295045,
-   "off_52w_high": -7.9800898096331725,
-   "rsi": 42.46756983441199,
-   "rsi_divergence": false,
-   "macd_histogram": -1.6475458996851176,
-   "macd_turning_up": false,
-   "volume_ratio": 0.9585710145542196,
-   "valuation": {
-    "forward_pe": 25.689222,
-    "trailing_pe": 25.949348,
-    "peg_ratio": 1.8,
-    "analyst_target": 216.125,
-    "analyst_upside_pct": 20.53148343241491
-   },
-   "short_interest": {
-    "pct_of_float": 1.56,
-    "days_to_cover": 1.76
-   },
-   "insider": {
-    "recent_buys": 0,
-    "shares": null
-   },
-   "hot_score": {
-    "total": 39.4,
-    "valuation": 15.7,
-    "technical": 3.7,
-    "catalyst": 2.1,
-    "sentiment": 17.9
+    "catalyst": 4.8,
+    "sentiment": 9.3
    },
    "reasons": [
     "No single obvious catalyst in the price action \u2014 likely broad market or sector weakness. Check the headlines below."
    ],
    "news": [
     {
-     "title": "Forget AT&T and Verizon: Crown Castle Has More to Lose From Starlink\u2019s 40x Upgrade",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/forget-t-verizon-crown-castle-232841057.html",
-     "publisher": "TIKR"
-    },
-    {
-     "title": "Why Did Digital Realty Stock Move?",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/why-did-digital-realty-stock-115253536.html",
-     "publisher": "Trefis"
-    },
-    {
-     "title": "Crown Castle vs. American Tower: Higher Yield or Better Dividend Growth",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/crown-castle-vs-american-tower-124710645.html",
+     "title": "Jim Cramer Says GameStop\u2019s Turnaround Plan \u201cActually Works.\u201d Should You Buy?",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-says-gamestop-turnaround-000750936.html",
      "publisher": "24/7 Wall St."
+    },
+    {
+     "title": "Needham Says GameStop Is More Than a Meme Stock Now\u2014and Sees 20% Upside",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/needham-says-gamestop-more-meme-224812161.html",
+     "publisher": "TipRanks"
+    },
+    {
+     "title": "GameStop Stock (GME) Has 4 Reasons to Rally Beyond Its Meme-Stock Fame",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/gamestop-stock-gme-4-reasons-212400878.html",
+     "publisher": "TipRanks"
     }
    ],
    "sentiment": {
-    "label": "Bullish",
-    "bullish_pct": 66.7,
+    "label": "Bearish",
+    "bullish_pct": 16.7,
     "sample_size": 6
    },
    "earnings_surprise": {
-    "date": "2026-10-27",
-    "actual_eps": 1.64,
-    "estimate_eps": 1.63,
-    "surprise_pct": 0.6134969325153381
+    "date": "2026-10-28",
+    "actual_eps": 1.51,
+    "estimate_eps": 1.42,
+    "surprise_pct": 6.33802816901409
    }
   }
  ]
