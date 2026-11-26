@@ -1,358 +1,76 @@
 {
- "updated": "Nov 24, 2026 11:37 PM ET",
+ "updated": "Nov 25, 2026 10:48 PM ET",
  "criteria": "close < lower BB(20,2), market cap > $20B",
  "universe_size": 503,
  "results": [
   {
-   "symbol": "ADI",
-   "name": "Analog Devices, Inc.",
-   "close": 312.95001220703125,
-   "lower_band": 333.19507822577737,
-   "pct_below_band": 6.076039936288553,
-   "market_cap": 151644766208.0,
-   "chg_1d": -17.372934070750823,
-   "chg_5d": -18.432506775519343,
-   "chg_1mo": -23.28340209694735,
-   "off_52w_high": -29.749931649203496,
-   "rsi": 32.71007146199631,
+   "symbol": "WST",
+   "name": "West Pharmaceutical Services, I",
+   "close": 372.94000244140625,
+   "lower_band": 381.8981491174475,
+   "pct_below_band": 2.345689995288841,
+   "market_cap": 25979387904.0,
+   "chg_1d": -4.066880400924433,
+   "chg_5d": -7.692685366419805,
+   "chg_1mo": -6.364710527418738,
+   "off_52w_high": -10.73719163768665,
+   "rsi": 35.850620189013966,
    "rsi_divergence": false,
-   "macd_histogram": -7.061429999378266,
+   "macd_histogram": -4.967540483476503,
    "macd_turning_up": false,
-   "volume_ratio": 2.3826719398651623,
+   "volume_ratio": 1.4680584119100282,
    "valuation": {
-    "forward_pe": 15.753324,
-    "trailing_pe": 44.96408,
-    "peg_ratio": 3.16,
-    "analyst_target": 458.5625,
-    "analyst_upside_pct": 46.52899252697238
+    "forward_pe": 35.882145,
+    "trailing_pe": 41.856342,
+    "peg_ratio": 21.9,
+    "analyst_target": 471.0,
+    "analyst_upside_pct": 26.293772970626893
    },
    "short_interest": {
-    "pct_of_float": 2.23,
-    "days_to_cover": 2.73
+    "pct_of_float": 2.96,
+    "days_to_cover": 2.47
    },
    "insider": {
     "recent_buys": 0,
     "shares": null
    },
    "hot_score": {
-    "total": 52.4,
-    "valuation": 14.3,
-    "technical": 6.1,
-    "catalyst": 13.0,
-    "sentiment": 18.9
+    "total": 48.1,
+    "valuation": 13.3,
+    "technical": 5.0,
+    "catalyst": 6.8,
+    "sentiment": 23.0
    },
    "reasons": [
-    "ADI reported earnings on Nov 24 \u2014 earnings reactions are the most common cause of a sharp break below the band.",
-    "Sharp one-day drop of -17.4% on Nov 24 \u2014 points to a specific catalyst (news, guidance, downgrade) rather than gradual selling.",
-    "Down -23.3% over the past month \u2014 an extended downtrend; the band break continues an existing move rather than starting one."
+    "No single obvious catalyst in the price action \u2014 likely broad market or sector weakness. Check the headlines below."
    ],
    "news": [
     {
-     "title": "3 AI Investment Stocks We\u2019re Buying Today And Why We\u2019re Selling On Micron",
-     "link": "https://finance.yahoo.com/video/3-ai-investment-stocks-buying-231904427.html",
-     "publisher": "24/7 Wall St."
+     "title": "GE HealthCare Expands CT Portfolio With New Systems and AI Innovations",
+     "link": "https://finance.yahoo.com/healthcare/articles/ge-healthcare-expands-ct-portfolio-154000497.html",
+     "publisher": "Zacks"
     },
     {
-     "title": "Earnings Calendar and Analysis for This Week",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/earnings-calendar-analysis-week-june-162434561.html",
-     "publisher": "Kiplinger"
+     "title": "AMN Healthcare Rallies More Than 126% YTD: What's Behind the Momentum?",
+     "link": "https://finance.yahoo.com/healthcare/articles/amn-healthcare-rallies-more-126-150400155.html",
+     "publisher": "Zacks"
     },
     {
-     "title": "Stock Market Today, Nov. 24: Tech Sell-Off Drags Nasdaq as Dow Gains on Value Rotation",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-nov-24-221148355.html",
-     "publisher": "Motley Fool"
-    }
-   ],
-   "sentiment": {
-    "label": "Bullish",
-    "bullish_pct": 77.8,
-    "sample_size": 9
-   },
-   "earnings_surprise": {
-    "date": "2026-11-24",
-    "actual_eps": 4.06,
-    "estimate_eps": 3.88,
-    "surprise_pct": 4.639175257731951
-   }
-  },
-  {
-   "symbol": "TXN",
-   "name": "Texas Instruments Incorporated",
-   "close": 258.44000244140625,
-   "lower_band": 264.3150501114515,
-   "pct_below_band": 2.222744284734441,
-   "market_cap": 236154798080.0,
-   "chg_1d": -11.24695206752162,
-   "chg_5d": -12.64786884434239,
-   "chg_1mo": -13.31007424046935,
-   "off_52w_high": -22.222221201744908,
-   "rsi": 39.0483332605379,
-   "rsi_divergence": false,
-   "macd_histogram": -4.477207535422668,
-   "macd_turning_up": false,
-   "volume_ratio": 1.4927773940126086,
-   "valuation": {
-    "forward_pe": 21.974491,
-    "trailing_pe": 37.783627,
-    "peg_ratio": 45.92,
-    "analyst_target": 339.65518,
-    "analyst_upside_pct": 31.425157402638114
-   },
-   "short_interest": {
-    "pct_of_float": 2.23,
-    "days_to_cover": 2.7
-   },
-   "insider": {
-    "recent_buys": 0,
-    "shares": null
-   },
-   "hot_score": {
-    "total": 44.5,
-    "valuation": 14.3,
-    "technical": 4.0,
-    "catalyst": 6.5,
-    "sentiment": 19.7
-   },
-   "reasons": [
-    "Sharp one-day drop of -11.2% on Nov 24 \u2014 points to a specific catalyst (news, guidance, downgrade) rather than gradual selling."
-   ],
-   "news": [
-    {
-     "title": "Texas Instruments (TXN) Remains A Preferred Pick Despite Chip Oversupply Risk",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/texas-instruments-txn-remains-preferred-222318529.html",
-     "publisher": "Simply Wall St."
-    },
-    {
-     "title": "What Is The True Hidden Price Of Texas Instruments Stock?",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/true-hidden-price-texas-instruments-210353713.html",
-     "publisher": "Trefis"
-    },
-    {
-     "title": "Why Is CEVA (CEVA) Stock Down Today? AI Chip Selloff Drags Shares",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/why-ceva-ceva-stock-down-204653822.html",
+     "title": "Embecta (EMBC) Stock Is Down 9.8% Today After Earnings Surge, Market Selloff",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/embecta-embc-stock-down-9-150038364.html",
      "publisher": "GuruFocus.com"
     }
    ],
    "sentiment": {
     "label": "Bullish",
     "bullish_pct": 100.0,
-    "sample_size": 4
-   },
-   "earnings_surprise": {
-    "date": "2026-10-21",
-    "actual_eps": 2.62,
-    "estimate_eps": 2.43,
-    "surprise_pct": 7.818930041152261
-   }
-  },
-  {
-   "symbol": "MNST",
-   "name": "Monster Beverage Corporation",
-   "close": 42.16999816894531,
-   "lower_band": 42.23303666113293,
-   "pct_below_band": 0.1492634609569291,
-   "market_cap": 82548277248.0,
-   "chg_1d": -0.6127790109837772,
-   "chg_5d": -5.108011988999872,
-   "chg_1mo": -9.194661033663065,
-   "off_52w_high": -15.609371345234601,
-   "rsi": 34.050769070055836,
-   "rsi_divergence": false,
-   "macd_histogram": -0.5103847695906765,
-   "macd_turning_up": false,
-   "volume_ratio": 1.0636175491027842,
-   "valuation": {
-    "forward_pe": 32.44021,
-    "trailing_pe": 38.33636,
-    "peg_ratio": 4.41,
-    "analyst_target": 50.25,
-    "analyst_upside_pct": 19.16054584276681
-   },
-   "short_interest": {
-    "pct_of_float": 3.34,
-    "days_to_cover": 5.14
-   },
-   "insider": {
-    "recent_buys": 0,
-    "shares": null
-   },
-   "hot_score": {
-    "total": 37.9,
-    "valuation": 11.3,
-    "technical": 5.6,
-    "catalyst": 4.0,
-    "sentiment": 16.9
-   },
-   "reasons": [
-    "No single obvious catalyst in the price action \u2014 likely broad market or sector weakness. Check the headlines below."
-   ],
-   "news": [
-    {
-     "title": "Is PepsiCo Sacrificing Pricing Power to Regain Snack Volumes?",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/pepsico-sacrificing-pricing-power-regain-163200430.html",
-     "publisher": "Zacks"
-    },
-    {
-     "title": "Coca-Cola vs. PepsiCo: Which Consumer Goods Stock Is a Better Buy for 2027?",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/coca-cola-vs-pepsico-consumer-175002407.html",
-     "publisher": "Motley Fool"
-    },
-    {
-     "title": "Coca-Cola Stock Returned 40%. How Much Is Left?",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/coca-cola-stock-returned-40-135343050.html",
-     "publisher": "Trefis"
-    }
-   ],
-   "sentiment": {
-    "label": "Bullish",
-    "bullish_pct": 100.0,
-    "sample_size": 12
-   },
-   "earnings_surprise": {
-    "date": "2026-11-05",
-    "actual_eps": 0.29,
-    "estimate_eps": 0.3,
-    "surprise_pct": -3.3333333333333366
-   }
-  },
-  {
-   "symbol": "DLR",
-   "name": "Digital Realty Trust, Inc.",
-   "close": 165.32000732421875,
-   "lower_band": 165.34337966305475,
-   "pct_below_band": 0.014135636324615482,
-   "market_cap": 63646695424.0,
-   "chg_1d": -1.2484297784909892,
-   "chg_5d": -6.350190637622555,
-   "chg_1mo": -5.277024877955039,
-   "off_52w_high": -18.925013802577574,
-   "rsi": 38.40587772405624,
-   "rsi_divergence": false,
-   "macd_histogram": -1.6013094807485238,
-   "macd_turning_up": false,
-   "volume_ratio": 0.6801133013939054,
-   "valuation": {
-    "forward_pe": 57.152935,
-    "trailing_pe": 70.64958,
-    "peg_ratio": 810.27,
-    "analyst_target": 224.0,
-    "analyst_upside_pct": 35.494791964713926
-   },
-   "short_interest": {
-    "pct_of_float": 0.01,
-    "days_to_cover": 0.01
-   },
-   "insider": {
-    "recent_buys": 0,
-    "shares": null
-   },
-   "hot_score": {
-    "total": 34.5,
-    "valuation": 14.3,
-    "technical": 4.2,
-    "catalyst": 0.0,
-    "sentiment": 16.0
-   },
-   "reasons": [
-    "Sharp one-day drop of -6.6% on Nov 20 \u2014 points to a specific catalyst (news, guidance, downgrade) rather than gradual selling."
-   ],
-   "news": [
-    {
-     "title": "Why Digital Realty Trust Stock Moved Over 3% Higher on Monday",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/why-digital-realty-trust-stock-230649330.html",
-     "publisher": "Motley Fool"
-    },
-    {
-     "title": "Should You Buy Cipher Digital Stock Now Or Wait For February?",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/buy-cipher-digital-stock-now-210226305.html",
-     "publisher": "Trefis"
-    },
-    {
-     "title": "AI Boom at Risk as Trump Threatens \u201cTremendous Tax\u201d on Overseas Data Centers While Restrictions Mount at Home",
-     "link": "https://finance.yahoo.com/technology/ai/articles/ai-boom-risk-trump-threatens-171900615.html",
-     "publisher": "24/7 Wall St."
-    }
-   ],
-   "sentiment": {
-    "label": "No sentiment data",
-    "bullish_pct": null,
-    "sample_size": 30
+    "sample_size": 3
    },
    "earnings_surprise": {
     "date": "2026-10-29",
-    "actual_eps": 0.61,
-    "estimate_eps": 0.57,
-    "surprise_pct": 7.0175438596491295
-   }
-  },
-  {
-   "symbol": "EBAY",
-   "name": "eBay Inc.",
-   "close": 113.7699966430664,
-   "lower_band": 114.74752993984062,
-   "pct_below_band": 0.851899206271986,
-   "market_cap": 49945026560.0,
-   "chg_1d": -3.289699733645668,
-   "chg_5d": -4.064423512663673,
-   "chg_1mo": -4.088691612895257,
-   "off_52w_high": -9.093092084748644,
-   "rsi": 41.19893243928388,
-   "rsi_divergence": false,
-   "macd_histogram": -1.1575575987418956,
-   "macd_turning_up": false,
-   "volume_ratio": 1.1954032431988333,
-   "valuation": {
-    "forward_pe": 16.534462,
-    "trailing_pe": 25.681715,
-    "peg_ratio": 2.44,
-    "analyst_target": 127.11111,
-    "analyst_upside_pct": 11.726389866028587
-   },
-   "short_interest": {
-    "pct_of_float": 3.08,
-    "days_to_cover": 3.41
-   },
-   "insider": {
-    "recent_buys": 0,
-    "shares": null
-   },
-   "hot_score": {
-    "total": 29.0,
-    "valuation": 11.1,
-    "technical": 3.7,
-    "catalyst": 4.8,
-    "sentiment": 9.3
-   },
-   "reasons": [
-    "No single obvious catalyst in the price action \u2014 likely broad market or sector weakness. Check the headlines below."
-   ],
-   "news": [
-    {
-     "title": "Jim Cramer Says GameStop\u2019s Turnaround Plan \u201cActually Works.\u201d Should You Buy?",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-says-gamestop-turnaround-000750936.html",
-     "publisher": "24/7 Wall St."
-    },
-    {
-     "title": "Needham Says GameStop Is More Than a Meme Stock Now\u2014and Sees 20% Upside",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/needham-says-gamestop-more-meme-224812161.html",
-     "publisher": "TipRanks"
-    },
-    {
-     "title": "GameStop Stock (GME) Has 4 Reasons to Rally Beyond Its Meme-Stock Fame",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/gamestop-stock-gme-4-reasons-212400878.html",
-     "publisher": "TipRanks"
-    }
-   ],
-   "sentiment": {
-    "label": "Bearish",
-    "bullish_pct": 16.7,
-    "sample_size": 6
-   },
-   "earnings_surprise": {
-    "date": "2026-10-28",
-    "actual_eps": 1.51,
-    "estimate_eps": 1.42,
-    "surprise_pct": 6.33802816901409
+    "actual_eps": 2.66,
+    "estimate_eps": 2.2,
+    "surprise_pct": 20.909090909090907
    }
   }
  ]
