@@ -1,5 +1,5 @@
 {
- "updated": "Nov 25, 2026 10:48 PM ET",
+ "updated": "Nov 26, 2026 10:49 PM ET",
  "criteria": "close < lower BB(20,2), market cap > $20B",
  "universe_size": 503,
  "results": [
@@ -22,7 +22,7 @@
    "valuation": {
     "forward_pe": 35.882145,
     "trailing_pe": 41.856342,
-    "peg_ratio": 21.9,
+    "peg_ratio": 22.41,
     "analyst_target": 471.0,
     "analyst_upside_pct": 26.293772970626893
    },
@@ -46,19 +46,19 @@
    ],
    "news": [
     {
-     "title": "GE HealthCare Expands CT Portfolio With New Systems and AI Innovations",
-     "link": "https://finance.yahoo.com/healthcare/articles/ge-healthcare-expands-ct-portfolio-154000497.html",
+     "title": "Smith+Nephew's TENDON SEAM Shows Superior Rotator Cuff Repair Strength",
+     "link": "https://finance.yahoo.com/healthcare/articles/smith-nephews-tendon-seam-shows-161700766.html",
      "publisher": "Zacks"
     },
     {
-     "title": "AMN Healthcare Rallies More Than 126% YTD: What's Behind the Momentum?",
-     "link": "https://finance.yahoo.com/healthcare/articles/amn-healthcare-rallies-more-126-150400155.html",
-     "publisher": "Zacks"
+     "title": "West Pharmaceutical Services (WST) Posted Strong Results, Is The Stock Still Expensive?",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/west-pharmaceutical-services-wst-posted-151116034.html",
+     "publisher": "Simply Wall St."
     },
     {
-     "title": "Embecta (EMBC) Stock Is Down 9.8% Today After Earnings Surge, Market Selloff",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/embecta-embc-stock-down-9-150038364.html",
-     "publisher": "GuruFocus.com"
+     "title": "GEHC Advances Omni 128 cm Total Body PET/CT Toward U.S. Market Entry",
+     "link": "https://finance.yahoo.com/healthcare/articles/gehc-advances-omni-128-cm-142700417.html",
+     "publisher": "Zacks"
     }
    ],
    "sentiment": {
