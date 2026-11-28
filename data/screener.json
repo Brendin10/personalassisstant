@@ -1,30 +1,30 @@
 {
- "updated": "Nov 26, 2026 10:49 PM ET",
+ "updated": "Nov 27, 2026 10:33 PM ET",
  "criteria": "close < lower BB(20,2), market cap > $20B",
  "universe_size": 503,
  "results": [
   {
    "symbol": "WST",
    "name": "West Pharmaceutical Services, I",
-   "close": 372.94000244140625,
-   "lower_band": 381.8981491174475,
-   "pct_below_band": 2.345689995288841,
-   "market_cap": 25979387904.0,
-   "chg_1d": -4.066880400924433,
-   "chg_5d": -7.692685366419805,
-   "chg_1mo": -6.364710527418738,
-   "off_52w_high": -10.73719163768665,
-   "rsi": 35.850620189013966,
+   "close": 366.1700134277344,
+   "lower_band": 374.5453079381012,
+   "pct_below_band": 2.236123196008892,
+   "market_cap": 25507784704.0,
+   "chg_1d": -1.8153024533042794,
+   "chg_5d": -7.693662261674938,
+   "chg_1mo": -9.283024442791865,
+   "off_52w_high": -12.357581587776023,
+   "rsi": 33.16863720011449,
    "rsi_divergence": false,
-   "macd_histogram": -4.967540483476503,
+   "macd_histogram": -5.949266601322703,
    "macd_turning_up": false,
-   "volume_ratio": 1.4680584119100282,
+   "volume_ratio": 0.6837542023710219,
    "valuation": {
-    "forward_pe": 35.882145,
-    "trailing_pe": 41.856342,
+    "forward_pe": 35.230778,
+    "trailing_pe": 41.096523,
     "peg_ratio": 22.41,
     "analyst_target": 471.0,
-    "analyst_upside_pct": 26.293772970626893
+    "analyst_upside_pct": 28.62877426552417
    },
    "short_interest": {
     "pct_of_float": 2.96,
@@ -35,10 +35,10 @@
     "shares": null
    },
    "hot_score": {
-    "total": 48.1,
-    "valuation": 13.3,
-    "technical": 5.0,
-    "catalyst": 6.8,
+    "total": 44.7,
+    "valuation": 14.0,
+    "technical": 5.9,
+    "catalyst": 1.8,
     "sentiment": 23.0
    },
    "reasons": [
@@ -46,18 +46,18 @@
    ],
    "news": [
     {
-     "title": "Smith+Nephew's TENDON SEAM Shows Superior Rotator Cuff Repair Strength",
-     "link": "https://finance.yahoo.com/healthcare/articles/smith-nephews-tendon-seam-shows-161700766.html",
+     "title": "BTSG Stock Climbs 71.6% Year to Date: What's Driving the Rally?",
+     "link": "https://finance.yahoo.com/healthcare/articles/btsg-stock-climbs-71-6-154800644.html",
      "publisher": "Zacks"
     },
     {
-     "title": "West Pharmaceutical Services (WST) Posted Strong Results, Is The Stock Still Expensive?",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/west-pharmaceutical-services-wst-posted-151116034.html",
-     "publisher": "Simply Wall St."
+     "title": "Philips Advances AI Imaging Workflows With New Cloud-Based Solution",
+     "link": "https://finance.yahoo.com/healthcare/articles/philips-advances-ai-imaging-workflows-154700407.html",
+     "publisher": "Zacks"
     },
     {
-     "title": "GEHC Advances Omni 128 cm Total Body PET/CT Toward U.S. Market Entry",
-     "link": "https://finance.yahoo.com/healthcare/articles/gehc-advances-omni-128-cm-142700417.html",
+     "title": "Smith+Nephew's TENDON SEAM Shows Superior Rotator Cuff Repair Strength",
+     "link": "https://finance.yahoo.com/healthcare/articles/smith-nephews-tendon-seam-shows-161700766.html",
      "publisher": "Zacks"
     }
    ],
